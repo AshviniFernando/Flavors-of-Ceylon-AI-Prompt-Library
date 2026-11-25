@@ -101,3 +101,31 @@ Pending prompt development and practical testing.
 - [Prompt Library](../02-prompt-library/README.md)
 - [Testing Evidence](../03-testing-evidence/README.md)
 - [Iteration Logs](../04-iteration-logs/README.md)
+
+- ---
+
+## Completed Prompt Evaluations
+
+| ID | Final Evaluation | Version | Score | Automation Potential | Status |
+|---|---|---|---|---|---|
+| P01 | [Product Demand Forecasting](P01-final-evaluation.md) | v1.2 | 30/30 (100%) | Medium | Completed |
+| P02 | Ingredient Inventory and Replenishment | v1.0 | Pending | Pending | Awaiting Testing |
+| P03 | Supplier Purchase Order Preparation | v1.0 | Pending | Pending | Awaiting Testing |
+| P04 | Food Production and Batch Planning | v1.0 | Pending | Pending | Awaiting Testing |
+| P05 | Food Safety and Quality Incident Reporting | v1.0 | Pending | Pending | Awaiting Testing |
+| P06 | Product Label and Allergen Information Review | v1.0 | Pending | Pending | Awaiting Testing |
+| P07 | Customer Enquiry Response | v1.0 | Pending | Pending | Awaiting Testing |
+| P08 | Customer Complaint and Feedback Analysis | v1.0 | Pending | Pending | Awaiting Testing |
+| P09 | Digital Marketing Content Generation | v1.0 | Pending | Pending | Awaiting Testing |
+| P10 | Weekly Business Performance Reporting | v1.0 | Pending | Pending | Awaiting Testing |
+
+## Evaluation Progress
+
+Completed prompt evaluations: 1 of 10.
+
+All evaluation scores represent performance
+against selected synthetic test scenarios.
+
+Scores with different scenario coverage must
+not be treated as directly comparable without
+appropriate normalisation and context.
