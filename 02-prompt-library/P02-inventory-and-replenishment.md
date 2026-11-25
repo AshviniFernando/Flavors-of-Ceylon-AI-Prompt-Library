@@ -6,7 +6,7 @@
 | Business Function | Inventory Management |
 | Workflow | Planning and Manufacturing |
 | Current Version | v1.1 |
-| Status | Revised Draft — Awaiting Retesting |
+| Status | Final Version — Tested and Evaluated |
 | Prompting Strategy | Role-based, constraint-based, rule-based and structured-output prompting |
 
 ---
@@ -215,15 +215,23 @@ available-stock calculations.
 
 ## 4. Automation Potential
 
-Level: Medium — Preliminary assessment.
+Level: Medium — Final evaluated classification.
 
-AI can assist with inventory validation,
-measurement conversions, replenishment
-calculations and draft stock management actions.
+AI can assist with ingredient inventory validation,
+measurement conversions, expiry assessments,
+replenishment calculations and draft purchasing
+recommendations.
 
-However, staff must verify physical inventory,
-ingredient suitability, supplier information
-and final purchasing quantities.
+Testing demonstrated correct calculations and
+improved purchasing classifications across two
+synthetic business scenarios.
+
+However, physical inventory verification,
+ingredient suitability and purchasing approval
+require appropriate human oversight.
+
+Actual commercial automation performance
+has not been measured.
 
 ## 5. Risks and Limitations
 
@@ -249,7 +257,7 @@ suitability or override food safety procedures.
 | Version | Change | Status |
 |---|---|---|
 | v1.0 | Initial inventory management prompt | Evaluated — 17/20 (85%) |
-| v1.1 | Added eligibility rules, purchasing classifications, correct FEFO terminology and concise reporting | Awaiting retesting |
+| v1.1 | Added eligibility rules, purchasing classifications, correct FEFO terminology and structured reporting | Final Selected Version — 19/20 (95%) |
 
 ## Reason for Revision
 
@@ -266,11 +274,30 @@ eligibility rules and separates established
 replenishment requirements from provisional
 purchasing quantities.
 
-## Testing Evidence
+## Testing Evidence and Final Evaluation
 
 - [Testing Inputs and Actual Outputs](../03-testing-evidence/P02-testing-evidence.md)
-- [Iteration Log](../04-iteration-logs/P02-iteration-log.md)
+- [Iteration Log and Version History](../04-iteration-logs/P02-iteration-log.md)
+- [Final Evaluation and Business Impact](../05-evaluation/P02-final-evaluation.md)
 
-v1.0 evaluation score: 17/20 (85%).
+| Evaluation Measure | Result |
+|---|---|
+| Final Version | v1.1 |
+| Initial Score | 17/20 (85%) |
+| Final Test A | 10/10 |
+| Final Test B | 9/10 |
+| Combined Final Score | 19/20 (95%) |
+| Absolute Improvement | 10 percentage points |
+| Automation Potential | Medium |
+| Development Status | Completed |
 
-v1.1 testing and evaluation are pending.
+The final prompt supports supervised inventory
+management and replenishment planning.
+
+Minor limitations remain in qualitative action
+priorities and repeated reporting information.
+
+The prompt has not been commercially deployed.
+
+All recommendations require appropriate human
+review and approval.
