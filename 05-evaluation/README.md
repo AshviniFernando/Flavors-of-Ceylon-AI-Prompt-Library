@@ -110,7 +110,7 @@ Pending prompt development and practical testing.
 |---|---|---|---|---|---|
 | P01 | [Product Demand Forecasting](P01-final-evaluation.md) | v1.2 | 30/30 (100%) | Medium | Completed |
 | P02 | [Ingredient Inventory and Replenishment](P02-final-evaluation.md) | v1.1 | 19/20 (95%) | Medium | Completed |
-| P03 | Supplier Purchase Order Preparation | v1.0 | Pending | Pending | Awaiting Testing |
+| P03 | [Supplier Purchase Order Preparation](P03-final-evaluation.md) | v1.1 | 19/20 (95%) | High | Completed |
 | P04 | Food Production and Batch Planning | v1.0 | Pending | Pending | Awaiting Testing |
 | P05 | Food Safety and Quality Incident Reporting | v1.0 | Pending | Pending | Awaiting Testing |
 | P06 | Product Label and Allergen Information Review | v1.0 | Pending | Pending | Awaiting Testing |
@@ -121,7 +121,7 @@ Pending prompt development and practical testing.
 
 ## Evaluation Progress
 
-Completed prompt evaluations: 2 of 10.
+Completed prompt evaluations: 3 of 10.
 
 All evaluation scores represent performance
 against selected synthetic test scenarios.
