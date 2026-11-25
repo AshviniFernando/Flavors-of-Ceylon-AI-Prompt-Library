@@ -1189,11 +1189,653 @@ Pending.
 
 ### Test Case A — Actual AI Output
 
-Pending.
+# Flavors of Ceylon – Demand Forecasting and Production Planning
+
+## Test A – Complete Historical Sales
+
+| Test Information | Description |
+|---|---|
+| Prompt ID | P01 |
+| Prompt version | v1.1 |
+| Test scenario | Complete historical sales |
+| Business | Flavors of Ceylon |
+| Forecast period | Week 5 |
+| Forecasting method | Simple linear trend extrapolation |
+| Expected result | 470 units estimated demand |
+| Actual result | 470 units estimated demand |
+| Test status | PASS |
+
+---
+
+## 1. Data Validation
+
+The analysis uses the historical sales figures supplied in the previous Test A scenario.
+
+### Historical Sales Records
+
+| Product | Week 1 | Week 2 | Week 3 | Week 4 |
+|---|---:|---:|---:|---:|
+| Fish roti | 80 | 100 | 120 | 140 |
+| Vegetable rolls | 120 | 110 | 100 | 90 |
+| Chicken kottu | 50 | 60 | 70 | 80 |
+| Rice and curry packs | 60 | 60 | 60 | 60 |
+| Pol sambol sachets | 40 | 50 | 60 | 70 |
+| **Total recorded sales** | **350** | **380** | **410** | **440** |
+
+### Data Validation Results
+
+| Validation Criterion | Result |
+|---|---|
+| Total historical records | 20 |
+| Usable records | 20 |
+| Missing records | None |
+| Invalid records | None |
+| Reported stockouts | None |
+| Excluded records | None |
+| Reported promotional events | None |
+| Irregular sales patterns | None identified |
+| Forecast eligibility | All five products |
+
+All historical figures represent recorded units sold rather than estimated customer demand.
+
+No missing values were replaced, and no historical sales figures were invented.
+
+---
+
+## 2. Demand Forecast and Calculation Breakdown
+
+### Week 5 Demand Forecast
+
+| Product | Usable Observations | Missing or Excluded Records | Average Weekly Change | Sales Trend | Week 5 Forecast | Data Reliability | Recommended Planning Action |
+|---|---:|---|---:|---|---:|---|---|
+| Fish roti | 4 | None | +20 | Increasing | 160 | High | Plan for higher demand |
+| Vegetable rolls | 4 | None | -10 | Decreasing | 80 | High | Adjust demand planning downwards |
+| Chicken kottu | 4 | None | +10 | Increasing | 90 | High | Plan for higher demand |
+| Rice and curry packs | 4 | None | 0 | Stable | 60 | High | Maintain existing demand plan |
+| Pol sambol sachets | 4 | None | +10 | Increasing | 80 | High | Plan for higher demand |
+| **Total** | **20** | **None** | **+30** | **Increasing** | **470** | — | — |
+
+### Forecasting Formulas
+
+**Average weekly change:**
+
+> Average weekly change = (Latest usable sales - Earliest usable sales) / Number of elapsed weeks
+
+**Target-week forecast:**
+
+> Forecast = Latest usable sales + (Average weekly change × Number of weeks ahead)
+
+### Calculation Breakdown
+
+| Product | Average Weekly Change Calculation | Week 5 Forecast Calculation | Forecast |
+|---|---|---|---:|
+| Fish roti | (140 - 80) / 3 = 20 | 140 + (20 × 1) | 160 |
+| Vegetable rolls | (90 - 120) / 3 = -10 | 90 + (-10 × 1) | 80 |
+| Chicken kottu | (80 - 50) / 3 = 10 | 80 + (10 × 1) | 90 |
+| Rice and curry packs | (60 - 60) / 3 = 0 | 60 + (0 × 1) | 60 |
+| Pol sambol sachets | (70 - 40) / 3 = 10 | 70 + (10 × 1) | 80 |
+
+### Total Estimated Demand
+
+160 + 80 + 90 + 60 + 80 = **470 units**
+
+### Estimated Demand Growth
+
+(470 - 440) / 440 × 100 = **6.82%**
+
+### Key Forecast Results
+
+| Performance Indicator | Result |
+|---|---:|
+| Week 4 recorded sales | 440 units |
+| Week 5 estimated demand | 470 units |
+| Estimated increase | 30 units |
+| Estimated percentage increase | 6.82% |
+| Products successfully forecasted | 5 out of 5 |
+| Products with increasing trends | 3 |
+| Products with decreasing trends | 1 |
+| Products with stable trends | 1 |
+| Forecasts withheld | 0 |
+
+All forecasts are non-negative whole units. No rounding adjustments are required.
+
+All products meet the high data reliability criteria because four usable historical observations are available without missing or stockout-affected records.
+
+> **Result:** The calculated total estimated demand of 470 units matches the expected Test A result.
+
+---
+
+## 3. Production Planning and Capacity Analysis
+
+Estimated customer demand is 470 units. However, actual production requirements cannot be determined because usable finished-product inventory, target safety stock and available production capacity have not been supplied.
+
+### Production Planning Results
+
+| Product | Forecast Demand | Usable Finished-Product Inventory | Target Safety Stock | Required Production | Available Production Capacity | Capacity-Limited Production | Production Shortfall | Estimated Demand Shortfall | Safety Stock Shortfall | Recommended Action |
+|---|---:|---|---|---|---|---|---|---|---|---|
+| Fish roti | 160 | — | — | — | — | — | — | — | — | Verify operational data |
+| Vegetable rolls | 80 | — | — | — | — | — | — | — | — | Verify operational data |
+| Chicken kottu | 90 | — | — | — | — | — | — | — | — | Verify operational data |
+| Rice and curry packs | 60 | — | — | — | — | — | — | — | — | Verify operational data |
+| Pol sambol sachets | 80 | — | — | — | — | — | — | — | — | Verify operational data |
+| **Total** | **470** | — | — | — | — | — | — | — | — | Pending verification |
+
+**Note:** A dash (—) indicates unavailable information or a calculation that cannot be completed. It does not represent zero.
+
+> **Production quantity pending verification.**
+
+This status applies to all five products.
+
+### Operational Readiness Assessment
+
+| Production Planning Criterion | Status |
+|---|---|
+| Total estimated customer demand | 470 units |
+| Total required production | Pending verification |
+| Capacity-limited production | Pending verification |
+| Products requiring no additional production | Cannot be determined |
+| Production shortfall | Cannot be determined |
+| Estimated unmet customer demand | Cannot be determined |
+| Projected closing inventory | Cannot be determined |
+| Safety stock shortfall | Cannot be determined |
+| Shared production resource availability | Not supplied |
+| Overall manufacturing feasibility | Not confirmed |
+
+### Production Planning Safeguards
+
+- Estimated customer demand must not be interpreted as required production.
+- Missing operational information must not be treated as zero.
+- Production quantities must not be calculated using unverified operational information.
+- Unused production capacity for one product must not be assumed to be transferable to another.
+- Unmet customer demand must be distinguished from safety stock shortfalls.
+- Shared production resources and operational restrictions must be reviewed before confirming manufacturing feasibility.
+- All production quantities require production manager approval.
+
+---
+
+## 4. Assumptions and Limitations
+
+| Category | Assumption or Limitation |
+|---|---|
+| Historical data | Only the four historical weeks supplied in Test A are used. |
+| Forecasting method | Assumes the historical linear sales trend continues into Week 5. |
+| Data reliability | High reliability indicates complete usable records, not guaranteed forecast accuracy. |
+| Seasonality | The forecasting method does not account for seasonal demand variations. |
+| Market changes | Unexpected customer behaviour and market changes are not incorporated. |
+| Promotional activities | No unusual promotional events are reported. |
+| Historical sales | Recorded units sold may not necessarily represent actual customer demand. |
+| Operational information | Finished-product inventory, safety stock and production capacity are unavailable. |
+| Forecast accuracy | Future actual sales are unavailable for measuring forecast error. |
+| Human oversight | All recommendations require production manager review and approval. |
+
+---
+
+## 5. Management Summary and Priority Actions
+
+Flavors of Ceylon is forecast to experience Week 5 demand of **470 units**, representing a 6.82% increase compared with Week 4 recorded sales. Fish roti, chicken kottu and pol sambol sachets show increasing sales trends, while vegetable rolls are declining and rice and curry packs remain stable. All products meet the high data reliability criteria. However, production quantities cannot be confirmed without verified operational information.
+
+### Priority Actions
+
+1. Prioritise planning for products with increasing demand.
+2. Adjust vegetable roll demand planning downwards.
+3. Verify finished-product inventory and safety stock requirements.
+4. Confirm product-specific capacity and shared resource constraints.
+5. Obtain production manager approval before implementation.
+
+---
+
+## 6. Test Evaluation
+
+### Expected Results vs Actual Results
+
+| Test Criterion | Expected Result | Actual Result | Status |
+|---|---|---|---|
+| Historical data validation | Complete usable records | 20 usable records | PASS |
+| Missing-data handling | No invented historical values | No missing values or invented records | PASS |
+| Forecast result | 470 units | 470 units | PASS |
+| Sales trend classification | Correct classifications | All five products classified correctly | PASS |
+| Data reliability classification | High | High for all five products | PASS |
+| Calculation transparency | All forecasts explained | All calculations provided | PASS |
+| Missing operational data handling | Production quantities withheld | Production quantity pending verification | PASS |
+| Negative forecast prevention | No negative quantities | No negative quantities | PASS |
+| Demand and production distinction | Clearly separated | Clearly separated | PASS |
+| Management summary | Maximum 120 words | Within word limit | PASS |
+| Human oversight | Management approval required | Approval requirement included | PASS |
+
+### Strengths Identified
+
+- Produces consistent and transparent numerical forecasts.
+- Correctly uses elapsed weeks in forecasting calculations.
+- Provides clear product-level sales trend classifications.
+- Separates estimated demand from production requirements.
+- Avoids unsupported assumptions about operational information.
+- Includes appropriate human oversight safeguards.
+- Supports structured and repeatable demand planning.
+
+### Remaining Limitations
+
+- The forecasting method cannot identify seasonal or complex demand patterns.
+- Four historical weeks provide limited evidence for future demand.
+- High data reliability does not guarantee forecast accuracy.
+- Actual production quantities cannot be calculated without additional operational data.
+- Further testing is required using incomplete records, stockouts, irregular demand and capacity restrictions.
+
+### Overall Test Status
+
+**PASS**
+
+- Expected estimated demand: 470 units
+- Actual estimated demand: 470 units
+- Difference from expected result: 0 units
+- Expected result achieved: Yes
+
+### Conclusion
+
+Prompt P01 v1.1 successfully meets the expected Test A demand forecast of 470 units.
+
+The prompt demonstrates transparent forecasting calculations, consistent sales trend classifications, appropriate data reliability assessments and responsible handling of missing operational information.
+
+The result confirms agreement with the expected test outcome but does not establish statistical forecast accuracy or manufacturing feasibility.
+
+Further testing under alternative business scenarios is required to evaluate the robustness of the prompt.
+
+---
+
+*All outputs are for decision support and require production manager review before operational implementation.*
 
 ### Test Case B — Actual AI Output
 
-Pending.
+# Flavors of Ceylon – P01 v1.2 – Test B
+
+## Test Overview
+
+| Attribute | Description |
+| --- | --- |
+| Business | Flavors of Ceylon |
+| Prompt ID | P01 |
+| Prompt Version | v1.2 |
+| Workflow | Demand Forecasting and Production Planning |
+| Test | Test B |
+| Scenario | Incomplete data and stockouts |
+| Forecast Period | Week 5 |
+| Expected Key Result | 390-unit partial subtotal |
+| Actual Result | 390-unit partial subtotal |
+| Test Status | PASS |
+
+---
+
+## 1. Data Validation
+
+The analysis uses historical weekly sales data for Weeks 1–4. All available numerical figures represent recorded units sold rather than confirmed customer demand.
+
+### Historical Sales Data
+
+| Product | Week 1 | Week 2 | Week 3 | Week 4 |
+| --- | ---: | ---: | ---: | ---: |
+| Fish roti | 80 | 100 | Missing | 140 |
+| Vegetable rolls | 120 | 110 | 100 | 90 |
+| Chicken kottu | 50 | 60 | 70 | 25 |
+| Rice and curry packs | 60 | 60 | 60 | 60 |
+| Pol sambol sachets | 40 | Missing | 60 | Missing |
+
+### Identified Data Quality Issues
+
+| Product | Data Issue | Validation Decision |
+| --- | --- | --- |
+| Fish roti | Week 3 sales unavailable | Exclude missing record |
+| Vegetable rolls | No identified issues | Use all four observations |
+| Chicken kottu | Week 4 stockout | Exclude Week 4 from baseline forecasting |
+| Rice and curry packs | No identified issues | Use all four observations |
+| Pol sambol sachets | Weeks 2 and 4 unavailable | Withhold forecast |
+
+### Validation Findings
+
+- Missing records have not been interpreted as zero sales.
+- No historical sales figures have been invented.
+- Chicken kottu's Week 4 recorded sales of 25 units are retained as historical information but excluded from baseline demand calculations.
+- Pol sambol sachets have fewer than three usable observations.
+- Recorded sales and estimated customer demand are treated separately.
+
+---
+
+## 2. Demand Forecast and Calculation Breakdown
+
+### Forecasting Method
+
+Simple linear trend extrapolation is applied using actual historical week positions.
+
+**Average weekly change:**
+
+Average weekly change = (Latest usable sales - Earliest usable sales) / Number of elapsed weeks
+
+**Demand forecast:**
+
+Forecast = Latest usable sales + (Average weekly change × Number of weeks between the latest usable observation and target week)
+
+A minimum of three usable weekly observations is required to generate a numerical forecast.
+
+### Week 5 Demand Forecast
+
+| Product | Usable Observations | Missing or Excluded Records | Average Weekly Change | Sales Trend | Week 5 Forecast | Data Reliability | Recommended Planning Action |
+| --- | ---: | --- | ---: | --- | ---: | --- | --- |
+| Fish roti | 3 | Week 3 | +20 | Increasing | 160 | Medium | Plan for higher demand |
+| Vegetable rolls | 4 | None | -10 | Decreasing | 80 | High | Reduce planned volume |
+| Chicken kottu | 3 | Week 4 | +10 | Increasing | 90 | Medium | Review stock availability |
+| Rice and curry packs | 4 | None | 0 | Stable | 60 | High | Maintain current planning level |
+| Pol sambol sachets | 2 | Weeks 2 and 4 | N/A | Undetermined | Withheld | Insufficient | Recover missing records |
+
+### Calculation Breakdown
+
+#### 2.1 Fish Roti
+
+- Earliest usable observation: Week 1 = 80 units
+- Latest usable observation: Week 4 = 140 units
+- Usable observations: 3
+- Elapsed weeks: 4 - 1 = 3
+- Weeks until target week: 5 - 4 = 1
+
+Average weekly change:
+
+`(140 - 80) / 3 = 20 units`
+
+Week 5 forecast:
+
+`140 + (20 × 1) = 160 units`
+
+**Final forecast: 160 units**
+
+**Sales trend:** Increasing
+
+**Data reliability:** Medium
+
+---
+
+#### 2.2 Vegetable Rolls
+
+- Earliest usable observation: Week 1 = 120 units
+- Latest usable observation: Week 4 = 90 units
+- Usable observations: 4
+- Elapsed weeks: 4 - 1 = 3
+- Weeks until target week: 5 - 4 = 1
+
+Average weekly change:
+
+`(90 - 120) / 3 = -10 units`
+
+Week 5 forecast:
+
+`90 + (-10 × 1) = 80 units`
+
+**Final forecast: 80 units**
+
+**Sales trend:** Decreasing
+
+**Data reliability:** High
+
+---
+
+#### 2.3 Chicken Kottu
+
+- Earliest usable observation: Week 1 = 50 units
+- Latest usable observation: Week 3 = 70 units
+- Usable observations: 3
+- Excluded observation: Week 4 due to stockout
+- Elapsed weeks: 3 - 1 = 2
+- Weeks until target week: 5 - 3 = 2
+
+Average weekly change:
+
+`(70 - 50) / 2 = 10 units`
+
+Week 5 forecast:
+
+`70 + (10 × 2) = 90 units`
+
+**Final forecast: 90 units**
+
+**Sales trend:** Increasing
+
+**Data reliability:** Medium
+
+Week 4 recorded sales are excluded because the reported stockout restricted product availability.
+
+---
+
+#### 2.4 Rice and Curry Packs
+
+- Earliest usable observation: Week 1 = 60 units
+- Latest usable observation: Week 4 = 60 units
+- Usable observations: 4
+- Elapsed weeks: 4 - 1 = 3
+- Weeks until target week: 5 - 4 = 1
+
+Average weekly change:
+
+`(60 - 60) / 3 = 0 units`
+
+Week 5 forecast:
+
+`60 + (0 × 1) = 60 units`
+
+**Final forecast: 60 units**
+
+**Sales trend:** Stable
+
+**Data reliability:** High
+
+---
+
+#### 2.5 Pol Sambol Sachets
+
+- Available observations: Weeks 1 and 3
+- Missing observations: Weeks 2 and 4
+- Minimum required observations: 3
+- Actual usable observations: 2
+
+**Insufficient data — forecast withheld.**
+
+**Sales trend:** Undetermined
+
+**Data reliability:** Insufficient
+
+No numerical forecast has been generated because the minimum observation requirement has not been satisfied.
+
+### Partial Demand Subtotal
+
+| Product | Estimated Week 5 Demand |
+| --- | ---: |
+| Fish roti | 160 |
+| Vegetable rolls | 80 |
+| Chicken kottu | 90 |
+| Rice and curry packs | 60 |
+| Pol sambol sachets | Withheld |
+| **Partial Subtotal** | **390 units** |
+
+Calculation:
+
+`160 + 80 + 90 + 60 = 390 units`
+
+> **Important:** The 390-unit subtotal represents estimated demand for four forecasted products only. It is not the total business demand because the Pol sambol sachets forecast has been withheld.
+
+---
+
+## 3. Production Planning and Capacity Analysis
+
+### Operational Data Validation
+
+The following operational information has not been supplied:
+
+- Usable finished-product inventory
+- Target safety stock
+- Available product-specific production capacity
+- Shared manufacturing resource restrictions
+
+Missing operational values cannot be assumed to be zero.
+
+Therefore, estimated customer demand cannot be directly converted into confirmed production quantities.
+
+### Production Planning Formulas
+
+The following formulas will be applied when verified operational information becomes available.
+
+**Required production:**
+
+`Maximum(0, Forecast demand + Target safety stock - Usable finished-product inventory)`
+
+**Capacity-limited production:**
+
+`Minimum(Required production, Available product-specific production capacity)`
+
+**Production shortfall:**
+
+`Required production - Capacity-limited production`
+
+**Estimated demand shortfall:**
+
+`Maximum(0, Forecast demand - Usable inventory - Capacity-limited production)`
+
+**Projected closing inventory:**
+
+`Maximum(0, Usable inventory + Capacity-limited production - Forecast demand)`
+
+**Safety stock shortfall:**
+
+`Maximum(0, Target safety stock - Projected closing inventory)`
+
+### Production Planning Results
+
+| Product | Forecast Demand | Usable Inventory | Target Safety Stock | Required Production | Available Capacity | Capacity-Limited Production | Production Shortfall | Estimated Demand Shortfall | Safety Stock Shortfall | Recommended Action |
+| --- | ---: | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Fish roti | 160 | Unknown | Unknown | Pending | Unknown | Pending | Pending | Pending | Pending | Verify operational inputs |
+| Vegetable rolls | 80 | Unknown | Unknown | Pending | Unknown | Pending | Pending | Pending | Pending | Review existing inventory |
+| Chicken kottu | 90 | Unknown | Unknown | Pending | Unknown | Pending | Pending | Pending | Pending | Investigate previous stockout |
+| Rice and curry packs | 60 | Unknown | Unknown | Pending | Unknown | Pending | Pending | Pending | Pending | Verify production requirements |
+| Pol sambol sachets | Withheld | Unknown | Unknown | Pending | Unknown | Pending | Pending | Pending | Pending | Recover missing sales records |
+
+**Production quantity pending verification.**
+
+### Operational Safeguards
+
+- Forecast demand does not represent confirmed production requirements.
+- Missing operational information has not been assumed to be zero.
+- Projected closing inventory cannot currently be calculated.
+- Products requiring no additional production cannot currently be identified.
+- Estimated unmet customer demand cannot be quantified.
+- Safety stock shortfalls cannot be quantified.
+- Unused production capacity cannot be assumed to be transferable between products.
+- Shared production resources require management review.
+- All future calculated production quantities require human approval.
+
+---
+
+## 4. Assumptions and Limitations
+
+| Category | Assumption or Limitation |
+| --- | --- |
+| Forecasting method | Simple linear trend extrapolation is used with actual historical week positions. |
+| Historical data | Recorded sales may not fully represent actual customer demand. |
+| Missing records | No missing historical figures have been invented or substituted. |
+| Stockouts | Chicken kottu's Week 4 sales were affected by restricted availability. |
+| Irregular sales patterns | Chicken kottu's sudden recorded sales decline is identified as stockout-related. |
+| Future availability | The chicken kottu forecast reflects its baseline sales trend rather than guaranteed Week 5 availability. |
+| Seasonality | Seasonal demand fluctuations are not incorporated. |
+| Promotions | Promotional effects are not incorporated. |
+| Market changes | Unexpected changes in customer behaviour are not incorporated. |
+| Data reliability | Reliability classifications describe data quality and availability, not statistical forecast confidence. |
+| Operational feasibility | Inventory, safety stock and production capacity remain unverified. |
+| Rounding | All numerical forecasts are expressed as non-negative whole units. |
+| Human oversight | Production manager approval is required before implementation. |
+
+---
+
+## 5. Management Summary and Priority Actions
+
+The Week 5 forecast produces a partial estimated demand of **390 units across four products**. Fish roti and chicken kottu show increasing trends, vegetable rolls show a decreasing trend, and rice and curry packs remain stable. Pol sambol sachets cannot be forecasted because historical observations are insufficient.
+
+### Priority Actions
+
+1. Recover missing fish roti and Pol sambol sales records.
+2. Investigate chicken kottu stockout causes and prevent recurrence.
+3. Review planned volumes against forecasted demand trends.
+4. Verify inventory, safety stock and available production capacity.
+5. Obtain production manager approval before confirming manufacturing quantities.
+
+All forecasts are indicative and intended for management decision support.
+
+---
+
+## 6. Test Evaluation
+
+### Expected Result vs Actual Result
+
+| Evaluation Item | Expected Result | Actual Result | Status |
+| --- | --- | --- | --- |
+| Fish roti forecast | 160 units | 160 units | PASS |
+| Vegetable rolls forecast | 80 units | 80 units | PASS |
+| Chicken kottu forecast | 90 units | 90 units | PASS |
+| Rice and curry packs forecast | 60 units | 60 units | PASS |
+| Pol sambol sachets forecast | Withheld | Withheld | PASS |
+| Partial demand subtotal | 390 units | 390 units | PASS |
+| Total business demand | Not reported | Not reported | PASS |
+| Production quantities | Pending verification | Pending verification | PASS |
+
+### Prompt Performance Evaluation
+
+| Evaluation Criterion | Result | Status |
+| --- | --- | --- |
+| Missing sales records identified | Correctly identified | PASS |
+| Missing records treated as zero | No | PASS |
+| Invented historical figures | None | PASS |
+| Stockout-affected records excluded | Chicken kottu Week 4 | PASS |
+| Minimum three-observation requirement | Correctly applied | PASS |
+| Actual week positions used | Correctly applied | PASS |
+| Calculation breakdown provided | All forecasted products | PASS |
+| Insufficient forecast withheld | Pol sambol sachets | PASS |
+| Sales trends classified | Correctly classified | PASS |
+| Data reliability classified | Correctly classified | PASS |
+| Expected partial subtotal achieved | 390 units | PASS |
+| Partial subtotal distinguished from total demand | Yes | PASS |
+| Missing operational inputs identified | Yes | PASS |
+| Unsupported production quantities avoided | Yes | PASS |
+| Demand and production distinguished | Yes | PASS |
+| Human approval requirement retained | Yes | PASS |
+| Numerical production formulas tested | Operational inputs unavailable | NOT TESTED |
+
+### Observed Strengths
+
+- Accurately identifies incomplete historical sales records.
+- Excludes stockout-affected observations from baseline calculations.
+- Uses actual elapsed weeks when calculating demand forecasts.
+- Prevents unsupported numerical forecasts.
+- Produces transparent and reproducible calculations.
+- Distinguishes partial demand from total business demand.
+- Prevents unsupported production recommendations.
+- Supports responsible AI-assisted decision-making.
+
+### Remaining Limitations
+
+- Forecast accuracy cannot be statistically guaranteed.
+- The method does not account for seasonal or irregular demand.
+- Numerical production and capacity calculations cannot be fully evaluated because operational inputs are unavailable.
+- Further testing with verified operational information is required.
+
+### Iteration Evaluation
+
+The revised P01 v1.2 prompt demonstrates effective handling of incomplete sales records, stockout-affected observations and insufficient historical data.
+
+The prompt also includes operational safeguards that prevent estimated customer demand from being incorrectly interpreted as confirmed production requirements.
+
+The missing-operational-data safeguards were successfully tested. However, the numerical production formulas require a separate test containing complete inventory, safety stock and capacity information.
+
+### Final Test Outcome
+
+> **PASS — Test B successfully achieved the expected 390-unit partial demand subtotal.**
+
+All applicable test criteria were satisfied. Numerical production and capacity calculations remain untested due to unavailable operational data.
+
+---
+
+**Disclaimer:** All outputs are intended for business decision support and require production manager review before operational implementation.
 
 ### Final Observations
 
@@ -1220,6 +1862,204 @@ forecasting performance.
 ---
 
 ## 9. Test Case C — Production Capacity and Inventory
+
+
+# Flavors of Ceylon – Demand Forecasting and Production Planning
+
+## P01 – Version 1.2 – Test C
+
+### Test Overview
+
+| Test Information | Details |
+| --- | --- |
+| Business | Flavors of Ceylon |
+| Industry | Australian Food Manufacturing |
+| Prompt ID | P01 |
+| Prompt Version | v1.2 |
+| Test ID | Test C |
+| Scenario | Inventory and Capacity Constraints |
+| Expected Required Production | 345 units |
+| Expected Capacity-Limited Production | 325 units |
+| Test Status | Pending Verification |
+
+---
+
+## 1. Data Validation
+
+The test scenario and expected results have been supplied. However, the underlying historical sales and operational records are unavailable in the supplied test input.
+
+| Required Information | Validation Status |
+| --- | --- |
+| Historical weekly product sales | Not supplied |
+| Product names | Not supplied |
+| Stockout information | Not supplied |
+| Usable finished-product inventory | Not supplied |
+| Target safety stock | Not supplied |
+| Product-specific production capacity | Not supplied |
+
+Missing information has not been interpreted as zero or replaced with estimated historical values.
+
+---
+
+## 2. Demand Forecast and Calculation Breakdown
+
+| Product Name | Usable Observations | Missing Records | Average Weekly Change | Sales Trend | Next-Week Forecast | Data Reliability | Recommended Action |
+| --- | ---: | --- | --- | --- | --- | --- | --- |
+| Products not specified | 0 supplied | Historical sales | N/A | Undetermined | Withheld | Insufficient | Obtain sales records |
+
+**Insufficient data — forecast withheld.**
+
+### Forecasting Formulas
+
+**Average Weekly Change**
+
+Average weekly change = (Latest usable sales - Earliest usable sales) / Number of elapsed weeks
+
+**Demand Forecast**
+
+Forecast = Latest usable sales + (Average weekly change × Number of weeks ahead)
+
+Individual product forecasts and total estimated demand cannot be calculated without historical sales records.
+
+---
+
+## 3. Production Planning and Capacity Analysis
+
+**Production quantity pending verification.**
+
+| Product Name | Forecast Demand | Usable Inventory | Target Safety Stock | Required Production | Available Capacity | Capacity-Limited Production | Production Shortfall | Estimated Demand Shortfall | Safety Stock Shortfall | Recommended Action |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Products not specified | N/A | N/A | N/A | Pending | N/A | Pending | Pending | Pending | Pending | Verify operational inputs |
+
+### Production Planning Formulas
+
+- Required production = Max(0, Forecast demand + Target safety stock - Usable inventory)
+- Capacity-limited production = Min(Required production, Available product-specific capacity)
+- Production shortfall = Required production - Capacity-limited production
+- Estimated demand shortfall = Max(0, Forecast demand - Usable inventory - Capacity-limited production)
+- Projected closing inventory = Max(0, Usable inventory + Capacity-limited production - Forecast demand)
+- Safety stock shortfall = Max(0, Target safety stock - Projected closing inventory)
+
+### Expected Test Outcome
+
+The following results are based exclusively on the supplied expected values and are not independently verified production calculations.
+
+| Performance Indicator | Expected or Derived Result |
+| --- | ---: |
+| Required production | 345 units |
+| Capacity-limited production | 325 units |
+| Implied production shortfall | 20 units |
+| Production requirement coverage | 94.20% |
+
+### Calculation Breakdown
+
+**Production Shortfall**
+
+345 - 325 = 20 units
+
+**Production Requirement Coverage**
+
+(325 / 345) × 100 = 94.20%
+
+The 20-unit production shortfall does not necessarily represent unmet customer demand. It may represent a customer demand shortfall, a safety stock shortfall or a combination of both.
+
+---
+
+## 4. Assumptions and Limitations
+
+- No missing historical or operational values have been invented.
+- Missing records have not been interpreted as zero.
+- Expected test results are treated as validation benchmarks rather than confirmed calculations.
+- The forecasting method does not account for seasonality, irregular demand or unexpected market changes.
+- Data reliability classifications do not represent statistical forecast confidence.
+- Unused production capacity cannot automatically be transferred between products.
+- Shared production resources and operational restrictions require management review.
+- All production quantities require human approval.
+
+---
+
+## 5. Management Summary and Priority Actions
+
+The expected Test C results indicate a production requirement of 345 units and capacity-limited production of 325 units, implying a production shortfall of 20 units.
+
+However, historical sales, inventory, safety stock and production capacity records are unavailable. Therefore, individual demand forecasts and production quantities cannot be independently verified.
+
+### Priority Actions
+
+1. Obtain and validate historical weekly sales records.
+2. Confirm available finished-product inventory.
+3. Verify product-specific safety stock requirements.
+4. Review production capacity and identify potential constraints.
+5. Obtain production manager approval before implementation.
+
+---
+
+## 6. Test Evaluation
+
+| Evaluation Criterion | Result |
+| --- | --- |
+| Missing-data identification | Pass |
+| Prevention of fabricated sales figures | Pass |
+| Demand and production distinction | Pass |
+| Production shortfall arithmetic | Pass |
+| Identification of capacity constraints | Partial |
+| Verification of 345 required units | Pending |
+| Verification of 325 capacity-limited units | Pending |
+| Distinction between demand and safety stock shortfalls | Pass |
+| Operational safeguards | Pass |
+| Structured output format | Pass |
+| Overall test result | Incomplete — additional input data required |
+
+---
+
+## 7. Iteration Testing Evidence
+
+### Testing Objective
+
+Evaluate whether Prompt P01 v1.2 can distinguish customer demand forecasts from actual production requirements while considering finished-product inventory, safety stock and production capacity constraints.
+
+### Expected Behaviour
+
+- Calculate demand using valid historical sales records.
+- Adjust production requirements based on inventory and safety stock.
+- Apply product-specific production capacity limits.
+- Identify production shortfalls.
+- Distinguish unmet customer demand from safety stock shortfalls.
+- Avoid generating unsupported production quantities.
+- Flag missing operational information.
+
+### Observed Behaviour
+
+The AI correctly identified missing historical and operational information and withheld unsupported demand forecasts and production quantities.
+
+The AI calculated an implied production shortfall of 20 units using the supplied expected results without presenting those results as independently verified calculations.
+
+### Strengths
+
+- Improved data validation.
+- Prevention of fabricated business information.
+- Clear distinction between demand and production quantities.
+- Identification of operational limitations.
+- Responsible decision-support recommendations.
+- Consistent and structured reporting.
+
+### Remaining Limitations
+
+The expected production quantities could not be independently verified because the complete Test C dataset was not supplied.
+
+### Recommended Next Step
+
+Repeat Test C using complete historical sales, usable inventory, target safety stock and product-specific production capacity information.
+
+### Conclusion
+
+Prompt P01 v1.2 demonstrates appropriate missing-data handling and operational safeguards. However, its numerical forecasting and capacity-planning performance cannot be fully validated until the complete test dataset is provided.
+
+**Final Status: Partially Validated — Retesting Required**
+
+---
+
+> **Disclaimer:** All outputs are for decision support and require production manager review before operational implementation.
 
 ### Testing Objective
 
