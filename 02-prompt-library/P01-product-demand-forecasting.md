@@ -5,8 +5,8 @@
 | Business | Flavors of Ceylon |
 | Business Function | Demand Planning |
 | Workflow | Planning and Manufacturing |
-| Current Version | v1.1 |
-| Status | Revised Draft — Awaiting Retesting |
+| Current Version | v1.2 |
+| Status | Further Refined — Awaiting Final Testing |
 | Prompting Strategy | Role-based, contextual, constraint-based and structured-output prompting |
 
 ---
@@ -128,49 +128,117 @@
 > subtotal for forecasted products. Clearly state
 > that it is not the total business demand.
 >
-> ### Step 6 — Production Planning
+> > ### Step 6 — Production Requirements and Capacity
 >
-> Distinguish estimated product demand from
-> required production quantities.
+> Distinguish estimated customer demand from
+> required production and capacity-limited
+> production quantities.
 >
-> If sufficient verified information is available,
-> calculate the indicative production requirement:
+> When sufficient verified operational information
+> is available, calculate the following for
+> each product:
 >
-> Production requirement =
-> Forecast demand + Target safety stock
-> - Usable finished-product inventory.
+> Required production =
+> Maximum of zero or
+> (Forecast demand + Target safety stock
+> - Usable finished-product inventory).
 >
-> Set negative production requirements to zero.
+> Capacity-limited production =
+> Minimum of required production and available
+> product-specific production capacity.
 >
-> Check the result against supplied production
-> capacity and other stated operational constraints.
+> Production shortfall =
+> Required production - Capacity-limited production.
 >
-> If forecast demand, finished-product inventory,
-> safety stock or production capacity information
-> is missing, state:
+> Estimated demand shortfall =
+> Maximum of zero or
+> (Forecast demand - Usable finished-product
+> inventory - Capacity-limited production).
+>
+> Projected closing inventory =
+> Maximum of zero or
+> (Usable finished-product inventory +
+> Capacity-limited production - Forecast demand).
+>
+> Safety stock shortfall =
+> Maximum of zero or
+> (Target safety stock - Projected closing inventory).
+>
+> Validate operational inputs as non-negative
+> quantities expressed in consistent units.
+>
+> Do not assume missing operational values are zero.
+>
+> If any required operational information is
+> missing or invalid, state:
 >
 > "Production quantity pending verification."
 >
-> Do not present unsupported production quantities
-> as approved manufacturing decisions.
+> Present production planning results in a table
+> containing:
 >
-> ### Step 7 — Management Summary
+> - Product name
+> - Forecast demand
+> - Usable finished-product inventory
+> - Target safety stock
+> - Required production
+> - Available production capacity
+> - Capacity-limited production
+> - Production shortfall
+> - Estimated demand shortfall
+> - Safety stock shortfall
+> - Recommended action
 >
-> Provide a concise summary of:
+> Clearly identify products requiring no
+> additional production.
 >
-> - Key sales trends
-> - Products requiring planning attention
-> - Data quality concerns
-> - Information requiring verification
-> - Recommended next steps
+> Distinguish unmet customer demand from an
+> inability to meet the target safety stock.
+>
+> Do not assume that unused production capacity
+> for one product can be transferred to another.
+>
+> If shared production resources or other
+> operational restrictions exist, flag them
+> for management review before confirming
+> overall manufacturing feasibility.
+>
+> All calculated production quantities are
+> indicative and require human approval.
+>
+> ### Step 7 — Concise Management Report
+>
+> Organise the final response into five sections:
+>
+> 1. Data Validation
+> 2. Demand Forecast and Calculation Breakdown
+> 3. Production Planning and Capacity Analysis
+> 4. Assumptions and Limitations
+> 5. Management Summary and Priority Actions
+>
+> Use concise tables for numerical findings.
+>
+> Avoid repeating the same calculations,
+> recommendations or limitations in multiple
+> sections.
+>
+> Do not generate charts unless requested.
+>
+> Limit the management summary to a maximum of
+> 120 words, with up to five priority actions.
+>
+> Retain all essential calculations, missing-data
+> warnings and operational safeguards.
+>
+> Clearly distinguish recorded facts, estimates,
+> assumptions and recommendations.
 >
 > Use Australian English and only the supplied
 > business information.
 >
-> Clearly distinguish facts, estimates and assumptions.
->
-> All outputs are for decision support and require
-> production manager review before operational use.
+> All outputs are for decision support and
+> require production manager review before
+> operational implementation.
 
 ## 2. Intended Workflow or Task
 
@@ -235,8 +303,9 @@ statistical confidence intervals.
 
 | Version | Change | Status |
 |---|---|---|
-| v1.0 | Initial role-based and contextual prompt | Tested |
-| v1.1 | Added data validation, standard forecasting rules, minimum observation requirements, data reliability classification and production planning safeguards | Awaiting retesting |
+| v1.0 | Initial demand forecasting prompt | Evaluated — 80% |
+| v1.1 | Added data validation, standard forecasting rules, reliability classification and production safeguards | Evaluated — 100% |
+| v1.2 | Added explicit production capacity calculations, demand and safety stock shortfall analysis, and concise management reporting | Awaiting final testing |
 
 ## Reason for Revision
 
@@ -251,6 +320,26 @@ recommendations.
 The v1.1 prompt introduces explicit instructions
 to address these observed limitations.
 
+### Further Refinement — v1.2
+
+The v1.1 prompt satisfied all selected evaluation
+criteria across the two original test scenarios.
+
+However, its reports contained repeated
+information, and numerical production planning
+could not be evaluated with the original inputs.
+
+The v1.2 refinement introduces more explicit
+production capacity calculations and distinguishes
+estimated unmet customer demand from safety
+stock shortfalls.
+
+It also introduces a concise reporting structure
+to improve management usability.
+
+The effectiveness of these changes will be
+evaluated through further practical testing.
+
 ## Testing Evidence
 
 - [P01 Testing Inputs and Actual Outputs](../03-testing-evidence/P01-testing-evidence.md)
@@ -258,4 +347,7 @@ to address these observed limitations.
 
 v1.0 evaluation score: 16/20 (80%).
 
-v1.1 testing and evaluation are pending.
+v1.1 evaluation score: 20/20 (100%) across
+the two original test scenarios.
+
+v1.2 final testing and evaluation are pending.
