@@ -88,5 +88,5 @@ will be fabricated.
 
 | Prompt | Current Version | Development Status |
 |---|---|---|
-| [P01 — Product Demand Forecasting](P01-iteration-log.md) | v1.0 | Initial testing completed |
+| [P01 — Product Demand Forecasting](P01-iteration-log.md) | v1.1 | Revised — Awaiting Retesting |
 | P02–P10 | v1.0 | Awaiting testing |
