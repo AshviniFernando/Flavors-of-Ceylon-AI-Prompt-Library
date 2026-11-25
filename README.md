@@ -204,38 +204,36 @@ Innovation
 
 Stage 04 — Practical Testing and Iterative Improvement
 
-The initial versions of all 10 AI prompts
-have been developed.
+All ten initial AI prompts have been developed.
 
-P01 — Product Demand Forecasting has completed
-practical testing, iterative improvement and
-final evaluation.
+P01 and P02 have completed practical testing,
+iterative improvement and final evaluation.
 
 | Development Indicator | Progress |
 |---|---|
 | Initial Prompts Created | 10/10 |
-| Fully Evaluated Prompts | 1/10 |
-| Finalised Prompts | 1/10 |
-| Current Completed Prompt | P01 |
-| Final P01 Version | v1.2 |
-| Next Prompt | P02 — Ingredient Inventory and Replenishment |
+| Fully Evaluated Prompts | 2/10 |
+| Finalised Prompts | 2/10 |
+| Latest Completed Prompt | P02 |
+| Final P02 Version | v1.1 |
+| Next Prompt | P03 — Supplier Purchase Order Preparation |
 
-P01 achieved a final evaluation score of
-30/30 across three corrected synthetic test
-scenarios.
+### Completed Prompt Evaluations
 
-Its comparable evaluation score improved
-from 80% to 100% across the two original
-test scenarios.
+| Prompt | Final Version | Initial Score | Final Comparable Score |
+|---|---|---:|---:|
+| [P01 — Product Demand Forecasting](05-evaluation/P01-final-evaluation.md) | v1.2 | 80% | 100% |
+| [P02 — Ingredient Inventory and Replenishment](05-evaluation/P02-final-evaluation.md) | v1.1 | 85% | 95% |
 
-The remaining nine prompts will follow
-the same controlled testing and iterative
-improvement methodology.
+Comparable scores use the two original test
+scenarios for each prompt.
 
-### Completed Evaluation
+P01 also completed an additional production
+capacity scenario, achieving 30/30 across
+all three final tests.
 
-- [P01 — Product Demand Forecasting](05-evaluation/P01-final-evaluation.md)
+The remaining eight prompts will follow the
+controlled testing and improvement methodology.
 
-The evaluation results represent academic
-testing outcomes rather than actual commercial
-business performance.
+All evaluation results represent academic testing
+outcomes rather than actual commercial performance.
