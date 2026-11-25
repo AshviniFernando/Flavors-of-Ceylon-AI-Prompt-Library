@@ -11,8 +11,8 @@ for Flavors of Ceylon.
 
 | Version | Change Made | Observed Effect | Lesson Learned |
 |---|---|---|---|
-| v1.0 | Initial role-based inventory management prompt | Correct numerical results but inconsistent purchasing classifications and repeated information | Accurate calculations alone do not guarantee clear operational recommendations |
-| v1.1 | Added eligibility rules, purchasing classifications, FEFO terminology and concise reporting | Awaiting retesting | Pending evaluation |
+| v1.0 | Initial role-based inventory management prompt | Correct calculations but inconsistent purchasing classifications and FEFO terminology; 85% score | Correct calculations alone do not guarantee clear operational recommendations |
+| v1.1 | Added eligibility rules, purchasing classifications, correct FEFO terminology and structured reporting | Improved purchasing transparency and inventory assessment; 95% score | Explicit classification rules improve business usability and responsible decision support |
 
 ---
 
@@ -27,7 +27,7 @@ Development and testing dates: [Actual dates]
 - Appropriate exclusion of expired inventory.
 - Appropriate handling of missing expiry information.
 - Recognition of stock expiring before planned usage.
-- Identification of shortages and excess inventory.
+- Identification of shortages and surplus inventory.
 - Human verification and purchasing approval.
 
 ### Observed Weaknesses
@@ -37,7 +37,7 @@ Development and testing dates: [Actual dates]
 - Combined purchasing total without separate
   established and provisional subtotals.
 - Subjective risk classifications.
-- Lengthy reports with repeated information.
+- Repeated information across lengthy reports.
 
 ### Evaluation Scores
 
@@ -54,19 +54,15 @@ Combined score: 17/20 (85%).
 
 ### Lesson Learned
 
-AI can perform correct inventory calculations
-while presenting purchasing recommendations
-that require greater classification clarity.
-
-Explicit stock eligibility rules and purchasing
-decision boundaries can improve business
-usability and responsible AI behaviour.
+Accurate calculations must be supported by clear
+purchasing classifications and appropriate
+inventory eligibility rules.
 
 ---
 
 ## 4. Version v1.1 — Revised Prompt
 
-Development date: [Actual date]
+Development and testing dates: [Actual dates]
 
 ### Changes Made
 
@@ -77,7 +73,7 @@ Development date: [Actual date]
 - Required separate purchasing subtotals.
 - Corrected FEFO terminology.
 - Strengthened food safety decision boundaries.
-- Introduced a concise five-section report.
+- Introduced a five-section reporting structure.
 
 ### Reason for Changes
 
@@ -85,30 +81,70 @@ The changes address observed weaknesses in
 purchasing classification, terminology and
 reporting efficiency.
 
-### Expected Effect
-
-The revised prompt is expected to retain
-numerical accuracy while improving purchasing
-clarity, stock eligibility assessment and
-management usability.
-
-This expected effect remains unverified.
-
 ### Observed Effect
 
-Pending actual retesting.
+Test A correctly identified established
+replenishment requirements of 27 kg.
+
+Test B correctly separated the total indicative
+replenishment of 31 kg into:
+
+- Established requirements: 11 kg.
+- Provisional requirements: 20 kg.
+
+All ten inventory batches were classified
+correctly in Test B.
+
+Missing measurement units and expiry information
+were not invented or assumed.
+
+Correct FEFO terminology was maintained, and
+purchasing decisions remained subject to
+human approval.
+
+Both reports followed the requested five
+principal reporting sections.
 
 ### Evaluation Scores
 
-Pending.
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 1 |
+| Business Relevance | 2 | 2 |
+| Responsible AI | 2 | 2 |
+| Total | 10/10 | 9/10 |
+
+Combined score: 19/20 (95%).
 
 ### Remaining Limitations
 
-Pending final evaluation.
+- Subjective action priority classifications
+  remain without defined thresholds.
+- Some repeated information remains.
+- Physical inventory accuracy has not been tested.
+- Supplier lead times and purchasing costs
+  were not available.
+- Additional purchasing constraints were
+  not directly tested.
+- Repeat-run reliability has not been established.
+- Food safety and purchasing decisions still
+  require qualified human verification.
 
 ### Lesson Learned
 
-Pending final evaluation.
+Explicit inventory eligibility rules and
+purchasing classifications improve operational
+decision support without changing the underlying
+numerical replenishment calculations.
+
+Separating established and provisional requirements
+helps management understand which quantities
+require additional verification.
+
+A final prompt can remain useful even when minor
+limitations exist.
 
 ---
 
@@ -117,18 +153,32 @@ Pending final evaluation.
 | Version | Test A | Test B | Combined Score |
 |---|---:|---:|---:|
 | v1.0 | 9/10 | 8/10 | 17/20 (85%) |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 10/10 | 9/10 | 19/20 (95%) |
 
-## 6. Current Development Status
+Absolute improvement: 10 percentage points.
 
-v1.0 testing and evaluation are complete.
+Relative improvement in evaluation score: 11.76%.
 
-Version v1.1 has been developed based on the
-observed limitations.
+## 6. Final Version Selection
 
-Final retesting remains pending.
+Version v1.1 is selected as the final prompt.
+
+The revised version successfully addresses the
+main weaknesses identified during initial testing.
+
+The remaining minor reporting limitations do
+not justify another development iteration
+within the current assessment scope.
+
+Automation potential: Medium.
+
+Development status: Completed.
+
+Operational deployment: Not implemented.
 
 ## Related Evidence
 
-- [P02 Current Prompt](../02-prompt-library/P02-inventory-and-replenishment.md)
+- [P02 Final Prompt](../02-prompt-library/P02-inventory-and-replenishment.md)
 - [P02 Testing Evidence](../03-testing-evidence/P02-testing-evidence.md)
+- [P02 Final Evaluation](../05-evaluation/P02-final-evaluation.md)
+- [Iteration Log Index](README.md)
