@@ -358,7 +358,26 @@ All final procurement decisions and external communications require human approv
 
 #### Evaluation
 
-Pending evaluation.
+The response correctly prepared a draft purchase
+order for 15 kg of wheat flour and 12 kg of chicken.
+
+The ingredient subtotal was AUD 150.00, with a
+delivery charge of AUD 12.00, resulting in a total
+proposed purchase value of AUD 162.00.
+
+GST-inclusive pricing was handled correctly.
+
+The supplier email was professionally written,
+and requested delivery was distinguished from
+confirmed supplier commitments.
+
+All procurement approval safeguards were maintained.
+
+However, the nine-section report contained repeated
+financial information and approval requirements,
+reducing routine procurement efficiency.
+
+Evaluation score: 9/10 (90%).
 
 ### Test Case B
 
@@ -748,7 +767,27 @@ All purchasing decisions and supplier communications remain subject to human ver
 
 #### Evaluation
 
-Pending evaluation.
+The response correctly included 5 kg of wheat flour
+and 6 kg of grated coconut.
+
+Provisional rice and chicken requirements were
+excluded, together with unnecessary egg purchases.
+
+The known priced-line amount of AUD 12.00 was
+calculated correctly.
+
+The final purchase order total was appropriately
+withheld because coconut pricing, GST treatment
+and delivery charges were unavailable.
+
+Missing supplier details and the unassigned
+purchase order reference were not invented.
+
+However, the ten-section report contained repeated
+information, overlapping approval checklists and
+an unnecessary AI-generated self-assessment.
+
+Evaluation score: 9/10 (90%).
 
 ---
 
@@ -787,9 +826,37 @@ Pending evaluation.
 ## 8. Version Comparison
 
 | Version | Test A | Test B | Combined Score |
-|---|---|---|---|
-| v1.0 | Pending | Pending | Pending |
+|---|---:|---:|---:|
+| v1.0 | 9/10 | 9/10 | 18/20 (90%) |
 | v1.1 | Pending | Pending | Pending |
+
+### Initial Evaluation Scores
+
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 1 | 1 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 9/10 |
+
+### Improvement Opportunities
+
+- Introduce a concise procurement document structure.
+- Consolidate financial calculations.
+- Standardise incomplete financial information handling.
+- Explicitly separate approved and excluded purchases.
+- Distinguish communication approval from order approval.
+- Remove unnecessary AI-generated test assessments.
+- Retain all existing procurement safeguards.
+
+All numerical calculations were correct in the
+initial test responses.
+
+The evaluation measures response quality under
+synthetic scenarios rather than actual commercial
+procurement performance.
 
 ## 9. Testing Integrity
 
