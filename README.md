@@ -156,7 +156,7 @@ be documented throughout the project.
 
 - [x] Establish business context
 - [x] Complete repository structure
-- [ ] Develop 10 initial prompts
+- [x] Develop 10 initial prompts
 - [ ] Conduct prompt testing
 - [ ] Document iterative improvements
 - [ ] Complete final prompt library
@@ -202,11 +202,25 @@ Innovation
 
 ## Current Development Stage
 
-Stage 02 — Business Context and Portfolio Structure
+Stage 03 — Initial Prompt Development
 
-The business context, prompt topics, workflow
-categories and portfolio structure have been
-established.
+The initial versions of all 10 AI prompts have been
+created for Flavors of Ceylon.
 
-The next stage involves developing the initial
-versions of the 10 selected AI prompts.
+The prompts are organised into four business workflows:
+
+- Planning and Manufacturing
+- Food Safety and Product Quality
+- Customer Experience and Marketing
+- Management Reporting
+
+Each prompt includes the five compulsory assessment
+requirements, preliminary automation potential,
+risks and human oversight requirements.
+
+All prompts are currently at version v1.0.
+
+The next stage involves practical AI testing,
+evaluation and iterative prompt improvement.
+
+[View the Complete Prompt Library](02-prompt-library/README.md)
