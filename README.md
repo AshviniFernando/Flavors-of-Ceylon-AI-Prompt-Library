@@ -155,7 +155,7 @@ be documented throughout the project.
 ## 9. Portfolio Development Status
 
 - [x] Establish business context
-- [ ] Complete repository structure
+- [x] Complete repository structure
 - [ ] Develop 10 initial prompts
 - [ ] Conduct prompt testing
 - [ ] Document iterative improvements
@@ -180,9 +180,34 @@ will reflect the actual development process.
 
 ---
 
+---
+
+## Portfolio Navigation
+
+| Section | Description |
+|---|---|
+| [01 — Business Context](01-business-context/README.md) | Business background, objectives and operational challenges |
+| [02 — AI Prompt Library](02-prompt-library/README.md) | Ten business workflow prompts |
+| [03 — Testing Evidence](03-testing-evidence/README.md) | Test scenarios and AI-generated outputs |
+| [04 — Iteration Logs](04-iteration-logs/README.md) | Prompt revisions and observed improvements |
+| [05 — Evaluation](05-evaluation/README.md) | Business value, performance and risk evaluation |
+| [06 — References](06-references/README.md) | Academic references and supporting resources |
+
+## Current Development Stage
+
+Stage 02 — Business Context and Portfolio Structure
+
+The business context, prompt topics, workflow
+categories and portfolio structure have been
+established.
+
+The next stage involves developing the initial
+versions of the 10 selected AI prompts.
+
 **Flavors of Ceylon**
 
 Authentic Sri Lankan Flavours | AI-Assisted Business
 Innovation
 
 *Academic Project – Food Manufacturing and Hospitality*
+
