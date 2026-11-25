@@ -1216,3 +1216,92 @@ forecasting performance.
 
 - [P01 Prompt](../02-prompt-library/P01-product-demand-forecasting.md)
 - [Testing Evidence Index](README.md)
+
+---
+
+## 9. Test Case C — Production Capacity and Inventory
+
+### Testing Objective
+
+Evaluate numerical production requirements,
+available finished-product inventory, safety
+stock targets and production capacity constraints.
+
+### Test Input
+
+The production manager requires Week 5 demand
+estimates and indicative production planning.
+
+#### Historical Weekly Sales
+
+| Product | Week 1 | Week 2 | Week 3 | Week 4 |
+|---|---:|---:|---:|---:|
+| Fish roti | 80 | 100 | 120 | 140 |
+| Vegetable rolls | 120 | 110 | 100 | 90 |
+| Chicken kottu | 50 | 60 | 70 | 80 |
+| Rice and curry packs | 60 | 60 | 60 | 60 |
+| Pol sambol sachets | 40 | 50 | 60 | 70 |
+
+#### Verified Operational Information
+
+| Product | Usable Inventory | Target Safety Stock | Weekly Production Capacity |
+|---|---:|---:|---:|
+| Fish roti | 30 | 10 | 120 |
+| Vegetable rolls | 90 | 5 | 60 |
+| Chicken kottu | 10 | 5 | 100 |
+| Rice and curry packs | 20 | 10 | 60 |
+| Pol sambol sachets | 15 | 5 | 70 |
+
+All figures represent units.
+
+Inventory represents usable finished products
+available at the beginning of Week 5.
+
+Production capacities are independent weekly
+limits for each product.
+
+No shared resource constraints or other
+operational restrictions are reported.
+
+No stock shortages or unusual promotional
+events are reported in the historical period.
+
+All information is synthetic and treated as
+verified for the purpose of this test.
+
+### Expected Output
+
+- Generate accurate demand forecasts.
+- Calculate indicative production requirements.
+- Set negative production requirements to zero.
+- Identify production capacity shortfalls.
+- Distinguish demand from feasible production.
+- Flag decisions requiring management approval.
+
+### v1.1 — Additional Baseline Test
+
+Testing date: Pending.
+
+AI tool and model: Pending.
+
+Actual AI output:
+
+Pending testing.
+
+Observations:
+
+Pending evaluation.
+
+### v1.2 — Additional Retest
+
+Testing date: Pending.
+
+AI tool and model: Pending.
+
+Actual AI output:
+
+Pending testing.
+
+Observations:
+
+Pending evaluation.
