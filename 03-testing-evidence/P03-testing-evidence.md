@@ -795,13 +795,265 @@ Evaluation score: 9/10 (90%).
 
 ### Test Case A
 
-Testing date: Pending.
+Testing date: 26 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+# Flavors of Ceylon – Procurement Report
+
+## P03 v1.1 – Test A Output
+
+**Business:** Flavors of Ceylon  
+**Purchase Preparation Date:** 1 December 2026  
+**Related Inventory Assessment:** P02 Test A  
+**Purpose:** Academic testing using synthetic purchasing and supplier information.
+
+---
+
+## 1. Draft Purchase Order
+
+> **DRAFT — NOT AUTHORISED FOR ISSUE**
+
+### 1.1 Purchase Order Information
+
+| Field | Details |
+| --- | --- |
+| Purchase order reference | FOC-PO-2026-001 |
+| Quotation reference | SH-Q-2026-104 |
+| Preparation date | 1 December 2026 |
+| Related inventory assessment | P02 Test A |
+| Currency | AUD |
+| Document status | Draft |
+| Procurement approval | Pending final approval |
+
+### 1.2 Buyer Information
+
+| Field | Details |
+| --- | --- |
+| Business name | Flavors of Ceylon |
+| Address | Unit 2, 10 Sample Trade Way, Dandenong South, VIC 3175, Australia |
+| Contact person | Procurement Manager |
+| Email | procurement@flavorsofceylon.example |
+
+### 1.3 Supplier Information
+
+| Field | Details |
+| --- | --- |
+| Supplier name | Southern Harvest Food Supplies |
+| Address | 25 Example Industrial Drive, Dandenong South, VIC 3175, Australia |
+| Contact person | Supplier Sales Team |
+| Email | sales@southernharvest.example |
+| Quotation reference | SH-Q-2026-104 |
+| Quotation verification | Verified for the synthetic scenario |
+| Stock availability | Pending supplier confirmation |
+
+### 1.4 Approved Purchasing Requirements
+
+All quantities listed below have been approved for draft purchase order preparation only.
+
+| Ingredient | Quantity | Unit | Unit Price (AUD) | Calculation | Line Amount (AUD) |
+| --- | ---: | --- | ---: | --- | ---: |
+| Wheat flour | 15 | kg | $2.40 | 15 × $2.40 | $36.00 |
+| Chicken | 12 | kg | $9.50 | 12 × $9.50 | $114.00 |
+| **Ingredient subtotal** | | | | | **$150.00** |
+
+### 1.5 Consolidated Financial Summary
+
+| Financial Component | Amount (AUD) |
+| --- | ---: |
+| Complete ingredient subtotal | $150.00 |
+| Delivery charge | $12.00 |
+| Additional charges | $0.00 |
+| Additional GST charge | $0.00 |
+| **Total proposed purchase value** | **$162.00** |
+
+**GST Treatment:** All quoted ingredient prices and delivery charges are inclusive of any applicable GST. Therefore, no additional GST has been applied. A separate GST breakdown has not been calculated because it was not supplied.
+
+**Financial Status:** All required prices and charges are sufficiently established for calculating the proposed purchase value. However, the amount remains subject to final procurement approval and does not represent an authorised purchasing commitment.
+
+### 1.6 Delivery and Production Requirements
+
+| Field | Details |
+| --- | --- |
+| Requested delivery date | 4 December 2026 |
+| Confirmed delivery date | Pending supplier confirmation |
+| Planned production date | 5 December 2026 |
+| Delivery location | Flavors of Ceylon production site |
+| Delivery address | Unit 2, 10 Sample Trade Way, Dandenong South, VIC 3175, Australia |
+| Supplier stock availability | Pending confirmation |
+| Delivery acceptance | Pending confirmation |
+
+The requested delivery date is a purchasing requirement and must not be interpreted as a confirmed supplier commitment.
+
+### 1.7 Purchasing and Payment Conditions
+
+| Condition | Details |
+| --- | --- |
+| Payment terms | 14 days from invoice date |
+| Minimum order quantities | None |
+| Delivery charge | AUD $12.00, inclusive of any applicable GST |
+| Additional charges | None |
+| Price verification | Verified for academic testing |
+| Draft preparation approval | Granted for both ingredients |
+| Final purchase order approval | Pending procurement manager approval |
+| Supplier communication approval | Pending procurement manager approval |
+| Dispatch authorisation | Not granted |
+
+### 1.8 Product, Storage and Quality Requirements
+
+| Requirement | Required Condition | Verification Status |
+| --- | --- | --- |
+| Product specifications | Must meet approved product requirements | Pending confirmation |
+| Storage | Must comply with approved storage requirements | Pending confirmation |
+| Ingredient condition | Must meet approved condition requirements | Pending confirmation |
+| Usable-through date | Must meet approved usable-through requirements and cover the planned production date of 5 December 2026 | Pending confirmation |
+| Production suitability | Subject to appropriate verification and acceptance | Not independently certified |
+
+Detailed product specifications, storage parameters, condition acceptance criteria and batch-specific usable-through dates have not been supplied.
+
+These must be verified before final purchase order issue.
+
+---
+
+## 2. Excluded Requirements and Missing Information
+
+### 2.1 Excluded Purchasing Requirements
+
+| Requirement Category | Finding |
+| --- | --- |
+| Provisional purchasing requirements | None supplied |
+| Unapproved purchasing requirements | None supplied |
+| Unnecessary purchasing requirements | None supplied |
+| Zero or negative quantities | None identified |
+| Excluded ingredients | None |
+
+Both supplied purchasing requirements are positive and explicitly approved for draft preparation. Therefore, both ingredients have been included in the draft purchase order.
+
+### 2.2 Missing Information and Outstanding Confirmations
+
+| Information or Requirement | Status | Required Action |
+| --- | --- | --- |
+| Supplier stock availability | Unconfirmed | Obtain supplier confirmation for both ingredients |
+| Delivery acceptance | Unconfirmed | Confirm delivery availability for 4 December 2026 |
+| Detailed product specifications | Not supplied | Verify approved internal specifications |
+| Specific storage requirements | Not supplied | Verify applicable storage and transportation conditions |
+| Ingredient condition requirements | Detailed criteria not supplied | Confirm approved acceptance criteria |
+| Batch-specific usable-through dates | Not supplied | Obtain and verify dates against production requirements |
+| External communication approval | Pending | Obtain procurement manager approval before sending the email |
+| Final purchase order approval | Pending | Obtain procurement manager approval before issuing the purchase order |
+
+No missing ingredient prices, supplier contact details, purchasing references, payment terms or delivery charges were identified in the supplied synthetic information.
+
+---
+
+## 3. Draft Supplier Email
+
+> **DRAFT — NOT AUTHORISED FOR EXTERNAL COMMUNICATION**
+
+**To:** sales@southernharvest.example  
+**From:** procurement@flavorsofceylon.example  
+**Subject:** Request for Supply Confirmation – FOC-PO-2026-001 / SH-Q-2026-104
+
+---
+
+Dear Supplier Sales Team,
+
+Flavors of Ceylon is reviewing its ingredient purchasing requirements under quotation SH-Q-2026-104 and draft purchase order FOC-PO-2026-001.
+
+Could you please confirm availability for the following ingredients:
+
+- Wheat flour – 15 kg
+- Chicken – 12 kg
+
+Our requested delivery date is 4 December 2026, to Unit 2, 10 Sample Trade Way, Dandenong South, VIC 3175, Australia.
+
+Please confirm that the quoted prices, inclusive of any applicable GST, the AUD $12.00 delivery charge, and the payment terms of 14 days from invoice date remain valid, with no additional charges.
+
+Please also confirm that the ingredients meet our approved product, storage, condition and usable-through requirements for production on 5 December 2026, subject to verification of the detailed requirements.
+
+Kindly confirm stock availability and acceptance of the requested delivery date.
+
+This enquiry does not constitute a confirmed purchase order or authorisation to dispatch goods. Any purchase remains subject to final procurement approval.
+
+Thank you for your assistance.
+
+Kind regards,
+
+**Procurement Manager**  
+Flavors of Ceylon  
+procurement@flavorsofceylon.example
+
+---
+
+## 4. Approval Checklist and Final Status
+
+### 4.1 Requirements Before Supplier Communication
+
+- [x] Verify buyer information.
+- [x] Verify supplier contact information for the synthetic scenario.
+- [x] Verify approved ingredient quantities.
+- [x] Verify quotation reference and pricing.
+- [x] Prepare draft supplier confirmation email.
+- [ ] Review email content and confirmation requests.
+- [ ] Obtain procurement manager approval for external communication.
+
+### 4.2 Requirements Before Final Purchase Order Issue
+
+- [x] Verify ingredient quantities and measurement units.
+- [x] Verify financial calculations.
+- [x] Verify GST treatment.
+- [x] Verify supplied payment and purchasing conditions.
+- [ ] Obtain supplier stock availability confirmation.
+- [ ] Obtain supplier delivery acceptance.
+- [ ] Verify detailed product specifications.
+- [ ] Verify storage and ingredient condition requirements.
+- [ ] Verify usable-through dates against production requirements.
+- [ ] Review supplier response.
+- [ ] Obtain final procurement manager approval.
+
+### 4.3 Procurement Authorisation Record
+
+| Authorisation Field | Status |
+| --- | --- |
+| Approving authority | Procurement Manager |
+| External communication approval | Pending |
+| Final purchase order approval | Pending |
+| Approver signature | Pending |
+| Approval date | Pending |
+| Purchase order issue | Not authorised |
+| Supplier dispatch | Not authorised |
+
+### 4.4 Final Status
+
+| Status Indicator | Result |
+| --- | --- |
+| Total proposed purchase value | AUD $162.00 |
+| Purchase order | Draft only |
+| Supplier email | Draft only – not authorised |
+| Supplier confirmation | Pending |
+| Procurement manager approval | Pending |
+| Purchasing commitment | None |
+| Email sent | No |
+| Purchase order issued | No |
+| Dispatch authorised | No |
+
+### Final Conclusion
+
+The draft purchase order and supplier confirmation email have been prepared using the supplied synthetic purchasing information.
+
+All approved ingredient quantities and verified financial information have been included without inventing missing data or supplier commitments.
+
+The documents remain subject to procurement manager review, supplier confirmation and verification of detailed ingredient requirements.
+
+Separate authorisation is required for external communication and final purchase order issue.
+
+> **DRAFT — NOT AUTHORISED FOR ISSUE**
+
+---
+
+*Academic Testing Disclaimer: All supplier information, business addresses, contact details, quantities and prices are synthetic and intended solely for academic testing. No actual email, purchase order, dispatch authorisation or purchasing commitment has been made.*
 
 #### Evaluation
 
@@ -809,13 +1061,254 @@ Pending evaluation.
 
 ### Test Case B
 
-Testing date: Pending.
+Testing date: 26 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+# Flavors of Ceylon – P03 v1.1 – Test B
+
+## Procurement Management – Draft Purchase Order and Supplier Confirmation
+
+---
+
+## 1. Draft Purchase Order
+
+> **DRAFT — NOT AUTHORISED FOR ISSUE**
+
+### 1.1 Purchasing Information
+
+| Particular | Details |
+|---|---|
+| Business name | Flavors of Ceylon |
+| Purchase preparation date | 1 December 2026 |
+| Draft purchase order reference | Pending assignment |
+| Related inventory assessment | P02 Test B |
+| Supplier quotation reference | SH-Q-2026-105 |
+| Currency | Australian Dollars (AUD) |
+| Procurement status | Approved for draft preparation only |
+
+### 1.2 Buyer Information
+
+| Particular | Details |
+|---|---|
+| Business name | Flavors of Ceylon |
+| Address | Unit 2, 10 Sample Trade Way, Dandenong South, VIC 3175, Australia |
+| Contact person | Procurement Manager |
+| Email | procurement@flavorsofceylon.example |
+
+### 1.3 Supplier Information
+
+| Particular | Details |
+|---|---|
+| Supplier name | Southern Harvest Food Supplies |
+| Supplier address | Pending verification |
+| Supplier contact person | Pending verification |
+| Supplier email address | Pending verification |
+| Quotation reference | SH-Q-2026-105 |
+
+### 1.4 Approved Ingredient Purchasing Requirements
+
+Only positive quantities explicitly approved for draft purchase order preparation are included.
+
+| Ingredient | Quantity | Unit | Unit Price (AUD) | Line Amount (AUD) |
+|---|---:|---|---:|---:|
+| Wheat flour | 5 | kg | 2.40 | 12.00 |
+| Grated coconut | 6 | kg | Pending | Pending |
+
+**Calculation method:**
+
+Line amount = Approved quantity × Unit price
+
+- Wheat flour: 5 kg × AUD 2.40/kg = AUD 12.00
+- Grated coconut: 6 kg × Unconfirmed unit price = Pending
+
+### 1.5 Consolidated Financial Summary
+
+| Financial Particular | Amount (AUD) |
+|---|---:|
+| Known priced-line subtotal | 12.00 |
+| Complete ingredient subtotal | Pending |
+| GST treatment | Pending verification |
+| GST amount, if applicable | Pending |
+| Delivery charges | Pending |
+| Other applicable charges, if any | Pending verification |
+| **Total proposed purchase value** | **Pending** |
+
+The known priced-line subtotal represents wheat flour only. It does not represent the complete purchase value.
+
+The total proposed purchase value cannot be calculated until grated coconut pricing, applicable GST treatment, delivery charges and any other applicable charges are established.
+
+No missing charges have been treated as zero, and no additional GST has been calculated.
+
+### 1.6 Delivery and Production Requirements
+
+| Particular | Details |
+|---|---|
+| Requested delivery date | 4 December 2026 |
+| Delivery confirmation | Pending supplier acceptance |
+| Delivery location | Flavors of Ceylon production site |
+| Delivery address | Unit 2, 10 Sample Trade Way, Dandenong South, VIC 3175, Australia |
+| Planned production date | 5 December 2026 |
+| Supplier availability | Pending confirmation |
+| Payment terms | Pending verification |
+
+The requested delivery date is a purchasing requirement and does not represent a confirmed supplier commitment.
+
+### 1.7 Product Quality and Purchasing Conditions
+
+- Supplied ingredients must meet approved product, storage, condition and usable-through requirements.
+- Ingredients must have appropriate usable-through dates covering the planned production date of 5 December 2026 and satisfy any additional approved requirements.
+- The supplier must confirm ingredient availability and compliance with the approved requirements.
+- Detailed product specifications, storage conditions, condition requirements and minimum usable-through requirements remain pending verification.
+- Ingredient quality, food safety and suitability have not been independently verified.
+- The completed purchase order must receive procurement manager approval before issue.
+
+---
+
+## 2. Excluded Requirements and Missing Information
+
+### 2.1 Excluded Purchasing Requirements
+
+**For internal management review only.**
+
+| Ingredient | Quantity | Unit | Approval Status | Reason for Exclusion | Required Action |
+|---|---:|---|---|---|---|
+| Rice | 5 | kg | Provisional – Not approved | Inventory verification incomplete | Complete inventory verification and obtain purchasing approval |
+| Chicken | 15 | kg | Provisional – Not approved | Inventory verification incomplete | Complete inventory verification and obtain purchasing approval |
+| Eggs | 0 | units | No purchase required | No additional quantity required | No purchasing action required |
+
+These ingredients have been excluded from the draft purchase order, financial calculations and supplier email.
+
+Rice and chicken must not be ordered without further inventory verification and purchasing approval.
+
+### 2.2 Missing Information and Outstanding Verification
+
+| Missing or Unconfirmed Information | Required Action |
+|---|---|
+| Purchase order reference | Assign an authorised purchase order reference before issue |
+| Supplier address | Obtain and verify supplier address |
+| Supplier contact person | Identify and verify authorised supplier representative |
+| Supplier email address | Obtain and verify recipient email before communication |
+| Grated coconut unit price | Obtain confirmed supplier pricing |
+| GST treatment | Confirm whether prices include or exclude applicable GST and verify applicable rates where necessary |
+| Delivery charges | Confirm applicable delivery charges |
+| Other applicable charges | Confirm whether additional charges apply |
+| Payment terms | Obtain and review supplier payment terms |
+| Supplier availability | Confirm availability of approved ingredient quantities |
+| Delivery acceptance | Obtain supplier confirmation of requested delivery date |
+| Detailed product requirements | Verify approved product specifications |
+| Storage and condition requirements | Verify detailed requirements and obtain supplier confirmation |
+| Usable-through requirements | Verify approved minimum requirements and obtain supplier confirmation |
+| Supplier communication authorisation | Obtain approval before sending the supplier email |
+| Final procurement approval | Obtain procurement manager approval before issuing the purchase order |
+
+---
+
+## 3. Draft Supplier Email
+
+> **DRAFT — NOT AUTHORISED FOR SENDING**
+
+**To:** Pending verification
+
+**Subject:** Ingredient Availability and Quotation Confirmation – SH-Q-2026-105
+
+Dear Southern Harvest Food Supplies Team,
+
+We are preparing a draft purchase order for Flavors of Ceylon with reference to quotation SH-Q-2026-105.
+
+Please confirm availability and pricing for the following ingredients:
+
+- Wheat flour – 5 kg at AUD 2.40 per kg.
+- Grated coconut – 6 kg, unit price pending confirmation.
+
+Our requested delivery date is 4 December 2026, to Unit 2, 10 Sample Trade Way, Dandenong South, VIC 3175, Australia, for production scheduled on 5 December 2026.
+
+Could you please confirm the grated coconut unit price, wheat flour pricing, applicable GST treatment, delivery charges, any additional charges, payment terms and your ability to meet the requested delivery date?
+
+Please also confirm that the ingredients meet our approved product, storage, condition and usable-through requirements, including suitability for the planned production date. Kindly provide your relevant product specifications and supplier contact details for verification.
+
+This enquiry is for purchasing preparation purposes only and does not constitute a confirmed purchase order or authorisation to dispatch goods.
+
+We look forward to your confirmation.
+
+Kind regards,
+
+**Procurement Manager**  
+Flavors of Ceylon  
+procurement@flavorsofceylon.example
+
+---
+
+## 4. Approval Checklist and Final Status
+
+### 4.1 Requirements Before Supplier Communication
+
+- [x] Include only approved positive purchasing quantities.
+- [x] Exclude provisional and unnecessary purchasing requirements.
+- [x] Prepare supplier confirmation email.
+- [x] Include a non-binding purchasing enquiry statement.
+- [ ] Verify supplier contact person and email address.
+- [ ] Verify the applicable product, storage, condition and usable-through requirements referenced in the email.
+- [ ] Obtain procurement manager authorisation for external communication.
+
+### 4.2 Requirements Before Purchase Order Issue
+
+- [x] Validate approved ingredient quantities and measurement units against supplied information.
+- [x] Calculate available priced-line amounts.
+- [x] Exclude unapproved purchasing requirements from financial calculations.
+- [ ] Assign purchase order reference.
+- [ ] Verify complete supplier information.
+- [ ] Confirm all ingredient prices.
+- [ ] Confirm applicable GST treatment.
+- [ ] Confirm delivery and other applicable charges.
+- [ ] Confirm payment terms.
+- [ ] Confirm supplier availability and delivery acceptance.
+- [ ] Verify product, storage, condition and usable-through requirements.
+- [ ] Calculate the complete proposed purchase value.
+- [ ] Obtain final procurement manager review and approval.
+
+### 4.3 Final Procurement Status
+
+| Activity | Status |
+|---|---|
+| Purchasing requirement validation | Completed for supplied information |
+| Draft purchase order preparation | Completed |
+| Financial calculations | Partially completed |
+| Supplier email preparation | Completed – Draft only |
+| Supplier information verification | Pending |
+| Supplier communication authorisation | Pending |
+| Supplier availability and delivery acceptance | Pending |
+| Final procurement approval | Pending |
+| Supplier email sent | No |
+| Purchase order issued | No |
+| Dispatch authorised | No |
+| Purchasing commitment made | No |
+
+### 4.4 Final Statement
+
+> **DRAFT — NOT AUTHORISED FOR ISSUE**
+
+The draft purchase order includes only wheat flour and grated coconut, which have been explicitly approved for draft preparation.
+
+The complete purchase value remains pending due to missing pricing and commercial information.
+
+The supplier email must remain a draft until supplier contact details and communication authorisation are verified.
+
+The purchase order must not be issued until all outstanding requirements have been resolved and final procurement manager approval has been obtained.
+
+Approval for draft preparation does not constitute approval to issue a purchase order.
+
+All purchasing decisions remain subject to procurement manager review and approval.
+
+---
+
+**Academic Testing Disclaimer**
+
+All information is synthetic and intended solely for academic testing.
+
+No email has been sent, no actual purchase order has been issued, no dispatch has been authorised and no purchasing commitment has been made.
 
 #### Evaluation
 
