@@ -9,7 +9,7 @@
 | Business Function | Procurement |
 | Initial Version | v1.0 |
 | Data Type | Synthetic business data |
-| Testing Status | In Progress |
+| Testing Status | Completed — v1.1 Selected |
 
 ## 2. Testing Objective
 
@@ -1057,7 +1057,27 @@ Separate authorisation is required for external communication and final purchase
 
 #### Evaluation
 
-Pending evaluation.
+The revised response correctly prepared a draft
+purchase order for 15 kg of wheat flour and
+12 kg of chicken.
+
+The ingredient subtotal was AUD 150.00, with
+a delivery charge of AUD 12.00, resulting in
+a total proposed purchase value of AUD 162.00.
+
+GST-inclusive pricing was handled correctly.
+
+The response followed the requested four-section
+structure and introduced separate approval
+requirements for supplier communication and
+final purchase order issue.
+
+However, several subsections contained repeated
+financial information and approval conditions.
+
+Evaluation score: 9/10 (90%).
+
+Status: Passed with minor reporting limitations.
 
 ### Test Case B
 
@@ -1312,7 +1332,29 @@ No email has been sent, no actual purchase order has been issued, no dispatch ha
 
 #### Evaluation
 
-Pending evaluation.
+The revised response correctly included 5 kg of
+wheat flour and 6 kg of grated coconut.
+
+Provisional rice and chicken requirements were
+excluded from the purchase order, financial
+calculations and supplier email.
+
+The known priced-line subtotal of AUD 12.00
+was calculated correctly.
+
+The final purchase order total remained pending
+because pricing, GST treatment and delivery
+charges were incomplete.
+
+Missing supplier information and purchasing
+references were not invented.
+
+The revised response introduced clearer approval
+controls and removed unnecessary self-assessment.
+
+Evaluation score: 10/10 (100%).
+
+Status: Passed.
 
 ---
 
@@ -1321,31 +1363,44 @@ Pending evaluation.
 | Version | Test A | Test B | Combined Score |
 |---|---:|---:|---:|
 | v1.0 | 9/10 | 9/10 | 18/20 (90%) |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 9/10 | 10/10 | 19/20 (95%) |
 
-### Initial Evaluation Scores
+### Final Evaluation Scores
 
 | Criterion | Test A | Test B |
 |---|---:|---:|
 | Accuracy | 2 | 2 |
 | Completeness | 2 | 2 |
 | Consistency | 2 | 2 |
-| Business Relevance | 1 | 1 |
+| Business Relevance | 1 | 2 |
 | Responsible AI | 2 | 2 |
-| Total | 9/10 | 9/10 |
+| Total | 9/10 | 10/10 |
 
-### Improvement Opportunities
+Absolute improvement: 5 percentage points.
 
-- Introduce a concise procurement document structure.
-- Consolidate financial calculations.
-- Standardise incomplete financial information handling.
-- Explicitly separate approved and excluded purchases.
-- Distinguish communication approval from order approval.
-- Remove unnecessary AI-generated test assessments.
-- Retain all existing procurement safeguards.
+Relative improvement in evaluation score: 5.56%.
 
-All numerical calculations were correct in the
-initial test responses.
+### Final Observations
+
+The revised prompt retained correct financial
+calculations and responsible procurement behaviour.
+
+The four-section reporting structure improved
+document organisation.
+
+Separate supplier communication and purchase
+order approvals strengthened decision boundaries.
+
+Unnecessary AI-generated self-assessment was
+removed from the challenging scenario.
+
+Some repeated information remains, particularly
+in the standard procurement scenario.
+
+Final selected version: v1.1.
+
+No further refinement is required within the
+current academic testing scope.
 
 The evaluation measures response quality under
 synthetic scenarios rather than actual commercial
@@ -1368,6 +1423,5 @@ will be issued as part of this academic exercise.
 
 ## Related Evidence
 
-- [P03 Prompt](../02-prompt-library/P03-supplier-purchase-order.md)
-- [P02 Final Evaluation](../05-evaluation/P02-final-evaluation.md)
-- [Testing Evidence Index](README.md)
+- [P03 Iteration Log](../04-iteration-logs/P03-iteration-log.md)
+- [P03 Final Evaluation](../05-evaluation/P03-final-evaluation.md)
