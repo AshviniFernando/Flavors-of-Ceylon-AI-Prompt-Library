@@ -12,9 +12,9 @@ demand estimates for Flavors of Ceylon.
 
 | Version | Change Made | Observed Effect | Lesson Learned |
 |---|---|---|---|
-| v1.0 | Initial role-based and contextual forecasting prompt | Accurate forecasts for complete data, but limitations in handling uncertainty and production requirements | Clear business context is useful, but additional constraints are required for reliable decision support |
-| v1.1 | Introduced data validation, standard calculations, minimum data requirements, reliability classification and production planning safeguards | Awaiting retesting | Pending evaluation |
-| v1.2 | Pending further refinement if required | Pending | Pending |
+| v1.0 | Initial role-based and contextual forecasting prompt | Accurate calculations for complete data, but limitations in uncertainty handling and production recommendations | Business context alone is insufficient for reliable operational decision support |
+| v1.1 | Added data validation, standard forecasting formulas, minimum observations, reliability classification and production safeguards | Both test scenarios satisfied all selected evaluation criteria; combined score increased from 80% to 100% | Explicit rules and decision boundaries improve output transparency and responsible AI behaviour |
+| v1.2 | Proposed report optimisation and production capacity handling | Pending development and testing | Pending evaluation |
 
 ---
 
@@ -161,15 +161,81 @@ This expected effect has not yet been verified.
 
 ### Observed Effect
 
-Pending actual v1.1 testing.
+The revised prompt successfully addressed the
+major limitations identified during v1.0 testing.
+
+Test Case A produced accurate forecasts for all
+five products, resulting in total estimated demand
+of 470 units.
+
+The response included complete data validation,
+standardised reliability classifications and
+transparent calculations for every product.
+
+Test Case B correctly handled missing records
+and excluded the stockout-affected chicken kottu
+observation.
+
+The pol sambol forecast was withheld because
+only two usable historical observations were
+available.
+
+A partial subtotal of 390 units was correctly
+reported for the four forecastable products.
+
+Both responses withheld manufacturing quantities
+because verified inventory, safety stock and
+production capacity information was unavailable.
+
+### Evaluation Results
+
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 2 | 2 |
+| Responsible AI | 2 | 2 |
+| Total | 10/10 | 10/10 |
+
+Combined score: 20/20 (100%).
+
+The combined evaluation score improved by
+20 percentage points compared with v1.0.
 
 ### Remaining Limitations
 
-Pending actual v1.1 evaluation.
+The generated reports contain lengthy explanations
+and some repeated information.
+
+The linear forecasting method has limited ability
+to represent irregular or seasonal demand patterns.
+
+The numerical production requirement calculation
+and production capacity checks could not be
+evaluated because neither test scenario supplied
+the necessary operational information.
+
+Further testing is required to assess these
+production planning functions.
 
 ### Lesson Learned
 
-Pending actual v1.1 evaluation.
+Explicit forecasting rules and data validation
+constraints can improve the consistency and
+transparency of AI-generated business information.
+
+Withholding unsupported recommendations is
+sometimes more valuable than providing a complete
+but unreliable numerical output.
+
+A successful evaluation against selected test
+criteria does not guarantee reliable performance
+in every operational scenario.
+
+AI prompt refinement should consider output
+efficiency, practical business usability and
+responsible decision-making alongside accuracy.
 
 ---
 
@@ -202,22 +268,27 @@ Pending.
 | Version | Test A Score | Test B Score | Combined Score | Status |
 |---|---:|---:|---:|---|
 | v1.0 | 9/10 | 7/10 | 16/20 (80%) | Evaluated |
-| v1.1 | Pending | Pending | Pending | Awaiting retesting |
-| v1.2 | Pending | Pending | Pending | Not developed |
+| v1.1 | 10/10 | 10/10 | 20/20 (100%) | Evaluated |
+| v1.2 | Pending | Pending | Pending | Proposed |
 
 ## 7. Current Development Status
 
-Initial v1.0 testing and evaluation are complete.
+Initial v1.0 and revised v1.1 testing and evaluation
+have been completed.
 
-The v1.1 prompt has been developed based on the
-observed limitations of the original responses.
+The revised prompt achieved a combined evaluation
+score of 20/20 across the two original scenarios.
 
-The next stage is to repeat both original test
-scenarios using the revised prompt.
+Further targeted refinement is proposed to improve
+report efficiency and production capacity handling.
 
-The evaluation measures AI response quality and
-does not establish actual commercial forecasting
-accuracy.
+An additional synthetic scenario will be used
+to evaluate numerical production requirements
+and capacity limitations.
+
+All evaluation results relate to the selected
+academic test scenarios rather than actual
+commercial business performance.
 
 ## 8. Related Evidence
 
