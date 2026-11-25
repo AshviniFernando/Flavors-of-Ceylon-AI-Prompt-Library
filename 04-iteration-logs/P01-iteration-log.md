@@ -12,9 +12,9 @@ demand estimates for Flavors of Ceylon.
 
 | Version | Change Made | Observed Effect | Lesson Learned |
 |---|---|---|---|
-| v1.0 | Initial role-based and contextual forecasting prompt | Accurate calculations for complete data, but limitations in uncertainty handling and production recommendations | Business context alone is insufficient for reliable operational decision support |
-| v1.1 | Added data validation, standard forecasting formulas, minimum observations, reliability classification and production safeguards | Both test scenarios satisfied all selected evaluation criteria; combined score increased from 80% to 100% | Explicit rules and decision boundaries improve output transparency and responsible AI behaviour |
-| v1.2 | Proposed report optimisation and production capacity handling | Pending development and testing | Pending evaluation |
+| v1.0 | Initial role-based and contextual forecasting prompt | Correct basic forecasts but limitations in uncertainty and production planning; 80% evaluation score | Business context alone is insufficient for reliable decision support |
+| v1.1 | Added data validation, standard forecasting formulas, reliability classifications and production safeguards | Original weaknesses addressed; 100% across three evaluated scenarios | Explicit rules improve transparency and responsible AI behaviour |
+| v1.2 | Added standardised capacity calculations, shortfall analysis and a five-section reporting structure | Retained numerical accuracy and safeguards while improving output standardisation; 100% across three corrected scenarios | Prompt refinement can improve business usability without increasing numerical evaluation scores |
 
 ---
 
@@ -352,13 +352,87 @@ Expected answers should be used by the evaluator
 after testing rather than supplied to the AI
 before it generates a response.
 
+### Observed Effect — Corrected Retesting
+
+All three corrected test scenarios satisfied
+the selected evaluation criteria.
+
+Test Case A produced a total estimated demand
+of 470 units.
+
+Test Case B correctly withheld an insufficient-data
+forecast and reported a partial subtotal of
+390 units across four products.
+
+Test Case C produced 345 units of required
+production and 325 units of capacity-limited
+production.
+
+The response correctly distinguished the
+20-unit production shortfall into 10 units
+of estimated unmet customer demand and
+10 units of safety stock shortfall.
+
+The final responses retained the required
+forecasting calculations and human approval
+safeguards.
+
+The five-section report structure was followed,
+with concise management summaries and no
+unrequested charts.
+
+### Evaluation Results
+
+| Criterion | Test A | Test B | Test C |
+|---|---:|---:|---:|
+| Accuracy | 2 | 2 | 2 |
+| Completeness | 2 | 2 | 2 |
+| Consistency | 2 | 2 | 2 |
+| Business Relevance | 2 | 2 | 2 |
+| Responsible AI | 2 | 2 | 2 |
+| Total | 10/10 | 10/10 | 10/10 |
+
+Combined score: 30/30 (100%).
+
 ### Remaining Limitations
 
-Pending final evaluation.
+- Limited historical forecasting period.
+- No modelling of seasonality or sudden changes.
+- No validation against actual future sales.
+- Some repetition remains in the generated reports.
+- Invalid operational values and shared capacity
+  conflicts have not been directly tested.
+- Repeat-run reliability has not been established.
+- Human verification remains necessary.
 
-### Lesson Learned
+### Final Lesson Learned
 
-Pending actual v1.2 evaluation.
+Effective prompt engineering requires both
+accurate task instructions and a controlled
+testing methodology.
+
+Providing expected answers during testing can
+reduce evaluation validity.
+
+Explicit formulas, structured reporting and
+responsible decision boundaries can improve
+business usability even when evaluation scores
+remain unchanged.
+
+The final prompt should be selected based on
+observed performance and suitability for the
+intended business workflow rather than version
+number alone.
+
+### Final Version Selection
+
+Version v1.2 is selected as the final P01 prompt
+because it retains the successful v1.1 safeguards
+and introduces more standardised operational
+calculations and management reporting.
+
+No further prompt refinement is required within
+the current academic testing scope.
 
 ---
 
@@ -370,7 +444,11 @@ Pending actual v1.2 evaluation.
 |---|---:|---:|---:|
 | v1.0 | 9/10 | 7/10 | 16/20 (80%) |
 | v1.1 | 10/10 | 10/10 | 20/20 (100%) |
-| v1.2 | Pending | Pending | Pending |
+| v1.2 | 10/10 | 10/10 | 20/20 (100%) |
+
+Absolute improvement: 20 percentage points.
+
+Relative improvement in evaluation score: 25%.
 
 ### Additional Production Planning Scenario
 
@@ -378,36 +456,31 @@ Pending actual v1.2 evaluation.
 |---|---:|---|
 | v1.0 | Not tested | Outside initial scope |
 | v1.1 | 10/10 | Evaluated |
-| v1.2 | Pending | Corrected retesting required |
+| v1.2 | 10/10 | Evaluated |
 
-The combined v1.1 score across three scenarios
-is 30/30.
+The final v1.2 prompt achieved 30/30 across
+all three corrected test scenarios.
 
 The initial v1.2 testing attempts are excluded
-from the formal score comparison due to test
-input limitations.
+from formal evaluation due to input limitations.
 
 ## 7. Current Development Status
 
-Initial v1.0 and revised v1.1 testing and evaluation
-have been completed.
+P01 development, testing, iterative improvement
+and final evaluation are complete.
 
-The revised prompt achieved a combined evaluation
-score of 20/20 across the two original scenarios.
+Final selected version: v1.2.
 
-Further targeted refinement is proposed to improve
-report efficiency and production capacity handling.
+Automation potential: Medium.
 
-An additional synthetic scenario will be used
-to evaluate numerical production requirements
-and capacity limitations.
+Operational deployment: Not implemented.
 
-All evaluation results relate to the selected
-academic test scenarios rather than actual
-commercial business performance.
+All outputs require production manager review
+and approval.
 
 ## 8. Related Evidence
 
-- [P01 Current Prompt](../02-prompt-library/P01-product-demand-forecasting.md)
+- [Final P01 Prompt](../02-prompt-library/P01-product-demand-forecasting.md)
 - [P01 Testing Evidence](../03-testing-evidence/P01-testing-evidence.md)
+- [P01 Final Evaluation](../05-evaluation/P01-final-evaluation.md)
 - [Iteration Log Index](README.md)
