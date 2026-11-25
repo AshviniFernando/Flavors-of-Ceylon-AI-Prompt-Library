@@ -1087,11 +1087,97 @@ The evaluation is based on this test output and does not guarantee performance a
 
 ### Observed Improvements
 
-Pending.
+- Correctly validated all 20 historical sales records
+  in Test Case A.
+- Generated accurate forecasts for all five products,
+  with a total estimated demand of 470 units.
+- Provided transparent forecasting calculations
+  for every forecasted product.
+- Applied consistent data reliability classifications.
+- Correctly identified all missing sales records
+  in Test Case B.
+- Preserved missing historical observations without
+  estimating or replacing them.
+- Excluded stockout-affected chicken kottu sales
+  from baseline demand calculations.
+- Correctly used actual elapsed weeks when
+  calculating demand forecasts.
+- Withheld the pol sambol forecast because only
+  two usable historical observations were available.
+- Reported 390 units as a partial demand subtotal
+  rather than total business demand.
+- Clearly separated demand estimates from actual
+  manufacturing requirements.
+- Withheld production quantities until inventory,
+  safety stock and capacity information could
+  be verified.
+- Strengthened human review and approval requirements.
 
 ### Remaining Limitations
 
-Pending.
+- The generated reports are lengthy and contain
+  some repeated information across sections.
+- The forecasting method relies on the earliest
+  and latest usable sales observations and may
+  overlook irregular intermediate sales patterns.
+- The method does not account for seasonality,
+  sudden demand changes or external market factors.
+- Data reliability classifications do not represent
+  statistical forecast confidence.
+- The production requirement formula was presented
+  but could not be tested numerically because
+  operational information was unavailable.
+- Forecast accuracy against actual future sales
+  has not been established.
+- Repeat-run consistency has not been evaluated.
+
+### Evaluation Results
+
+| Criterion | Test Case A | Test Case B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 2 | 2 |
+| Responsible AI | 2 | 2 |
+| Total | 10/10 | 10/10 |
+
+Combined evaluation score: 20/20 (100%).
+
+### Version Comparison
+
+| Version | Test A | Test B | Combined Score |
+|---|---:|---:|---:|
+| v1.0 | 9/10 | 7/10 | 16/20 (80%) |
+| v1.1 | 10/10 | 10/10 | 20/20 (100%) |
+
+Absolute improvement: 20 percentage points.
+
+Relative improvement in evaluation score: 25%.
+
+### Evaluation Conclusion
+
+The revised v1.1 prompt successfully addressed
+the major weaknesses identified during initial
+testing.
+
+It improved calculation transparency, missing-data
+handling, reliability classification and responsible
+production planning.
+
+Both scenarios satisfied the selected project
+evaluation criteria.
+
+However, further refinement may improve report
+efficiency and production capacity handling.
+
+Additional testing using complete operational
+information is recommended to evaluate the
+production requirement calculation.
+
+The evaluation results measure response quality
+for the selected synthetic scenarios and do not
+establish actual commercial forecasting accuracy.
 
 ---
 
