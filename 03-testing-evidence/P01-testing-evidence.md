@@ -250,11 +250,75 @@ The production manager should verify missing sales records, monitor product avai
 
 ### Observed Strengths
 
-Pending evaluation.
+- Correctly identified increasing, decreasing and
+  stable product sales trends.
+- Accurately calculated the Test Case A forecasts,
+  with a total estimated demand of 470 units.
+- Correctly calculated the 6.82% estimated increase
+  compared with Week 4 sales.
+- Selected and explained a linear trend forecasting
+  approach.
+- Recognised missing sales records in Test Case B
+  without treating them as zero.
+- Identified the impact of the chicken kottu stockout
+  on recorded sales.
+- Acknowledged forecasting assumptions, data
+  limitations and human review requirements.
 
 ### Observed Weaknesses
 
-Pending evaluation.
+- Production quantities were equated with forecast
+  demand without verified finished-product inventory,
+  safety stock or production capacity information.
+- A missing fish roti sales record was estimated.
+  Although labelled as an estimate, it was not
+  independently verified.
+- Pol sambol demand was estimated using only two
+  available historical observations.
+- Forecast calculation steps were not consistently
+  provided for every product.
+- Qualitative confidence ratings were not supported
+  by standardised classification rules.
+- Test Case B provided a combined production
+  recommendation of 470 units despite differences
+  in individual forecast reliability.
+
+### Initial Evaluation Results
+
+| Criterion | Test Case A | Test Case B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 1 |
+| Business Relevance | 1 | 1 |
+| Responsible AI | 2 | 1 |
+| Total | 9/10 | 7/10 |
+
+Combined evaluation score: 16/20 (80%).
+
+### Initial Evaluation Conclusion
+
+The v1.0 prompt demonstrated strong performance
+when analysing simple historical sales patterns.
+
+However, the challenging scenario revealed
+opportunities to improve missing-data handling,
+forecast calculation transparency, data reliability
+classification and production decision support.
+
+Although both scenarios produced an estimated
+demand of 470 units, the second scenario contained
+greater uncertainty.
+
+The next prompt version will introduce explicit
+data validation rules, a standard forecasting
+method, minimum data requirements and clearer
+separation between demand forecasts and production
+recommendations.
+
+These evaluation scores measure the quality of
+the AI responses against the project criteria.
+They do not measure actual future sales accuracy.
 
 ---
 
