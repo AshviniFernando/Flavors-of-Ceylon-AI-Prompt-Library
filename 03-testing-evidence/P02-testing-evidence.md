@@ -9,7 +9,7 @@
 | Business Function | Inventory Management |
 | Initial Version | v1.0 |
 | Data Type | Synthetic business data |
-| Testing Status | In Progress |
+| Testing Status | Completed — v1.1 Selected |
 
 ## 2. Testing Objective
 
@@ -691,7 +691,28 @@ All supplied dates and quantities are synthetic and do not represent real food s
 
 #### Evaluation
 
-Pending evaluation.
+The revised prompt correctly calculated all
+ingredient replenishment and surplus quantities.
+
+Established replenishment requirements totalled
+27 kg, consisting of 15 kg of wheat flour and
+12 kg of chicken.
+
+No provisional replenishment was required.
+
+The response correctly classified eligible
+inventory, identified expiry attention requirements
+and used First Expiry, First Out (FEFO) terminology.
+
+Missing batch identifiers were recognised as a
+traceability limitation.
+
+The requested reporting structure and human
+approval safeguards were maintained.
+
+Evaluation score: 10/10 (100%).
+
+Status: Passed.
 
 ### Test Case B
 
@@ -910,7 +931,39 @@ The inventory assessment identifies four ingredient shortages and an egg surplus
 
 #### Evaluation
 
-Pending evaluation.
+The revised prompt correctly assessed all ten
+inventory batches and calculated eligible stock.
+
+All replenishment calculations were correct.
+
+Established replenishment requirements:
+
+- Wheat flour: 5 kg.
+- Grated coconut: 6 kg.
+- Subtotal: 11 kg.
+
+Provisional replenishment requirements:
+
+- Rice: 5 kg.
+- Chicken: 15 kg.
+- Subtotal: 20 kg.
+
+Total indicative replenishment: 31 kg.
+
+The response correctly identified 12 surplus eggs
+and 14 kg of eligible stock requiring expiry
+attention.
+
+Expired and unverified inventory remained excluded
+from eligible stock calculations.
+
+The response introduced qualitative action
+priorities without defined classification
+thresholds. Some repeated information also remained.
+
+Evaluation score: 9/10 (90%).
+
+Status: Passed with minor reporting limitations.
 
 ---
 
@@ -919,32 +972,47 @@ Pending evaluation.
 | Version | Test A | Test B | Combined Score |
 |---|---:|---:|---:|
 | v1.0 | 9/10 | 8/10 | 17/20 (85%) |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 10/10 | 9/10 | 19/20 (95%) |
 
-### Initial Evaluation Scores
+### Final Evaluation Scores
 
 | Criterion | Test A | Test B |
 |---|---:|---:|
-| Accuracy | 1 | 1 |
+| Accuracy | 2 | 2 |
 | Completeness | 2 | 2 |
 | Consistency | 2 | 1 |
 | Business Relevance | 2 | 2 |
 | Responsible AI | 2 | 2 |
-| Total | 9/10 | 8/10 |
+| Total | 10/10 | 9/10 |
 
-### Improvement Opportunities
+Absolute improvement: 10 percentage points.
 
-- Standardise batch eligibility classifications.
-- Distinguish established replenishment requirements
-  from provisional purchasing quantities.
-- Standardise measurement unit validation.
-- Use correct FEFO terminology.
-- Introduce concise reporting requirements.
-- Maintain appropriate human review and approval.
+Relative improvement in evaluation score: 11.76%.
 
-The evaluation measures response quality using
-synthetic scenarios rather than actual commercial
-inventory management performance.
+### Final Observations
+
+The revised prompt retained correct numerical
+calculations while improving inventory eligibility
+classification, purchasing transparency and
+responsible inventory management.
+
+Established and provisional replenishment
+requirements were clearly separated.
+
+Correct FEFO terminology and appropriate human
+approval requirements were maintained.
+
+Minor limitations remain in subjective action
+priority classifications and repeated information.
+
+Final selected version: v1.1.
+
+No further refinement is required within the
+current academic testing scope.
+
+The results measure response quality against
+selected synthetic scenarios, not actual
+commercial inventory management performance.
 
 ## 8. Testing Integrity
 
@@ -963,5 +1031,5 @@ commitments require appropriate human approval.
 
 ## Related Evidence
 
-- [P02 Prompt](../02-prompt-library/P02-inventory-and-replenishment.md)
-- [Testing Evidence Index](README.md)
+- [P02 Iteration Log](../04-iteration-logs/P02-iteration-log.md)
+- [P02 Final Evaluation](../05-evaluation/P02-final-evaluation.md)
