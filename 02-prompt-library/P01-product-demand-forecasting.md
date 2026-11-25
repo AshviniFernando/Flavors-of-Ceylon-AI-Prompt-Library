@@ -6,7 +6,7 @@
 | Business Function | Demand Planning |
 | Workflow | Planning and Manufacturing |
 | Current Version | v1.2 |
-| Status | Further Refined — Awaiting Final Testing |
+| Status | Final Version — Tested and Evaluated |
 | Prompting Strategy | Role-based, contextual, constraint-based and structured-output prompting |
 
 ---
@@ -264,18 +264,26 @@ sales can further reduce forecasting reliability.
 
 ## 4. Automation Potential
 
-Level: Medium — Preliminary assessment.
+Level: Medium — Final evaluated classification.
 
-AI can support data validation, transparent
-forecast calculations, sales trend analysis and
-draft planning recommendations.
+AI can assist with historical sales analysis,
+transparent forecasting calculations, data
+validation, inventory-based production
+requirements and capacity shortfall analysis.
 
-However, staff must verify historical data,
-forecast calculations, finished-product inventory,
-production capacity and operational requirements.
+Testing demonstrated successful performance
+across three selected synthetic business
+scenarios.
 
-AI forecasts must not independently authorise
-production decisions.
+However, production managers must verify
+business information, operational feasibility
+and manufacturing decisions.
+
+AI supports decision-making and must not
+independently authorise production.
+
+Actual commercial automation performance has
+not been measured.
 
 ## 5. Risks and Limitations
 
@@ -303,9 +311,9 @@ statistical confidence intervals.
 
 | Version | Change | Status |
 |---|---|---|
-| v1.0 | Initial demand forecasting prompt | Evaluated — 80% |
-| v1.1 | Added data validation, standard forecasting rules, reliability classification and production safeguards | Evaluated — 100% |
-| v1.2 | Added explicit production capacity calculations, demand and safety stock shortfall analysis, and concise management reporting | Awaiting final testing |
+| v1.0 | Initial demand forecasting prompt | Evaluated — 80% across Tests A and B |
+| v1.1 | Added data validation, forecasting rules, reliability classification and production safeguards | Evaluated — 100% across Tests A, B and C |
+| v1.2 | Added explicit capacity calculations, shortfall analysis and structured management reporting | Final Selected Version — 100% across three corrected tests |
 
 ## Reason for Revision
 
@@ -340,14 +348,31 @@ to improve management usability.
 The effectiveness of these changes will be
 evaluated through further practical testing.
 
-## Testing Evidence
+## Testing Evidence and Final Evaluation
 
-- [P01 Testing Inputs and Actual Outputs](../03-testing-evidence/P01-testing-evidence.md)
-- [P01 Iteration Log and Evaluation](../04-iteration-logs/P01-iteration-log.md)
+- [Testing Inputs and Actual Outputs](../03-testing-evidence/P01-testing-evidence.md)
+- [Iteration Log and Version History](../04-iteration-logs/P01-iteration-log.md)
+- [Final Evaluation and Business Impact](../05-evaluation/P01-final-evaluation.md)
 
-v1.0 evaluation score: 16/20 (80%).
+### Final Performance
 
-v1.1 evaluation score: 20/20 (100%) across
-the two original test scenarios.
+| Evaluation Measure | Result |
+|---|---|
+| Final Version | v1.2 |
+| Test A | 10/10 |
+| Test B | 10/10 |
+| Test C | 10/10 |
+| Combined Final Score | 30/30 (100%) |
+| Comparable Initial Score | 16/20 (80%) |
+| Comparable Final Score | 20/20 (100%) |
+| Automation Potential | Medium |
+| Development Status | Completed |
 
-v1.2 final testing and evaluation are pending.
+The final version is suitable for supervised
+academic decision-support scenarios.
+
+It has not been commercially deployed or
+validated against actual future sales.
+
+All forecasts and production recommendations
+require human review and approval.
