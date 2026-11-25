@@ -2258,3 +2258,870 @@ from the actual AI testing instructions.
 ### Corrected v1.2 Retesting Status
 
 Pending corrected testing.
+
+---
+
+## 10. Corrected v1.2 Retesting
+
+### Testing Methodology
+
+All three scenarios were repeated using the exact
+v1.2 prompt and complete original synthetic input
+data.
+
+Expected results and evaluation benchmarks were
+not supplied to the AI.
+
+Each scenario was conducted in a separate fresh
+conversation.
+
+### Corrected Test A — Complete Historical Sales
+
+Testing date: 25 November 2026
+
+AI tool and model: ChatGPT
+
+Input: Original Test Case A data.
+
+#### Actual AI Output
+
+
+# Flavors of Ceylon – Weekly Demand Forecast and Production Planning Report
+
+## Test Information
+
+| Item | Description |
+|---|---|
+| Business | Flavors of Ceylon |
+| Industry | Australian Food Manufacturing |
+| Prompt ID | P01 |
+| Prompt Version | v1.2 |
+| Test Scenario | Test A – Complete Historical Sales Data (Retest) |
+| Historical Period | Weeks 1–4 |
+| Forecast Period | Week 5 |
+| Forecasting Method | Simple Linear Trend Extrapolation |
+
+---
+
+## 1. Data Validation
+
+The supplied historical sales data has been reviewed for completeness, consistency and reported operational disruptions.
+
+| Product | Week 1 | Week 2 | Week 3 | Week 4 | Validation Status |
+|---|---:|---:|---:|---:|---|
+| Fish roti | 80 | 100 | 120 | 140 | Valid |
+| Vegetable rolls | 120 | 110 | 100 | 90 | Valid |
+| Chicken kottu | 50 | 60 | 70 | 80 | Valid |
+| Rice and curry packs | 60 | 60 | 60 | 60 | Valid |
+| Pol sambol sachets | 40 | 50 | 60 | 70 | Valid |
+
+### Validation Findings
+
+- All 20 historical sales records are available and valid.
+- No missing, negative or inconsistent sales figures were identified.
+- No stockouts or unusual promotional events were reported.
+- All five products have four usable weekly observations.
+- No historical records require exclusion.
+- Historical figures represent recorded sales, while Week 5 forecasts represent estimated customer demand.
+
+---
+
+## 2. Demand Forecast and Calculation Breakdown
+
+### Week 5 Demand Forecast
+
+| Product | Usable Observations | Missing or Excluded Records | Average Weekly Change | Sales Trend | Week 5 Forecast (Units) | Data Reliability | Recommended Planning Action |
+|---|---:|---|---:|---|---:|---|---|
+| Fish roti | 4 | None | +20 | Increasing | 160 | High | Plan for higher demand |
+| Vegetable rolls | 4 | None | -10 | Decreasing | 80 | High | Review production requirements to avoid excess inventory |
+| Chicken kottu | 4 | None | +10 | Increasing | 90 | High | Prepare for increased demand |
+| Rice and curry packs | 4 | None | 0 | Stable | 60 | High | Maintain the existing demand planning level |
+| Pol sambol sachets | 4 | None | +10 | Increasing | 80 | High | Prepare for increased demand |
+| **Total Estimated Demand** | | | | | **470** | | |
+
+### Key Forecast Indicators
+
+| Indicator | Result |
+|---|---:|
+| Week 4 recorded sales | 440 units |
+| Week 5 estimated customer demand | 470 units |
+| Estimated increase | 30 units |
+| Estimated demand growth compared with Week 4 sales | 6.82% |
+| Products with increasing sales trends | 3 |
+| Products with decreasing sales trends | 1 |
+| Products with stable sales trends | 1 |
+| Products successfully forecasted | 5 out of 5 |
+
+### Forecasting Formulas
+
+**Average weekly change:**
+
+```
+Average weekly change =
+(Latest usable sales - Earliest usable sales) / Number of elapsed weeks
+```
+
+**Target-week forecast:**
+
+```
+Forecast = Latest usable sales + (Average weekly change × Number of weeks until target week)
+```
+
+### Calculation Breakdown
+
+| Product | Average Weekly Change Calculation | Week 5 Forecast Calculation | Final Forecast |
+|---|---|---|---:|
+| Fish roti | (140 - 80) / 3 = 20 | 140 + (20 × 1) | 160 |
+| Vegetable rolls | (90 - 120) / 3 = -10 | 90 + (-10 × 1) | 80 |
+| Chicken kottu | (80 - 50) / 3 = 10 | 80 + (10 × 1) | 90 |
+| Rice and curry packs | (60 - 60) / 3 = 0 | 60 + (0 × 1) | 60 |
+| Pol sambol sachets | (70 - 40) / 3 = 10 | 70 + (10 × 1) | 80 |
+
+### Total Estimated Week 5 Demand
+
+```
+Total estimated demand = 160 + 80 + 90 + 60 + 80
+                       = 470 units
+```
+
+### Estimated Demand Growth
+
+```
+Week 4 recorded sales = 140 + 90 + 80 + 60 + 70
+                      = 440 units
+
+Estimated growth = ((470 - 440) / 440) × 100
+                 = 6.82%
+```
+
+All calculated forecasts are non-negative whole numbers. No rounding adjustments or zero-value corrections are required.
+
+---
+
+## 3. Production Planning and Capacity Analysis
+
+Although demand forecasts are available for all products, the supplied information does not include:
+
+- Usable finished-product inventory.
+- Target safety stock levels.
+- Product-specific production capacity.
+- Shared production resource availability or other operational restrictions.
+
+Therefore, required production and capacity-limited production cannot be verified.
+
+### Production Planning Results
+
+| Product | Forecast Demand | Usable Inventory | Target Safety Stock | Required Production | Available Capacity | Capacity-Limited Production | Production Shortfall | Estimated Demand Shortfall | Safety Stock Shortfall | Recommended Action |
+|---|---:|---|---|---|---|---|---|---|---|---|
+| Fish roti | 160 | Not supplied | Not supplied | Pending | Not supplied | Pending | Pending | Pending | Pending | Verify operational inputs |
+| Vegetable rolls | 80 | Not supplied | Not supplied | Pending | Not supplied | Pending | Pending | Pending | Pending | Verify operational inputs |
+| Chicken kottu | 90 | Not supplied | Not supplied | Pending | Not supplied | Pending | Pending | Pending | Pending | Verify operational inputs |
+| Rice and curry packs | 60 | Not supplied | Not supplied | Pending | Not supplied | Pending | Pending | Pending | Pending | Verify operational inputs |
+| Pol sambol sachets | 80 | Not supplied | Not supplied | Pending | Not supplied | Pending | Pending | Pending | Pending | Verify operational inputs |
+
+> **Production quantity pending verification.**
+
+No missing operational values have been assumed to be zero.
+
+Projected closing inventory cannot be calculated, and products requiring no additional production cannot yet be identified.
+
+The forecast of 470 units represents estimated customer demand, not confirmed manufacturing requirements.
+
+Production shortfalls, unmet customer demand and safety stock shortfalls cannot be determined until operational inputs are verified.
+
+Unused production capacity must not be assumed to be transferable between products. Shared production resources and operational restrictions require management review before overall manufacturing feasibility can be confirmed.
+
+---
+
+## 4. Assumptions and Limitations
+
+| Category | Assumption or Limitation |
+|---|---|
+| Data source | Only the supplied historical sales information has been used. |
+| Forecasting period | Week 5 immediately follows Week 4. |
+| Demand estimation | Recorded sales are used as a proxy for historical customer demand. |
+| Trend continuation | Historical linear sales trends are assumed to continue into Week 5. |
+| Historical coverage | Four weeks of historical data provide limited evidence of long-term demand behaviour. |
+| Seasonality | The forecasting method does not account for seasonal changes. |
+| Market conditions | Unexpected demand changes, competitor activities and future promotions are not incorporated. |
+| Irregular patterns | No irregular sales patterns were identified within the supplied period. |
+| Data reliability | High reliability reflects historical data completeness and quality, not statistical forecast confidence or guaranteed prediction accuracy. |
+| Production feasibility | Inventory, safety stock, capacity and shared resource constraints remain unverified. |
+| Human oversight | Forecasts and subsequent production calculations require production manager approval. |
+
+---
+
+## 5. Management Summary and Priority Actions
+
+Flavors of Ceylon's estimated Week 5 customer demand is **470 units**, representing a **6.82% increase** compared with Week 4 recorded sales. Fish roti, chicken kottu and pol sambol sachets demonstrate increasing sales trends, while vegetable rolls show declining sales and rice and curry packs remain stable. All products have high data reliability.
+
+### Priority Actions
+
+1. Prioritise planning for products with increasing demand.
+2. Review vegetable roll requirements to minimise potential waste.
+3. Verify inventory levels and target safety stock.
+4. Confirm product-specific capacity and shared resource constraints.
+5. Obtain production manager approval before finalising manufacturing quantities.
+
+---
+
+**Final Status:** Demand forecasting completed successfully. Production quantities remain pending verification.
+
+> **Disclaimer:** All outputs are indicative, intended for decision support and require production manager review before operational implementation.
+
+#### Evaluation
+
+Pending final review.
+
+---
+
+### Corrected Test B — Incomplete Data and Stockouts
+
+Testing date: 25 November 2026
+
+AI tool and model: ChatGPT
+
+Input: Original Test Case B data.
+
+#### Actual AI Output
+
+
+# Flavors of Ceylon – Week 5 Demand Forecast and Production Planning Report
+
+## Test Information
+
+| Item | Details |
+|---|---|
+| Business | Flavors of Ceylon |
+| Industry | Australian food manufacturing |
+| Prompt ID | P01 |
+| Prompt Version | v1.2 |
+| Test Scenario | Test B – Retest |
+| Scenario Description | Incomplete sales records and stockout conditions |
+| Historical Period | Weeks 1–4 |
+| Forecast Period | Week 5 |
+| Forecasting Method | Simple linear trend extrapolation |
+
+---
+
+## 1. Data Validation
+
+The supplied historical sales data were reviewed to identify missing records, stockout-affected observations and data reliability issues.
+
+### Historical Sales Data
+
+| Product | Week 1 | Week 2 | Week 3 | Week 4 | Usable Observations |
+|---|---:|---:|---:|---:|---:|
+| Fish roti | 80 | 100 | Missing | 140 | 3 |
+| Vegetable rolls | 120 | 110 | 100 | 90 | 4 |
+| Chicken kottu | 50 | 60 | 70 | 25 (Stockout) | 3 |
+| Rice and curry packs | 60 | 60 | 60 | 60 | 4 |
+| Pol sambol sachets | 40 | Missing | 60 | Missing | 2 |
+
+### Data Validation Findings
+
+| Product | Identified Issue | Validation Decision |
+|---|---|---|
+| Fish roti | Week 3 reporting system error | Exclude the missing observation without estimating its value. |
+| Vegetable rolls | No identified data issues | Include all four observations. |
+| Chicken kottu | Four-day stockout during Week 4 | Retain 25 units as recorded sales but exclude Week 4 from baseline forecasting. |
+| Rice and curry packs | No identified data issues | Include all four observations. |
+| Pol sambol sachets | Missing Week 2 and Week 4 records | Withhold the forecast because fewer than three usable observations are available. |
+
+### Validation Summary
+
+- Total expected historical records: 20
+- Missing records: 3
+- Stockout-affected records: 1
+- Invalid numerical records identified: 0
+- Total usable observations: 16
+- Products eligible for forecasting: 4 out of 5
+
+Recorded sales represent actual units sold and may not reflect unrestricted customer demand.
+
+Missing records have not been replaced with zero or estimated historical values.
+
+---
+
+## 2. Demand Forecast and Calculation Breakdown
+
+### Week 5 Demand Forecast
+
+| Product | Usable Observations | Missing or Excluded Records | Average Weekly Change | Sales Trend | Week 5 Forecast (Units) | Data Reliability | Recommended Planning Action |
+|---|---:|---|---:|---|---:|---|---|
+| Fish roti | 3 | Week 3 missing | +20 | Increasing | 160 | Medium | Prepare for increasing demand. |
+| Vegetable rolls | 4 | None | -10 | Decreasing | 80 | High | Reduce the demand planning target. |
+| Chicken kottu | 3 | Week 4 stockout | +10 | Increasing | 90 | Medium | Review stock availability and replenishment. |
+| Rice and curry packs | 4 | None | 0 | Stable | 60 | High | Maintain the existing demand planning target. |
+| Pol sambol sachets | 2 | Weeks 2 and 4 missing | N/A | Undetermined | Withheld | Insufficient | Recover missing sales records. |
+| **Forecasted Subtotal** | | | | | **390** | | |
+
+> **Important:** The subtotal of 390 units is not the total business demand because the pol sambol sachets forecast has been withheld.
+
+### Forecast Calculation Methodology
+
+**Average weekly change:**
+
+```text
+Average weekly change =
+(Latest usable sales - Earliest usable sales)
+/ Number of elapsed weeks
+```
+
+**Target-week forecast:**
+
+```text
+Forecast demand =
+Latest usable sales +
+(Average weekly change × Weeks to target)
+```
+
+### 2.1 Fish Roti
+
+- Usable observations: Weeks 1, 2 and 4
+- Earliest usable sales: 80 units
+- Latest usable sales: 140 units
+- Elapsed weeks: 4 - 1 = 3
+- Weeks to target: 5 - 4 = 1
+
+**Average weekly change:**
+
+```text
+(140 - 80) / 3 = 20 units per week
+```
+
+**Week 5 forecast:**
+
+```text
+140 + (20 × 1) = 160 units
+```
+
+**Estimated demand: 160 units**
+
+Week 3 remains missing. The calculation uses actual elapsed weeks rather than the number of available observations.
+
+### 2.2 Vegetable Rolls
+
+- Usable observations: Weeks 1, 2, 3 and 4
+- Earliest usable sales: 120 units
+- Latest usable sales: 90 units
+- Elapsed weeks: 4 - 1 = 3
+- Weeks to target: 5 - 4 = 1
+
+**Average weekly change:**
+
+```text
+(90 - 120) / 3 = -10 units per week
+```
+
+**Week 5 forecast:**
+
+```text
+90 + (-10 × 1) = 80 units
+```
+
+**Estimated demand: 80 units**
+
+### 2.3 Chicken Kottu
+
+- Usable observations: Weeks 1, 2 and 3
+- Earliest usable sales: 50 units
+- Latest usable sales: 70 units
+- Elapsed weeks: 3 - 1 = 2
+- Weeks to target: 5 - 3 = 2
+
+**Average weekly change:**
+
+```text
+(70 - 50) / 2 = 10 units per week
+```
+
+**Week 5 forecast:**
+
+```text
+70 + (10 × 2) = 90 units
+```
+
+**Estimated demand: 90 units**
+
+Week 4 recorded sales of 25 units are excluded because of the reported four-day stockout.
+
+The forecast does not estimate or replace Week 4 historical sales.
+
+### 2.4 Rice and Curry Packs
+
+- Usable observations: Weeks 1, 2, 3 and 4
+- Earliest usable sales: 60 units
+- Latest usable sales: 60 units
+- Elapsed weeks: 4 - 1 = 3
+- Weeks to target: 5 - 4 = 1
+
+**Average weekly change:**
+
+```text
+(60 - 60) / 3 = 0 units per week
+```
+
+**Week 5 forecast:**
+
+```text
+60 + (0 × 1) = 60 units
+```
+
+**Estimated demand: 60 units**
+
+### 2.5 Pol Sambol Sachets
+
+- Usable observations: Weeks 1 and 3
+- Week 1 recorded sales: 40 units
+- Week 3 recorded sales: 60 units
+- Missing observations: Weeks 2 and 4
+- Minimum required observations: 3
+- Available usable observations: 2
+
+**Insufficient data — forecast withheld.**
+
+No numerical forecast or sales trend calculation is provided because the minimum data requirement has not been satisfied.
+
+### Forecasted Demand Subtotal
+
+```text
+160 + 80 + 90 + 60 = 390 units
+```
+
+**Forecasted demand subtotal: 390 units**
+
+**Products successfully forecasted: 4 out of 5**
+
+All calculated forecasts are non-negative whole numbers. No rounding adjustments or negative forecast corrections are required.
+
+The subtotal excludes pol sambol sachets and does not represent total business demand.
+
+---
+
+## 3. Production Planning and Capacity Analysis
+
+The supplied information contains historical sales figures but does not provide verified operational information regarding:
+
+- Usable finished-product inventory.
+- Target safety stock.
+- Product-specific production capacity.
+- Shared production resources or operational restrictions.
+
+Consequently, estimated customer demand cannot be converted into confirmed production quantities.
+
+### Production Planning Results
+
+| Product | Forecast Demand | Usable Inventory | Target Safety Stock | Required Production | Available Capacity | Capacity-Limited Production | Production Shortfall | Estimated Demand Shortfall | Safety Stock Shortfall | Recommended Action |
+|---|---:|---|---|---|---|---|---|---|---|---|
+| Fish roti | 160 | Not supplied | Not supplied | Pending | Not supplied | Pending | Pending | Pending | Pending | Verify operational inputs. |
+| Vegetable rolls | 80 | Not supplied | Not supplied | Pending | Not supplied | Pending | Pending | Pending | Pending | Verify inventory and capacity. |
+| Chicken kottu | 90 | Not supplied | Not supplied | Pending | Not supplied | Pending | Pending | Pending | Pending | Prioritise stock and capacity verification. |
+| Rice and curry packs | 60 | Not supplied | Not supplied | Pending | Not supplied | Pending | Pending | Pending | Pending | Review existing inventory. |
+| Pol sambol sachets | Withheld | Not supplied | Not supplied | Pending | Not supplied | Pending | Pending | Pending | Pending | Recover sales and operational records. |
+
+> **Production quantity pending verification.**
+>
+> This status applies to all five products.
+
+### Production Planning Safeguards
+
+| Operational Consideration | Assessment |
+|---|---|
+| Required production | Cannot be calculated without inventory and safety stock information. |
+| Capacity-limited production | Cannot be calculated without verified product-specific capacity. |
+| Production shortfall | Cannot be determined. |
+| Estimated customer demand shortfall | Cannot be determined. |
+| Projected closing inventory | Cannot be calculated. |
+| Safety stock shortfall | Cannot be determined and must be assessed separately from unmet customer demand. |
+| Products requiring no additional production | None can be confirmed from the supplied information. |
+| Shared production resources | Not specified; management verification is required. |
+| Capacity transfers between products | No transfers assumed. |
+
+The forecasted subtotal of 390 units represents estimated customer demand for four products, not a recommended manufacturing quantity or confirmed production schedule.
+
+---
+
+## 4. Assumptions and Limitations
+
+| Factor | Assumption or Limitation |
+|---|---|
+| Data source | Only supplied historical business information has been used. |
+| Forecasting method | Historical endpoint trends are assumed to continue into Week 5. |
+| Missing data | Missing observations are neither treated as zero nor estimated. |
+| Stockout impact | Chicken kottu Week 4 sales are considered unsuitable for unrestricted demand forecasting. Actual lost demand is unknown. |
+| Promotional activities | No promotional information is supplied. Promotional effects cannot be assessed. |
+| Seasonality | The forecasting method does not account for seasonal demand changes. |
+| Historical period | Four weeks provide limited evidence of longer-term demand behaviour. |
+| Irregular sales patterns | Chicken kottu Week 4 sales decline is associated with a reported stockout. No other irregularities are apparent in the usable observations, although missing data limit assessment. |
+| Data reliability | High, Medium and Insufficient classifications describe data availability and quality, not statistical forecast confidence or guaranteed prediction accuracy. |
+| Unexpected market changes | The forecasting method does not account for unexpected changes in customer demand or market conditions. |
+| Operational feasibility | Manufacturing feasibility cannot be confirmed without verified operational information. |
+| Human oversight | All forecasts and future production quantities require production manager review and approval. |
+
+---
+
+## 5. Management Summary and Priority Actions
+
+Week 5 estimated demand is 390 units across four forecasted products. Fish roti and chicken kottu show increasing trends, vegetable rolls show declining sales, and rice and curry packs remain stable. The pol sambol sachets forecast is withheld due to insufficient data. Production quantities cannot be confirmed without verified operational inputs.
+
+### Priority Actions
+
+1. Prepare for increased fish roti and chicken kottu demand.
+2. Adjust vegetable roll demand planning to 80 units.
+3. Maintain the rice and curry demand target of 60 units.
+4. Recover missing pol sambol and fish roti sales records.
+5. Verify inventory, safety stock, production capacity and shared resource restrictions before approving manufacturing schedules.
+
+---
+
+**Final Assessment:** Demand forecasting completed for four products. Production planning remains pending verification.
+
+**Approval Requirement:** All outputs are for decision support and require production manager review before operational implementation.
+
+#### Evaluation
+
+Pending final review.
+
+---
+
+### Corrected Test C — Inventory and Capacity Constraints
+
+Testing date: 25 November 2026
+
+AI tool and model: ChatGPT
+
+Input: Original Test Case C data.
+
+#### Actual AI Output
+
+# Flavors of Ceylon – Week 5 Demand Forecast and Production Planning Report
+
+## Test Information
+
+| Item | Description |
+|---|---|
+| Business | Flavors of Ceylon |
+| Industry | Australian Food Manufacturing |
+| Prompt ID | P01 |
+| Prompt Version | v1.2 |
+| Test Scenario | Test C – Retest |
+| Forecast Period | Week 5 |
+| Forecasting Method | Simple Linear Trend Extrapolation |
+| Data Status | Synthetic and verified for testing purposes |
+| Purpose | Demand forecasting and production planning |
+
+---
+
+## 1. Data Validation
+
+The supplied historical sales and operational information have been reviewed before forecasting and production planning.
+
+### 1.1 Historical Weekly Sales
+
+| Product | Week 1 | Week 2 | Week 3 | Week 4 |
+|---|---:|---:|---:|---:|
+| Fish roti | 80 | 100 | 120 | 140 |
+| Vegetable rolls | 120 | 110 | 100 | 90 |
+| Chicken kottu | 50 | 60 | 70 | 80 |
+| Rice and curry packs | 60 | 60 | 60 | 60 |
+| Pol sambol sachets | 40 | 50 | 60 | 70 |
+
+### 1.2 Verified Operational Information
+
+| Product | Usable Inventory | Target Safety Stock | Weekly Production Capacity |
+|---|---:|---:|---:|
+| Fish roti | 30 | 10 | 120 |
+| Vegetable rolls | 90 | 5 | 60 |
+| Chicken kottu | 10 | 5 | 100 |
+| Rice and curry packs | 20 | 10 | 60 |
+| Pol sambol sachets | 15 | 5 | 70 |
+
+### 1.3 Data Validation Results
+
+| Validation Criteria | Findings | Status |
+|---|---|---|
+| Historical sales records | All 20 records are available | Pass |
+| Missing sales records | None | Pass |
+| Invalid or inconsistent records | None identified | Pass |
+| Stockout-affected records | None reported | Pass |
+| Unusual promotional events | None reported | Pass |
+| Operational information | Complete for all five products | Pass |
+| Measurement units | Consistently expressed in units | Pass |
+| Shared resource constraints | None reported | Pass |
+| Negative operational values | None identified | Pass |
+
+All five products have four usable historical weekly observations. No historical records require exclusion, correction or estimation.
+
+Historical sales represent recorded units sold, whereas Week 5 forecasts represent estimated customer demand.
+
+---
+
+## 2. Demand Forecast and Calculation Breakdown
+
+### 2.1 Demand Forecast Results
+
+| Product | Usable Observations | Missing or Excluded Records | Average Weekly Change | Sales Trend | Week 5 Forecast (Units) | Data Reliability | Recommended Planning Action |
+|---|---:|---|---:|---|---:|---|---|
+| Fish roti | 4 | None | +20 | Increasing | 160 | High | Prioritise growing demand |
+| Vegetable rolls | 4 | None | -10 | Decreasing | 80 | High | Reduce production requirements |
+| Chicken kottu | 4 | None | +10 | Increasing | 90 | High | Plan for increased demand |
+| Rice and curry packs | 4 | None | 0 | Stable | 60 | High | Maintain stable supply |
+| Pol sambol sachets | 4 | None | +10 | Increasing | 80 | High | Plan for increased demand |
+| **Total** | **20** | **None** | **+30** | **Increasing** | **470** | — | — |
+
+### 2.2 Demand Forecast Overview
+
+| Key Performance Indicator | Result |
+|---|---:|
+| Total estimated Week 5 demand | 470 units |
+| Products with increasing sales trends | 3 |
+| Products with decreasing sales trends | 1 |
+| Products with stable sales trends | 1 |
+| Products with undetermined sales trends | 0 |
+| Products with high data reliability | 5 |
+| Forecasts withheld | 0 |
+
+### 2.3 Forecasting Formulas
+
+**Average weekly change:**
+
+$$
+\text{Average Weekly Change} =
+\frac{\text{Latest Usable Sales} - \text{Earliest Usable Sales}}
+{\text{Number of Elapsed Weeks}}
+$$
+
+**Target-week forecast:**
+
+$$
+\text{Forecast} = L + (C \times N)
+$$
+
+Where:
+
+- L = Latest usable weekly sales.
+- C = Average weekly change.
+- N = Number of weeks between the latest usable observation and the target week.
+
+The elapsed period between Week 1 and Week 4 is three weeks.
+
+The forecast period between Week 4 and Week 5 is one week.
+
+### 2.4 Individual Product Calculations
+
+| Product | Average Weekly Change Calculation | Week 5 Forecast Calculation | Final Forecast |
+|---|---|---|---:|
+| Fish roti | (140 - 80) / 3 = +20 | 140 + (20 x 1) | 160 |
+| Vegetable rolls | (90 - 120) / 3 = -10 | 90 + (-10 x 1) | 80 |
+| Chicken kottu | (80 - 50) / 3 = +10 | 80 + (10 x 1) | 90 |
+| Rice and curry packs | (60 - 60) / 3 = 0 | 60 + (0 x 1) | 60 |
+| Pol sambol sachets | (70 - 40) / 3 = +10 | 70 + (10 x 1) | 80 |
+
+### 2.5 Total Estimated Demand
+
+$$
+160 + 80 + 90 + 60 + 80 = 470
+$$
+
+**Total estimated Week 5 customer demand = 470 units.**
+
+All forecasts are non-negative whole units. No rounding adjustments or forecast withdrawals are required.
+
+---
+
+## 3. Production Planning and Capacity Analysis
+
+### 3.1 Production Planning Results
+
+All quantities are expressed in units.
+
+| Product | Forecast Demand | Usable Inventory | Target Safety Stock | Required Production | Available Capacity | Capacity-Limited Production | Production Shortfall | Estimated Demand Shortfall | Safety Stock Shortfall | Recommended Action |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| Fish roti | 160 | 30 | 10 | 140 | 120 | 120 | 20 | 10 | 10 | Review capacity shortage |
+| Vegetable rolls | 80 | 90 | 5 | 0 | 60 | 0 | 0 | 0 | 0 | No additional production |
+| Chicken kottu | 90 | 10 | 5 | 85 | 100 | 85 | 0 | 0 | 0 | Produce 85 units |
+| Rice and curry packs | 60 | 20 | 10 | 50 | 60 | 50 | 0 | 0 | 0 | Produce 50 units |
+| Pol sambol sachets | 80 | 15 | 5 | 70 | 70 | 70 | 0 | 0 | 0 | Produce 70 units |
+| **Total** | **470** | **165** | **35** | **345** | **410** | **325** | **20** | **10** | **10** | — |
+
+### 3.2 Production Planning Overview
+
+| Key Performance Indicator | Result |
+|---|---:|
+| Estimated customer demand | 470 units |
+| Usable opening inventory | 165 units |
+| Target safety stock | 35 units |
+| Required production | 345 units |
+| Total product-specific production capacity | 410 units |
+| Capacity-limited production | 325 units |
+| Production shortfall | 20 units |
+| Estimated customer demand shortfall | 10 units |
+| Safety stock shortfall | 10 units |
+| Projected closing inventory | 30 units |
+| Estimated customer demand fulfilled | 460 units |
+
+### 3.3 Production Planning Formulas
+
+**Required production:**
+
+$$
+\max(0,\text{Forecast Demand}+\text{Target Safety Stock}-\text{Usable Inventory})
+$$
+
+**Capacity-limited production:**
+
+$$
+\min(\text{Required Production},\text{Available Capacity})
+$$
+
+**Production shortfall:**
+
+$$
+\text{Required Production}-\text{Capacity-Limited Production}
+$$
+
+**Estimated demand shortfall:**
+
+$$
+\max(0,\text{Forecast Demand}-\text{Usable Inventory}-\text{Capacity-Limited Production})
+$$
+
+**Projected closing inventory:**
+
+$$
+\max(0,\text{Usable Inventory}+\text{Capacity-Limited Production}-\text{Forecast Demand})
+$$
+
+**Safety stock shortfall:**
+
+$$
+\max(0,\text{Target Safety Stock}-\text{Projected Closing Inventory})
+$$
+
+### 3.4 Required Production and Capacity Calculations
+
+| Product | Required Production Calculation | Capacity-Limited Production Calculation | Production Shortfall |
+|---|---|---|---:|
+| Fish roti | Max(0, 160 + 10 - 30) = 140 | Min(140, 120) = 120 | 20 |
+| Vegetable rolls | Max(0, 80 + 5 - 90) = 0 | Min(0, 60) = 0 | 0 |
+| Chicken kottu | Max(0, 90 + 5 - 10) = 85 | Min(85, 100) = 85 | 0 |
+| Rice and curry packs | Max(0, 60 + 10 - 20) = 50 | Min(50, 60) = 50 | 0 |
+| Pol sambol sachets | Max(0, 80 + 5 - 15) = 70 | Min(70, 70) = 70 | 0 |
+| **Total** | **345 units** | **325 units** | **20** |
+
+### 3.5 Demand Fulfilment and Closing Inventory Calculations
+
+| Product | Estimated Demand Shortfall | Projected Closing Inventory | Safety Stock Shortfall |
+|---|---|---|---|
+| Fish roti | Max(0, 160 - 30 - 120) = 10 | Max(0, 30 + 120 - 160) = 0 | Max(0, 10 - 0) = 10 |
+| Vegetable rolls | Max(0, 80 - 90 - 0) = 0 | Max(0, 90 + 0 - 80) = 10 | Max(0, 5 - 10) = 0 |
+| Chicken kottu | Max(0, 90 - 10 - 85) = 0 | Max(0, 10 + 85 - 90) = 5 | Max(0, 5 - 5) = 0 |
+| Rice and curry packs | Max(0, 60 - 20 - 50) = 0 | Max(0, 20 + 50 - 60) = 10 | Max(0, 10 - 10) = 0 |
+| Pol sambol sachets | Max(0, 80 - 15 - 70) = 0 | Max(0, 15 + 70 - 80) = 5 | Max(0, 5 - 5) = 0 |
+| **Total** | **10 units** | **30 units** | **10 units** |
+
+### 3.6 Operational Findings
+
+#### Fish Roti – Capacity Constraint
+
+Fish roti requires 140 units of additional production, but its weekly production capacity is limited to 120 units.
+
+The resulting production shortfall of 20 units consists of:
+
+- 10 units of estimated unmet customer demand.
+- 10 units of unmet target safety stock.
+
+> **Management Warning:** Fish roti production capacity is insufficient to satisfy forecast customer demand and achieve the target safety stock.
+
+#### Vegetable Rolls – No Additional Production Required
+
+The existing inventory of 90 units is sufficient to satisfy forecast demand of 80 units and the target safety stock of 5 units.
+
+The projected closing inventory is 10 units.
+
+No additional production is recommended.
+
+#### Chicken Kottu – Sufficient Production Capacity
+
+The required production of 85 units is within the available weekly capacity of 100 units.
+
+Forecast customer demand and target safety stock can both be satisfied.
+
+#### Rice and Curry Packs – Stable Production Requirements
+
+The required production of 50 units is within the available weekly capacity of 60 units.
+
+Forecast customer demand and target safety stock can both be satisfied.
+
+#### Pol Sambol Sachets – Full Capacity Utilisation
+
+The required production of 70 units equals the available weekly production capacity.
+
+There is no remaining product-specific production capacity for unexpected additional demand.
+
+#### Production Capacity Safeguard
+
+Although combined production capacity is 410 units, unused capacity from other products cannot be assumed to resolve the fish roti capacity shortage.
+
+No shared resource constraints or other operational restrictions are reported. Actual manufacturing feasibility remains subject to management review.
+
+---
+
+## 4. Assumptions and Limitations
+
+| Category | Assumption or Limitation |
+|---|---|
+| Data source | Only the supplied synthetic business information has been used. |
+| Historical sales | Recorded sales are used as the basis for estimating future demand. |
+| Forecasting method | Historical linear sales trends are assumed to continue into Week 5. |
+| Historical period | Four weeks of observations provide a limited forecasting history. |
+| Irregular sales patterns | None identified in the supplied historical records. |
+| Seasonality | Seasonal demand changes are not incorporated. |
+| Market uncertainty | Unexpected demand changes and external market conditions are not incorporated. |
+| Data reliability | High reliability indicates complete usable historical records, not statistical forecast confidence or guaranteed prediction accuracy. |
+| Inventory | Supplied opening inventory is assumed usable and available to meet Week 5 demand. |
+| Production capacity | Product-specific capacities are treated as independent weekly limits. |
+| Capacity transfer | Unused capacity cannot be assumed to be transferable between products. |
+| Operational restrictions | No shared resource constraints are reported; management must confirm actual feasibility. |
+| Human oversight | All forecasts and production quantities require production manager approval. |
+
+---
+
+## 5. Management Summary and Priority Actions
+
+Total Week 5 estimated demand is **470 units**, requiring **345 units** of additional production. Product-specific capacity limits reduce indicative production to **325 units**.
+
+Fish roti is the only product with a production shortfall, resulting in 10 units of estimated unmet customer demand and 10 units of safety stock shortfall.
+
+All products have high data reliability, although forecast accuracy is not guaranteed.
+
+### Priority Actions
+
+1. Investigate additional fish roti production capacity.
+2. Prioritise customer demand before rebuilding fish roti safety stock.
+3. Avoid unnecessary vegetable roll production.
+4. Monitor pol sambol sachets operating at full production capacity.
+5. Review and approve indicative production quantities before implementation.
+
+---
+
+**Final Assessment:** All five demand forecasts and production planning calculations have been completed using the supplied verified synthetic data. No missing information prevents numerical forecasting or indicative production planning.
+
+> **Disclaimer:** This report is for decision support only. All estimated demand forecasts and indicative production quantities require production manager review and approval before operational implementation.
+
+---
+
+#### Evaluation
+
+Pending final review.
+
+---
+
+### Final Retesting Conclusion
+
+Pending evaluation of all three corrected
+v1.2 responses.
+
+The previous testing attempts remain available
+as evidence of the development process.
