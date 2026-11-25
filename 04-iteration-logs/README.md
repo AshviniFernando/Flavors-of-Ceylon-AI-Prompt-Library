@@ -81,3 +81,12 @@ will be fabricated.
 - [Prompt Library](../02-prompt-library/README.md)
 - [Testing Evidence](../03-testing-evidence/README.md)
 - [Evaluation](../05-evaluation/README.md)
+
+- ---
+
+## Prompt Iteration Records
+
+| Prompt | Current Version | Development Status |
+|---|---|---|
+| [P01 — Product Demand Forecasting](P01-iteration-log.md) | v1.0 | Initial testing completed |
+| P02–P10 | v1.0 | Awaiting testing |
