@@ -51,7 +51,7 @@ conflicting inputs, unusual conditions or risks.
 |---|---|
 | [P01](P01-testing-evidence.md) | Completed — v1.2; 30/30 across three corrected tests |
 | [P02](P02-testing-evidence.md) | Completed — v1.1; 19/20 (95%) |
-| P03 | Pending |
+| [P03](P03-testing-evidence.md) | Completed — v1.1; 19/20 (95%) |
 | P04 | Pending |
 | P05 | Pending |
 | P06 | Pending |
