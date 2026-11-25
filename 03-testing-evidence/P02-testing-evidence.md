@@ -273,7 +273,24 @@ All recommendations should be reviewed and approved by the responsible inventory
 
 #### Evaluation
 
-Pending evaluation.
+The v1.0 response correctly calculated replenishment
+requirements of 15 kg of wheat flour and 12 kg of
+chicken, resulting in a total of 27 kg.
+
+It correctly identified surplus rice and eggs and
+flagged chicken and grated coconut for expiry
+attention.
+
+All numerical calculations were correct.
+
+However, the response used the terminology
+"First Expired, First Out" instead of the preferred
+"First Expiry, First Out" terminology.
+
+The report also contained repeated calculations
+and recommendations.
+
+Evaluation score: 9/10 (90%).
 
 ### Test Case B
 
@@ -461,7 +478,28 @@ All purchasing recommendations are subject to human review and approval to suppo
 
 #### Evaluation
 
-Pending evaluation.
+The response correctly converted measurement units,
+excluded expired ingredients and held unverified
+stock pending verification.
+
+All replenishment calculations were correct based
+on confirmed eligible inventory.
+
+The total indicative replenishment requirement
+was 31 kg, including provisional rice and chicken
+requirements.
+
+However, the response inconsistently described
+these shortages as confirmed while acknowledging
+that purchasing quantities could change.
+
+The response also used non-standardised risk
+classifications and incorrect FEFO terminology.
+
+The ten-section report contained repeated
+information.
+
+Evaluation score: 8/10 (80%).
 
 ---
 
@@ -500,9 +538,34 @@ Pending evaluation.
 ## 7. Version Comparison
 
 | Version | Test A | Test B | Combined Score |
-|---|---|---|---|
-| v1.0 | Pending | Pending | Pending |
+|---|---:|---:|---:|
+| v1.0 | 9/10 | 8/10 | 17/20 (85%) |
 | v1.1 | Pending | Pending | Pending |
+
+### Initial Evaluation Scores
+
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 1 | 1 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 1 |
+| Business Relevance | 2 | 2 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 8/10 |
+
+### Improvement Opportunities
+
+- Standardise batch eligibility classifications.
+- Distinguish established replenishment requirements
+  from provisional purchasing quantities.
+- Standardise measurement unit validation.
+- Use correct FEFO terminology.
+- Introduce concise reporting requirements.
+- Maintain appropriate human review and approval.
+
+The evaluation measures response quality using
+synthetic scenarios rather than actual commercial
+inventory management performance.
 
 ## 8. Testing Integrity
 
