@@ -180,6 +180,13 @@ will reflect the actual development process.
 
 ---
 
+**Flavors of Ceylon**
+
+Authentic Sri Lankan Flavours | AI-Assisted Business
+Innovation
+
+*Academic Project – Food Manufacturing and Hospitality*
+
 ---
 
 ## Portfolio Navigation
@@ -203,11 +210,3 @@ established.
 
 The next stage involves developing the initial
 versions of the 10 selected AI prompts.
-
-**Flavors of Ceylon**
-
-Authentic Sri Lankan Flavours | AI-Assisted Business
-Innovation
-
-*Academic Project – Food Manufacturing and Hospitality*
-
