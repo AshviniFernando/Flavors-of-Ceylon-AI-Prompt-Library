@@ -27,7 +27,7 @@ business workflows.
 | ID | Prompt | Version | Status |
 |---|---|---|---|
 | P01 | [Product Demand Forecasting](P01-product-demand-forecasting.md) | v1.2 | Completed — Tested and Evaluated |
-| P02 | [Ingredient Inventory and Replenishment](P02-inventory-and-replenishment.md) | v1.0 | Initial Draft |
+| P02 | [Ingredient Inventory and Replenishment](P02-inventory-and-replenishment.md) | v1.1 | Completed — Tested and Evaluated |
 | P03 | [Supplier Purchase Order Preparation](P03-supplier-purchase-order.md) | v1.0 | Initial Draft |
 | P04 | [Food Production and Batch Planning](P04-production-and-batch-planning.md) | v1.0 | Initial Draft |
 
