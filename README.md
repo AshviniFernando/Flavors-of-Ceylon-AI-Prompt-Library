@@ -1,20 +1,188 @@
-# Flavors of Ceylon | AI prompt library
-Assessment 1 — proposed Australian food manufacturing and hospitality company preparing packaged Sri Lankan food products for online, grocery and wholesale channels. Student: T. Ashvini Devindi Fernando.
+# Flavors of Ceylon
+## AI-Powered Business Workflow Automation
 
-**Status: starter drafts; student testing and evaluation pending.** All test data is fictional. No AI outputs, scores or dates have been invented. No business automation has been deployed.
+> BUS4005 – Assessment 1 | AI Prompt Library
 
-## Navigation
-- [01-initial-prompts](./01-initial-prompts/)
-- [02-revised-prompts](./02-revised-prompts/)
-- [03-final-prompts](./03-final-prompts/)
-- [04-test-inputs-and-outputs](./04-test-inputs-and-outputs/)
-- [05-iteration-logs-and-scores](./05-iteration-logs-and-scores/)
-- [06-final-consultancy-report](./06-final-consultancy-report/)
+---
 
-## Workflows
-- Customer and marketing: P01, P05, P06.
-- Production and procurement: P02, P03, P04, P07, P08, P09.
-- Management reporting: P10 uses verified summaries from other functions.
+## Assessment Information
 
-## Development
-Commit the actual initial drafts, test and save outputs, then revise based on observed weaknesses. The proposed V2/V3 candidates are starting points; never claim they are tested until they are. Retain human approval, especially for allergens, food safety, employment and purchasing.
+| Detail | Information |
+|---|---|
+| University | La Trobe University |
+| Subject | BUS4005 |
+| Assessment | Assessment 1 – Prompt Library |
+| Business Field | Food Manufacturing and Hospitality |
+| Selected Business | Flavors of Ceylon |
+| Target Market | Australia |
+| Project Status | Under Development |
+
+---
+
+## 1. Business Overview
+
+Flavors of Ceylon is an Australian-based food production
+business concept focused on introducing authentic Sri
+Lankan cuisine to the Australian market.
+
+The business aims to provide convenient, high-quality
+and affordable food products while preserving the
+traditional flavours and culinary heritage of Sri Lanka.
+
+Its primary objective is to make authentic Sri Lankan
+food accessible to Australian consumers through
+products suited to modern lifestyles.
+
+The proposed product price range is AUD $7–$19.
+
+## 2. Product Portfolio
+
+### Savoury and Sweet Snacks
+
+- Sri Lankan fish roti
+- Vegetable rolls
+- Halapa
+
+### Frozen Meals and Ready-to-Eat Products
+
+- Hot chicken kottu
+- String hopper meal packs
+- Sri Lankan rice and curry packets
+- Egg hoppers and plain hoppers
+- Onion sambal and fish curry
+
+### Traditional Accompaniments
+
+- Fresh, portion-controlled pol sambol sachets
+
+---
+
+## 3. Project Purpose
+
+This project explores how generative artificial
+intelligence and prompt engineering can support
+workflow automation within the food manufacturing
+and hospitality industry.
+
+The proposed solution is a structured library of
+10 reusable AI prompts designed to address operational
+challenges, improve efficiency and support responsible
+business decision-making at Flavors of Ceylon.
+
+## 4. Project Objectives
+
+- Reduce repetitive administrative workloads.
+- Improve consistency across business operations.
+- Support production and inventory planning.
+- Improve customer communication.
+- Support marketing and business development.
+- Reduce avoidable operational errors and food waste.
+- Explore responsible AI-assisted decision-making.
+- Maintain appropriate human oversight.
+
+---
+
+## 5. Prompt Library Requirements
+
+Each prompt entry will document:
+
+1. Prompt text
+2. Intended workflow or task
+3. Problem being solved
+4. Automation potential
+5. Risks and limitations
+
+The library will also include testing evidence,
+prompt revisions, evaluation results and lessons
+learned during the development process.
+
+## 6. Development Methodology
+
+The prompts will be developed through an iterative
+testing and improvement process.
+
+- Stage 1: Identify business workflow challenges.
+- Stage 2: Develop initial AI prompts.
+- Stage 3: Test prompts using synthetic business data.
+- Stage 4: Evaluate the generated outputs.
+- Stage 5: Refine prompts based on observed weaknesses.
+- Stage 6: Retest and document improvements.
+- Stage 7: Evaluate the final prompt library.
+
+GitHub commit history will provide evidence of
+the development and improvement process.
+
+---
+
+## 7. Responsible AI and Human Oversight
+
+The proposed AI solution is intended to assist
+employees rather than replace professional judgement.
+
+AI-generated outputs must be reviewed for accuracy,
+relevance, privacy, fairness and business suitability.
+
+Food safety, allergen information, regulatory
+compliance and other high-risk decisions must be
+verified by appropriately qualified personnel.
+
+Confidential business information and personal
+customer or employee data will not be used in
+public testing evidence.
+
+---
+
+## 8. Testing and Evaluation
+
+The prompt library will be tested using fictional
+business scenarios relevant to Flavors of Ceylon.
+
+Evaluation will consider:
+
+- Accuracy
+- Completeness
+- Consistency
+- Business relevance
+- Automation potential
+- Risk management
+- Human review requirements
+
+Actual test outputs and observed improvements will
+be documented throughout the project.
+
+---
+
+## 9. Portfolio Development Status
+
+- [x] Establish business context
+- [ ] Complete repository structure
+- [ ] Develop 10 initial prompts
+- [ ] Conduct prompt testing
+- [ ] Document iterative improvements
+- [ ] Complete final prompt library
+- [ ] Evaluate business impact and limitations
+- [ ] Finalise assessment portfolio
+
+---
+
+## 10. Academic and AI Acknowledgement
+
+This repository is developed for educational
+purposes as part of La Trobe University's BUS4005
+Assessment 1.
+
+Generative AI assistance will be documented in
+accordance with the assessment requirements and
+the university's academic integrity guidance.
+
+All testing results, evaluations and conclusions
+will reflect the actual development process.
+
+---
+
+**Flavors of Ceylon**
+
+Authentic Sri Lankan Flavours | AI-Assisted Business
+Innovation
+
+*Academic Project – Food Manufacturing and Hospitality*
