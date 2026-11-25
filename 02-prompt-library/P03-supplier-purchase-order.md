@@ -6,7 +6,7 @@
 | Business Function | Procurement |
 | Workflow | Planning and Manufacturing |
 | Current Version | v1.1 |
-| Status | Revised Draft — Awaiting Retesting |
+| Status | Final Version — Tested and Evaluated |
 | Prompting Strategy | Role-based, constraint-based, rule-based and structured-output prompting |
 
 ---
@@ -229,19 +229,26 @@ approval requirements.
 
 ## 4. Automation Potential
 
-Level: High — Preliminary assessment.
+Level: High — Final evaluated classification
+for procurement document preparation.
 
-AI can assist with routine purchase order
-preparation, financial calculations, missing
-information identification and supplier
-email drafting.
+AI can assist with purchase order drafting,
+financial calculations, missing information
+identification and supplier email preparation.
 
-However, procurement staff must verify
-supplier information, pricing, purchasing
-requirements and approval status.
+Testing demonstrated correct financial calculations
+and responsible procurement behaviour across
+two synthetic business scenarios.
+
+However, supplier verification, external
+communication and purchasing commitments
+require appropriate human approval.
 
 High automation potential applies to document
-preparation, not autonomous purchasing.
+preparation, not autonomous procurement.
+
+Actual commercial automation performance
+has not been measured.
 
 ## 5. Risks and Limitations
 
@@ -267,7 +274,7 @@ supplier communications or ingredient suitability.
 | Version | Change | Status |
 |---|---|---|
 | v1.0 | Initial procurement and supplier email prompt | Evaluated — 18/20 (90%) |
-| v1.1 | Added standard financial rules, purchasing eligibility controls, concise reporting and separate approval requirements | Awaiting retesting |
+| v1.1 | Added financial controls, purchasing eligibility rules, structured reporting and separate approvals | Final Selected Version — 19/20 (95%) |
 
 ## Reason for Revision
 
@@ -282,11 +289,29 @@ document efficiency.
 Version v1.1 introduces a more concise document
 structure and explicit procurement controls.
 
-## Testing Evidence
+## Testing Evidence and Final Evaluation
 
 - [Testing Inputs and Actual Outputs](../03-testing-evidence/P03-testing-evidence.md)
-- [Iteration Log](../04-iteration-logs/P03-iteration-log.md)
+- [Iteration Log and Version History](../04-iteration-logs/P03-iteration-log.md)
+- [Final Evaluation and Business Impact](../05-evaluation/P03-final-evaluation.md)
 
-v1.0 evaluation score: 18/20 (90%).
+| Evaluation Measure | Result |
+|---|---|
+| Final Version | v1.1 |
+| Initial Score | 18/20 (90%) |
+| Final Test A | 9/10 |
+| Final Test B | 10/10 |
+| Combined Final Score | 19/20 (95%) |
+| Absolute Improvement | 5 percentage points |
+| Automation Potential | High — Document preparation |
+| Development Status | Completed |
 
-v1.1 testing and evaluation are pending.
+The final prompt supports supervised purchase
+order preparation and supplier email drafting.
+
+Minor reporting repetition remains.
+
+The prompt has not been commercially deployed.
+
+All external communications and purchasing
+commitments require procurement manager approval.
