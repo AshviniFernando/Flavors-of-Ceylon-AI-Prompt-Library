@@ -47,7 +47,7 @@ This prompt supports weekly management reporting.
 - Responsible person: Business manager.
 - Next step: Management review and decision-making.
 
-## 3. Problem Being SolVED
+## 3. Problem Being Solved
 
 Manually combining information from different
 business functions may consume management time
