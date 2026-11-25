@@ -49,7 +49,7 @@ conflicting inputs, unusual conditions or risks.
 
 | Prompt ID | Testing Status |
 |---|---|
-| P01 | Pending |
+| [P01](P01-testing-evidence.md) | v1.0 Testing Completed |
 | P02 | Pending |
 | P03 | Pending |
 | P04 | Pending |
