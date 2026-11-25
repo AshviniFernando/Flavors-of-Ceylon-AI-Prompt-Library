@@ -46,7 +46,7 @@ This prompt supports customer feedback management.
 - Responsible person: Customer experience manager.
 - Next step: Human review and relevant escalation.
 
-## 3. Problem Being SolVED
+## 3. Problem Being Solved
 
 Manual complaint analysis may delay issue
 identification, reduce response consistency and
