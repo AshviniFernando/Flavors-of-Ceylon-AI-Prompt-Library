@@ -243,23 +243,60 @@ responsible decision-making alongside accuracy.
 
 ### Development Date
 
-Pending.
+25 November 2026
 
 ### Changes Made
 
-Pending further testing.
+1. Introduced explicit capacity-limited production
+   calculations.
+
+2. Added production shortfall calculations.
+
+3. Distinguished unmet customer demand from
+   safety stock shortfalls.
+
+4. Introduced validation of operational inputs.
+
+5. Prevented unsupported assumptions about
+   transferring production capacity between products.
+
+6. Introduced a concise five-section report structure.
+
+7. Removed unnecessary repetition and unsolicited
+   charts.
+
+8. Retained all successful v1.1 forecasting,
+   validation and human oversight rules.
 
 ### Reason for Changes
 
-Pending v1.1 evaluation.
+Although v1.1 achieved the maximum score across
+the two original scenarios, the generated reports
+were lengthy and the production capacity function
+required additional testing.
+
+The refinement aims to improve practical management
+usability and operational decision support.
+
+### Expected Effect
+
+The revised prompt is expected to provide more
+concise reports and clearer production capacity
+calculations without reducing forecasting quality.
+
+This expected effect has not yet been verified.
 
 ### Observed Effect
 
-Pending testing.
+Pending actual v1.2 testing.
+
+### Remaining Limitations
+
+Pending final evaluation.
 
 ### Lesson Learned
 
-Pending.
+Pending actual v1.2 evaluation.
 
 ---
 
