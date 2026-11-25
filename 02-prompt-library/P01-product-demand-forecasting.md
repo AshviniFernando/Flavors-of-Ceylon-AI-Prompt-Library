@@ -6,7 +6,7 @@
 | Business Function | Demand Planning |
 | Workflow | Planning and Manufacturing |
 | Current Version | v1.0 |
-| Status | Initial Draft — Not Yet Tested |
+| Status | Initial Testing Completed - Revision Pending |
 | Prompting Strategy | Role-based and contextual prompting |
 
 ---
@@ -74,4 +74,10 @@ future sales outcomes.
 
 ## Testing Evidence
 
-Pending practical testing in Stage 04.
+Initial v1.0 testing has been conducted using
+two synthetic business scenarios.
+
+- [P01 Testing Inputs and Actual Outputs](../03-testing-evidence/P01-testing-evidence.md)
+- [P01 Iteration Log and Evaluation](../04-iteration-logs/P01-iteration-log.md)
+
+Further prompt refinement is in progress.
