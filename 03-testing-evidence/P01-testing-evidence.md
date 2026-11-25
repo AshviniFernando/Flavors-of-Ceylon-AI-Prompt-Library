@@ -1185,7 +1185,7 @@ establish actual commercial forecasting accuracy.
 
 ### Testing Date and AI Model
 
-Pending.
+25 November 2026 | ChatGPT
 
 ### Test Case A — Actual AI Output
 
@@ -2120,17 +2120,71 @@ verified for the purpose of this test.
 
 ### v1.1 — Additional Baseline Test
 
-Testing date: Pending.
+Testing date: 25 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 Actual AI output:
 
 Pending testing.
 
-Observations:
+### Observations
 
-Pending evaluation.
+The v1.1 prompt successfully calculated numerical
+production requirements using the supplied historical
+sales and verified synthetic operational information.
+
+The response correctly calculated:
+
+- Total estimated demand: 470 units.
+- Required production: 345 units.
+- Capacity-limited production: 325 units.
+- Total production shortfall: 20 units.
+- Estimated unmet fish roti demand: 10 units.
+- Fish roti safety stock shortfall: 10 units.
+
+The prompt correctly identified that vegetable rolls
+required no additional production because existing
+inventory could satisfy forecast demand and the
+target safety stock.
+
+The response also recognised that unused production
+capacity for other products could not automatically
+be transferred to fish roti.
+
+### Strengths
+
+- Accurate forecasting and production calculations.
+- Appropriate inventory and capacity analysis.
+- Correct handling of negative production requirements.
+- Clear distinction between demand and production.
+- Appropriate management review recommendations.
+
+### Remaining Limitations
+
+- Lengthy report containing repeated information.
+- Unrequested visualisations.
+- Shortfall calculations were not presented in a
+  standardised table for every product.
+- Invalid operational inputs were not tested.
+
+### Evaluation Scores
+
+| Criterion | Score |
+|---|---:|
+| Accuracy | 2/2 |
+| Completeness | 2/2 |
+| Consistency | 2/2 |
+| Business Relevance | 2/2 |
+| Responsible AI | 2/2 |
+| Total | 10/10 |
+
+The v1.1 prompt achieved 30/30 across Test Cases
+A, B and C.
+
+These scores represent response quality against
+the selected synthetic test criteria rather than
+measured commercial forecasting performance.
 
 ### v1.2 — Additional Retest
 
@@ -2145,3 +2199,62 @@ Pending testing.
 Observations:
 
 Pending evaluation.
+
+### Initial v1.2 Testing Procedure Review
+
+The initial v1.2 testing attempt identified a
+limitation in the testing procedure.
+
+Expected test outcomes were supplied to the AI,
+while the original input datasets were not
+consistently reproduced.
+
+Test Cases A and B referred to expected results
+and previously supplied historical information.
+
+Test Case C could not independently calculate
+production requirements because the underlying
+historical and operational data were unavailable.
+
+However, the Test Case C response appropriately
+identified missing information and avoided
+fabricating production quantities.
+
+### Evaluation Decision
+
+The initial v1.2 runs are retained as development
+evidence but excluded from the formal version
+comparison.
+
+No final evaluation scores have been assigned
+to these runs.
+
+### Corrective Action
+
+Repeat all three test scenarios using:
+
+- The exact v1.2 prompt.
+- Complete original synthetic test inputs.
+- Separate fresh AI conversations.
+- The same AI model and settings where possible.
+- No expected answers or evaluation benchmarks
+  supplied to the AI.
+
+### Lesson Learned
+
+Reliable AI evaluation requires a controlled
+testing procedure.
+
+Providing expected answers before testing may
+influence AI responses and reduce the validity
+of the evaluation.
+
+Missing test inputs may also prevent an otherwise
+capable prompt from completing its intended task.
+
+Expected results must therefore remain separate
+from the actual AI testing instructions.
+
+### Corrected v1.2 Retesting Status
+
+Pending corrected testing.
