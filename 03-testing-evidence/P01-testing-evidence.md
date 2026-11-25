@@ -10,7 +10,7 @@
 | AI Tool | To be recorded during testing |
 | AI Model | To be recorded if available |
 | Data Type | Synthetic business data |
-| Testing Status | Pending |
+| Testing Status | Completed — v1.2 Selected |
 
 ## 2. Testing Objective
 
@@ -2471,7 +2471,22 @@ Flavors of Ceylon's estimated Week 5 customer demand is **470 units**, represent
 
 #### Evaluation
 
-Pending final review.
+The corrected v1.2 response successfully validated
+all 20 historical sales records and calculated
+accurate forecasts for all five products under
+the specified forecasting method.
+
+Total estimated demand was 470 units, representing
+a projected increase of 6.82% compared with Week 4
+recorded sales.
+
+The response correctly withheld production quantities
+because inventory, safety stock and production
+capacity information were unavailable.
+
+Evaluation score: 10/10.
+
+Status: Passed.
 
 ---
 
@@ -2781,7 +2796,23 @@ Week 5 estimated demand is 390 units across four forecasted products. Fish roti 
 
 #### Evaluation
 
-Pending final review.
+The corrected response identified three missing
+sales records and one stockout-affected record,
+leaving 16 usable historical observations.
+
+The response correctly withheld the pol sambol
+forecast and calculated a partial demand subtotal
+of 390 units across four products.
+
+Missing values were not invented or treated as zero.
+
+Production quantities remained pending verification
+because the necessary operational information was
+unavailable.
+
+Evaluation score: 10/10.
+
+Status: Passed.
 
 ---
 
@@ -3114,14 +3145,80 @@ All products have high data reliability, although forecast accuracy is not guara
 
 #### Evaluation
 
-Pending final review.
+The corrected response successfully calculated:
+
+- Estimated demand: 470 units.
+- Required production: 345 units.
+- Capacity-limited production: 325 units.
+- Production shortfall: 20 units.
+- Estimated customer demand shortfall: 10 units.
+- Safety stock shortfall: 10 units.
+- Projected closing inventory: 30 units.
+- Estimated customer demand fulfilled: 460 units.
+
+All calculations matched the independently
+established evaluation benchmarks.
+
+The response correctly identified the fish roti
+capacity constraint and recognised that vegetable
+rolls required no additional production.
+
+Product-specific capacity limits and management
+approval requirements were maintained.
+
+Evaluation score: 10/10.
+
+Status: Passed.
 
 ---
 
 ### Final Retesting Conclusion
 
-Pending evaluation of all three corrected
-v1.2 responses.
+All three corrected v1.2 tests were successfully
+completed using the original synthetic datasets
+without supplying expected numerical answers.
 
-The previous testing attempts remain available
-as evidence of the development process.
+| Evaluation Criterion | Test A | Test B | Test C |
+|---|---:|---:|---:|
+| Accuracy | 2 | 2 | 2 |
+| Completeness | 2 | 2 | 2 |
+| Consistency | 2 | 2 | 2 |
+| Business Relevance | 2 | 2 | 2 |
+| Responsible AI | 2 | 2 | 2 |
+| Total | 10/10 | 10/10 | 10/10 |
+
+Combined final evaluation score: 30/30 (100%).
+
+The comparable score across the two original
+scenarios improved from 16/20 in v1.0 to
+20/20 in v1.2.
+
+The final version retained the successful v1.1
+forecasting and data validation safeguards while
+introducing standardised production capacity
+and shortfall calculations.
+
+The corrected outputs used the requested five
+principal reporting sections and did not contain
+unrequested charts.
+
+Some repetition remains, and further testing
+would be required to evaluate irregular demand,
+invalid operational inputs, shared production
+constraints and repeat-run reliability.
+
+The initial v1.2 testing attempts remain excluded
+from the formal evaluation because of test
+input limitations.
+
+Final selected version: v1.2.
+
+Testing status: Completed for the selected scenarios.
+
+These results measure AI response quality under
+controlled synthetic scenarios, not actual
+commercial forecasting accuracy.
+
+## Final Evaluation
+
+- [P01 Final Evaluation](../05-evaluation/P01-final-evaluation.md)
