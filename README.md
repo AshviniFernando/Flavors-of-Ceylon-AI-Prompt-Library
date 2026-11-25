@@ -206,17 +206,17 @@ Stage 04 — Practical Testing and Iterative Improvement
 
 All ten initial AI prompts have been developed.
 
-P01 and P02 have completed practical testing,
+P01, P02 and P03 have completed practical testing,
 iterative improvement and final evaluation.
 
 | Development Indicator | Progress |
 |---|---|
 | Initial Prompts Created | 10/10 |
-| Fully Evaluated Prompts | 2/10 |
-| Finalised Prompts | 2/10 |
-| Latest Completed Prompt | P02 |
-| Final P02 Version | v1.1 |
-| Next Prompt | P03 — Supplier Purchase Order Preparation |
+| Fully Evaluated Prompts | 3/10 |
+| Finalised Prompts | 3/10 |
+| Latest Completed Prompt | P03 |
+| Final P03 Version | v1.1 |
+| Next Prompt | P04 — Food Production and Batch Planning |
 
 ### Completed Prompt Evaluations
 
@@ -224,6 +224,7 @@ iterative improvement and final evaluation.
 |---|---|---:|---:|
 | [P01 — Product Demand Forecasting](05-evaluation/P01-final-evaluation.md) | v1.2 | 80% | 100% |
 | [P02 — Ingredient Inventory and Replenishment](05-evaluation/P02-final-evaluation.md) | v1.1 | 85% | 95% |
+| [P03 — Supplier Purchase Order Preparation](05-evaluation/P03-final-evaluation.md) | v1.1 | 90% | 95% |
 
 Comparable scores use the two original test
 scenarios for each prompt.
@@ -231,6 +232,13 @@ scenarios for each prompt.
 P01 also completed an additional production
 capacity scenario, achieving 30/30 across
 all three final tests.
+
+The remaining seven prompts will follow the
+controlled testing and improvement methodology.
+
+All evaluation results represent academic
+testing outcomes rather than actual commercial
+business performance.
 
 The remaining eight prompts will follow the
 controlled testing and improvement methodology.
