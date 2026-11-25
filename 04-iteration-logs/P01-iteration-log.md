@@ -237,6 +237,35 @@ AI prompt refinement should consider output
 efficiency, practical business usability and
 responsible decision-making alongside accuracy.
 
+### Additional Production Planning Evaluation
+
+Test Case C was conducted using complete historical
+sales, finished-product inventory, target safety
+stock and product-specific production capacity.
+
+The v1.1 prompt correctly calculated estimated
+demand of 470 units, required production of 345
+units and capacity-limited production of 325 units.
+
+It identified a 20-unit fish roti production
+shortfall, consisting of 10 units of estimated
+unmet customer demand and 10 units of safety
+stock shortfall.
+
+The additional test achieved 10/10.
+
+The combined v1.1 evaluation across all three
+scenarios was 30/30.
+
+Although the numerical calculations were correct,
+the response contained repeated information and
+unrequested visualisations.
+
+The v1.2 refinement therefore focuses on report
+efficiency, standardised capacity calculations
+and operational input validation rather than
+correcting demonstrated numerical errors.
+
 ---
 
 ## 5. Version v1.2 — Further Refined Prompt
@@ -286,9 +315,42 @@ calculations without reducing forecasting quality.
 
 This expected effect has not yet been verified.
 
-### Observed Effect
+### Observed Effect — Initial Testing Attempt
 
-Pending actual v1.2 testing.
+The initial v1.2 testing attempt revealed a
+testing procedure issue.
+
+Expected numerical outcomes were supplied to the
+AI, while complete original test inputs were not
+consistently provided.
+
+Consequently, the initial responses cannot be
+used as independent evidence of forecasting or
+production calculation performance.
+
+The Test Case C response appropriately withheld
+calculations when required information was missing.
+
+### Corrective Action
+
+Retest v1.2 using complete original input data
+without providing expected answers.
+
+The initial testing responses will be retained
+for transparency and academic evidence.
+
+### Remaining Limitations
+
+Pending corrected retesting and final evaluation.
+
+### Lesson Learned
+
+Prompt performance must be evaluated using
+appropriate and controlled test inputs.
+
+Expected answers should be used by the evaluator
+after testing rather than supplied to the AI
+before it generates a response.
 
 ### Remaining Limitations
 
@@ -302,11 +364,28 @@ Pending actual v1.2 evaluation.
 
 ## 6. Version Comparison
 
-| Version | Test A Score | Test B Score | Combined Score | Status |
-|---|---:|---:|---:|---|
-| v1.0 | 9/10 | 7/10 | 16/20 (80%) | Evaluated |
-| v1.1 | 10/10 | 10/10 | 20/20 (100%) | Evaluated |
-| v1.2 | Pending | Pending | Pending | Proposed |
+### Original Comparable Scenarios
+
+| Version | Test A | Test B | Combined Score |
+|---|---:|---:|---:|
+| v1.0 | 9/10 | 7/10 | 16/20 (80%) |
+| v1.1 | 10/10 | 10/10 | 20/20 (100%) |
+| v1.2 | Pending | Pending | Pending |
+
+### Additional Production Planning Scenario
+
+| Version | Test C | Status |
+|---|---:|---|
+| v1.0 | Not tested | Outside initial scope |
+| v1.1 | 10/10 | Evaluated |
+| v1.2 | Pending | Corrected retesting required |
+
+The combined v1.1 score across three scenarios
+is 30/30.
+
+The initial v1.2 testing attempts are excluded
+from the formal score comparison due to test
+input limitations.
 
 ## 7. Current Development Status
 
