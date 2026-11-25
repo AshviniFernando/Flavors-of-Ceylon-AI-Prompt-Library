@@ -89,4 +89,4 @@ will be fabricated.
 | Prompt | Current Version | Development Status |
 |---|---|---|
 | [P01 — Product Demand Forecasting](P01-iteration-log.md) | v1.2 | Completed — Final Version Selected |
-| P02–P10 | v1.0 | Awaiting testing |
+| [P02 — Ingredient Inventory and Replenishment](P02-iteration-log.md) | v1.1 | Completed — Final Version Selected |
