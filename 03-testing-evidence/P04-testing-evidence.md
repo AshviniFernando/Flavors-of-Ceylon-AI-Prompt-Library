@@ -664,7 +664,26 @@ approval.
 
 #### Evaluation
 
-Pending evaluation.
+The response correctly achieved all approved
+production targets of 325 units using 15 batches
+and 625 production minutes.
+
+All ingredient consumption, remaining inventory,
+batch allocation and staffing calculations matched
+the independently established benchmarks.
+
+The response correctly avoided double-counting
+received ingredients and respected all production
+limits.
+
+However, the 13-section report contained repeated
+calculations, summaries and compliance checks.
+
+An illustrative inventory utilisation threshold
+and qualitative risk classifications were also
+introduced without approved business thresholds.
+
+Evaluation score: 9/10 (90%).
 
 ### Test Case B
 
@@ -1510,7 +1529,26 @@ All proposed production quantities, batch allocations and scheduling arrangement
 
 #### Evaluation
 
-Pending evaluation.
+The response correctly allocated 185 production
+units across nine batches using 370 of the
+375 feasible production minutes.
+
+The approved production target shortfall was
+140 units, with target achievement of 56.92%.
+
+All ingredient consumption and remaining-stock
+calculations matched the expected results.
+
+The response followed the production priority
+order and excluded unconfirmed supplier deliveries,
+provisional purchases and insufficiently staffed
+production dates.
+
+However, the 18-section report contained repeated
+information, unrequested visualisations, subjective
+severity ratings and AI-generated self-assessment.
+
+Evaluation score: 9/10 (90%).
 
 ---
 
@@ -1549,9 +1587,40 @@ Pending evaluation.
 ## 8. Version Comparison
 
 | Version | Test A | Test B | Combined Score |
-|---|---|---|---|
-| v1.0 | Pending | Pending | Pending |
+|---|---:|---:|---:|
+| v1.0 | 9/10 | 9/10 | 18/20 (90%) |
 | v1.1 | Pending | Pending | Pending |
+
+### Initial Evaluation Scores
+
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 1 | 1 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 9/10 |
+
+### Improvement Opportunities
+
+- Introduce a concise five-section report.
+- Standardise priority-based resource allocation.
+- Explicitly validate daily staffing and batch
+  scheduling feasibility.
+- Consolidate ingredient consumption calculations.
+- Distinguish full-target ingredient shortages
+  from scheduled production consumption.
+- Avoid unsupported risk thresholds.
+- Remove unnecessary charts and self-assessment.
+- Retain existing operational safeguards.
+
+All numerical benchmarks were achieved during
+initial testing.
+
+The evaluation measures response quality under
+synthetic scenarios rather than actual commercial
+manufacturing performance.
 
 ## 9. Testing Integrity
 
