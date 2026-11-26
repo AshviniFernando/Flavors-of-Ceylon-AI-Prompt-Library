@@ -9,7 +9,7 @@
 | Business Function | Production Management |
 | Initial Version | v1.0 |
 | Data Type | Synthetic business data |
-| Testing Status | In Progress |
+| Testing Status | Completed — v1.1 Selected |
 
 ## 2. Testing Objective
 
@@ -2863,7 +2863,30 @@ The proposed schedule achieves all 325 approved production units through 15 batc
 
 #### Evaluation
 
-Pending evaluation.
+The revised response correctly achieved all 325
+approved production units using 15 batches and
+625 production minutes.
+
+All ingredient consumption, remaining inventory,
+batch allocations and staffing calculations
+matched the independently established benchmarks.
+
+Capacity utilisation was correctly calculated
+as 57.87%, leaving 455 available minutes.
+
+The response followed the requested five-section
+structure and introduced a consolidated ingredient
+reconciliation table.
+
+Unsupported risk ratings, illustrative thresholds
+and unnecessary visualisations were removed.
+
+However, several subsections continued to repeat
+production calculations and management indicators.
+
+Evaluation score: 9/10 (90%).
+
+Status: Passed with minor reporting limitations.
 
 ### Test Case B
 
@@ -2872,7 +2895,6 @@ Testing date: 26 November 2026
 AI tool and model: ChatGPT
 
 #### Actual AI Output
-
 
 # Flavors of Ceylon – Proposed Weekly Production Schedule
 
@@ -3356,7 +3378,35 @@ The schedule maintains strict production priorities, verified inventory limits, 
 
 #### Evaluation
 
-Pending evaluation.
+The revised response correctly allocated 185
+production units across nine batches using
+370 of the 375 feasible production minutes.
+
+The approved production target shortfall was
+140 units, with target achievement of 56.92%
+and capacity utilisation of 98.67%.
+
+All ingredient consumption and remaining-stock
+calculations matched the expected results.
+
+The response maintained strict production
+priorities and excluded unconfirmed deliveries,
+provisional purchases and insufficiently
+staffed production dates.
+
+The consolidated ingredient table distinguished
+full-target shortages from scheduled consumption.
+
+The five-section report removed unsupported
+severity ratings, unnecessary visualisations
+and self-assigned PASS/FAIL assessments.
+
+The detailed calculations were appropriate
+for the constrained production scenario.
+
+Evaluation score: 10/10 (100%).
+
+Status: Passed.
 
 ---
 
@@ -3365,34 +3415,53 @@ Pending evaluation.
 | Version | Test A | Test B | Combined Score |
 |---|---:|---:|---:|
 | v1.0 | 9/10 | 9/10 | 18/20 (90%) |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 9/10 | 10/10 | 19/20 (95%) |
 
-### Initial Evaluation Scores
+### Final Evaluation Scores
 
 | Criterion | Test A | Test B |
 |---|---:|---:|
 | Accuracy | 2 | 2 |
 | Completeness | 2 | 2 |
 | Consistency | 2 | 2 |
-| Business Relevance | 1 | 1 |
+| Business Relevance | 1 | 2 |
 | Responsible AI | 2 | 2 |
-| Total | 9/10 | 9/10 |
+| Total | 9/10 | 10/10 |
 
-### Improvement Opportunities
+Absolute improvement: 5 percentage points.
 
-- Introduce a concise five-section report.
-- Standardise priority-based resource allocation.
-- Explicitly validate daily staffing and batch
-  scheduling feasibility.
-- Consolidate ingredient consumption calculations.
-- Distinguish full-target ingredient shortages
-  from scheduled production consumption.
-- Avoid unsupported risk thresholds.
-- Remove unnecessary charts and self-assessment.
-- Retain existing operational safeguards.
+Relative improvement in evaluation score: 5.56%.
 
-All numerical benchmarks were achieved during
-initial testing.
+### Reporting Structure Comparison
+
+| Scenario | v1.0 Sections | v1.1 Sections | Reduction |
+|---|---:|---:|---:|
+| Test A | 13 | 5 | 61.54% |
+| Test B | 18 | 5 | 72.22% |
+
+The reduction measures numbered principal report
+sections, not total word count or time savings.
+
+### Final Observations
+
+The revised prompt retained correct production
+allocations, ingredient calculations, batch
+scheduling and staffing assessments.
+
+The consolidated ingredient reconciliation
+improved the distinction between full-target
+shortages and scheduled consumption.
+
+Unsupported risk ratings and unnecessary
+visualisations were removed.
+
+Some reporting repetition remains, particularly
+in the standard production scenario.
+
+Final selected version: v1.1.
+
+No further refinement is required within the
+current academic testing scope.
 
 The evaluation measures response quality under
 synthetic scenarios rather than actual commercial
@@ -3419,4 +3488,6 @@ approval and approved food safety procedures.
 - [P01 Final Evaluation](../05-evaluation/P01-final-evaluation.md)
 - [P02 Final Evaluation](../05-evaluation/P02-final-evaluation.md)
 - [P03 Final Evaluation](../05-evaluation/P03-final-evaluation.md)
+- [P04 Iteration Log](../04-iteration-logs/P04-iteration-log.md)
+- [P04 Final Evaluation](../05-evaluation/P04-final-evaluation.md)
 - [Testing Evidence Index](README.md)
