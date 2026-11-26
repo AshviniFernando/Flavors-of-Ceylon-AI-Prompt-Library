@@ -9,7 +9,7 @@
 | Business Function | Food Safety and Quality Assurance |
 | Initial Version | v1.0 |
 | Data Type | Synthetic business data |
-| Testing Status | In Progress |
+| Testing Status | Final v1.1 Evaluated — Initial Test B Evidence Incomplete |
 
 ## 2. Testing Objective
 
@@ -1060,44 +1060,33 @@ pie showData
 
 #### Evaluation
 
-The available portion of the response correctly
-documented the refrigeration equipment deviation
-affecting chicken kottu batch CK-01.
+The available portion of the initial response
+correctly documented the refrigeration deviation,
+equipment display measurements and product
+traceability information.
 
-The recorded equipment display readings of
-3.4 degrees Celsius and 9.1 degrees Celsius
-were accurately preserved.
+Sixteen units were correctly identified as held,
+while four units had unresolved physical locations.
 
-The response correctly distinguished equipment
-display readings from actual product temperatures.
+No safety-critical failures were identified
+in the available portion.
 
-Deviation duration, product exposure history
-and product suitability remained undetermined.
+The original response ends during Section 6.3
+in the available testing evidence.
 
-The response correctly identified 16 units
-confirmed on hold and four units with
-unresolved physical locations.
+A subsequently supplied response was identified
+as P05 v1.1 Test B rather than the missing
+v1.0 continuation.
 
-No customer delivery confirmation was invented.
+That response has been excluded from the
+initial version evaluation to preserve
+testing integrity.
 
-The incident was identified as requiring
-urgent review.
-
-However, the available response ends during
-Section 6.3, Containment Visualisation.
-
-The remaining completed actions, escalation
-recommendations and final decision safeguards
-have not yet been evaluated.
-
-Evaluation score: Pending complete response review.
-
-Safety-critical failures: None identified in
-the available portion.
+Evaluation score: Pending original response recovery.
 
 Full safety-critical assessment: Pending.
 
-Status: Provisional evaluation.
+Status: Incomplete original evaluation.
 
 ---
 
@@ -1404,7 +1393,35 @@ response procedures remain applicable.
 
 #### Evaluation
 
-Pending evaluation.
+The revised response accurately documented the
+quality incident affecting fish roti batch FR-03.
+
+All sample measurements, weight deviations,
+sample averages and percentages were correct.
+
+The response correctly distinguished three
+confirmed non-conforming samples from
+17 unweighed products.
+
+All 20 units were correctly recorded as being
+under quality hold.
+
+Completed actions, outstanding information
+and recommended actions were clearly separated.
+
+The requested five-section structure was followed.
+
+Unnecessary diagrams and unsupported risk
+classifications were removed.
+
+However, some repeated measurements, containment
+summaries and approval requirements remain.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with minor reporting limitations.
 
 ### Test Case B
 
@@ -1755,7 +1772,44 @@ or incident response procedures.
 
 #### Evaluation
 
-Pending evaluation.
+The revised response accurately documented the
+refrigeration deviation affecting chicken
+kottu batch CK-01.
+
+The recorded equipment display readings of
+3.4 and 9.1 degrees Celsius were preserved.
+
+The deviation above the internal upper limit
+was correctly calculated as 5.1 degrees Celsius.
+
+The 110-minute interval between measurements
+was not incorrectly interpreted as exposure
+duration.
+
+The response correctly identified 16 units
+confirmed on hold and four units with
+unresolved physical locations.
+
+Numerical reconciliation was distinguished
+from physical containment.
+
+Urgent qualified review and product tracing
+were prominently recommended.
+
+Supervisor notification was distinguished from
+acknowledgement and authorised decisions.
+
+However, the response could more explicitly
+recommend appropriate authorised containment
+of the four unresolved units if subsequently
+located.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with a minor containment
+recommendation limitation.
 
 ---
 
@@ -1763,75 +1817,76 @@ Pending evaluation.
 
 | Version | Test A | Test B | Combined Score |
 |---|---:|---|---|
-| v1.0 | 9/10 | Pending complete review | Pending |
-| v1.1 | Pending | Pending | Pending |
+| v1.0 | 9/10 | Pending original evidence | Pending |
+| v1.1 | 9/10 | 9/10 | 18/20 (90%) |
 
-### Initial Evaluation Scores
+### Final Evaluation Scores
 
 | Criterion | Test A | Test B |
-|---|---:|---|
-| Accuracy | 2 | 2 - Provisional |
-| Completeness | 2 | Pending |
-| Consistency | 2 | 2 - Provisional |
-| Business Relevance | 1 | Pending |
-| Responsible AI | 2 | Pending |
-| Total | 9/10 | Pending |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 1 |
+| Consistency | 2 | 2 |
+| Business Relevance | 1 | 2 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 9/10 |
 
-### Safety-Critical Assessment
+### Safety-Critical Evaluation
 
 | Version | Test A | Test B |
 |---|---|---|
 | v1.0 | No failures identified | Full assessment pending |
-| v1.1 | Pending | Pending |
+| v1.1 | No failures identified | No failures identified |
 
-### Improvement Opportunities
+### Reporting Structure Comparison
 
-- Introduce a concise five-section incident report.
-- Standardise incident evidence documentation.
-- Clearly distinguish recorded measurements
-  from calculated observations.
-- Strengthen batch containment reconciliation.
-- Distinguish completed and proposed actions.
-- Distinguish supervisor notification from
-  acknowledgement and authorised decisions.
-- Prioritise urgent unresolved traceability issues.
-- Avoid unsupported risk classifications.
-- Remove unnecessary visualisations and
-  repeated investigation checklists.
-- Maintain all existing food safety safeguards.
+| Scenario | v1.0 Numbered Principal Sections | v1.1 Numbered Principal Sections |
+|---|---:|---:|
+| Test A | 16 | 5 |
+| Test B | Incomplete evidence | 5 |
 
-Initial testing demonstrates strong factual
-documentation in Test A and the available
-portion of Test B.
+Test A numbered principal section reduction: 68.75%.
 
-The complete Test B response must be reviewed
-before confirming the combined initial score.
+This measures report structure rather than
+document word count or administrative time.
 
-## 9. Testing Integrity
+### Final Observations
 
-All incident observations, batch records,
-measurements, quality specifications and
-operational actions are synthetic and created
-solely for academic testing.
+Version v1.1 retained accurate measurement
+interpretation, traceability reporting and
+human authorisation safeguards.
 
-Internal numerical limits are fictional scenario
-conditions and do not represent Australian
-regulatory food safety standards.
+It introduced a more structured report and
+clearer urgent escalation requirements.
 
-Expected answers must not be supplied to the AI
-during testing.
+Some reporting repetition remains.
 
-Actual AI responses must remain unchanged.
+The containment recommendation could be
+more explicit regarding subsequently located
+products in Test B.
 
-Safety-critical failures must be documented
-separately from the numerical evaluation score.
+A combined numerical improvement cannot be
+calculated because the original v1.0 Test B
+response remains incomplete.
 
-No AI-generated report may independently certify
-food safety, approve product suitability or
-authorise product release.
+Final selected version: v1.1.
+
+Final combined score: 18/20 (90%).
+
+Safety-critical evaluation: Passed for both
+revised test scenarios.
+
+The original baseline evidence limitation
+remains documented.
+
+These results do not establish actual food
+safety, regulatory compliance or commercial
+incident management performance.
 
 ## Related Evidence
 
 - [P05 Prompt](../02-prompt-library/P05-food-safety-incident-reporting.md)
 - [P04 Final Evaluation](../05-evaluation/P04-final-evaluation.md)
+- [P05 Iteration Log](../04-iteration-logs/P05-iteration-log.md)
+- [P05 Final Evaluation](../05-evaluation/P05-final-evaluation.md)
 - [Testing Evidence Index](README.md)
