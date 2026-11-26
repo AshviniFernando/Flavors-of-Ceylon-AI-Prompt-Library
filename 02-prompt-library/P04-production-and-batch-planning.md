@@ -6,7 +6,7 @@
 | Business Function | Food Manufacturing |
 | Workflow | Planning and Manufacturing |
 | Current Version | v1.1 |
-| Status | Revised Draft — Awaiting Retesting |
+| Status | Final Version — Tested and Evaluated |
 | Prompting Strategy | Role-based, constraint-based, task decomposition and structured-output prompting |
 
 ---
@@ -278,11 +278,27 @@ orders and unnecessary food waste.
 
 ## 4. Automation Potential
 
-Level: Medium — Preliminary assessment.
+Level: Medium — Final evaluated classification.
 
-AI can generate draft schedules and identify
-resource constraints. Production managers must
-confirm feasibility, staffing and safety requirements.
+AI can assist with production planning, ingredient
+requirement calculations, batch allocation,
+staffing assessments and draft production
+schedules.
+
+Testing demonstrated correct production and
+resource calculations across two synthetic
+business scenarios.
+
+However, physical inventory verification,
+ingredient eligibility, staffing availability,
+equipment readiness and production approval
+require appropriate human oversight.
+
+AI must not independently authorise production
+or override approved food safety procedures.
+
+Actual commercial automation performance
+has not been measured.
 
 ## 5. Risks and Limitations
 
@@ -303,7 +319,7 @@ schedules or bypass food safety procedures.
 | Version | Change | Status |
 |---|---|---|
 | v1.0 | Initial production and batch planning prompt | Evaluated — 18/20 (90%) |
-| v1.1 | Added explicit resource allocation rules, daily scheduling validation, consolidated inventory reconciliation and concise reporting | Awaiting retesting |
+| v1.1 | Added resource allocation rules, daily scheduling validation, consolidated inventory reconciliation and structured reporting | Final Selected Version — 19/20 (95%) |
 
 ## Reason for Revision
 
@@ -319,11 +335,30 @@ Version v1.1 introduces standardised calculation
 and allocation rules while maintaining existing
 operational safeguards.
 
-## Testing Evidence
+## Testing Evidence and Final Evaluation
 
 - [Testing Inputs and Actual Outputs](../03-testing-evidence/P04-testing-evidence.md)
-- [Iteration Log](../04-iteration-logs/P04-iteration-log.md)
+- [Iteration Log and Version History](../04-iteration-logs/P04-iteration-log.md)
+- [Final Evaluation and Business Impact](../05-evaluation/P04-final-evaluation.md)
 
-v1.0 evaluation score: 18/20 (90%).
+| Evaluation Measure | Result |
+|---|---|
+| Final Version | v1.1 |
+| Initial Score | 18/20 (90%) |
+| Final Test A | 9/10 |
+| Final Test B | 10/10 |
+| Combined Final Score | 19/20 (95%) |
+| Absolute Improvement | 5 percentage points |
+| Automation Potential | Medium |
+| Development Status | Completed |
 
-v1.1 testing and evaluation are pending.
+The final prompt supports supervised production
+planning, batch allocation and resource assessment.
+
+Minor reporting repetition remains.
+
+The prompt has not been commercially deployed.
+
+All production recommendations and schedules
+require appropriate human verification and
+production manager approval.
