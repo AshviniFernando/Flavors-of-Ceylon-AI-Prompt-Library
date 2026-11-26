@@ -53,7 +53,7 @@ conflicting inputs, unusual conditions or risks.
 | [P02](P02-testing-evidence.md) | Completed — v1.1; 19/20 (95%) |
 | [P03](P03-testing-evidence.md) | Completed — v1.1; 19/20 (95%) |
 | [P04](P04-testing-evidence.md) | Completed — v1.1; 19/20 (95%) |
-| P05 | Pending |
+| [P05](P05-testing-evidence.md) | Final v1.1 — 18/20 (90%); Safety-critical tests passed; Initial Test B evidence incomplete |
 | P06 | Pending |
 | P07 | Pending |
 | P08 | Pending |
