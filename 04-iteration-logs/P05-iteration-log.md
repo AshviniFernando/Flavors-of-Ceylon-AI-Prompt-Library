@@ -11,8 +11,8 @@ for Flavors of Ceylon.
 
 | Version | Change Made | Observed Effect | Lesson Learned |
 |---|---|---|---|
-| v1.0 | Initial food safety documentation prompt | Accurate Test A documentation but excessive reporting; Test B full evaluation pending | Accurate incident reporting must also support efficient human review |
-| v1.1 | Added evidence validation, containment reconciliation, escalation safeguards and concise reporting | Awaiting retesting | Pending evaluation |
+| v1.0 | Initial food safety documentation prompt | Accurate Test A documentation but excessive reporting; Test B evidence incomplete | Accurate incident documentation must support efficient human review |
+| v1.1 | Added evidence validation, containment reconciliation, escalation safeguards and structured reporting | Accurate revised outputs; clearer reporting and decision boundaries; 90% score | Explicit evidence and escalation rules improve responsible incident documentation |
 
 ---
 
@@ -25,32 +25,28 @@ Development and testing dates: [Actual dates]
 - Correct Test A incident and batch details.
 - Accurate sample measurements and calculations.
 - Correct average sample weight of 94 g.
-- Correct distinction between three non-conforming
-  samples and 17 unweighed products.
+- Correct distinction between three confirmed
+  non-conforming samples and 17 unweighed units.
 - Accurate documentation of all 20 held units.
-- Clear separation of completed and proposed actions.
-- Appropriate human approval requirements.
+- Appropriate human approval safeguards.
 
 The available portion of Test B also demonstrated:
 
-- Accurate equipment display readings.
-- Correct distinction between equipment and
-  product temperatures.
-- Appropriate handling of unknown exposure duration.
+- Accurate equipment display measurements.
+- Appropriate handling of unknown product
+  temperatures and exposure duration.
 - Correct identification of 16 held units and
   four units with unresolved locations.
-- No invented customer delivery information.
-- Recognition of urgent review requirements.
+- Recognition of urgent qualified review.
 
 ### Observed Weaknesses
 
-- Excessive reporting length in Test A.
+- Sixteen numbered principal sections in Test A.
 - Repeated measurements and containment summaries.
 - Unnecessary Mermaid diagrams.
 - Overlapping investigation checklists.
 - Subjective priority classifications.
-- The available Test B response is incomplete,
-  preventing a full evaluation.
+- Incomplete original Test B evidence.
 
 ### Evaluation Scores
 
@@ -63,31 +59,37 @@ The available portion of Test B also demonstrated:
 | Responsible AI | 2 | Pending |
 | Total | 9/10 | Pending |
 
-Test A score: 9/10 (90%).
+Combined initial score: Pending.
 
-Combined score: Pending complete Test B review.
+### Evidence Integrity
+
+A subsequently supplied response was identified
+as a v1.1 Test B response rather than the
+missing original v1.0 continuation.
+
+It was excluded from the initial evaluation.
+
+No missing original response content or
+evaluation scores were reconstructed.
 
 ### Safety-Critical Assessment
 
-Test A: No safety-critical failures identified.
+Test A: No failures identified.
 
-Test B: No safety-critical failures identified
-in the available portion.
-
-Full Test B assessment remains pending.
+Test B: No failures identified in the available
+portion. Full assessment remains pending.
 
 ### Lesson Learned
 
-Accurate incident documentation must be supported
-by concise evidence presentation and clear
-distinctions between recorded observations,
+Incident reporting should clearly distinguish
+recorded evidence, unresolved information,
 containment status and authorised decisions.
 
 ---
 
 ## 4. Version v1.1 — Revised Prompt
 
-Development date: [Actual date]
+Development and testing dates: [Actual dates]
 
 ### Changes Made
 
@@ -95,56 +97,112 @@ Development date: [Actual date]
 - Standardised measurement interpretation.
 - Defined sample interpretation safeguards.
 - Distinguished equipment and product temperatures.
-- Added explicit product containment reconciliation.
+- Added product containment reconciliation.
 - Distinguished notification and acknowledgement.
 - Strengthened urgent escalation instructions.
 - Clarified authorised decision boundaries.
 - Introduced a five-section reporting structure.
-- Removed unnecessary charts and repeated timelines.
+- Removed unnecessary charts and diagrams.
 - Prohibited unsupported risk classifications.
 
 ### Reason for Changes
 
-The revised prompt aims to preserve accurate
+The revised prompt aimed to retain accurate
 incident documentation while improving
-reporting efficiency, traceability transparency
-and responsible escalation.
+reporting organisation, traceability
+transparency and responsible escalation.
 
-The additional safeguards strengthen existing
-successful behaviours and address foreseeable
-incident documentation risks.
-
-They do not imply that safety-critical failures
-were observed during initial testing.
+The additional safeguards were preventive
+improvements and do not establish that
+safety-critical failures occurred in v1.0.
 
 ### Expected Effect
 
-The revised prompt is expected to generate
-more concise incident reports with clearer
-evidence interpretation, product containment
-status and urgent escalation requirements.
-
-The expected effect remains unverified.
+More structured incident reports with clear
+evidence interpretation, containment status
+and appropriate escalation requirements.
 
 ### Observed Effect
 
-Pending actual retesting.
+Test A accurately documented three confirmed
+non-conforming sampled products, 17 unweighed
+products and 20 units under quality hold.
+
+The average sample weight remained 94 g.
+
+Test B accurately documented 16 units on hold
+and four units with unresolved locations.
+
+The 110-minute measurement interval was not
+treated as actual product exposure duration.
+
+Urgent qualified review, traceability actions
+and supervisor acknowledgement requirements
+were explicitly presented.
+
+Both revised outputs used five principal
+reporting sections.
+
+Test A numbered principal sections decreased
+from 16 to five, a reduction of 68.75%.
+
+Unnecessary diagrams and unsupported risk
+classifications were removed.
 
 ### Evaluation Scores
 
-Pending.
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 1 |
+| Consistency | 2 | 2 |
+| Business Relevance | 1 | 2 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 9/10 |
+
+Combined score: 18/20 (90%).
 
 ### Safety-Critical Assessment
 
-Pending.
+No safety-critical failures were identified
+in either revised response.
+
+Both responses maintained human authorisation
+and avoided unsupported product safety
+determinations.
 
 ### Remaining Limitations
 
-Pending final evaluation.
+- Some reporting repetition remains.
+- Test B could more explicitly recommend
+  authorised containment of subsequently
+  located products.
+- The complete original Test B response
+  remains unavailable.
+- A combined baseline improvement cannot
+  be calculated.
+- Conflicting incident measurements have
+  not been directly tested.
+- Multiple simultaneous incidents and
+  complex recall scenarios remain untested.
+- Repeat-run reliability remains unverified.
+- Actual incident response effectiveness
+  and time savings have not been measured.
 
 ### Lesson Learned
 
-Pending final evaluation.
+AI can support structured food safety incident
+documentation without making independent
+food safety decisions.
+
+Numerical batch reconciliation does not
+establish complete physical containment.
+
+Urgent escalation should not depend on the
+completion of an investigation.
+
+Human review remains necessary even when
+AI-generated reports are factually accurate.
 
 ---
 
@@ -153,26 +211,36 @@ Pending final evaluation.
 | Version | Test A | Test B | Combined Score |
 |---|---:|---|---|
 | v1.0 | 9/10 | Pending | Pending |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 9/10 | 9/10 | 18/20 (90%) |
 
-## 6. Current Development Status
+Combined numerical improvement: Not established
+because original baseline evidence is incomplete.
 
-Initial Test A evaluation is complete.
+## 6. Final Version Selection
 
-Initial Test B full evaluation remains pending.
+Version v1.1 is selected as the final academic
+prompt based on its two completed evaluations,
+structured reporting and responsible AI safeguards.
 
-Version v1.1 has been developed using observed
-reporting limitations and additional preventive
-documentation safeguards.
+No safety-critical failures were observed
+during the revised tests.
 
-Final retesting remains pending.
+The prompt remains subject to qualified human
+review and is not approved for independent
+food safety decision-making.
 
-Automation potential: Medium - Preliminary.
+Automation potential: Medium.
+
+Final version development: Completed.
+
+Original baseline comparison: Incomplete.
 
 Operational deployment: Not implemented.
 
 ## Related Evidence
 
-- [P05 Current Prompt](../02-prompt-library/P05-food-safety-incident-reporting.md)
+- [P05 Final Prompt](../02-prompt-library/P05-food-safety-incident-reporting.md)
 - [P05 Testing Evidence](../03-testing-evidence/P05-testing-evidence.md)
+- [P05 Final Evaluation](../05-evaluation/P05-final-evaluation.md)
 - [P04 Final Evaluation](../05-evaluation/P04-final-evaluation.md)
+- [Iteration Log Index](README.md)
