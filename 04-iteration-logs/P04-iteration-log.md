@@ -10,8 +10,8 @@ operational scheduling for Flavors of Ceylon.
 
 | Version | Change Made | Observed Effect | Lesson Learned |
 |---|---|---|---|
-| v1.0 | Initial production planning prompt | Correct production and resource calculations, but excessive reporting; 90% score | Numerical accuracy must be supported by practical management reporting |
-| v1.1 | Added explicit allocation rules, daily scheduling validation and concise reporting | Awaiting retesting | Pending evaluation |
+| v1.0 | Initial production planning prompt | Correct calculations but excessive reporting; 90% score | Numerical accuracy must be supported by practical reporting |
+| v1.1 | Added allocation rules, daily scheduling validation, consolidated inventory reconciliation and structured reporting | Improved document organisation while retaining numerical accuracy; 95% score | Explicit constraints and structured outputs improve operational decision support |
 
 ---
 
@@ -26,18 +26,18 @@ Development and testing dates: [Actual dates]
 - Correct Test B production allocation of 185 units.
 - Correct allocation of nine batches and 370 minutes.
 - Correct ingredient consumption and remaining stock.
-- Appropriate handling of shared ingredient resources.
+- Appropriate shared ingredient allocation.
 - Correct production priority allocation.
 - Appropriate exclusion of unconfirmed deliveries.
-- Correct staffing and production capacity assessment.
-- No overlapping batches or unauthorised production.
+- Correct staffing and capacity assessments.
+- No overlapping production batches.
 - Appropriate human approval safeguards.
 
 ### Observed Weaknesses
 
 - Thirteen-section and eighteen-section reports.
 - Repeated calculations and management summaries.
-- Unrequested visualisations and production timelines.
+- Unrequested visualisations and timelines.
 - Illustrative inventory utilisation thresholds.
 - Qualitative risk ratings without approved rules.
 - Unnecessary AI-generated compliance assessments.
@@ -55,69 +55,114 @@ Development and testing dates: [Actual dates]
 
 Combined score: 18/20 (90%).
 
-Business relevance deductions reflect reporting
-length and repetition rather than numerical errors.
-
 ### Lesson Learned
 
-Correct production calculations must be supported
-by concise scheduling information and clearly
-defined operational decision boundaries.
+Accurate production calculations should be
+supported by concise scheduling information,
+clear resource limitations and appropriate
+operational decision boundaries.
 
 ---
 
 ## 4. Version v1.1 — Revised Prompt
 
-Development date: [Actual date]
+Development and testing dates: [Actual dates]
 
 ### Changes Made
 
 - Added explicit production data validation.
 - Standardised ingredient requirement calculations.
 - Defined priority-based resource allocation.
-- Required shared ingredient stock reconciliation.
+- Required shared ingredient reconciliation.
 - Strengthened daily batch scheduling validation.
-- Distinguished theoretical capacity from feasible
-  daily production capacity.
-- Separated full-target shortages from actual
-  scheduled ingredient consumption.
+- Distinguished theoretical and feasible capacity.
+- Separated full-target shortages from scheduled
+  ingredient consumption.
 - Introduced a five-section reporting structure.
 - Prohibited unsupported risk classifications.
 - Removed unnecessary charts and self-assessment.
 
 ### Reason for Changes
 
-Initial testing demonstrated correct numerical
-calculations and responsible production planning.
-
-The revised prompt aims to preserve these strengths
-while improving reporting efficiency, allocation
-transparency and operational usability.
+The revised prompt aimed to retain numerical
+accuracy and responsible production behaviour
+while improving reporting efficiency and
+operational usability.
 
 ### Expected Effect
 
-The revised prompt is expected to produce more
-structured production schedules, transparent
+More structured production schedules, transparent
 resource calculations and concise management
 recommendations without reducing accuracy.
 
-This expected effect remains unverified.
-
 ### Observed Effect
 
-Pending actual retesting.
+Test A correctly achieved 325 production units
+through 15 batches using 625 minutes.
+
+Test B correctly achieved 185 production units
+through nine batches using 370 minutes.
+
+The 140-unit production shortfall and 56.92%
+target achievement were calculated correctly.
+
+Both responses correctly reconciled ingredient
+requirements, scheduled consumption and
+remaining inventory.
+
+Unconfirmed supplier deliveries and provisional
+purchases remained excluded.
+
+Principal report sections decreased from 13
+to five in Test A and from 18 to five in Test B.
+
+Unsupported risk classifications and unnecessary
+visualisations were removed.
+
+The five-section structure improved organisation,
+although some repeated information remained.
 
 ### Evaluation Scores
 
-Pending.
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 1 | 2 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 10/10 |
+
+Combined score: 19/20 (95%).
 
 ### Remaining Limitations
 
-Pending final evaluation.
+- Some repeated production calculations remain.
+- Actual administrative time savings have not
+  been measured.
+- Multiple production stations have not been tested.
+- Complex employee qualification and shift
+  restrictions have not been tested.
+- Invalid recipes and missing essential production
+  information have not been directly tested.
+- Unexpected equipment failures and dynamic
+  rescheduling have not been tested.
+- Repeat-run reliability remains unverified.
+- Actual manufacturing feasibility and food safety
+  require appropriate human verification.
 
 ### Lesson Learned
 
-Pending final evaluation.
+Explicit resource allocation and reconciliation
+rules improve the transparency of AI-assisted
+production planning.
+
+Distinguishing available station time from
+staff-supported feasible production time is
+important for realistic scheduling.
+
+Prompt refinement can improve document structure
+without changing the underlying numerical results.
 
 ---
 
@@ -126,25 +171,36 @@ Pending final evaluation.
 | Version | Test A | Test B | Combined Score |
 |---|---:|---:|---:|
 | v1.0 | 9/10 | 9/10 | 18/20 (90%) |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 9/10 | 10/10 | 19/20 (95%) |
 
-## 6. Current Development Status
+Absolute improvement: 5 percentage points.
 
-Initial v1.0 testing and evaluation are complete.
+Relative improvement in evaluation score: 5.56%.
 
-Version v1.1 has been developed based on observed
-reporting and usability limitations.
+## 6. Final Version Selection
 
-Final retesting remains pending.
+Version v1.1 is selected as the final prompt.
 
-Automation potential: Medium — Preliminary.
+The revised version retains correct numerical
+calculations and responsible operational safeguards
+while improving reporting structure and resource
+allocation transparency.
+
+The remaining reporting repetition does not justify
+another iteration within the current academic scope.
+
+Automation potential: Medium.
+
+Development status: Completed.
 
 Operational deployment: Not implemented.
 
 ## Related Evidence
 
-- [P04 Current Prompt](../02-prompt-library/P04-production-and-batch-planning.md)
+- [P04 Final Prompt](../02-prompt-library/P04-production-and-batch-planning.md)
 - [P04 Testing Evidence](../03-testing-evidence/P04-testing-evidence.md)
+- [P04 Final Evaluation](../05-evaluation/P04-final-evaluation.md)
 - [P01 Final Evaluation](../05-evaluation/P01-final-evaluation.md)
 - [P02 Final Evaluation](../05-evaluation/P02-final-evaluation.md)
 - [P03 Final Evaluation](../05-evaluation/P03-final-evaluation.md)
+- [Iteration Log Index](README.md)
