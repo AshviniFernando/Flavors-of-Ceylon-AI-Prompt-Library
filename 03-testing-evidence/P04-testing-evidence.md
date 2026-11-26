@@ -41,7 +41,153 @@ must not be treated as available inventory.
 
 ### Test Input
 
-[Paste the complete original Test A dataset.]
+PRODUCTION PLANNING INFORMATION
+
+Business: Flavors of Ceylon.
+Planning date: 4 December 2026.
+Planning period: 1–7 December 2026.
+Available production dates: 5–7 December 2026.
+
+Related assessments:
+- P01 Test C: Demand and production planning.
+- P02 Test A: Inventory and replenishment.
+- P03 Test A: Supplier purchase order preparation.
+
+APPROVED PRODUCTION TARGETS
+
+Product | Forecast Demand | Approved Production Target
+Fish roti | 160 | 120
+Vegetable rolls | 80 | 0
+Chicken kottu | 90 | 85
+Rice and curry packs | 60 | 50
+Pol sambol sachets | 80 | 70
+
+All product quantities represent individual units.
+
+The production targets already account for
+finished-product inventory, safety stock and
+previous production capacity assessment.
+
+Use the approved production targets rather than
+the full demand forecasts when allocating batches.
+
+INGREDIENT CONSUMPTION REQUIREMENTS
+
+The following quantities are required to produce
+10 units of each product.
+
+Product | Wheat Flour (kg) | Rice (kg) | Chicken (kg) | Grated Coconut (kg) | Fish (kg) | Vegetables (kg) | Eggs (units)
+Fish roti | 1.2 | 0 | 0 | 0 | 0.8 | 0 | 0
+Vegetable rolls | 1.2 | 0 | 0 | 0 | 0 | 1.0 | 0
+Chicken kottu | 2.0 | 0 | 1.8 | 0 | 0 | 0 | 10
+Rice and curry packs | 0 | 1.5 | 2.0 | 0.3 | 0 | 0 | 0
+Pol sambol sachets | 0 | 0 | 0 | 0.5 | 0 | 0 | 0
+
+Ingredient consumption scales proportionally
+with the number of units produced.
+
+All other necessary ingredients and packaging
+materials are verified as sufficient for the
+approved production targets.
+
+AVAILABLE INGREDIENT INVENTORY
+
+Ingredient | Confirmed Available Stock
+Wheat flour | 45 kg
+Rice | 40 kg
+Chicken | 30 kg
+Grated coconut | 12 kg
+Fish | 12 kg
+Vegetables | 10 kg
+Eggs | 100 units
+
+This is an updated inventory snapshot for
+production planning.
+
+All listed stock has passed the relevant
+internal storage and condition checks and is
+eligible for the available production dates
+under this synthetic scenario.
+
+The P03 Test A purchases of 15 kg wheat flour
+and 12 kg chicken have subsequently been
+approved, received and inspected.
+
+These received quantities are already included
+in the available stock figures above.
+
+Do not count these received quantities twice.
+
+Do not assume that earlier inventory records
+or previously expiring batches remain available.
+
+BATCH AND PRODUCTION CAPACITY
+
+Product | Maximum Units per Batch | Fixed Minutes per Batch | Staff Required per Batch | Weekly Production Limit
+Fish roti | 20 | 40 | 2 | 120
+Vegetable rolls | 20 | 35 | 2 | 60
+Chicken kottu | 20 | 45 | 2 | 100
+Rice and curry packs | 25 | 50 | 2 | 60
+Pol sambol sachets | 35 | 30 | 2 | 70
+
+Partial batches are permitted in multiples
+of 5 units.
+
+Every batch, including a partial batch,
+requires its full stated production duration.
+
+STAFFING AND SHARED RESOURCE AVAILABILITY
+
+Date | Available Staff | Available Production Minutes
+5 December 2026 | 2 | 360
+6 December 2026 | 2 | 360
+7 December 2026 | 2 | 360
+
+All products use one shared production station.
+
+Only one batch may operate at a time.
+
+Both required staff members must be available
+for the entire duration of each batch.
+
+The supplied production durations include
+the required setup and cleaning allowances.
+
+The available production minutes represent
+net scheduling time after other approved
+workplace allowances.
+
+PRODUCTION PRIORITIES
+
+Allocate production in the following priority order:
+
+1. Fish roti.
+2. Chicken kottu.
+3. Rice and curry packs.
+4. Pol sambol sachets.
+5. Vegetable rolls.
+
+Prioritise achieving higher-priority approved
+targets before allocating remaining resources
+to lower-priority products.
+
+ADDITIONAL CONDITIONS
+
+- Do not exceed approved production targets.
+- Do not exceed product-specific weekly limits.
+- Do not exceed available ingredient quantities.
+- Do not assume additional staff or overtime.
+- Do not overlap production batches.
+- Do not assume ingredient substitutions.
+- All proposed quantities and schedules require
+  production manager approval.
+
+All recipes, quantities, capacities, durations,
+staffing records and dates are synthetic and
+created solely for academic testing.
+
+The scheduling exercise does not establish
+actual food processing or food safety standards.
 
 ### Expected Output
 
@@ -57,7 +203,170 @@ must not be treated as available inventory.
 
 ### Test Input
 
-[Paste the complete original Test B dataset.]
+PRODUCTION PLANNING INFORMATION
+
+Business: Flavors of Ceylon.
+Planning date: 4 December 2026.
+Planning period: 1–7 December 2026.
+Available production dates: 5–7 December 2026.
+
+Related assessments:
+- P01 Test C: Demand and production planning.
+- P02 Test B: Challenging inventory assessment.
+- P03 Test B: Incomplete procurement information.
+
+APPROVED PRODUCTION TARGETS
+
+Product | Forecast Demand | Approved Production Target
+Fish roti | 160 | 120
+Vegetable rolls | 80 | 0
+Chicken kottu | 90 | 85
+Rice and curry packs | 60 | 50
+Pol sambol sachets | 80 | 70
+
+All product quantities represent individual units.
+
+The production targets already account for
+finished-product inventory, safety stock and
+previous production capacity assessment.
+
+Use these approved production targets rather than
+the full demand forecasts when allocating batches.
+
+INGREDIENT CONSUMPTION REQUIREMENTS
+
+The following quantities are required to produce
+10 units of each product.
+
+Product | Wheat Flour (kg) | Rice (kg) | Chicken (kg) | Grated Coconut (kg) | Fish (kg) | Vegetables (kg) | Eggs (units)
+Fish roti | 1.2 | 0 | 0 | 0 | 0.8 | 0 | 0
+Vegetable rolls | 1.2 | 0 | 0 | 0 | 0 | 1.0 | 0
+Chicken kottu | 2.0 | 0 | 1.8 | 0 | 0 | 0 | 10
+Rice and curry packs | 0 | 1.5 | 2.0 | 0.3 | 0 | 0 | 0
+Pol sambol sachets | 0 | 0 | 0 | 0.5 | 0 | 0 | 0
+
+Ingredient consumption scales proportionally
+with the number of units produced.
+
+All other necessary ingredients and packaging
+materials are verified as sufficient for the
+approved production targets.
+
+CONFIRMED AVAILABLE INGREDIENT INVENTORY
+
+Ingredient | Confirmed Available Stock
+Wheat flour | 20 kg
+Rice | 15 kg
+Chicken | 10 kg
+Grated coconut | 4 kg
+Fish | 8 kg
+Vegetables | 10 kg
+Eggs | 60 units
+
+This is an updated verified inventory snapshot.
+
+All listed stock has passed the relevant internal
+storage and condition checks and is eligible for
+production on 5 and 6 December 2026 under this
+synthetic scenario.
+
+Expired and unverified batches identified during
+P02 have already been excluded.
+
+Do not include previously excluded inventory.
+
+PENDING SUPPLIER DELIVERIES
+
+Ingredient | Quantity | Status
+Wheat flour | 5 kg | Draft order only; delivery unconfirmed
+Grated coconut | 6 kg | Draft order only; price and delivery unconfirmed
+
+These ingredients are associated with P03 Test B.
+
+Neither delivery has been confirmed or received.
+
+Rice and chicken purchasing requirements from
+P02 Test B remain provisional and unapproved.
+
+Do not count pending supplier deliveries or
+provisional purchases as available inventory.
+
+BATCH AND PRODUCTION CAPACITY
+
+Product | Maximum Units per Batch | Fixed Minutes per Batch | Staff Required per Batch | Weekly Production Limit
+Fish roti | 20 | 40 | 2 | 120
+Vegetable rolls | 20 | 35 | 2 | 60
+Chicken kottu | 20 | 45 | 2 | 100
+Rice and curry packs | 25 | 50 | 2 | 60
+Pol sambol sachets | 35 | 30 | 2 | 70
+
+Partial batches are permitted in multiples
+of 5 units.
+
+Every batch, including a partial batch,
+requires its full stated production duration.
+
+STAFFING AND SHARED RESOURCE AVAILABILITY
+
+Date | Available Staff | Available Production Minutes
+5 December 2026 | 2 | 375
+6 December 2026 | 1 | 360
+7 December 2026 | 0 | 0
+
+Only one employee is available on 6 December
+because of a staffing shortage.
+
+All products use one shared production station.
+
+Only one batch may operate at a time.
+
+Both required staff members must be available
+for the entire duration of each batch.
+
+The supplied production durations include
+the required setup and cleaning allowances.
+
+The available production minutes represent
+net scheduling time after other approved
+workplace allowances.
+
+PRODUCTION PRIORITIES
+
+Allocate production in the following priority order:
+
+1. Fish roti.
+2. Chicken kottu.
+3. Rice and curry packs.
+4. Pol sambol sachets.
+5. Vegetable rolls.
+
+For each product, allocate the maximum feasible
+quantity up to its approved production target
+before allocating remaining ingredients and
+production time to the next product.
+
+Do not reduce higher-priority allocations solely
+to increase lower-priority production.
+
+ADDITIONAL CONDITIONS
+
+- Do not exceed approved production targets.
+- Do not exceed product-specific weekly limits.
+- Do not exceed available ingredient quantities.
+- Do not assume additional staff or overtime.
+- Do not overlap production batches.
+- Do not assume ingredient substitutions.
+- Do not assume unconfirmed deliveries will arrive.
+- Identify unmet production targets and their causes.
+- All proposed quantities and schedules require
+  production manager approval.
+
+All recipes, quantities, capacities, durations,
+staffing records and dates are synthetic and
+created solely for academic testing.
+
+The scheduling exercise does not establish
+actual food processing or food safety standards.
 
 ### Expected Output
 
@@ -1556,13 +1865,383 @@ Evaluation score: 9/10 (90%).
 
 ### Test Case A
 
-Testing date: Pending.
+Testing date: 26 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+
+# Flavors of Ceylon – P04 v1.1 – Test A
+
+## Proposed Weekly Production Schedule
+
+**Document Status:** Draft – Pending Production Manager Approval
+
+| Planning Information | Details |
+|---|---|
+| Business | Flavors of Ceylon |
+| Planning date | 4 December 2026 |
+| Planning period | 1–7 December 2026 |
+| Available production dates | 5–7 December 2026 |
+| Related demand assessment | P01 Test C |
+| Related inventory assessment | P02 Test A |
+| Related procurement assessment | P03 Test A |
+| Planning purpose | Academic testing and production planning |
+
+---
+
+## 1. Data Validation and Operational Constraints
+
+### 1.1 Production Information Validation
+
+| Validation Area | Findings |
+|---|---|
+| Approved production targets | Supplied for all five products. |
+| Demand forecasts | Supplied but not used as direct production targets. |
+| Ingredient consumption rates | Complete and supplied per 10 product units. |
+| Ingredient measurement units | Consistent and suitable for calculations. |
+| Available inventory | Confirmed and eligible for all available production dates under the synthetic scenario. |
+| Received purchases | Already included in the updated inventory snapshot. |
+| Batch sizes | Supplied for all products. |
+| Partial batches | Permitted in multiples of five units. |
+| Batch durations | Fixed, including partial batches. |
+| Weekly production limits | Supplied for all products. |
+| Staffing availability | Two staff members available on each production date. |
+| Shared production station | One station available; simultaneous batches prohibited. |
+| Shift starting times | Not supplied. Elapsed production minutes will be used. |
+| Other ingredients and packaging | Verified as sufficient for approved targets. |
+| Production approval | Pending Production Manager approval. |
+
+### 1.2 Operational Constraints
+
+- Production must not exceed approved targets or product-specific weekly limits.
+- Each batch requires two staff members throughout its full duration.
+- Only one batch may operate at a time.
+- Each production date provides 360 net production minutes.
+- Partial batches require the same production duration as full batches.
+- No overtime, additional staff, ingredient substitutions or additional equipment are assumed.
+- Received purchases of 15 kg of wheat flour and 12 kg of chicken must not be added again.
+- Vegetable rolls must not be produced because their approved production target is zero.
+
+No essential production information is missing that prevents the preparation of a proposed schedule. Actual shift starting times remain subject to confirmation.
+
+---
+
+## 2. Production Allocation and Batch Requirements
+
+### 2.1 Proposed Production Allocation
+
+Production is allocated according to the supplied priority order. All approved production targets can be achieved within the available ingredient, staffing and production capacity constraints.
+
+| Priority | Product | Approved Target | Weekly Limit | Proposed Quantity | Unmet Target | Target Achievement |
+|---:|---|---:|---:|---:|---:|---:|
+| 1 | Fish roti | 120 | 120 | 120 | 0 | 100% |
+| 2 | Chicken kottu | 85 | 100 | 85 | 0 | 100% |
+| 3 | Rice and curry packs | 50 | 60 | 50 | 0 | 100% |
+| 4 | Pol sambol sachets | 70 | 70 | 70 | 0 | 100% |
+| 5 | Vegetable rolls | 0 | 60 | 0 | 0 | N/A |
+| **Total** | | **325** | **410** | **325** | **0** | **100%** |
+
+### 2.2 Batch Allocation and Production Time
+
+| Product | Maximum Batch Size | Full-Target Minimum Batches | Proposed Batch Allocation | Minutes per Batch | Scheduled Minutes |
+|---|---:|---:|---|---:|---:|
+| Fish roti | 20 | 6 | 6 × 20 | 40 | 240 |
+| Chicken kottu | 20 | 5 | (4 × 20) + (1 × 5) | 45 | 225 |
+| Rice and curry packs | 25 | 2 | 2 × 25 | 50 | 100 |
+| Pol sambol sachets | 35 | 2 | 2 × 35 | 30 | 60 |
+| Vegetable rolls | 20 | 0 | No production | 35 | 0 |
+| **Total** | | **15** | **325 units** | | **625** |
+
+### 2.3 Essential Batch Calculations
+
+#### Fish Roti
+
+- Minimum batches = 120 / 20 = 6 batches.
+- Production time = 6 × 40 = 240 minutes.
+
+#### Chicken Kottu
+
+- Minimum batches = 85 / 20, rounded upwards = 5 batches.
+- Batch allocation = 20 + 20 + 20 + 20 + 5 = 85 units.
+- Production time = 5 × 45 = 225 minutes.
+- The partial batch of five units requires the full 45-minute duration.
+
+#### Rice and Curry Packs
+
+- Minimum batches = 50 / 25 = 2 batches.
+- Production time = 2 × 50 = 100 minutes.
+
+#### Pol Sambol Sachets
+
+- Minimum batches = 70 / 35 = 2 batches.
+- Production time = 2 × 30 = 60 minutes.
+
+#### Vegetable Rolls
+
+- Approved production target = 0 units.
+- Required batches = 0.
+- Production time = 0 minutes.
+
+### 2.4 Binding Constraint Assessment
+
+| Product | Allocation Constraint | Explanation |
+|---|---|---|
+| Fish roti | Approved target and weekly production limit | Both limits are reached at 120 units. |
+| Chicken kottu | Approved production target | Production is restricted to 85 units despite a weekly limit of 100 units. |
+| Rice and curry packs | Approved production target | Production is restricted to 50 units despite a weekly limit of 60 units. |
+| Pol sambol sachets | Approved target and weekly production limit | Both limits are reached at 70 units. |
+| Vegetable rolls | Zero approved production target | No additional production is allocated under the supplied target. |
+
+There are no unmet approved production targets.
+
+Differences between forecast demand and approved production targets must not be interpreted as confirmed unmet customer demand because the targets already incorporate finished-product inventory, safety stock and previous capacity assessments.
+
+---
+
+## 3. Ingredient Requirements and Reconciliation
+
+### 3.1 Ingredient Requirement Calculation Method
+
+The following formula is applied using the supplied recipe consumption rates:
+
+**Ingredient requirement = (Production quantity / 10) × Ingredient quantity required per 10 units**
+
+| Product | Calculated Ingredient Requirements |
+|---|---|
+| Fish roti | Wheat flour: 12 × 1.2 = 14.40 kg; Fish: 12 × 0.8 = 9.60 kg |
+| Chicken kottu | Wheat flour: 8.5 × 2.0 = 17.00 kg; Chicken: 8.5 × 1.8 = 15.30 kg; Eggs: 8.5 × 10 = 85 units |
+| Rice and curry packs | Rice: 5 × 1.5 = 7.50 kg; Chicken: 5 × 2.0 = 10.00 kg; Grated coconut: 5 × 0.3 = 1.50 kg |
+| Pol sambol sachets | Grated coconut: 7 × 0.5 = 3.50 kg |
+| Vegetable rolls | No ingredient consumption |
+
+### 3.2 Consolidated Ingredient Reconciliation
+
+| Ingredient | Unit | Confirmed Eligible Stock | Full-Target Requirement | Full-Target Shortage | Scheduled Consumption | Projected Remaining Stock |
+|---|---|---:|---:|---:|---:|---:|
+| Wheat flour | kg | 45.00 | 31.40 | 0.00 | 31.40 | 13.60 |
+| Rice | kg | 40.00 | 7.50 | 0.00 | 7.50 | 32.50 |
+| Chicken | kg | 30.00 | 25.30 | 0.00 | 25.30 | 4.70 |
+| Grated coconut | kg | 12.00 | 5.00 | 0.00 | 5.00 | 7.00 |
+| Fish | kg | 12.00 | 9.60 | 0.00 | 9.60 | 2.40 |
+| Vegetables | kg | 10.00 | 0.00 | 0.00 | 0.00 | 10.00 |
+| Eggs | units | 100 | 85 | 0 | 85 | 15 |
+
+### 3.3 Sequential Inventory Allocation
+
+Ingredient stock is allocated and deducted in production priority order.
+
+#### Priority 1 – Fish Roti
+
+Allocating 120 units leaves:
+
+- Wheat flour: 30.60 kg.
+- Fish: 2.40 kg.
+
+#### Priority 2 – Chicken Kottu
+
+Allocating 85 units leaves:
+
+- Wheat flour: 13.60 kg.
+- Chicken: 14.70 kg.
+- Eggs: 15 units.
+
+#### Priority 3 – Rice and Curry Packs
+
+Allocating 50 units leaves:
+
+- Rice: 32.50 kg.
+- Chicken: 4.70 kg.
+- Grated coconut: 10.50 kg.
+
+#### Priority 4 – Pol Sambol Sachets
+
+Allocating 70 units leaves:
+
+- Grated coconut: 7.00 kg.
+
+#### Priority 5 – Vegetable Rolls
+
+- No ingredients are allocated.
+- All 10.00 kg of vegetables remain in inventory.
+
+### 3.4 Ingredient Shortage and Inventory Findings
+
+**Full-target ingredient shortage:**
+
+`Shortage = MAX(0, Full-target requirement - Confirmed eligible stock)`
+
+**Projected remaining inventory:**
+
+`Remaining stock = Confirmed eligible stock - Scheduled consumption`
+
+All ingredient balances remain non-negative.
+
+No ingredient shortages are identified, and no additional ingredient purchases are required to achieve the approved production targets under the supplied conditions.
+
+The received wheat flour and chicken purchases have not been double-counted. No earlier inventory records or unconfirmed supplier deliveries have been incorporated.
+
+---
+
+## 4. Daily Production Schedule and Capacity
+
+### 4.1 Proposed Daily Batch Schedule
+
+Actual shift starting times have not been provided. Therefore, start and end times are expressed as elapsed production minutes from the beginning of each production day.
+
+The proposed scheduling approach completes production over the first two available days while retaining 7 December as unused capacity. This is a proposed scheduling decision rather than a supplied operational requirement.
+
+| Production Date | Batch Reference | Product | Batch Quantity | Start Minute | End Minute | Duration (min) | Staff Required |
+|---|---|---|---:|---:|---:|---:|---:|
+| 5 Dec 2026 | FR-01 | Fish roti | 20 | 0 | 40 | 40 | 2 |
+| 5 Dec 2026 | FR-02 | Fish roti | 20 | 40 | 80 | 40 | 2 |
+| 5 Dec 2026 | FR-03 | Fish roti | 20 | 80 | 120 | 40 | 2 |
+| 5 Dec 2026 | FR-04 | Fish roti | 20 | 120 | 160 | 40 | 2 |
+| 5 Dec 2026 | FR-05 | Fish roti | 20 | 160 | 200 | 40 | 2 |
+| 5 Dec 2026 | FR-06 | Fish roti | 20 | 200 | 240 | 40 | 2 |
+| 5 Dec 2026 | CK-01 | Chicken kottu | 20 | 240 | 285 | 45 | 2 |
+| 5 Dec 2026 | CK-02 | Chicken kottu | 20 | 285 | 330 | 45 | 2 |
+| 6 Dec 2026 | CK-03 | Chicken kottu | 20 | 0 | 45 | 45 | 2 |
+| 6 Dec 2026 | CK-04 | Chicken kottu | 20 | 45 | 90 | 45 | 2 |
+| 6 Dec 2026 | CK-05 | Chicken kottu | 5 | 90 | 135 | 45 | 2 |
+| 6 Dec 2026 | RC-01 | Rice and curry packs | 25 | 135 | 185 | 50 | 2 |
+| 6 Dec 2026 | RC-02 | Rice and curry packs | 25 | 185 | 235 | 50 | 2 |
+| 6 Dec 2026 | PS-01 | Pol sambol sachets | 35 | 235 | 265 | 30 | 2 |
+| 6 Dec 2026 | PS-02 | Pol sambol sachets | 35 | 265 | 295 | 30 | 2 |
+| 7 Dec 2026 | N/A | No scheduled production | 0 | N/A | N/A | 0 | 0 |
+| **Total** | **15 batches** | | **325** | | | **625** | |
+
+Batch references are proposed identifiers created for this draft schedule.
+
+### 4.2 Daily Capacity Summary
+
+| Production Date | Available Staff | Feasible Available Minutes | Scheduled Minutes | Remaining Minutes | Capacity Utilisation | Staffing Restrictions |
+|---|---:|---:|---:|---:|---:|---|
+| 5 Dec 2026 | 2 | 360 | 330 | 30 | 91.67% | Both staff required throughout each batch. |
+| 6 Dec 2026 | 2 | 360 | 295 | 65 | 81.94% | Both staff required throughout each batch. |
+| 7 Dec 2026 | 2 | 360 | 0 | 360 | 0.00% | Both staff required if production is subsequently approved. |
+| **Total** | | **1,080** | **625** | **455** | **57.87%** | |
+
+### 4.3 Production Capacity Calculations
+
+#### Total Feasible Available Production Time
+
+`3 × 360 = 1,080 minutes`
+
+#### Theoretical Full-Target Production Time
+
+`240 + 225 + 100 + 60 = 625 minutes`
+
+#### Feasible Scheduled Production Time
+
+`330 + 295 + 0 = 625 minutes`
+
+#### Remaining Production Time
+
+`1,080 - 625 = 455 minutes`
+
+#### Weekly Capacity Utilisation
+
+**Formula:**
+
+`Capacity utilisation = (Scheduled production minutes / Feasible available production minutes) × 100`
+
+**Calculation:**
+
+`(625 / 1,080) × 100 = 57.87%`
+
+#### Overall Approved Target Achievement
+
+**Formula:**
+
+`Target achievement = (Proposed production / Approved production target) × 100`
+
+**Calculation:**
+
+`(325 / 325) × 100 = 100%`
+
+#### Total Scheduled Staff Requirement
+
+`625 × 2 = 1,250 staff-minutes`
+
+The theoretical full-target production requirement equals the feasible scheduled production time because all approved targets can be accommodated within the individual daily production limits.
+
+### 4.4 Schedule Validation
+
+| Validation Requirement | Result |
+|---|---|
+| Approved production targets | All approved targets achieved without exceeding supplied quantities. |
+| Product-specific weekly limits | All limits respected. |
+| Ingredient availability | Scheduled consumption remains within eligible inventory. |
+| Maximum batch sizes | All batches comply with product-specific maximum sizes. |
+| Partial batch increments | Five-unit chicken kottu batch complies with permitted increments. |
+| Fixed batch durations | Applied to every scheduled batch. |
+| Daily production capacity | Neither scheduled production day exceeds 360 minutes. |
+| Concurrent staffing | Two staff members required and available for each scheduled batch under the supplied scenario. |
+| Shared production station | All batches scheduled sequentially without overlap. |
+| Batch splitting | No individual batch is split across production dates. |
+| Production priority | Supplied priority order maintained. |
+| Zero-target products | No vegetable rolls scheduled. |
+| Overtime and additional resources | None assumed. |
+| Schedule reconciliation | Batch quantities and durations reconcile with ingredient consumption and production allocations. |
+
+### 4.5 Potential Production Bottlenecks
+
+| Bottleneck or Limitation | Supporting Evidence | Recommended Management Response |
+|---|---|---|
+| Shared production station | All products depend on one station. | Maintain sequential batch scheduling and approved cleaning procedures. |
+| Staffing dependency | Two available staff members are required for every batch. | Confirm both staff members are available throughout scheduled production. |
+| Chicken availability | 25.30 kg of the available 30 kg is allocated. | Monitor actual consumption against approved recipes. |
+| Egg availability | 85 of the available 100 eggs are allocated. | Monitor consumption and maintain inventory records. |
+| Fixed partial batch duration | Five units of chicken kottu require a full 45-minute batch. | Retain the full duration to achieve the approved target. |
+| Product-specific weekly limits | Fish roti and pol sambol sachets reach their weekly limits. | Do not allocate additional quantities without an approved capacity and target revision. |
+| Unused production capacity | 455 production minutes remain available. | Retain unused capacity without automatically increasing production quantities. |
+| Missing shift starting times | Actual clock-based production times are not supplied. | Confirm shift starting times before issuing the operational schedule. |
+
+---
+
+## 5. Management Summary and Priority Actions
+
+### 5.1 Key Production Indicators
+
+| Performance Indicator | Calculated Result |
+|---|---:|
+| Total approved production target | 325 units |
+| Total proposed production | 325 units |
+| Total unmet production target | 0 units |
+| Approved target achievement | 100% |
+| Total production batches | 15 |
+| Theoretical full-target production time | 625 minutes |
+| Scheduled production time | 625 minutes |
+| Feasible available production time | 1,080 minutes |
+| Remaining production capacity | 455 minutes |
+| Weekly capacity utilisation | 57.87% |
+| Scheduled staff requirement | 1,250 staff-minutes |
+| Ingredients with identified shortages | 0 |
+| Additional ingredient purchases required | None under supplied conditions |
+| Scheduled production days | 2 |
+| Unused available production days | 1 |
+
+### 5.2 Management Summary
+
+The proposed schedule achieves all 325 approved production units through 15 batches completed on 5 and 6 December 2026. All verified ingredient quantities, staffing requirements, batch restrictions and weekly production limits are satisfied. No ingredient shortages or unmet production targets are identified. Production requires 625 of the available 1,080 minutes, resulting in 57.87% capacity utilisation. The remaining 455 minutes provide scheduling flexibility without authorising additional production. Key operational dependencies include the shared production station, continuous availability of two staff members and controlled ingredient consumption. Vegetable rolls remain excluded due to their zero approved target. Implementation remains subject to production manager approval and established food safety procedures.
+
+### 5.3 Priority Management Actions
+
+1. Obtain Production Manager approval before implementing the proposed schedule.
+2. Confirm actual shift starting times and continuous availability of both staff members.
+3. Verify ingredient eligibility and stock availability before scheduled production.
+4. Monitor actual batch quantities, ingredient consumption and production durations against the approved plan.
+5. Retain unused capacity for approved operational requirements without exceeding production targets or weekly limits.
+
+---
+
+**Final Production Planning Status:** Draft – Pending Production Manager Approval.
+
+**Production Feasibility Conclusion:** All approved production targets are achievable under the supplied synthetic conditions without additional ingredients, staffing, equipment or overtime.
+
+**Food Safety and Authorisation Disclaimer:** This production schedule has been prepared solely for academic testing using supplied synthetic business information. It does not independently certify ingredient suitability, establish food safety standards, authorise production or override approved food safety and operational procedures.
 
 #### Evaluation
 
@@ -1570,13 +2249,492 @@ Pending evaluation.
 
 ### Test Case B
 
-Testing date: Pending.
+Testing date: 26 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+
+# Flavors of Ceylon – Proposed Weekly Production Schedule
+
+## P04 v1.1 – Test B
+
+| Planning Information | Details |
+| --- | --- |
+| Business | Flavors of Ceylon |
+| Planning Date | 4 December 2026 |
+| Planning Period | 1–7 December 2026 |
+| Available Production Dates | 5–7 December 2026 |
+| Related Assessments | P01 Test C, P02 Test B and P03 Test B |
+| Schedule Status | Draft – Pending Production Manager Approval |
+| Assessment Purpose | Synthetic Academic Testing |
+
+---
+
+## 1. Data Validation and Operational Constraints
+
+### 1.1 Production Information Validation
+
+The supplied production targets, ingredient consumption rates, verified inventory, batch requirements and staffing information have been reviewed to determine feasible production quantities.
+
+Approved production targets are used instead of forecast demand because finished-product inventory, safety stock and previous capacity adjustments have already been incorporated.
+
+| Validation Area | Findings |
+| --- | --- |
+| Approved production targets | Supplied for all five products |
+| Demand forecasts | Available for reference only |
+| Ingredient consumption rates | Complete and specified per 10 product units |
+| Measurement units | Consistent and compatible |
+| Confirmed ingredient inventory | Verified under the supplied synthetic scenario |
+| Batch sizes and durations | Supplied for all products |
+| Partial batch restrictions | Permitted in multiples of 5 units |
+| Weekly production limits | All approved targets are within product-specific limits |
+| Staffing requirements | Two concurrent employees required per batch |
+| Shared production resources | One production station; simultaneous batches prohibited |
+| Other ingredients and packaging | Confirmed sufficient for approved targets |
+| Actual shift starting times | Not supplied; elapsed production minutes will be used |
+| Setup and cleaning | Already included in fixed batch durations |
+
+No essential numerical production information is missing. No negative ingredient quantities or invalid production targets have been identified.
+
+### 1.2 Excluded Purchasing Requirements
+
+The following purchasing requirements must not be included in available production inventory.
+
+| Ingredient | Quantity | Exclusion Reason |
+| --- | ---: | --- |
+| Wheat flour | 5 kg | Draft purchase order; delivery unconfirmed |
+| Grated coconut | 6 kg | Price and delivery unconfirmed |
+| Rice | Not supplied | Provisional and unapproved purchase |
+| Chicken | Not supplied | Provisional and unapproved purchase |
+
+Previously expired and unverified inventory identified in P02 remains excluded.
+
+Only the updated verified inventory snapshot is used. No pending purchases or unconfirmed supplier deliveries are counted as available inventory.
+
+### 1.3 Staffing and Operational Constraints
+
+- **5 December 2026:** Two employees available for 375 production minutes. Eligible for production scheduling.
+- **6 December 2026:** Only one employee available. Production cannot be scheduled because every batch requires two concurrent employees.
+- **7 December 2026:** No employees or production minutes available.
+- All products use one shared production station.
+- Only one production batch may operate at a time.
+- Both required employees must be available throughout each batch.
+- Fixed production durations include setup and cleaning allowances.
+- No overtime, additional employees or ingredient substitutions are assumed.
+
+Although 735 net production minutes are listed across the planning dates, only **375 minutes are feasible for production** under the supplied staffing and shared-resource constraints.
+
+---
+
+## 2. Production Allocation and Batch Requirements
+
+### 2.1 Full-Target Batch Requirements
+
+The following calculations represent the theoretical resources required to achieve all approved production targets before applying ingredient and staffing constraints.
+
+**Calculation formulas:**
+
+- Minimum batches required = Approved production target / Maximum batch size, rounded upwards.
+- Required production minutes = Minimum batches required × Fixed batch duration.
+
+Full fixed batch durations apply to both full and partial batches.
+
+| Product (Priority Order) | Forecast Demand | Approved Target | Required Batch Allocation | Minimum Batches | Required Minutes |
+| --- | ---: | ---: | --- | ---: | ---: |
+| Fish roti | 160 | 120 | 6 × 20 | 6 | 240 |
+| Chicken kottu | 90 | 85 | 4 × 20 + 1 × 5 | 5 | 225 |
+| Rice and curry packs | 60 | 50 | 2 × 25 | 2 | 100 |
+| Pol sambol sachets | 80 | 70 | 2 × 35 | 2 | 60 |
+| Vegetable rolls | 80 | 0 | None | 0 | 0 |
+| **Total** | **470** | **325** | — | **15** | **625** |
+
+The full approved production targets require 625 production minutes.
+
+**Theoretical capacity shortfall:**
+
+    625 - 375 = 250 minutes
+
+This represents a theoretical capacity shortfall of 250 minutes before considering ingredient shortages.
+
+### 2.2 Feasible Production Allocation Calculations
+
+#### Priority 1 – Fish Roti
+
+Fish availability limits production to:
+
+    Maximum fish-supported production
+    = (8 / 0.8) × 10
+    = 100 units
+
+Proposed allocation:
+
+- Approved production target: 120 units.
+- Feasible production: 100 units.
+- Batch allocation: 5 batches of 20 units.
+- Production time: 5 × 40 = 200 minutes.
+- Wheat flour consumed: (100 / 10) × 1.2 = 12 kg.
+- Fish consumed: (100 / 10) × 0.8 = 8 kg.
+- Remaining wheat flour: 20 - 12 = 8 kg.
+- Remaining fish: 8 - 8 = 0 kg.
+- Remaining production time: 375 - 200 = 175 minutes.
+- Unmet production target: 120 - 100 = 20 units.
+
+**Binding constraint:** Insufficient fish inventory.
+
+#### Priority 2 – Chicken Kottu
+
+After allocating fish roti production, 8 kg of wheat flour remains.
+
+    Maximum flour-supported production
+    = (8 / 2.0) × 10
+    = 40 units
+
+Proposed allocation:
+
+- Approved production target: 85 units.
+- Feasible production: 40 units.
+- Batch allocation: 2 batches of 20 units.
+- Production time: 2 × 45 = 90 minutes.
+- Wheat flour consumed: (40 / 10) × 2.0 = 8 kg.
+- Chicken consumed: (40 / 10) × 1.8 = 7.2 kg.
+- Eggs consumed: (40 / 10) × 10 = 40 units.
+- Remaining wheat flour: 8 - 8 = 0 kg.
+- Remaining chicken: 10 - 7.2 = 2.8 kg.
+- Remaining eggs: 60 - 40 = 20 units.
+- Remaining production time: 175 - 90 = 85 minutes.
+- Unmet production target: 85 - 40 = 45 units.
+
+**Binding constraint:** Remaining wheat flour inventory.
+
+#### Priority 3 – Rice and Curry Packs
+
+Remaining chicken inventory after chicken kottu production:
+
+    10 - 7.2 = 2.8 kg
+
+Maximum ingredient-supported production:
+
+    (2.8 / 2.0) × 10 = 14 units
+
+As partial batches must be produced in multiples of five, feasible production is reduced to 10 units.
+
+Proposed allocation:
+
+- Approved production target: 50 units.
+- Feasible production: 10 units.
+- Batch allocation: 1 partial batch of 10 units.
+- Production time: 1 × 50 = 50 minutes.
+- Rice consumed: (10 / 10) × 1.5 = 1.5 kg.
+- Chicken consumed: (10 / 10) × 2.0 = 2 kg.
+- Grated coconut consumed: (10 / 10) × 0.3 = 0.3 kg.
+- Remaining rice: 15 - 1.5 = 13.5 kg.
+- Remaining chicken: 2.8 - 2 = 0.8 kg.
+- Remaining grated coconut: 4 - 0.3 = 3.7 kg.
+- Remaining production time: 85 - 50 = 35 minutes.
+- Unmet production target: 50 - 10 = 40 units.
+
+**Binding constraints:** Remaining chicken inventory and permitted partial batch increments.
+
+#### Priority 4 – Pol Sambol Sachets
+
+There are 35 production minutes remaining.
+
+Each batch requires 30 minutes and accommodates a maximum of 35 units.
+
+The remaining grated coconut inventory of 3.7 kg is sufficient for the proposed batch.
+
+    Maximum batches supported by remaining time
+    = 35 / 30, rounded down
+    = 1 batch
+
+Proposed allocation:
+
+- Approved production target: 70 units.
+- Feasible production: 35 units.
+- Batch allocation: 1 batch of 35 units.
+- Production time: 1 × 30 = 30 minutes.
+- Grated coconut consumed: (35 / 10) × 0.5 = 1.75 kg.
+- Remaining grated coconut: 3.7 - 1.75 = 1.95 kg.
+- Remaining production time: 35 - 30 = 5 minutes.
+- Unmet production target: 70 - 35 = 35 units.
+
+**Binding constraint:** Available production time.
+
+#### Priority 5 – Vegetable Rolls
+
+The approved production target is zero. Therefore, no production is allocated regardless of forecast demand or remaining ingredient inventory.
+
+- Approved production target: 0 units.
+- Feasible production: 0 units.
+- Batch allocation: None.
+- Production time: 0 minutes.
+- Ingredient consumption: None.
+- Unmet production target: 0 units.
+
+**Binding constraint:** Zero approved production target.
+
+### 2.3 Consolidated Production Allocation
+
+| Product | Approved Target | Proposed Quantity | Batch Allocation | Minutes | Unmet Target | Binding Constraint |
+| --- | ---: | ---: | --- | ---: | ---: | --- |
+| Fish roti | 120 | 100 | 5 × 20 | 200 | 20 | Fish shortage |
+| Chicken kottu | 85 | 40 | 2 × 20 | 90 | 45 | Wheat flour shortage |
+| Rice and curry packs | 50 | 10 | 1 × 10 | 50 | 40 | Chicken shortage and batch increments |
+| Pol sambol sachets | 70 | 35 | 1 × 35 | 30 | 35 | Available production time |
+| Vegetable rolls | 0 | 0 | None | 0 | 0 | Zero approved target |
+| **Total** | **325** | **185** | **9 batches** | **370** | **140** | — |
+
+**Unmet production target formula:**
+
+    Unmet production target
+    = Approved production target - Feasible production
+
+The proposed allocation follows the strict production priority order without reducing higher-priority production to increase lower-priority output.
+
+The 140 unmet units represent unmet approved production targets, not confirmed unmet customer demand.
+
+### 2.4 Production Target Achievement
+
+**Calculation formula:**
+
+    Target achievement (%)
+    = (Proposed production / Approved production target) × 100
+
+| Product | Target Achievement |
+| --- | ---: |
+| Fish roti | 83.33% |
+| Chicken kottu | 47.06% |
+| Rice and curry packs | 20.00% |
+| Pol sambol sachets | 50.00% |
+| Vegetable rolls | Not applicable |
+| **Overall Target Achievement** | **56.92%** |
+
+**Overall target achievement calculation:**
+
+    (185 / 325) × 100 = 56.92%
+
+The vegetable rolls target achievement percentage is not applicable because the approved production target is zero.
+
+---
+
+## 3. Ingredient Requirements and Reconciliation
+
+### 3.1 Calculation Methodology
+
+Ingredient requirements are calculated using the supplied consumption rates per 10 product units.
+
+**Ingredient requirement:**
+
+    Ingredient requirement
+    = (Production quantity / 10) × Ingredient quantity per 10 units
+
+**Full-target ingredient shortage:**
+
+    Full-target ingredient shortage
+    = MAX(0, Full-target requirement - Confirmed eligible stock)
+
+**Projected remaining inventory:**
+
+    Projected remaining stock
+    = Confirmed eligible stock - Scheduled consumption
+
+For example, the full-target wheat flour requirement is:
+
+    [(120 / 10) × 1.2] + [(85 / 10) × 2.0]
+    = 14.4 + 17.0
+    = 31.4 kg
+
+The scheduled wheat flour consumption is:
+
+    [(100 / 10) × 1.2] + [(40 / 10) × 2.0]
+    = 12 + 8
+    = 20 kg
+
+### 3.2 Consolidated Ingredient Reconciliation
+
+| Ingredient | Unit | Confirmed Eligible Stock | Full-Target Requirement | Full-Target Shortage | Scheduled Consumption | Projected Remaining Stock |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Wheat flour | kg | 20.00 | 31.40 | 11.40 | 20.00 | 0.00 |
+| Rice | kg | 15.00 | 7.50 | 0.00 | 1.50 | 13.50 |
+| Chicken | kg | 10.00 | 25.30 | 15.30 | 9.20 | 0.80 |
+| Grated coconut | kg | 4.00 | 5.00 | 1.00 | 2.05 | 1.95 |
+| Fish | kg | 8.00 | 9.60 | 1.60 | 8.00 | 0.00 |
+| Vegetables | kg | 10.00 | 0.00 | 0.00 | 0.00 | 10.00 |
+| Eggs | units | 60 | 85 | 25 | 40 | 20 |
+
+### 3.3 Ingredient Reconciliation Findings
+
+- **Wheat flour:** Fully consumed by the proposed fish roti and chicken kottu production.
+- **Fish:** Fully consumed by the proposed fish roti production.
+- **Chicken:** The remaining 0.80 kg is insufficient for an additional permitted five-unit batch of rice and curry packs, which requires 1 kg.
+- **Grated coconut:** Remaining inventory could support further pol sambol production, but insufficient production time prevents another batch.
+- **Rice:** Remaining inventory is available after the proposed allocations, subject to subsequent eligibility verification.
+- **Eggs:** Remaining inventory cannot support additional chicken kottu production because wheat flour is exhausted.
+- **Vegetables:** Remain unused because vegetable rolls have a zero approved production target.
+
+All scheduled ingredient consumption is within confirmed available inventory.
+
+No ingredient has a negative projected balance.
+
+No ingredient inventory has been allocated more than once.
+
+No pending supplier deliveries, provisional purchases, expired ingredients or unverified stock have been included.
+
+Full-target shortages represent theoretical ingredient gaps against approved targets and do not constitute authorised purchasing quantities.
+
+---
+
+## 4. Daily Production Schedule and Capacity
+
+### 4.1 Proposed Daily Batch Schedule
+
+Actual shift starting times have not been supplied. Therefore, the following schedule uses elapsed production minutes beginning at minute zero.
+
+Batch references are proposed identifiers created for this draft schedule.
+
+| Production Date | Batch Reference | Product | Quantity | Start Minute | End Minute | Duration (Minutes) | Concurrent Staff |
+| --- | --- | --- | ---: | ---: | ---: | ---: | ---: |
+| 5 Dec 2026 | FR-01 | Fish roti | 20 | 0 | 40 | 40 | 2 |
+| 5 Dec 2026 | FR-02 | Fish roti | 20 | 40 | 80 | 40 | 2 |
+| 5 Dec 2026 | FR-03 | Fish roti | 20 | 80 | 120 | 40 | 2 |
+| 5 Dec 2026 | FR-04 | Fish roti | 20 | 120 | 160 | 40 | 2 |
+| 5 Dec 2026 | FR-05 | Fish roti | 20 | 160 | 200 | 40 | 2 |
+| 5 Dec 2026 | CK-01 | Chicken kottu | 20 | 200 | 245 | 45 | 2 |
+| 5 Dec 2026 | CK-02 | Chicken kottu | 20 | 245 | 290 | 45 | 2 |
+| 5 Dec 2026 | RC-01 | Rice and curry packs | 10 | 290 | 340 | 50 | 2 |
+| 5 Dec 2026 | PS-01 | Pol sambol sachets | 35 | 340 | 370 | 30 | 2 |
+| **Total** | **9 batches** | — | **185** | — | — | **370** | — |
+
+No production is scheduled on 6 or 7 December 2026 due to insufficient staffing.
+
+### 4.2 Daily Capacity Summary
+
+| Date | Available Staff | Supplied Minutes | Feasible Available Minutes | Scheduled Minutes | Remaining Feasible Minutes | Staffing Restriction |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 5 Dec 2026 | 2 | 375 | 375 | 370 | 5 | Staffing requirement satisfied |
+| 6 Dec 2026 | 1 | 360 | 0 | 0 | 0 | Insufficient concurrent staff |
+| 7 Dec 2026 | 0 | 0 | 0 | 0 | 0 | No staff available |
+| **Total** | — | **735** | **375** | **370** | **5** | — |
+
+The 360 minutes listed for 6 December are unavailable for batch production because the minimum staffing requirement cannot be satisfied.
+
+These minutes are not included in feasible production capacity.
+
+Production minutes are not pooled across dates without validating the applicable staffing and daily capacity constraints.
+
+### 4.3 Capacity Utilisation
+
+**Calculation formula:**
+
+    Capacity utilisation (%)
+    = (Scheduled production minutes / Feasible available production minutes) × 100
+
+**Calculation:**
+
+    Capacity utilisation
+    = (370 / 375) × 100
+    = 98.67%
+
+| Performance Indicator | Calculated Result |
+| --- | ---: |
+| Total approved production target | 325 units |
+| Total proposed production | 185 units |
+| Total unmet production target | 140 units |
+| Overall production target achievement | 56.92% |
+| Theoretical full-target batch requirement | 15 batches |
+| Proposed production batches | 9 batches |
+| Theoretical full-target production time | 625 minutes |
+| Total supplied production time | 735 minutes |
+| Feasible available production time | 375 minutes |
+| Total scheduled production time | 370 minutes |
+| Remaining feasible production time | 5 minutes |
+| Production capacity utilisation | 98.67% |
+| Production time excluded due to insufficient staffing | 360 minutes |
+| Theoretical full-target capacity shortfall | 250 minutes |
+
+Capacity utilisation for 6 and 7 December is not applicable because feasible available production time is zero.
+
+The remaining five minutes on 5 December cannot accommodate another batch because the shortest supplied batch duration is 30 minutes.
+
+### 4.4 Schedule Validation
+
+| Validation Requirement | Schedule Findings |
+| --- | --- |
+| Approved production targets | No target exceeded |
+| Product-specific weekly limits | No weekly limit exceeded |
+| Ingredient inventory | All consumption within verified stock |
+| Ingredient allocation | No double-counting or duplicate allocation |
+| Maximum batch sizes | All batch quantities within permitted limits |
+| Partial batch increments | All quantities comply with five-unit increments |
+| Fixed batch durations | Full duration applied to every batch |
+| Concurrent staffing | Two employees allocated throughout every batch |
+| Shared production station | No overlapping batches |
+| Daily production capacity | All batches completed within 375 available minutes |
+| Ingredient eligibility | All production scheduled on an eligible date |
+| Batch splitting | No batches split across dates |
+| Production priority | Strict priority order maintained |
+| Zero approved production targets | No vegetable rolls production scheduled |
+| Unconfirmed deliveries | Excluded |
+| Provisional purchases | Excluded |
+| Overtime and additional staff | Not assumed |
+| Ingredient substitutions | Not assumed |
+| Quantity reconciliation | All nine batches reconcile to 185 proposed units |
+| Production time reconciliation | All scheduled batches reconcile to 370 minutes |
+
+The proposed schedule is mathematically and operationally feasible within the supplied synthetic constraints, subject to production manager approval.
+
+---
+
+## 5. Management Summary and Priority Actions
+
+### 5.1 Management Summary
+
+Flavors of Ceylon can feasibly produce **185 of the 325 approved product units**, achieving **56.92% of its production target**.
+
+The proposed schedule comprises nine batches on 5 December 2026, consuming 370 of 375 feasible production minutes and achieving **98.67% capacity utilisation**.
+
+Fish, wheat flour and chicken availability restrict higher-priority production. Insufficient staffing on 6 December removes 360 potential production minutes, while limited remaining time prevents further pol sambol production.
+
+The schedule maintains strict production priorities, verified inventory limits, batch restrictions and shared-station requirements. The remaining 140 units represent unmet production targets requiring management review. Unconfirmed supplier deliveries and provisional purchasing requirements remain excluded.
+
+### 5.2 Recommended Priority Actions
+
+| Priority | Recommended Action |
+| ---: | --- |
+| 1 | Obtain production manager approval for the proposed schedule and allocations. |
+| 2 | Review staffing availability for 6 December before considering additional production. |
+| 3 | Review full-target ingredient shortages and obtain procurement approval for any necessary replenishment. |
+| 4 | Verify supplier pricing, delivery commitments and received ingredient eligibility before updating inventory. |
+| 5 | Reassess unmet production targets following confirmed changes to staffing, inventory or approved capacity. |
+
+### 5.3 Assumptions and Limitations
+
+- All production calculations are based exclusively on supplied synthetic business information.
+- Actual shift starting times are unavailable.
+- Elapsed production minutes are used instead of actual clock times.
+- Batch references are proposed identifiers for this draft.
+- Staffing availability is applied to the supplied net scheduling periods.
+- No additional staffing or overtime is assumed.
+- No ingredient substitutions are assumed.
+- No unconfirmed supplier deliveries are included.
+- No provisional purchasing requirements are included.
+- Ingredient eligibility beyond the supplied verified production dates is not assumed.
+- Unmet production targets are not treated as confirmed unmet customer demand.
+- No actual food safety certification or production authorisation is provided.
+
+### 5.4 Final Schedule Status
+
+> **DRAFT – PENDING PRODUCTION MANAGER APPROVAL**
+>
+> All proposed production quantities, ingredient allocations and batch schedules require production manager review and approval before implementation.
+
+**Disclaimer:** All recipes, quantities, staffing records, production durations, capacities and dates are synthetic and intended solely for academic testing. This proposed schedule does not certify ingredient suitability, establish actual food safety standards, authorise production or override approved food safety procedures.
+
+---
+
+**End of P04 v1.1 – Test B Output**
 
 #### Evaluation
 
