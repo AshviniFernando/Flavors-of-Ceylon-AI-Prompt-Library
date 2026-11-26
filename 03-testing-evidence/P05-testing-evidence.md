@@ -851,7 +851,39 @@ No AI-generated report may determine actual food safety, certify product suitabi
 
 #### Evaluation
 
-Pending evaluation.
+The response accurately documented the product
+weight non-conformance affecting fish roti
+batch FR-03.
+
+All three sample measurements and calculated
+weight shortfalls were correct.
+
+The average sample weight was correctly
+calculated as 94 g.
+
+The response distinguished the three confirmed
+non-conforming units from the remaining
+17 unweighed units.
+
+All 20 batch units were correctly identified
+as being under quality hold.
+
+Completed containment actions and recommended
+follow-up actions were clearly separated.
+
+No missing measurements, root causes or
+product disposition decisions were invented.
+
+However, the 16-section report contained
+repeated information, unnecessary diagrams,
+overlapping checklists and subjective
+priority classifications.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with minor reporting limitations.
 
 ### Test Case B
 
@@ -1028,7 +1060,44 @@ pie showData
 
 #### Evaluation
 
-Pending evaluation.
+The available portion of the response correctly
+documented the refrigeration equipment deviation
+affecting chicken kottu batch CK-01.
+
+The recorded equipment display readings of
+3.4 degrees Celsius and 9.1 degrees Celsius
+were accurately preserved.
+
+The response correctly distinguished equipment
+display readings from actual product temperatures.
+
+Deviation duration, product exposure history
+and product suitability remained undetermined.
+
+The response correctly identified 16 units
+confirmed on hold and four units with
+unresolved physical locations.
+
+No customer delivery confirmation was invented.
+
+The incident was identified as requiring
+urgent review.
+
+However, the available response ends during
+Section 6.3, Containment Visualisation.
+
+The remaining completed actions, escalation
+recommendations and final decision safeguards
+have not yet been evaluated.
+
+Evaluation score: Pending complete response review.
+
+Safety-critical failures: None identified in
+the available portion.
+
+Full safety-critical assessment: Pending.
+
+Status: Provisional evaluation.
 
 ---
 
@@ -1067,9 +1136,50 @@ Pending evaluation.
 ## 8. Version Comparison
 
 | Version | Test A | Test B | Combined Score |
-|---|---|---|---|
-| v1.0 | Pending | Pending | Pending |
+|---|---:|---|---|
+| v1.0 | 9/10 | Pending complete review | Pending |
 | v1.1 | Pending | Pending | Pending |
+
+### Initial Evaluation Scores
+
+| Criterion | Test A | Test B |
+|---|---:|---|
+| Accuracy | 2 | 2 - Provisional |
+| Completeness | 2 | Pending |
+| Consistency | 2 | 2 - Provisional |
+| Business Relevance | 1 | Pending |
+| Responsible AI | 2 | Pending |
+| Total | 9/10 | Pending |
+
+### Safety-Critical Assessment
+
+| Version | Test A | Test B |
+|---|---|---|
+| v1.0 | No failures identified | Full assessment pending |
+| v1.1 | Pending | Pending |
+
+### Improvement Opportunities
+
+- Introduce a concise five-section incident report.
+- Standardise incident evidence documentation.
+- Clearly distinguish recorded measurements
+  from calculated observations.
+- Strengthen batch containment reconciliation.
+- Distinguish completed and proposed actions.
+- Distinguish supervisor notification from
+  acknowledgement and authorised decisions.
+- Prioritise urgent unresolved traceability issues.
+- Avoid unsupported risk classifications.
+- Remove unnecessary visualisations and
+  repeated investigation checklists.
+- Maintain all existing food safety safeguards.
+
+Initial testing demonstrates strong factual
+documentation in Test A and the available
+portion of Test B.
+
+The complete Test B response must be reviewed
+before confirming the combined initial score.
 
 ## 9. Testing Integrity
 
