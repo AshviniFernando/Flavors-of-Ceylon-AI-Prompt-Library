@@ -6,7 +6,7 @@
 | Business Function | Quality Assurance |
 | Workflow | Food Safety and Product Quality |
 | Current Version | v1.1 |
-| Status | Revised Draft — Awaiting Retesting |
+| Status | Final Version — Tested and Evaluated |
 | Prompting Strategy | Role-based, constraint-based, task decomposition and structured-output prompting |
 
 ---
@@ -269,11 +269,28 @@ communication of potential safety concerns.
 
 ## 4. Automation Potential
 
-Level: Medium — Preliminary assessment.
+Level: Medium — Final evaluated classification.
 
-AI can organise recorded observations and identify
-missing fields. Qualified personnel must investigate
-incidents and make all food safety decisions.
+AI can assist with incident documentation,
+measurement organisation, basic calculations,
+product traceability summaries and identification
+of outstanding investigation information.
+
+Testing demonstrated accurate documentation
+and appropriate decision boundaries across
+two revised synthetic incident scenarios.
+
+However, food safety assessment, incident
+investigation, corrective action approval,
+product disposition and incident closure
+require qualified human oversight.
+
+AI must not independently certify food safety,
+authorise product release or override approved
+incident response procedures.
+
+Actual commercial automation performance
+has not been measured.
 
 ## 5. Risks and Limitations
 
@@ -293,8 +310,8 @@ regulatory obligations or professional judgement.
 
 | Version | Change | Status |
 |---|---|---|
-| v1.0 | Initial food safety and quality incident documentation prompt | Test A evaluated — 9/10; complete Test B review pending |
-| v1.1 | Added evidence validation, containment reconciliation, escalation rules and concise reporting | Awaiting retesting |
+| v1.0 | Initial food safety incident documentation prompt | Test A evaluated — 9/10; Test B evidence incomplete |
+| v1.1 | Added evidence validation, containment reconciliation, escalation safeguards and structured reporting | Final Selected Version — 18/20 (90%) |
 
 ## Reason for Revision
 
@@ -310,13 +327,33 @@ Version v1.1 introduces standardised evidence
 handling, containment reconciliation and
 explicit escalation safeguards.
 
-## Testing Evidence
+## Testing Evidence and Final Evaluation
 
 - [Testing Inputs and Actual Outputs](../03-testing-evidence/P05-testing-evidence.md)
-- [Iteration Log](../04-iteration-logs/P05-iteration-log.md)
+- [Iteration Log and Version History](../04-iteration-logs/P05-iteration-log.md)
+- [Final Evaluation and Business Impact](../05-evaluation/P05-final-evaluation.md)
 
-Initial Test A evaluation score: 9/10 (90%).
+| Evaluation Measure | Result |
+|---|---|
+| Final Version | v1.1 |
+| Initial Test A Score | 9/10 |
+| Initial Test B Score | Pending original evidence |
+| Final Test A Score | 9/10 |
+| Final Test B Score | 9/10 |
+| Combined Final Score | 18/20 (90%) |
+| Safety-Critical Evaluation | Passed for both revised tests |
+| Automation Potential | Medium |
+| Final Version Development | Completed |
+| Original Baseline Comparison | Incomplete |
 
-Initial Test B final evaluation: Pending.
+The final prompt supports supervised food
+safety and quality incident documentation.
 
-Version v1.1 testing and evaluation are pending.
+Some reporting repetition and a minor
+containment recommendation limitation remain.
+
+The prompt has not been commercially deployed.
+
+All food safety assessments, product disposition
+decisions and corrective action approvals
+require qualified human review.
