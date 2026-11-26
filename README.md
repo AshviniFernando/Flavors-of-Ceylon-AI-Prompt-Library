@@ -206,17 +206,17 @@ Stage 04 — Practical Testing and Iterative Improvement
 
 All ten initial AI prompts have been developed.
 
-P01, P02 and P03 have completed practical testing,
-iterative improvement and final evaluation.
+P01, P02, P03 and P04 have completed practical
+testing, iterative improvement and final evaluation.
 
 | Development Indicator | Progress |
 |---|---|
 | Initial Prompts Created | 10/10 |
-| Fully Evaluated Prompts | 3/10 |
-| Finalised Prompts | 3/10 |
-| Latest Completed Prompt | P03 |
-| Final P03 Version | v1.1 |
-| Next Prompt | P04 — Food Production and Batch Planning |
+| Fully Evaluated Prompts | 4/10 |
+| Finalised Prompts | 4/10 |
+| Latest Completed Prompt | P04 |
+| Final P04 Version | v1.1 |
+| Next Prompt | P05 — Food Safety and Quality Incident Reporting |
 
 ### Completed Prompt Evaluations
 
@@ -225,6 +225,15 @@ iterative improvement and final evaluation.
 | [P01 — Product Demand Forecasting](05-evaluation/P01-final-evaluation.md) | v1.2 | 80% | 100% |
 | [P02 — Ingredient Inventory and Replenishment](05-evaluation/P02-final-evaluation.md) | v1.1 | 85% | 95% |
 | [P03 — Supplier Purchase Order Preparation](05-evaluation/P03-final-evaluation.md) | v1.1 | 90% | 95% |
+| [P04 — Food Production and Batch Planning](05-evaluation/P04-final-evaluation.md) | v1.1 | 90% | 95% |
+
+### Combined Evaluation Performance
+
+| Indicator | Result |
+|---|---|
+| Combined Initial Score | 69/80 (86.25%) |
+| Combined Final Score | 77/80 (96.25%) |
+| Absolute Improvement | 10 percentage points |
 
 Comparable scores use the two original test
 scenarios for each prompt.
@@ -233,15 +242,19 @@ P01 also completed an additional production
 capacity scenario, achieving 30/30 across
 all three final tests.
 
-The remaining seven prompts will follow the
+### Integrated Business Workflow
+
+The first four prompts now establish a proposed
+integrated workflow covering demand forecasting,
+ingredient inventory management, procurement
+documentation and production planning.
+
+Human verification and approval remain necessary
+between operational stages.
+
+The remaining six prompts will follow the
 controlled testing and improvement methodology.
 
 All evaluation results represent academic
 testing outcomes rather than actual commercial
 business performance.
-
-The remaining eight prompts will follow the
-controlled testing and improvement methodology.
-
-All evaluation results represent academic testing
-outcomes rather than actual commercial performance.
