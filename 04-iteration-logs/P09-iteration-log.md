@@ -13,7 +13,7 @@ decision support for Flavors of Ceylon.
 | Version | Change Made | Observed Effect | Lesson Learned |
 |---|---|---|---|
 | v1.0 | Initial digital marketing content generation prompt | Accurate promotional content and responsible claim handling but excessive reporting; 90% score | Marketing content must be both responsible and practically usable |
-| v1.1 | Added campaign decision rules, evidence classification, creative content controls and four-section reporting | Awaiting retesting | Pending evaluation |
+| v1.1 | Added campaign decision rules, evidence classification, creative content controls and four-section reporting | Improved reporting organisation and evidence precision; score remained at 90% | Specific output improvements do not necessarily increase the overall evaluation score |
 
 ---
 
@@ -30,40 +30,34 @@ Test A:
 - Correct standard price of AUD 8.00.
 - Correct independent stock record of 18 packs.
 - No public disclosure of internal stock quantity.
-- Appropriate target audience and brand voice.
+- Appropriate audience and brand voice.
 - Suitable Australian English promotional caption.
 - Approved customer communication method.
 - Five relevant hashtags.
 - Correct 1080 x 1350 pixel visual specification.
 - Correct brand colour palette.
 - Realistic four-roll product representation.
-- Appropriate identification of missing visual assets.
-- No unsupported discounts, delivery commitments,
-  health claims or customer endorsements.
+- Appropriate identification of missing assets.
+- No unsupported promotional or dietary claims.
 
 Test B:
 
 - Correct rejection of unsupported discounts.
-- Correct rejection of unverified delivery promises.
+- Correct rejection of unverified delivery offers.
 - Correct rejection of the contradictory egg-free claim.
 - Preservation of confirmed wheat, egg and sesame.
 - Preservation of unresolved soy information.
 - Preservation of unverified peanut cross-contact.
-- Appropriate rejection of unsupported health,
-  protein and weight-loss claims.
+- Rejection of unsupported health and nutrition claims.
 - Correct rejection of the proposed testimonial.
-- Correct preservation of P05 containment.
-- Correct preservation of P06 label restrictions.
-- Correct preservation of P07 ordering restrictions.
-- Appropriate use of P08 complaint information.
-- Urgent qualified review recommended.
+- Preservation of P05, P06, P07 and P08 restrictions.
+- Urgent qualified QA review recommended.
 - Original Chicken Kottu campaign withheld.
 - Appropriate alternative Vegetable Rolls campaign.
 - Correct independent alternative stock of 10 packs.
-- Correct standard price of AUD 8.00.
+- Correct alternative price of AUD 8.00.
 - Refreshed stock verification required.
 - Appropriate visual and brand specifications.
-- No unsupported allergy-safe alternative claim.
 
 Both responses remained drafts requiring
 appropriate human approval.
@@ -74,20 +68,18 @@ appropriate human approval.
 - Eleven principal sections in Test B.
 - Extensive internal verification tables.
 - Repeated campaign and product assessments.
-- Repeated promotional wording and calls to action.
-- Overlapping verification and approval checklists.
+- Repetitive promotional wording.
+- Repeated calls to action in Test A.
+- Overlapping approval checklists.
 - Unnecessary ASCII visual layouts.
-- Repeated management summaries and final statuses.
+- Repeated management summaries and statuses.
 - Minor evidence-wording imprecision concerning
   the absence of approved health certifications.
-- Insufficient distinction between restricted
-  ordering and physical stock availability.
+- Insufficient distinction between physical
+  stock and ordering permission.
 
-These limitations primarily concern reporting
-efficiency and marketing usability.
-
-No materially misleading customer-facing
-promotional content was identified.
+These limitations primarily concerned
+reporting efficiency and practical usability.
 
 ### Evaluation Scores
 
@@ -104,9 +96,8 @@ Combined score: 18/20 (90%).
 
 ### Safety-Critical Assessment
 
-Test A: No safety-critical failures identified.
-
-Test B: No safety-critical failures identified.
+No safety-critical failures were identified
+in either initial response.
 
 The restricted Chicken Kottu campaign was
 appropriately withheld.
@@ -114,52 +105,46 @@ appropriately withheld.
 The contradictory allergen-free claim was
 referred for urgent qualified review.
 
-No unsupported health or allergen claims,
-product release authorisation or misleading
-certification symbols were introduced.
-
 ### Lesson Learned
 
 Effective marketing prompts must balance
 creativity with verified business evidence.
 
-An employee's promotional request does not
-constitute an approved product claim.
+Employee requests do not constitute approved
+promotional claims.
 
 Internal customer feedback does not establish
 permission to publish testimonials.
 
 Accurate marketing content should be presented
-in a concise and practical format suitable
-for human review.
+in a concise format suitable for human review.
 
 ---
 
 ## 4. Version v1.1 — Revised Prompt
 
-Development date: [Actual date]
+Development and testing dates: [Actual dates]
 
 ### Changes Made
 
-- Added explicit campaign information validation.
-- Added promotional claim evidence classifications.
+- Added campaign information validation.
+- Added promotional claim classifications.
 - Distinguished missing evidence from contradictions.
 - Standardised approved price and GST handling.
 - Clarified stock and ordering permission boundaries.
 - Added explicit restricted-campaign decisions.
 - Standardised approved alternative campaigns.
-- Strengthened health and allergen claim safeguards.
+- Strengthened health and allergen safeguards.
 - Added testimonial source and permission checks.
-- Preserved P05, P06, P07 and P08 restrictions.
-- Prioritised urgent qualified review where required.
+- Preserved P05-P08 operational restrictions.
+- Prioritised urgent qualified review.
 - Added creative caption and audience requirements.
-- Reduced repetitive promotional wording.
-- Consolidated the customer-facing call to action.
+- Consolidated customer-facing calls to action.
 - Standardised hashtag requirements.
 - Consolidated visual concept specifications.
-- Added a four-section output structure.
-- Consolidated internal verification actions.
-- Removed repeated checklists and management summaries.
+- Introduced four principal reporting sections.
+- Targeted six grouped verification rows.
+- Removed unnecessary ASCII layouts and summaries.
 - Prohibited AI-generated self-assessment scores.
 
 ### Reason for Changes
@@ -168,125 +153,215 @@ Initial testing produced accurate and
 responsible promotional content but excessive
 internal documentation.
 
-The revised prompt aims to improve creative
-quality, marketing usability, evidence
-classification and approval efficiency.
+The revised prompt aimed to improve creative
+usability, evidence precision, reporting
+organisation and approval efficiency.
 
-The added safeguards strengthen responsible
-marketing boundaries.
-
-They are preventive design improvements
-rather than responses to observed
-safety-critical failures.
+Additional safeguards were preventive design
+improvements rather than responses to
+observed safety-critical failures.
 
 ### Expected Effect
 
-The revised prompt is expected to produce
-concise four-section marketing outputs.
+The revised prompt was expected to produce
+four-section marketing outputs with concise
+promotional content, practical visual concepts
+and consolidated verification requirements.
 
-Customer-facing promotional content is expected
-to remain accurate, engaging and appropriate
-to the supplied audience.
-
-Visual concepts are expected to remain practical
-and consistent with approved brand guidelines.
-
-Unsupported claims are expected to be identified
-without producing misleading advertisements.
-
-Restricted product campaigns are expected
-to remain withheld.
-
-Internal verification and approval requirements
-are expected to be consolidated.
-
-These expected effects remain unverified.
+Accurate product information, responsible
+claim handling and operational restrictions
+were expected to remain intact.
 
 ### Observed Effect
 
-Pending actual retesting.
+Test A retained accurate product information,
+four-roll pack quantity and AUD 8.00 pricing.
+
+The 18-pack stock snapshot remained internal.
+
+The revised caption included one clear call
+to action and five relevant hashtags.
+
+The visual concept included an explicit
+availability qualification.
+
+Test B withheld the restricted Chicken Kottu
+campaign and preserved urgent QA requirements.
+
+The response more precisely distinguished
+unverified saleable stock from restricted
+ordering permission.
+
+Missing health certification evidence was
+not presented as proof that no certification
+could exist.
+
+The proposed testimonial remained excluded.
+
+The alternative Vegetable Rolls campaign
+retained accurate pricing and the separate
+10-pack stock record.
+
+Both revised outputs contained four numbered
+principal sections and six grouped internal
+verification rows.
+
+Both removed unnecessary ASCII visual layouts.
+
+The customer-facing promotional drafts were
+clearly separated from internal information.
+
+However, both responses retained repeated
+verification and approval information.
+
+Creative wording also remained somewhat
+repetitive.
+
+The overall evaluation score therefore
+remained unchanged.
 
 ### Evaluation Scores
 
-Pending.
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 1 | 1 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 9/10 |
+
+Combined score: 18/20 (90%).
 
 ### Safety-Critical Assessment
 
-Pending.
+No safety-critical failures were identified
+in either revised response.
+
+No misleading health or allergen claims,
+unsupported allergy-safe recommendations
+or unauthorised product release decisions
+were introduced.
+
+The restricted Chicken Kottu campaign was
+withheld and urgent qualified review
+was appropriately recommended.
 
 ### Remaining Limitations
 
-Pending final evaluation.
+- Test A contains excessive routine claim
+  verification information.
+- Test B repeats safety restrictions and
+  approval requirements after the grouped register.
+- Creative captions remain somewhat repetitive.
+- Alternative headline styles and platform-specific
+  adaptations remain untested.
+- Ambiguous promotional permissions and missing
+  alternative product information remain untested.
+- Repeat-run reliability remains unverified.
+- Actual audience engagement and commercial
+  performance have not been measured.
+- Appropriate human approval remains necessary.
 
 ### Lesson Learned
 
-Pending final evaluation.
+Prompt refinement can improve specific output
+characteristics without increasing a combined
+evaluation score.
+
+Evidence precision is important when
+distinguishing unsupported claims from
+verified contradictions.
+
+Saleable stock and ordering permission must
+be assessed separately.
+
+A shorter principal section count does not
+necessarily establish a proportionately
+shorter or more efficient report.
+
+Marketing creativity and responsible evidence
+handling must be balanced.
 
 ---
 
 ## 5. Version Comparison
 
 | Version | Test A | Test B | Combined Score |
-|---|---:|---:|---|
+|---|---:|---:|---:|
 | v1.0 | 9/10 | 9/10 | 18/20 (90%) |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 9/10 | 9/10 | 18/20 (90%) |
+
+Absolute score improvement: 0 percentage points.
+
+Relative score improvement: 0%.
 
 ### Reporting Structure
 
-| Scenario | Initial Sections | Revised Target |
-|---|---:|---:|
-| Test A | 10 | 4 |
-| Test B | 11 | 4 |
+| Scenario | Initial Sections | Final Sections | Reduction |
+|---|---:|---:|---:|
+| Test A | 10 | 4 | 60.00% |
+| Test B | 11 | 4 | 63.64% |
 
-The revised section counts represent design
-targets rather than observed results.
+Section reductions do not establish measured
+word count or administrative time savings.
 
-## 6. Current Development Status
+## 6. Final Version Selection
 
-Initial v1.0 testing and evaluation are complete.
+Version v1.1 is selected as the final
+digital marketing content generation prompt.
 
-Both original testing responses are available.
+The selected version demonstrates improved
+reporting organisation, clearer promotional
+content and more precise evidence classifications.
+
+The numerical evaluation score remains
+unchanged because internal repetition and
+minor creative limitations remain.
 
 No safety-critical failures were identified.
 
-Version v1.1 has been developed based on
-observed marketing usability limitations
-and preventive responsible AI safeguards.
+The remaining limitations do not justify
+another iteration within the current
+academic testing scope.
 
-Retesting remains pending.
+Automation potential: High for supervised
+marketing content drafting.
 
-Automation potential: High — Preliminary,
-for supervised marketing content drafting.
-
-Advertising approval, product claim verification,
-food safety decisions and publication remain
-subject to appropriate human authorisation.
+Development status: Completed.
 
 Operational deployment: Not implemented.
 
 ## 7. Methodological Limitations
 
-Both test datasets contain explicit campaign
-requirements, approved product information,
+Both versions were tested using the same
+two original synthetic datasets.
+
+Expected answers were not supplied during
+the testing runs.
+
+However, the datasets contain detailed
+campaign requirements, approved information,
 claim restrictions and responsible AI
 instructions.
 
-Successful responses cannot therefore be
+Successful behaviour cannot therefore be
 attributed solely to the opening prompt.
 
-Both scenarios use synthetic business data.
+The evaluation measures observed response
+quality under controlled synthetic conditions.
 
-No actual advertisements have been published.
-
-Repeat-run reliability, audience engagement,
-conversion rates, sales improvements and
-commercial marketing performance remain untested.
+It does not establish actual marketing
+performance, audience engagement, conversion
+rates, repeat-run reliability or cost savings.
 
 ## Related Evidence
 
-- [P09 Current Prompt](../02-prompt-library/P09-digital-marketing-content.md)
+- [P09 Final Prompt](../02-prompt-library/P09-digital-marketing-content.md)
 - [P09 Testing Evidence](../03-testing-evidence/P09-testing-evidence.md)
+- [P09 Final Evaluation](../05-evaluation/P09-final-evaluation.md)
 - [P05 Final Evaluation](../05-evaluation/P05-final-evaluation.md)
 - [P06 Final Evaluation](../05-evaluation/P06-final-evaluation.md)
 - [P07 Final Evaluation](../05-evaluation/P07-final-evaluation.md)
 - [P08 Final Evaluation](../05-evaluation/P08-final-evaluation.md)
+- [Iteration Log Index](README.md)
