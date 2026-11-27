@@ -117,19 +117,89 @@ Pending prompt development and practical testing.
 | P07 | [Customer Enquiry Response](P07-final-evaluation.md) | v1.1 | 20/20 (100%) | High | Completed |
 | P08 | [Customer Complaint and Feedback Analysis](P08-final-evaluation.md) | v1.1 | 19/20 (95%) | Medium | Completed |
 | P09 | [Digital Marketing Content Generation](P09-final-evaluation.md) | v1.1 | 18/20 (90%) | High | Completed |
-| P10 | Weekly Business Performance Reporting | v1.0 | Pending | Pending | Awaiting Testing |
+| P10 | [Weekly Business Performance Reporting](P10-final-evaluation.md) | v1.1 | 19/20 (95%) | Medium | Completed |
 
-## Evaluation Progress
+## Overall Portfolio Evaluation
 
-Completed final-version evaluations: 9 of 10.
+| Prompt | Initial Score | Final Version | Final Score |
+|---|---:|---|---:|
+| P01 | 16/20 (80%) | v1.2 | 20/20 (100%) |
+| P02 | 17/20 (85%) | v1.1 | 19/20 (95%) |
+| P03 | 18/20 (90%) | v1.1 | 19/20 (95%) |
+| P04 | 18/20 (90%) | v1.1 | 19/20 (95%) |
+| P05 | Incomplete baseline | v1.1 | 18/20 (90%) |
+| P06 | 18/20 (90%) | v1.1 | 19/20 (95%) |
+| P07 | 18/20 (90%) | v1.1 | 20/20 (100%) |
+| P08 | 18/20 (90%) | v1.1 | 19/20 (95%) |
+| P09 | 18/20 (90%) | v1.1 | 18/20 (90%) |
+| P10 | 18/20 (90%) | v1.1 | 19/20 (95%) |
 
-Complete initial-to-final comparisons: 8 of 10.
+## Aggregate Evaluation Results
 
-P05's original Test B evidence remains incomplete.
+| Indicator | Result |
+|---|---:|
+| Final-Version Evaluations Completed | 10/10 |
+| Complete Paired Baseline Comparisons | 9/10 |
+| Overall Final Score | 190/200 (95.00%) |
+| Comparable Initial Score | 159/180 (88.33%) |
+| Comparable Final Score | 172/180 (95.56%) |
+| Absolute Comparable Improvement | 7.22 percentage points |
+| Relative Comparable Improvement | 8.18% |
 
-All evaluation scores represent performance
-against selected synthetic test scenarios.
+## Evaluation Scope and Methodological Limitations
 
-Scores with different scenario coverage must
-not be treated as directly comparable without
-appropriate normalisation and context.
+The portfolio uses a project-specific evaluation
+rubric covering accuracy, completeness,
+consistency, business relevance and responsible AI.
+
+The rubric does not represent an official
+university marking criterion.
+
+P05 has incomplete initial Test B evidence.
+
+Therefore, P05 is included in the overall
+final-version score but excluded from
+paired initial-to-final comparisons.
+
+P01 includes an additional Test C.
+
+For consistent portfolio aggregation,
+the overall scores use the two common
+original scenarios per prompt.
+
+P01's selected final version also achieved
+30/30 across its three documented valid
+final test scenarios.
+
+The test cases use synthetic business records.
+
+Detailed instructions within the datasets
+limit attribution of successful behaviour
+solely to the opening prompts.
+
+Repeat-run reliability, operational deployment,
+actual business performance improvements,
+financial returns and staff time savings
+have not been independently measured.
+
+All selected prompts remain subject to
+appropriate human oversight.
+
+## Final Development Outcome
+
+All ten business workflow prompts have
+completed final-version development
+and evaluation.
+
+The portfolio demonstrates AI-assisted
+decision support across demand planning,
+procurement, production, inventory,
+food safety, customer experience,
+marketing and integrated management reporting.
+
+The selected prompts are academic
+demonstrations rather than autonomous
+commercial systems.
+
+Final repository verification and
+assessment preparation remain outstanding.
