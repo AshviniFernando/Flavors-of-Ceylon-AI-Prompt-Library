@@ -12,8 +12,8 @@ support for Flavors of Ceylon.
 
 | Version | Change Made | Observed Effect | Lesson Learned |
 |---|---|---|---|
-| v1.0 | Initial product label and allergen review prompt | Correct discrepancy identification and responsible evidence handling, but excessive reporting; 90% score | Accurate allergen reviews must also support efficient human verification |
-| v1.1 | Added evidence classification, supplier applicability rules, targeted corrections and structured reporting | Awaiting retesting | Pending evaluation |
+| v1.0 | Initial product label and allergen review prompt | Correct discrepancy identification but excessive reporting; 90% score | Accurate allergen reviews must support efficient human verification |
+| v1.1 | Added evidence classification, supplier applicability rules, targeted corrections and structured reporting | Clearer evidence handling and reporting structure; 95% score | Explicit evidence classifications and authorisation boundaries improve responsible label review |
 
 ---
 
@@ -25,14 +25,12 @@ Development and testing dates: [Actual dates]
 
 Test A:
 
-- Correct identification of butter as the
-  missing intentional ingredient.
-- Correct identification of milk as the
-  missing intentional allergen.
+- Correct identification of missing butter.
+- Correct identification of missing milk.
 - Correct preservation of wheat and fish.
 - Correct identification of omitted approved
   sesame precautionary wording.
-- Correct distinction between intentional
+- Appropriate separation of intentional
   allergens and cross-contact information.
 - Preservation of the quality hold on all
   20 units of batch FR-03.
@@ -55,10 +53,6 @@ Test B:
 - Urgent qualified review requirements.
 - Preservation of unresolved P05 containment.
 
-Both responses avoided unsupported food
-safety conclusions and unauthorised label
-or product release decisions.
-
 ### Observed Weaknesses
 
 - Eleven-section and thirteen-section reports.
@@ -66,16 +60,15 @@ or product release decisions.
 - Repeated supplier verification findings.
 - Overlapping recommendations and checklists.
 - Unnecessary qualitative priority ratings.
-- Unnecessary P05 incident percentage calculations.
+- Unnecessary P05 incident calculations.
 - Preparation of a complete proposed label
   in Test A despite unverified ingredient
   ordering.
 
 The proposed Test A label was clearly marked
-as unapproved and its limitations were stated.
-
-This was a reporting and usability limitation,
-not an observed safety-critical failure.
+as unapproved. This represented a reporting
+and usability limitation rather than a
+safety-critical failure.
 
 ### Evaluation Scores
 
@@ -92,34 +85,28 @@ Combined score: 18/20 (90%).
 
 ### Safety-Critical Assessment
 
-Test A: No safety-critical failures identified.
-
-Test B: No safety-critical failures identified.
-
-Both initial responses maintained appropriate
-qualified human authorisation requirements.
+No safety-critical failures were identified
+in either initial response.
 
 ### Lesson Learned
 
 Accurate product label reviews require clear
 distinctions between verified information,
-conflicting evidence and unresolved
-allergen information.
+conflicting evidence and unresolved allergens.
 
-Concise discrepancy reports are preferable
+Targeted discrepancy reports are preferable
 to unnecessary preparation of complete
-unapproved product labels.
+unapproved labels.
 
 ---
 
 ## 4. Version v1.1 — Revised Prompt
 
-Development date: [Actual date]
+Development and testing dates: [Actual dates]
 
 ### Changes Made
 
-- Added explicit evidence verification
-  and classification rules.
+- Added explicit evidence classification.
 - Distinguished ingredient identity from
   detailed ingredient composition.
 - Standardised ingredient and product
@@ -127,7 +114,7 @@ Development date: [Actual date]
 - Strengthened supplier document
   applicability requirements.
 - Separated confirmed intentional allergens
-  from unresolved ingredient allergens.
+  from unresolved allergen information.
 - Separated approved precautionary wording
   from unresolved cross-contact information.
 - Required targeted correction recommendations.
@@ -135,56 +122,129 @@ Development date: [Actual date]
 - Strengthened urgent allergen escalation.
 - Consolidated outstanding verification actions.
 - Preserved related incident and hold information.
-- Introduced a five-section reporting structure.
-- Prohibited unnecessary charts, calculations
-  and unsupported priority classifications.
+- Introduced a five-section report structure.
+- Prohibited unnecessary calculations and
+  unsupported priority classifications.
 
 ### Reason for Changes
 
-The revised prompt aims to preserve accurate
+The revised prompt aimed to retain accurate
 ingredient and allergen review behaviour
 while improving evidence transparency,
 reporting efficiency and operational usability.
 
-The additional safeguards reduce foreseeable
-risks associated with incomplete ingredient
-information and unapproved label drafts.
-
-They do not establish that safety-critical
-failures occurred during initial testing.
+The additional safeguards were preventive
+improvements rather than responses to
+observed safety-critical failures.
 
 ### Expected Effect
 
-The revised prompt is expected to produce
-more concise discrepancy reports with clear
+More concise discrepancy reports with clear
 evidence classifications, targeted corrections
 and consolidated verification requirements.
 
 Existing allergen safeguards and qualified
-human authorisation requirements are expected
-to remain intact.
-
-These expected effects remain unverified.
+human authorisation requirements were
+expected to remain intact.
 
 ### Observed Effect
 
-Pending actual retesting.
+Test A correctly identified all three
+material label discrepancies:
+
+- Missing butter ingredient.
+- Missing milk allergen declaration.
+- Missing approved sesame precautionary wording.
+
+The existing hold on all 20 units of batch
+FR-03 was preserved.
+
+Test B correctly identified missing egg and
+sesame oil ingredients, missing egg and sesame
+allergen declarations and the contradictory
+egg-free claim.
+
+Conflicting supplier records remained
+unresolved pending applicable verification.
+
+Soy presence and absence remained unverified.
+
+Peanut cross-contact remained undetermined.
+
+Both revised responses withheld complete
+revised product labels and prominently
+identified urgent qualified review.
+
+The existing P05 containment requirements
+were preserved.
+
+Numbered principal report sections decreased
+from 11 to five in Test A and from 13 to five
+in Test B.
+
+Unsupported risk classifications, unnecessary
+incident calculations and overlapping
+verification checklists were removed.
 
 ### Evaluation Scores
 
-Pending.
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 1 | 2 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 10/10 |
+
+Combined score: 19/20 (95%).
 
 ### Safety-Critical Assessment
 
-Pending.
+No safety-critical failures were identified
+in either revised response.
+
+Both responses maintained qualified human
+review and avoided unauthorised label,
+product disposition or release decisions.
 
 ### Remaining Limitations
 
-Pending final evaluation.
+- Some repeated findings and approval
+  information remain.
+- Test B contains minor introductory wording
+  imprecision concerning sesame oil.
+- Actual label review time savings have
+  not been measured.
+- Multiple simultaneous supplier conflicts
+  have not been directly tested.
+- Changes in approved recipes and complex
+  compound ingredient hierarchies remain untested.
+- Actual regulatory labelling compliance
+  has not been assessed.
+- Repeat-run reliability remains unverified.
+- Qualified allergen and food safety review
+  remains necessary.
 
 ### Lesson Learned
 
-Pending final evaluation.
+An approved ingredient identity does not
+necessarily establish verified composition
+or a complete allergen profile.
+
+Supplier document dates alone do not establish
+applicability to current ingredient stock.
+
+Intentional allergens and potential
+cross-contact information must remain separate.
+
+Prompt refinement can improve evidence
+classification and reporting structure
+without changing correct factual findings.
+
+Label approval, incident closure and
+product release require separate
+authorised human decisions.
 
 ---
 
@@ -193,30 +253,49 @@ Pending final evaluation.
 | Version | Test A | Test B | Combined Score |
 |---|---:|---:|---:|
 | v1.0 | 9/10 | 9/10 | 18/20 (90%) |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 9/10 | 10/10 | 19/20 (95%) |
 
-## 6. Current Development Status
+Absolute improvement: 5 percentage points.
 
-Initial v1.0 testing and evaluation are complete.
+Relative improvement in evaluation score: 5.56%.
 
-Both original testing responses are available.
+### Reporting Structure
+
+| Scenario | Initial Sections | Final Sections | Reduction |
+|---|---:|---:|---:|
+| Test A | 11 | 5 | 54.55% |
+| Test B | 13 | 5 | 61.54% |
+
+Section reductions do not establish measured
+administrative time savings.
+
+## 6. Final Version Selection
+
+Version v1.1 is selected as the final prompt.
+
+The revised version maintains accurate
+ingredient and allergen review behaviour
+while improving evidence classification,
+reporting structure and authorisation boundaries.
 
 No safety-critical failures were identified
-during initial testing.
+in either revised test.
 
-Version v1.1 has been developed based on
-observed reporting limitations and additional
-preventive evidence-handling safeguards.
+The remaining minor reporting limitations
+do not justify further iteration within
+the current academic scope.
 
-Final retesting remains pending.
+Automation potential: Medium.
 
-Automation potential: Medium — Preliminary.
+Development status: Completed.
 
 Operational deployment: Not implemented.
 
 ## Related Evidence
 
-- [P06 Current Prompt](../02-prompt-library/P06-product-label-and-allergen-review.md)
+- [P06 Final Prompt](../02-prompt-library/P06-product-label-and-allergen-review.md)
 - [P06 Testing Evidence](../03-testing-evidence/P06-testing-evidence.md)
+- [P06 Final Evaluation](../05-evaluation/P06-final-evaluation.md)
 - [P04 Final Evaluation](../05-evaluation/P04-final-evaluation.md)
 - [P05 Final Evaluation](../05-evaluation/P05-final-evaluation.md)
+- [Iteration Log Index](README.md)
