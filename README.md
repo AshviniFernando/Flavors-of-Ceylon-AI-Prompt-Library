@@ -152,16 +152,28 @@ be documented throughout the project.
 
 ---
 
-## 9. Portfolio Development Status
+## Portfolio Development Status
 
 - [x] Establish business context
 - [x] Complete repository structure
 - [x] Develop 10 initial prompts
-- [ ] Conduct prompt testing
-- [ ] Document iterative improvements
-- [ ] Complete final prompt library
-- [ ] Evaluate business impact and limitations
+- [x] Conduct prompt testing
+- [x] Document iterative improvements
+- [x] Complete final prompt library
+- [x] Evaluate business impact potential and limitations
 - [ ] Finalise assessment portfolio
+
+All ten prompts have completed final-version
+evaluation and selection.
+
+P05 retains an incomplete initial baseline
+comparison, which is transparently documented.
+
+Actual business impact has not been measured.
+
+Final repository verification, academic
+report preparation, presentation development
+and submission remain outstanding.
 
 ---
 
@@ -202,121 +214,76 @@ Innovation
 
 ## Current Development Stage
 
-Stage 04 — Practical Testing and Iterative Improvement
+Stage 04 — Practical Testing and Iterative
+Improvement: Completed.
 
-All ten initial AI prompts have been developed.
+Stage 05 — Final GitHub Portfolio
+Verification: Next Stage.
 
-P01-P09 have completed final-version testing
-and final-version selection.
+### Development Progress
 
-P05 retains an incomplete original baseline
-evaluation because the complete initial
-Test B response is unavailable.
+| Activity | Completion |
+|---|---:|
+| Initial Prompt Development | 10/10 |
+| Final-Version Selection | 10/10 |
+| Final-Version Evaluation | 10/10 |
+| Complete Paired Baseline Comparisons | 9/10 |
 
-| Development Indicator | Progress |
-|---|---|
-| Initial Prompts Created | 10/10 |
-| Final-Version Evaluations Completed | 9/10 |
-| Final Versions Selected | 9/10 |
-| Complete Initial-to-Final Comparisons | 8/10 |
-| Latest Completed Prompt | P09 |
-| Final P09 Version | v1.1 |
-| P09 Safety-Critical Evaluation | Passed |
-| Next Prompt | P10 — Weekly Business Performance Reporting |
+### Final Evaluation Results
 
-### Completed Prompt Evaluations
+| Evaluation Indicator | Result |
+|---|---:|
+| Overall Final-Version Score | 190/200 (95.00%) |
+| Comparable Initial Score | 159/180 (88.33%) |
+| Comparable Final Score | 172/180 (95.56%) |
+| Comparable Improvement | 7.22 percentage points |
 
-| Prompt | Final Version | Initial Score | Final Score |
-|---|---|---:|---:|
-| [P01 — Product Demand Forecasting](05-evaluation/P01-final-evaluation.md) | v1.2 | 80% | 100% |
-| [P02 — Ingredient Inventory and Replenishment](05-evaluation/P02-final-evaluation.md) | v1.1 | 85% | 95% |
-| [P03 — Supplier Purchase Order Preparation](05-evaluation/P03-final-evaluation.md) | v1.1 | 90% | 95% |
-| [P04 — Food Production and Batch Planning](05-evaluation/P04-final-evaluation.md) | v1.1 | 90% | 95% |
-| [P05 — Food Safety and Quality Incident Reporting](05-evaluation/P05-final-evaluation.md) | v1.1 | Pending | 90% |
-| [P06 — Product Label and Allergen Information Review](05-evaluation/P06-final-evaluation.md) | v1.1 | 90% | 95% |
-| [P07 — Customer Enquiry Response](05-evaluation/P07-final-evaluation.md) | v1.1 | 90% | 100% |
-| [P08 — Customer Complaint and Feedback Analysis](05-evaluation/P08-final-evaluation.md) | v1.1 | 90% | 95% |
-| [P09 — Digital Marketing Content Generation](05-evaluation/P09-final-evaluation.md) | v1.1 | 90% | 90% |
+The P05 initial Test B evidence remains
+incomplete and is excluded from paired
+baseline comparisons.
 
-### Combined Comparable Evaluation Performance
+P01's additional Test C is documented
+separately from the common two-scenario
+portfolio comparison.
 
-| Indicator | Result |
-|---|---|
-| Comparable Prompts | P01-P04 and P06-P09 |
-| Combined Initial Score | 141/160 (88.13%) |
-| Combined Final Score | 153/160 (95.63%) |
-| Absolute Improvement | 7.50 percentage points |
+### Final Integrated Workflow
 
-Comparable scores use the two original
-test scenarios for each included prompt.
+P01-P04 support demand forecasting,
+ingredient inventory management,
+procurement and production planning.
 
-P05 is excluded from the initial-to-final
-comparison because its original Test B
-evidence remains incomplete.
+P05-P06 support food safety incident
+documentation and allergen information review.
 
-### Overall Final-Version Performance
+P07-P09 support customer enquiries,
+complaint analysis and digital marketing.
 
-| Indicator | Result |
-|---|---|
-| Final Versions Evaluated | 9 |
-| Two-Scenario Final Scores | 171/180 |
-| Overall Final-Version Score | 95.00% |
+P10 integrates verified information
+from the preceding nine workflows
+into weekly management decision support.
 
-P01 also completed an additional production
-capacity scenario, achieving 30/30 across
-all three final tests.
+Authorised management review informs
+the next business planning cycle.
 
-### Integrated Business Workflow
+### Next Development Activities
 
-The first nine prompts establish the following
-proposed business workflow groups:
+Final GitHub repository verification.
 
-1. Planning, Procurement and Manufacturing:
-   P01-P04 — Completed.
+Academic assessment report preparation.
 
-2. Food Safety and Quality Assurance:
-   P05-P06 — Completed.
+Professional presentation preparation.
 
-3. Customer Experience and Marketing:
-   P07-P09 — Completed.
+Video pitch preparation and recording.
 
-4. Integrated Management Reporting:
-   P10 — Awaiting testing.
+Final submission and academic AI acknowledgement.
 
-P09 introduces approved promotional content,
-audience-based marketing, responsible claim
-verification, testimonial authenticity and
-visual concept preparation.
+All business information and test scenarios
+are synthetic and intended for academic purposes.
 
-P09 demonstrates that prompt refinement may
-improve reporting organisation and evidence
-precision without increasing the overall
-evaluation score.
-
-No safety-critical failures were identified
-in the ten final-version test responses
-for P05, P06, P07, P08 and P09.
-
-These findings apply only to the supplied
-synthetic scenarios.
-
-The final prompt, P10, will integrate
-planning, procurement, manufacturing,
-food safety, customer experience and
-marketing information into a weekly
-management report.
-
-The test datasets contain explicit task
-and responsible AI instructions.
-
-Observed improvements cannot therefore
-be attributed solely to the opening
-prompt wording.
-
-All evaluation results represent academic
-testing outcomes rather than measured
-commercial performance, customer satisfaction,
-food safety or regulatory compliance.
+The evaluation results represent project-specific
+assessment of AI outputs and do not establish
+commercial performance, regulatory compliance
+or actual business improvements.
 
 Human verification and approval remain
 necessary across operational workflows.
