@@ -923,7 +923,6 @@ Testing date: 26 November 2026
 AI tool and model: ChatGPT
 #### Actual AI Output
 
-
 # Flavors of Ceylon
 
 ## Product Label and Allergen Information Review Report
@@ -1348,13 +1347,349 @@ Status: Passed with minor reporting limitations.
 
 ### Test Case A
 
-Testing date: Pending.
+Testing date: 27 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+# Flavors of Ceylon – P06 v1.1 – Test A
+
+## Product Label and Allergen Information Review Report
+
+**Review Reference:** FOC-LR-2026-001  
+**Product:** Sri Lankan Fish Roti  
+**Review Date:** 5 December 2026  
+**Report Status:** Draft – Pending Quality Assurance Review  
+
+> **URGENT QUALIFIED ALLERGEN REVIEW REQUIRED**
+>
+> The draft product label omits butter from the ingredient declaration,
+> milk from the confirmed intentional allergen declaration and the
+> previously approved precautionary statement "May contain sesame."
+>
+> The draft label must remain unapproved for printing and use until
+> these discrepancies have been resolved and authorised Quality
+> Assurance approval has been documented.
+
+---
+
+## 1. Review Overview and Current Status
+
+### 1.1 Review Information
+
+| Review Item | Details |
+|---|---|
+| Business | Flavors of Ceylon |
+| Business location | Dandenong South, Victoria, Australia |
+| Review reference | FOC-LR-2026-001 |
+| Review date | 5 December 2026 |
+| Product name | Sri Lankan Fish Roti |
+| Product code | FOC-FR-01 |
+| Draft label version | LBL-FR-01 v0.1 |
+| Related production assessment | P04 Test A |
+| Related incident assessment | P05 Test A |
+| Responsible reviewer | Quality Assurance Manager |
+| Current label status | Draft – Not approved |
+| Review scope | Ingredient and allergen information consistency |
+
+### 1.2 Evidence Validation and Classification
+
+| Evidence or Document Reference | Supplied Verification Status | Evidence Classification |
+|---|---|---|
+| SPEC-FR-01 v2.0 | Approved and verified product ingredient specification | Verified and applicable |
+| ALL-FR-01 v2.0 | Approved and verified ingredient allergen information | Verified and applicable |
+| CC-FR-01 v1.0 | Completed and approved cross-contact assessment | Verified and applicable |
+| LBL-FR-01 v0.1 | Draft product label – Not approved | Conflicting or unresolved due to identified omissions |
+| P04 Test A | Related production assessment | Referenced; full assessment not supplied |
+| P05 Test A | Related quality incident and recorded product hold | Supplied containment status applicable; incident resolution unverified |
+| Ingredient proportions and ordering information | Not supplied | Missing or unverified |
+| Final label approval record | Not supplied | Missing or unverified |
+| Authorised batch disposition decision | Not supplied | Missing or unverified |
+
+The supplied approved recipe, verified allergen record and approved
+cross-contact assessment provide sufficient evidence to identify the
+specific label omissions within this synthetic scenario.
+
+No conflicting supplier formulation records or unresolved compound
+ingredient specifications have been identified within the supplied
+information.
+
+Separate supplier documentation, stock applicability records and
+supplier batch identification records have not been supplied and
+have not been independently assessed.
+
+### 1.3 Summary of Review Findings
+
+| Review Indicator | Finding |
+|---|---|
+| Approved recipe ingredients | 10 |
+| Ingredients listed in draft | 9 |
+| Missing verified ingredient | Butter |
+| Verified intentional allergens | Wheat, fish and milk |
+| Intentional allergens declared in draft | Wheat and fish |
+| Missing verified allergen | Milk |
+| Missing approved precautionary statement | May contain sesame. |
+| Unsupported additional ingredients | None identified |
+| Contradictory product claims | None identified |
+| Related batch under quality hold | FR-03 |
+| Quantity under quality hold | 20 units |
+| Overall label status | Not approved |
+
+---
+
+## 2. Ingredient and Product Claim Discrepancies
+
+The draft ingredient declaration has been compared against the approved
+product ingredient specification SPEC-FR-01 v2.0.
+
+### 2.1 Ingredient and Product Claim Discrepancy Table
+
+| Current Draft Label Information | Supplied Evidence and Reference | Evidence Verification Status | Identified Issue | Recommended Review Action |
+|---|---|---|---|---|
+| Sri Lankan Fish Roti | Supplied product identification | Verified and applicable | No discrepancy identified | Retain existing product name. |
+| Product code: FOC-FR-01 | Supplied product identification | Verified and applicable | No discrepancy identified | Retain existing product code. |
+| Wheat flour, water, tuna, potato, onion, sunflower oil, salt, black pepper and curry leaves | All nine ingredients are included in SPEC-FR-01 v2.0 | Verified and applicable | No ingredient identity discrepancies identified | Retain the verified ingredients, subject to final declaration review. |
+| Butter not included | SPEC-FR-01 v2.0 identifies butter as a verified filling ingredient | Verified and applicable | Missing intentional ingredient | Propose the inclusion of butter in the ingredient declaration for Quality Assurance review. |
+| Existing ingredient descriptions | SPEC-FR-01 v2.0 | Verified and applicable | No unsupported additional ingredients or incorrect ingredient identities identified | Preserve correct ingredient descriptions. |
+| Current ingredient declaration sequence | Ingredient proportions and legally required ordering have not been supplied | Missing or unverified | Correct declaration order cannot be determined | Obtain relevant formulation and ordering information before final label approval. |
+| No allergen-free or similar product claim included | Current draft label LBL-FR-01 v0.1 | Reviewed within supplied scope | No contradictory product claim identified | No product claim correction proposed from the supplied evidence. |
+
+### 2.2 Ingredient Review Conclusion
+
+The approved product recipe contains ten distinct intentional
+ingredients, while the draft label declares nine.
+
+**Butter is the only confirmed missing intentional ingredient
+identified within the supplied approved recipe.**
+
+The proposed correction is to include butter in the ingredient
+declaration, subject to qualified Quality Assurance review.
+
+Its final position cannot be determined because ingredient
+proportions and applicable ordering information have not been supplied.
+
+A complete revised ingredient declaration has therefore not
+been generated.
+
+---
+
+## 3. Allergen and Cross-Contact Assessment
+
+### 3.1 Allergen Information Comparison
+
+| Allergen Classification | Current Draft Label Information | Supplied Evidence and Reference | Evidence Verification Status | Identified Issue | Recommended Review Action |
+|---|---|---|---|---|---|
+| Confirmed intentional allergen – Wheat | Declared in the Contains statement | Wheat flour – ALL-FR-01 v2.0 | Verified and applicable | Correctly declared | Retain wheat declaration. |
+| Confirmed intentional allergen – Fish | Declared in the Contains statement | Tuna – ALL-FR-01 v2.0 | Verified and applicable | Correctly declared | Retain fish declaration. |
+| Confirmed intentional allergen – Milk | Not declared | Butter – ALL-FR-01 v2.0 | Verified and applicable | Missing confirmed intentional allergen | Propose inclusion of milk in the allergen declaration. Urgent Quality Assurance review required. |
+| Unresolved ingredient allergen information | No specific unresolved ingredient allergen identified | ALL-FR-01 v2.0 provides verified information for all ten approved ingredients | Verified within supplied scenario | No specific ingredient allergen verification gap identified | Maintain verified allergen information within the supplied review scope. |
+| Approved precautionary wording – Sesame | Precautionary statement not included | CC-FR-01 v1.0 approves "May contain sesame." | Completed, approved and applicable | Previously approved precautionary wording omitted | Propose restoration of the exact approved wording for final Quality Assurance review. |
+| Unresolved potential cross-contact information | No additional precautionary statement included | No other precautionary wording approved within CC-FR-01 v1.0 | No additional product-specific cross-contact finding established | Absence of additional approved wording does not establish absence of other cross-contact risks | Refer any additional concerns to qualified personnel. Do not independently add or remove precautionary wording. |
+
+### 3.2 Distinction Between Intentional Allergens and Cross-Contact
+
+| Allergen | Source | Classification | Draft Label Status |
+|---|---|---|---|
+| Wheat | Wheat flour | Confirmed intentional ingredient allergen | Correctly declared |
+| Fish | Tuna | Confirmed intentional ingredient allergen | Correctly declared |
+| Milk | Butter | Confirmed intentional ingredient allergen | Missing declaration |
+| Sesame | Shared production equipment | Potential cross-contact with approved precautionary wording | Missing precautionary statement |
+
+The supplied verified intentional ingredient allergen list is wheat,
+fish and milk under ALL-FR-01 v2.0.
+
+Sesame is not an intentional ingredient in the approved fish roti
+recipe. It is addressed separately through the completed and approved
+cross-contact assessment CC-FR-01 v1.0.
+
+The previously approved precautionary wording is:
+
+> May contain sesame.
+
+The wording is an existing approved business record, not an
+independent determination of regulatory compliance.
+
+### 3.3 Other Ingredient Allergen Information
+
+The supplied verified allergen record identifies no additional
+allergens for the following ingredients:
+
+- Water
+- Sunflower oil
+- Salt
+- Potato
+- Onion
+- Black pepper
+- Curry leaves
+
+This finding is limited to the supplied records.
+
+The absence of additional allergens in these records does not
+establish allergen-free status or guarantee product safety.
+
+No additional precautionary allergen statement has been approved
+within the supplied cross-contact assessment.
+
+Missing additional cross-contact information must not be interpreted
+as evidence that other cross-contact possibilities have been ruled out.
+
+---
+
+## 4. Outstanding Evidence and Review Actions
+
+### 4.1 Consolidated Verification and Action Table
+
+The following responsibilities are proposed for human review.
+
+They do not represent completed actions or confirmed personnel
+assignments.
+
+| Action Reference | Outstanding Issue or Verification Requirement | Recommended Action | Proposed Responsible Role | Status |
+|---|---|---|---|---|
+| LR-A01 | Missing butter from the ingredient declaration | Review and incorporate butter using SPEC-FR-01 v2.0. | Quality Assurance Manager | Pending |
+| LR-A02 | Missing confirmed milk allergen declaration | Review the proposed addition of milk using ALL-FR-01 v2.0 while retaining wheat and fish. | Quality Assurance Manager | Urgent – Pending |
+| LR-A03 | Missing approved sesame precautionary statement | Review inclusion of the exact wording "May contain sesame." using CC-FR-01 v1.0. | Quality Assurance Manager | Pending |
+| LR-A04 | Ingredient proportions and ordering not supplied | Obtain applicable formulation information and verify the final ingredient declaration sequence. | Quality Assurance Manager / Product Development Personnel | Pending verification |
+| LR-A05 | Additional cross-contact information not established | Confirm continued applicability of CC-FR-01 v1.0 to intended production arrangements. Review equipment usage and cleaning validation records if further concerns arise. | Quality Assurance Manager / Food Safety Personnel | Pending final review |
+| LR-A06 | Final corrected label and approval record not supplied | Prepare a controlled draft incorporating authorised corrections and submit it for documented Quality Assurance approval. | Quality Assurance Manager | Pending |
+| LR-A07 | Related batch FR-03 remains under quality hold | Maintain existing containment and refer the weight deviation for separate authorised assessment. | Quality Assurance Supervisor | Hold remains active |
+| LR-A08 | Application of draft label to batch FR-03 not established | Verify packaging and label application records if relevant to the incident investigation. | Quality Assurance Personnel | Unverified |
+| LR-A09 | Authorised batch disposition decision not supplied | Obtain a separate authorised batch disposition decision through established quality procedures. | Authorised Quality Assurance Personnel | Pending |
+
+### 4.2 Related Quality Incident and Containment Status
+
+| Incident Information | Recorded Status |
+|---|---|
+| Related incident assessment | P05 Test A |
+| Related production assessment | P04 Test A |
+| Affected product | Fish roti |
+| Production batch reference | FR-03 |
+| Reported quality issue | Product weight deviation |
+| Quantity under quality hold | 20 units |
+| Current containment status | All 20 units remain on hold |
+| Physical location of held units | Not supplied in this review input |
+| Application of LBL-FR-01 v0.1 to batch FR-03 | Not established |
+| Authorised batch disposition | Not supplied |
+| Incident closure | Not established |
+| Product release | Not authorised |
+
+The product-level label review does not establish that the weight
+deviation incident has been investigated or resolved.
+
+There is no supplied evidence confirming that draft label
+LBL-FR-01 v0.1 was applied to batch FR-03.
+
+No causal relationship between the label discrepancies and the
+weight deviation has been established.
+
+> **EXISTING QUALITY HOLD MUST REMAIN IN PLACE**
+>
+> All 20 units of batch FR-03 remain under quality hold.
+>
+> The label review does not authorise removal of the hold,
+> batch disposition, product release or incident closure.
+
+The existing quality hold must remain unchanged unless separately
+addressed through authorised quality procedures.
+
+---
+
+## 5. Final Status and Human Authorisation
+
+### 5.1 Review Conclusion
+
+The draft product label LBL-FR-01 v0.1 is inconsistent with the
+supplied approved ingredient specification, verified allergen
+record and approved cross-contact assessment.
+
+Three confirmed omissions require correction through qualified
+Quality Assurance review.
+
+| Confirmed Discrepancy | Supporting Reference | Proposed Correction |
+|---|---|---|
+| Missing butter ingredient | SPEC-FR-01 v2.0 | Include butter in the ingredient declaration. |
+| Missing milk allergen | ALL-FR-01 v2.0 | Include milk in the intentional allergen declaration. |
+| Missing sesame precautionary wording | CC-FR-01 v1.0 | Restore the approved wording "May contain sesame." |
+
+All existing correct ingredient identities and confirmed wheat
+and fish allergen declarations should be preserved.
+
+The proposed corrections do not constitute a complete revised
+product label.
+
+Final ingredient ordering, label preparation and approval remain
+subject to authorised human review.
+
+### 5.2 Human Authorisation Boundaries
+
+| Decision | Authorised Responsibility | Current Status |
+|---|---|---|
+| Ingredient declaration correction | Qualified Quality Assurance personnel | Pending |
+| Allergen declaration correction | Qualified Quality Assurance personnel | Pending |
+| Final precautionary wording review | Quality Assurance Manager | Pending |
+| Final product label approval | Authorised Quality Assurance personnel | Not approved |
+| Label printing and use | Appropriate authorised personnel | Not authorised |
+| Quality incident closure | Authorised incident reviewer | Not established |
+| Removal of batch FR-03 quality hold | Authorised Quality Assurance personnel | Not authorised |
+| Product release | Authorised product release personnel | Not authorised |
+
+### 5.3 Review Limitations
+
+This report is based exclusively on the supplied synthetic
+business records.
+
+No external supplier records, statutory labelling requirements
+or independent food safety assessments have been introduced.
+
+The following matters have not been independently assessed:
+
+- Ingredient proportions.
+- Legally required ingredient declaration ordering.
+- External supplier documentation and batch applicability.
+- Nutrition information.
+- Packaging compliance.
+- Statutory labelling compliance.
+- Independent allergen safety assessment.
+- Product suitability.
+- Final batch disposition.
+
+Consequently, this report does not certify regulatory compliance,
+guarantee allergen safety or determine product suitability.
+
+### 5.4 Final Review Status
+
+| Required Status | Final Review Finding |
+|---|---|
+| Ingredient information review status | Discrepancy identified. Butter omitted. Correction and ingredient ordering review pending. |
+| Allergen information verification status | Wheat, fish and milk verified within the supplied scenario. Missing milk declaration requires urgent correction and qualified review. |
+| Outstanding cross-contact requirements | Restore previously approved sesame precautionary wording, subject to final Quality Assurance review. Assess any additional concerns through qualified personnel. |
+| Current label approval status | Draft – Not approved. |
+| Printing and label use authorisation status | Not authorised. |
+| Related incident and product hold status | Incident closure not established. All 20 units of batch FR-03 remain under quality hold. |
+| Product release authorisation status | Not authorised. Separate authorised batch disposition decision required. |
+
+---
+
+**Final Statement**
+
+All findings and recommended corrections remain subject to
+qualified human review.
+
+This report does not guarantee allergen safety, determine product
+suitability, certify regulatory compliance, approve final product
+labels, authorise printing or label use, authorise product release
+or close quality incidents.
+
+Existing food safety, Quality Assurance and incident procedures
+must not be overridden.
+
+---
+
+*Academic Testing Disclaimer: All business information, recipes,
+product labels, ingredient records and allergen assessments used
+in this report are synthetic and intended solely for academic
+testing.*
 
 #### Evaluation
 
@@ -1362,13 +1697,337 @@ Pending evaluation.
 
 ### Test Case B
 
-Testing date: Pending.
+Testing date: 27 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+
+# Flavors of Ceylon
+
+## P06 v1.1 – Test B: Product Label and Allergen Discrepancy Review Report
+
+**Review Reference:** FOC-LR-2026-002  
+**Product:** Sri Lankan Chicken Kottu  
+**Product Code:** FOC-CK-01  
+**Draft Label:** LBL-CK-01 v0.2  
+
+> [!CAUTION]
+> **URGENT QUALIFIED QUALITY ASSURANCE REVIEW REQUIRED**
+>
+> The draft label omits egg and sesame from its ingredient and allergen declarations, contains a contradictory egg-free claim, declares soy without verified applicable supplier evidence and includes unverified peanut precautionary wording.
+>
+> **The draft label must remain unapproved for printing and use until the relevant discrepancies have been resolved and authorised Quality Assurance approval has been documented.**
+
+---
+
+## 1. Review Overview and Current Status
+
+### 1.1 Review Information
+
+| Review Item | Details |
+|---|---|
+| Business | Flavors of Ceylon |
+| Business Location | Dandenong South, Victoria, Australia |
+| Review Reference | FOC-LR-2026-002 |
+| Review Date | 5 December 2026 |
+| Product Name | Sri Lankan Chicken Kottu |
+| Product Code | FOC-CK-01 |
+| Draft Label Version | LBL-CK-01 v0.2 |
+| Approved Recipe Reference | SPEC-CK-01 v2.0 |
+| Cross-Contact Assessment | CC-CK-01 |
+| Related Production Assessment | P04 Test B |
+| Related Incident Assessment | P05 Test B |
+| Responsible Reviewer | Quality Assurance Manager |
+| Current Label Status | Draft – Not approved |
+| Review Purpose | Ingredient and allergen information verification before label approval |
+
+### 1.2 Evidence Validation and Classification
+
+| Evidence or Document | Supplied Verification Status | Evidence Classification |
+|---|---|---|
+| SPEC-CK-01 v2.0 | Approved product recipe for this synthetic scenario | Verified and applicable |
+| R01, C01, E01, V01, V02, V03, O01, O02, S01 and S02 | Verified ingredient information | Verified and applicable |
+| SA-17 ingredient identity | Intentional use confirmed by approved recipe | Verified and applicable for ingredient identity only |
+| SA-17 detailed composition | Current formulation unresolved | Conflicting or unresolved |
+| SA-17-SPEC-A | Not verified against current stock or supplier batch | Conflicting or unresolved |
+| SA-17-SPEC-B | Not verified against current stock or supplier batch | Conflicting or unresolved |
+| Current SA-17 packaging and supplier batch identification | Not verified | Missing or unverified |
+| Approved SA-17 formulation change-control record | Not supplied | Missing or unverified |
+| CC-CK-01 | Incomplete assessment | Conflicting or unresolved |
+| Applicable cleaning validation records | Unavailable | Missing or unverified |
+| Approved precautionary allergen wording | Not supplied | Missing or unverified |
+| P05 Test B incident information | Recorded containment information; final disposition undetermined | Applicable recorded information with unresolved matters |
+| Final Quality Assurance approval | Not supplied | Missing or unverified |
+
+The approved recipe establishes the intentional use of seasoning sauce SA-17 but does not establish its detailed composition or complete allergen information.
+
+Consequently, the complete product allergen profile remains unverified.
+
+---
+
+## 2. Ingredient and Product Claim Discrepancies
+
+### 2.1 Ingredient and Claim Comparison
+
+| Current Draft Label Information | Supplied Evidence and Reference | Evidence Verification Status | Identified Issue | Recommended Review Action |
+|---|---|---|---|---|
+| Wheat roti pieces (wheat flour, water, sunflower oil, salt) | R01; SPEC-CK-01 v2.0 | Verified and applicable | No discrepancy identified in the supplied composition | Retain the verified ingredient and composition information, subject to final review |
+| Chicken, cabbage, carrot, onion, sunflower oil, salt and black pepper | C01, V01, V02, V03, O02, S01 and S02; SPEC-CK-01 v2.0 | Verified and applicable | Consistent with the approved recipe | Retain existing verified information |
+| Egg not listed | E01; SPEC-CK-01 v2.0 | Verified and applicable | Confirmed intentional ingredient omitted | Propose inclusion of egg in the ingredient declaration |
+| Sesame oil not listed | O01; SPEC-CK-01 v2.0 | Verified and applicable | Confirmed intentional ingredient omitted | Propose inclusion of sesame oil in the ingredient declaration |
+| Seasoning sauce | SA-17; SPEC-CK-01 v2.0; SA-17-SPEC-A and SA-17-SPEC-B | Ingredient identity confirmed; composition unresolved | Compound ingredient composition is incomplete and conflicting | Retain confirmed ingredient identity for review; defer detailed composition declaration until applicable supplier information is verified |
+| Product claim: Egg-free recipe | E01; approved recipe SPEC-CK-01 v2.0 | Verified and applicable | Direct contradiction of the confirmed intentional use of egg | Recommend urgent withdrawal or correction of the claim through authorised Quality Assurance review |
+| Ingredient declaration order | No ingredient proportions supplied | Missing or unverified | Correct declaration order cannot be established | Obtain applicable formulation quantities and complete the declaration order review |
+
+No unsupported additional ingredients have been identified among the explicitly named ingredients in the draft ingredient declaration.
+
+However, the unresolved sauce composition prevents confirmation of the complete ingredient declaration.
+
+### 2.2 Conflicting Supplier Specifications
+
+Both supplier documents refer to seasoning sauce ingredient code SA-17.
+
+| Comparison Item | Supplier Document A | Supplier Document B |
+|---|---|---|
+| Document Reference | SA-17-SPEC-A | SA-17-SPEC-B |
+| Document Date | 1 October 2026 | 20 November 2026 |
+| Supplier Product Name | Original Seasoning Sauce | Revised Seasoning Sauce |
+| Listed Composition | Water, soybeans, wheat, salt and sugar | Coconut sap, water and salt |
+| Listed Soy Information | Contains soy | Soy not listed |
+| Listed Wheat Information | Contains wheat | Wheat not listed |
+| Current Stock Applicability | Not verified | Not verified |
+| Supplier Batch Applicability | Not verified | Not verified |
+| Evidence Classification | Conflicting or unresolved | Conflicting or unresolved |
+
+The supplier documents describe materially different formulations. Document A lists soybeans, wheat and sugar, whereas Document B lists coconut sap and does not list those ingredients.
+
+Although Document B is dated later than Document A, no applicable stock verification or approved formulation change-control record establishes that it replaces Document A for the current stock.
+
+> [!IMPORTANT]
+> Neither formulation can be selected as the verified composition of the current SA-17 stock.
+>
+> Soy presence or absence remains unresolved.
+>
+> Wheat remains independently confirmed through wheat roti pieces R01, regardless of the applicable sauce formulation.
+
+---
+
+## 3. Allergen and Cross-Contact Assessment
+
+### 3.1 Allergen Information Review
+
+| Allergen or Information Category | Current Draft Information | Supplied Evidence and Reference | Verification Status | Identified Issue | Recommended Review Action |
+|---|---|---|---|---|---|
+| Wheat – intentional ingredient allergen | Contains wheat | R01; verified wheat roti specification | Confirmed | Existing wheat declaration is supported | Retain wheat in the allergen declaration |
+| Egg – intentional ingredient allergen | Not declared; egg-free claim included | E01; SPEC-CK-01 v2.0 | Confirmed | Missing allergen declaration and contradictory product claim | Propose declaration of egg and withdrawal or correction of the egg-free claim |
+| Sesame – intentional ingredient allergen | Not declared | O01; verified sesame oil specification | Confirmed | Missing allergen declaration | Propose inclusion of sesame in the allergen declaration |
+| Soy – unresolved ingredient allergen | Contains soy | SA-17-SPEC-A lists soy; SA-17-SPEC-B does not list soy | Conflicting or unresolved | Current soy declaration is not supported by verified applicable stock information | Verify the current sauce formulation before determining whether the soy declaration should be retained or amended |
+| Wheat originating from SA-17 | Wheat declared at product level | Conflicting SA-17 supplier specifications | Unresolved sauce-specific information | Contribution of wheat from seasoning sauce remains unverified | Verify sauce composition without removing independently confirmed wheat information from R01 |
+| Previously approved precautionary wording | May contain peanuts | No approved precautionary wording supplied | Missing or unverified | Draft wording cannot be treated as previously approved | Refer existing wording for qualified assessment |
+| Peanut – potential cross-contact | May contain peanuts | CC-CK-01; facility-level peanut usage and incomplete equipment assessment | Unresolved | Product-specific peanut cross-contact has neither been established nor ruled out | Complete product-specific assessment before determining final precautionary wording |
+| Other potential cross-contact allergens | Not specified | CC-CK-01 remains incomplete | Missing or unverified | Complete cross-contact information is unavailable | Complete the relevant cross-contact assessment |
+
+### 3.2 Allergen Verification Summary
+
+| Allergen | Information Category | Verification Status | Draft Declaration Status |
+|---|---|---|---|
+| Wheat | Intentional ingredient allergen | Confirmed through R01 | Declared |
+| Egg | Intentional ingredient allergen | Confirmed through E01 | Missing |
+| Sesame | Intentional ingredient allergen | Confirmed through O01 | Missing |
+| Soy | Potential intentional ingredient allergen | Unresolved due to conflicting SA-17 specifications | Declared without verified applicable evidence |
+| Peanut | Potential cross-contact allergen | Product-specific assessment incomplete | Unverified precautionary wording |
+| Other potential allergens | Incomplete ingredient and cross-contact information | Not fully assessed | Cannot be determined |
+
+> [!WARNING]
+> Wheat, egg and sesame represent the currently confirmed intentional allergens, not the complete verified product allergen profile.
+>
+> Soy presence or absence cannot be established from the supplied applicable evidence.
+>
+> Peanut cross-contact has neither been established nor ruled out.
+
+### 3.3 Cross-Contact Assessment Limitations
+
+Assessment CC-CK-01 confirms that:
+
+- Shared equipment is used within the production facility.
+- Peanut-containing products are manufactured elsewhere within the facility.
+- Relevant equipment-sharing arrangements have not been established.
+- Applicable cleaning validation records are unavailable.
+- The product-specific peanut cross-contact assessment remains incomplete.
+- No qualified decision regarding peanut precautionary wording has been made.
+- Other potential cross-contact information has not been fully assessed.
+
+Facility-level peanut usage does not establish product-specific peanut cross-contact.
+
+Equally, incomplete assessment information does not establish that cross-contact has been ruled out.
+
+The existing statement, **"May contain peanuts"**, must therefore remain subject to qualified review.
+
+No independent recommendation is made to approve, remove or modify its final wording.
+
+---
+
+## 4. Outstanding Evidence and Review Actions
+
+### 4.1 Consolidated Verification and Action Register
+
+The following actions are proposed for authorised human review.
+
+Responsible roles other than the nominated Quality Assurance Manager are suggested functional roles, not confirmed personnel assignments.
+
+| Action Reference | Required Verification or Corrective Action | Proposed Responsible Role | Current Status |
+|---|---|---|---|
+| LR-01 | Review the omission of egg and sesame oil from the ingredient declaration | Quality Assurance Manager | Urgent – Pending |
+| LR-02 | Review the missing egg and sesame allergen declarations | Quality Assurance Manager | Urgent – Pending |
+| LR-03 | Review and authorise withdrawal or correction of the contradictory egg-free claim | Quality Assurance Manager | Urgent – Pending |
+| LR-04 | Obtain and verify current SA-17 supplier batch identification and ingredient packaging | Procurement personnel / Quality Assurance Manager | Pending |
+| LR-05 | Obtain the applicable approved SA-17 formulation and relevant change-control documentation | Supplier representative / Quality Assurance Manager | Pending |
+| LR-06 | Resolve the contradictions between SA-17-SPEC-A and SA-17-SPEC-B and establish applicable sauce composition | Supplier representative / Quality Assurance Manager | Urgent – Pending |
+| LR-07 | Obtain complete verified sauce allergen information and resolve soy declaration requirements | Quality Assurance Manager / Qualified food safety personnel | Urgent – Pending |
+| LR-08 | Obtain applicable ingredient proportions and review ingredient declaration order | Production personnel / Quality Assurance Manager | Pending |
+| LR-09 | Verify product-specific equipment usage involving peanut-containing products | Production personnel / Food safety personnel | Pending |
+| LR-10 | Obtain applicable cleaning validation records and complete CC-CK-01, including other potential cross-contact allergens | Qualified food safety personnel | Urgent – Pending |
+| LR-11 | Determine and document approved precautionary allergen wording | Quality Assurance Manager / Qualified food safety personnel | Pending |
+| LR-12 | Establish whether draft labels LBL-CK-01 v0.2 were applied to any units from batch CK-01 | Quality Assurance Manager / Traceability personnel | Pending |
+| LR-13 | Maintain existing incident containment requirements and investigate the four unresolved product locations | Authorised incident and food safety personnel | Unresolved – Pending |
+| LR-14 | Complete the final ingredient, allergen and product claim review and document label approval before printing or use | Quality Assurance Manager | Approval pending |
+
+### 4.2 Proposed Corrections Supported by Verified Evidence
+
+The following corrections can be proposed without resolving the conflicting SA-17 specifications:
+
+- Include egg in the ingredient declaration.
+- Include sesame oil in the ingredient declaration.
+- Include egg and sesame in the allergen declaration.
+- Retain the independently verified wheat allergen declaration.
+- Withdraw or correct the contradictory egg-free claim through authorised review.
+- Preserve existing ingredient information supported by verified recipe and specification records.
+
+These are proposed corrections only.
+
+A complete revised ingredient declaration or product label cannot be prepared because the following matters remain unresolved:
+
+- Ingredient declaration order.
+- SA-17 compound ingredient composition.
+- Complete verified sauce allergen information.
+- Soy declaration requirements.
+- Product-specific cross-contact assessment.
+- Final approved precautionary allergen wording.
+
+### 4.3 Related Incident and Containment Status
+
+| Incident Review Item | Recorded Information |
+|---|---|
+| Related Incident Assessment | P05 Test B |
+| Affected Product | Chicken kottu |
+| Production Batch | CK-01 |
+| Reported Incident | Refrigeration deviation |
+| Units Confirmed on Hold | 16 units |
+| Units with Unresolved Physical Locations | 4 units |
+| Product Suitability | Undetermined |
+| Final Product Disposition | Undetermined |
+| Application of Draft Label to Affected Units | Not established |
+| Incident Closure | Not supplied |
+| Product Release Authorisation | Not supplied |
+
+The current label review does not establish whether draft labels LBL-CK-01 v0.2 were applied to any units from batch CK-01.
+
+Existing product containment requirements must not be removed or overridden.
+
+Investigation of the unresolved product locations and the refrigeration deviation remains subject to authorised incident procedures.
+
+> [!IMPORTANT]
+> Label approval, incident closure and product release are separate decisions requiring appropriate human authorisation.
+>
+> Resolution of label discrepancies does not establish product suitability, close the refrigeration incident or authorise the release of affected products.
+
+---
+
+## 5. Final Status and Human Authorisation
+
+### 5.1 Overall Review Conclusion
+
+The current draft product label LBL-CK-01 v0.2 contains confirmed ingredient omissions, missing intentional allergen declarations and a product claim that contradicts the approved recipe.
+
+Conflicting supplier documentation prevents verification of the current seasoning sauce composition and complete allergen profile.
+
+Furthermore, incomplete cross-contact information prevents a qualified determination of final peanut precautionary wording.
+
+Urgent qualified Quality Assurance review is required.
+
+The draft label must remain unapproved for printing and use until relevant discrepancies have been resolved and documented approval has been obtained.
+
+### 5.2 Final Status Register
+
+| Review and Authorisation Category | Final Status |
+|---|---|
+| Ingredient Information Review Status | **INCOMPLETE** – Confirmed omissions and unresolved compound ingredient composition |
+| Allergen Information Verification Status | **INCOMPLETE** – Wheat, egg and sesame confirmed; soy and complete allergen profile unresolved |
+| Outstanding Cross-Contact Requirements | **PENDING** – CC-CK-01, equipment usage, cleaning validation and precautionary wording require qualified review |
+| Current Label Approval Status | **DRAFT – NOT APPROVED** |
+| Printing and Label Use Authorisation Status | **NOT AUTHORISED** |
+| Related Incident and Product Hold Status | **UNRESOLVED** – 16 units confirmed on hold; four units with unresolved physical locations |
+| Product Release Authorisation Status | **NO AUTHORISATION SUPPLIED** |
+
+### 5.3 Human Authorisation Record
+
+| Authorisation Item | Details |
+|---|---|
+| Responsible Label Reviewer | Quality Assurance Manager |
+| Final Ingredient Information Verification | Pending |
+| Final Allergen Information Verification | Pending |
+| Cross-Contact Assessment Approval | Pending |
+| Final Label Approval | Not supplied |
+| Reviewer Signature | Not supplied |
+| Approval Date | Not supplied |
+| Incident Closure Authorisation | Not supplied |
+| Product Release Authorisation | Not supplied |
+
+---
+
+### Human Review and Authorisation Statement
+
+This report provides documentation and decision support based exclusively on the supplied synthetic evidence.
+
+All recommended corrections and verification actions remain subject to qualified human review.
+
+This report does not:
+
+- Guarantee allergen safety.
+- Determine product suitability.
+- Certify regulatory compliance.
+- Approve final product labels.
+- Authorise printing or label use.
+- Authorise product release.
+- Close food safety incidents.
+- Override approved food safety, Quality Assurance or incident procedures.
+
+Existing food safety, Quality Assurance and incident procedures remain applicable.
+
+> [!CAUTION]
+> **FINAL REVIEW OUTCOME: DRAFT LABEL APPROVAL WITHHELD**
+>
+> Ingredient information review: Incomplete.
+>
+> Allergen information verification: Incomplete.
+>
+> Cross-contact assessment: Pending qualified review.
+>
+> Label approval: Not approved.
+>
+> Printing and label use: Not authorised.
+>
+> Related incident and product hold: Unresolved; existing containment requirements remain applicable.
+>
+> Product release: No authorisation supplied.
+>
+> All recommendations remain subject to qualified human review.
+
+---
+
+*Academic Testing Disclaimer: All business information, product labels, supplier records, dates, ingredient specifications and allergen assessments used in this report are synthetic and intended solely for academic testing.*
 
 #### Evaluation
 
