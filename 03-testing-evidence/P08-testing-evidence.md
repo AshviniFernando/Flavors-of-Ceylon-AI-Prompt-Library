@@ -2093,13 +2093,332 @@ Status: Passed with minor reporting limitations.
 
 ### Test Case A
 
-Testing date: Pending.
+Testing date: 27 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+## Customer Complaint and Feedback Analysis Report
+
+**Review Reference:** FOC-CFA-2026-001  
+**Document Status:** Draft for Human Review  
+**Business Location:** Dandenong South, Victoria, Australia
+
+---
+
+## 1. Review Overview and Urgent Escalation
+
+### Food Safety Screening
+
+> **URGENT SAFETY SCREENING RESULT**
+>
+> No urgent food safety concerns have been reported within the supplied dataset.
+
+- No reported illness following food consumption.
+- No reported allergic reactions or allergen information concerns.
+- No reported foreign material or contamination.
+- No reported damage to food-contact packaging.
+
+The reported packaging concerns relate to outer packaging and presentation. These observations have not been independently verified.
+
+**Limitation:** The absence of reported food safety concerns does not establish product safety.
+
+### 1.1 Review Information
+
+| Review Item | Details |
+|---|---|
+| Business | Flavors of Ceylon |
+| Business location | Dandenong South, Victoria, Australia |
+| Review reference | FOC-CFA-2026-001 |
+| Review date | 8 December 2026 |
+| Reporting period | 1–7 December 2026 |
+| Responsible reviewer | Customer Experience Manager |
+| Related workflow | P07 Customer Enquiry Response |
+| Dataset type | Synthetic academic testing data |
+| Investigation status | Pending human review |
+
+### 1.2 Record-to-Case Reconciliation
+
+| Reconciliation Item | Count |
+|---|---:|
+| Submitted feedback communications | 8 |
+| Confirmed duplicate communications | 0 |
+| Possible unresolved duplicates identified | 0 |
+| Unique complaint and feedback cases | 8 |
+| Cases containing complaints | 6 |
+| Positive-only feedback cases | 2 |
+
+**Reconciliation:**
+
+8 submitted records − 0 confirmed duplicates = 8 unique cases.
+
+All eight records contain distinct order references. No duplicate reports have been identified in the supplied business information.
+
+All original record IDs are therefore retained as individual case references because separate complaint ticket numbers have not been supplied.
+
+Ethan's reference to sending two emails is treated as part of his reported experience, not as additional submitted complaint records.
+
+---
+
+## 2. Individual Complaint and Feedback Register
+
+| Case / Record ID | Customer and Date | Product and Order Reference | Primary Issue Category | Overall Sentiment | Suggested Handling Priority | Key Reported Observation | Evidence Verification Status |
+|---|---|---|---|---|---|---|---|
+| CFA-A01 | Olivia — 2 Dec 2026 | Sri Lankan Fish Roti; FOC-ORD-260201 | Delivery delay | Mixed | Standard follow-up | Delivery reportedly arrived approximately 45 minutes late. Food was enjoyable. | Customer-reported; dispatch and arrival records not reviewed. |
+| CFA-A02 | James — 3 Dec 2026 | Sri Lankan Vegetable Rolls; FOC-ORD-260202 | Outer packaging and presentation | Negative | Standard follow-up | Outer cardboard sleeve was crushed. Inner sealed food container appeared intact. | Customer-reported; packaging photographs not supplied. |
+| CFA-A03 | Sarah — 3 Dec 2026 | Rice and Curry Packs; FOC-ORD-260203 | Positive product and service feedback | Positive | No corrective action required | Authentic flavours, generous portions, easy ordering and intention to order again. | Customer-reported positive experience. |
+| CFA-A04 | Daniel — 4 Dec 2026 | Chicken Kottu; FOC-ORD-260204 | Delivery delay | Negative | Standard follow-up | Delivery reportedly arrived approximately one hour late. Requested an AUD 8.00 delivery charge refund. | Delivery and payment records not verified. No refund decision authorised. |
+| CFA-A05 | Mia — 5 Dec 2026 | Pol Sambol Sachets; FOC-ORD-260205 | Outer packaging and presentation | Negative | Standard follow-up | Outer presentation box was dented and untidy. Individual sealed sachets appeared undamaged. | Customer-reported cosmetic packaging damage; not independently verified. |
+| CFA-A06 | Ethan — 6 Dec 2026 | Sri Lankan Fish Roti; FOC-ORD-260206 | Customer communication | Mixed | Standard follow-up | Fish roti tasted excellent, but two emails were reportedly required before receiving an order update. | Customer-reported; communication timestamps not reviewed. |
+| CFA-A07 | Grace — 6 Dec 2026 | Sri Lankan Vegetable Rolls; FOC-ORD-260207 | Positive product and service feedback | Positive | No corrective action required | Delicious rolls, good presentation, easy ordering and satisfaction with service. | Customer-reported positive experience. |
+| CFA-A08 | Lucas — 7 Dec 2026 | Rice and Curry Packs; FOC-ORD-260208 | Customer communication | Negative | Standard follow-up | Response to an order update request was reportedly delayed until the following day. | Customer-reported; customer service records not independently reviewed. |
+
+**Classification Basis:** Each unique case has one primary issue category, one overall sentiment and one suggested handling priority.
+
+Positive observations within mixed feedback have been preserved without creating additional cases.
+
+---
+
+## 3. Complaint Metrics and Recurring Problems
+
+All case-based percentages use the eight unique feedback cases as the denominator.
+
+### 3.1 Primary Issue Frequency
+
+| Primary Issue Category | Unique Cases | Percentage | Associated Case IDs |
+|---|---:|---:|---|
+| Delivery delay | 2 | 25.00% | CFA-A01, CFA-A04 |
+| Outer packaging and presentation | 2 | 25.00% | CFA-A02, CFA-A05 |
+| Customer communication | 2 | 25.00% | CFA-A06, CFA-A08 |
+| Positive product and service feedback | 2 | 25.00% | CFA-A03, CFA-A07 |
+| Other or insufficient information | 0 | 0.00% | None |
+| **Total** | **8** | **100.00%** | |
+
+### 3.2 Customer Sentiment Distribution
+
+| Overall Sentiment | Unique Cases | Percentage |
+|---|---:|---:|
+| Positive | 2 | 25.00% |
+| Negative | 4 | 50.00% |
+| Mixed | 2 | 25.00% |
+| Neutral or unclear | 0 | 0.00% |
+| **Total** | **8** | **100.00%** |
+
+### 3.3 Handling Priority Distribution
+
+| Suggested Handling Priority | Unique Cases | Percentage |
+|---|---:|---:|
+| Standard follow-up | 6 | 75.00% |
+| No corrective action required for positive-only feedback | 2 | 25.00% |
+| **Total** | **8** | **100.00%** |
+
+No cases requiring immediate qualified food safety escalation have been identified within the supplied dataset.
+
+### 3.4 Additional Management Metrics
+
+| Management Indicator | Unique Cases | Percentage |
+|---|---:|---:|
+| Cases containing a complaint | 6 | 75.00% |
+| Positive-only feedback | 2 | 25.00% |
+| Cases containing positive observations, including mixed feedback | 4 | 50.00% |
+| Unique refund requests | 1 | 12.50% |
+| Reported urgent food safety concerns | 0 | 0.00% |
+
+The additional management indicators overlap with the primary classification and sentiment distributions. They must not be added together as separate cases.
+
+**Statistical Reconciliation:**
+
+- Primary issue category total: 8 unique cases (100.00%).
+- Sentiment distribution total: 8 unique cases (100.00%).
+- Handling priority distribution total: 8 unique cases (100.00%).
+- Confirmed duplicate communications excluded: 0.
+- Rounding differences: None.
+
+All mutually exclusive category, sentiment and priority totals reconcile to eight unique cases and 100.00%.
+
+### 3.5 Recurring Operational Problems
+
+The supplied recurrence threshold is at least two distinct feedback cases.
+
+| Recurring Problem | Frequency | Supporting Cases | Management Finding |
+|---|---:|---|---|
+| Delivery delays | 2 | CFA-A01, CFA-A04 | Customers reported deliveries arriving approximately 45 minutes and one hour after their communicated delivery windows. |
+| Outer packaging and presentation | 2 | CFA-A02, CFA-A05 | Customers reported crushed or dented outer packaging affecting product presentation. |
+| Customer communication delays | 2 | CFA-A06, CFA-A08 | Customers reported repeated contact attempts or delayed responses to order enquiries. |
+
+All three operational complaint categories meet the supplied recurrence threshold.
+
+No verified common root cause, shared production batch or causal relationship has been established.
+
+### 3.6 Positive Customer Observations
+
+| Positive Observation | Supporting Cases |
+|---|---|
+| Enjoyable food and excellent product taste | CFA-A01, CFA-A03, CFA-A06, CFA-A07 |
+| Authentic Sri Lankan flavours | CFA-A03 |
+| Generous portion size | CFA-A03 |
+| Easy ordering process | CFA-A03, CFA-A07 |
+| Attractive product presentation | CFA-A07 |
+| Intention to order again | CFA-A03 |
+| Satisfaction with customer service | CFA-A07 |
+
+Positive observations were recorded in four distinct cases, including two mixed-sentiment cases.
+
+These observations indicate aspects of the customer experience worth maintaining.
+
+Positive packaging feedback in CFA-A07 should also be preserved despite the separate packaging complaints.
+
+These observations represent overlapping themes and must not be counted as additional unique cases.
+
+### 3.7 Statistical Limitations
+
+The findings and statistics apply only to the supplied eight-case dataset.
+
+The total number of business orders and customers during the reporting period has not been supplied.
+
+Consequently, these figures cannot establish:
+
+- Business-wide complaint rates.
+- Business-wide delivery failure rates.
+- Overall packaging defect rates.
+- Overall customer satisfaction levels.
+- Business-wide food safety incident rates.
+
+---
+
+## 4. Refunds, Evidence Gaps and Follow-Up Actions
+
+### 4.1 Refund Request Register
+
+| Refund Item | Details |
+|---|---|
+| Case reference | CFA-A04 |
+| Customer | Daniel |
+| Order reference | FOC-ORD-260204 |
+| Product | Chicken Kottu |
+| Reason for request | Reported delivery delay |
+| Requested refund type | Delivery charge |
+| Customer-requested amount | AUD 8.00 |
+| Verified payment amount | Not verified |
+| Authorised refund decision | None recorded |
+| Completed reimbursement | None recorded |
+| Recommended action | Refer to authorised personnel for assessment |
+| Current status | Pending payment verification and authorised review |
+
+#### Refund Summary
+
+| Refund Metric | Result |
+|---|---:|
+| Unique refund requests | 1 |
+| Requests with explicitly supplied amounts | 1 |
+| Requests with unknown amounts | 0 |
+| Known requested refund subtotal | AUD 8.00 |
+| Authorised refund approvals recorded | 0 |
+| Completed reimbursements recorded | 0 |
+
+The complete requested refund amount within the supplied dataset is AUD 8.00.
+
+However, this represents a customer-requested amount, not a verified payment amount, approved refund or confirmed financial liability.
+
+**No refund has been approved, rejected or promised through this report.**
+
+### 4.2 Evidence Gaps and Related Incident Restrictions
+
+| Evidence Area | Current Status and Limitation |
+|---|---|
+| Delivery records | Actual dispatch times, delivery windows and arrival timestamps have not been verified. |
+| Packaging evidence | Photographic evidence for CFA-A02 has not been supplied. Packaging photographs for CFA-A05 are not established by the supplied records. |
+| Food-contact packaging | Customers reported that inner containers or sachets appeared intact. These observations have not been independently confirmed. |
+| Customer communication records | Email histories, response timestamps and order update records require review. |
+| Product batch traceability | No production batch references have been supplied for the feedback cases. |
+| Payment records | The requested AUD 8.00 delivery charge requires payment verification. |
+| Investigation findings | No completed investigations or corrective actions have been recorded. |
+| P05 incident relationship | Supplied business information states that these feedback records are not linked to the affected P05 production batches. |
+| P06 label and allergen information | No related label discrepancy or allergen concern has been supplied in this scenario. |
+| P07 customer enquiry workflow | Relevant to reviewing customer communication and approved customer-facing responses. |
+
+#### Existing Operational Restrictions
+
+No specific P05 product hold, P06 label restriction or P07 ordering restriction details have been supplied for this dataset.
+
+This report does not remove, modify or override any existing operational restrictions.
+
+Any applicable product holds, ordering restrictions or unresolved allergen matters remain subject to authorised personnel and approved procedures.
+
+### 4.3 Consolidated Follow-Up Action Register
+
+All responsible roles below are proposed assignments for human review, not confirmed personnel allocations.
+
+| Action ID | Related Cases | Required Evidence | Recommended Follow-Up Action | Proposed Responsible Role | Handling Priority | Status |
+|---|---|---|---|---|---|---|
+| ACT-01 | CFA-A01, CFA-A04 | Communicated delivery windows, dispatch records and arrival timestamps | Verify reported delivery delays and investigate scheduling, dispatch coordination and delivery performance. Consider improvements to delivery planning and delay notifications. | Logistics or Delivery Coordinator | Standard follow-up | Pending |
+| ACT-02 | CFA-A02, CFA-A05 | Packaging photographs, packaging specifications and packing or transport records | Investigate outer packaging damage. Review packaging strength, protective materials, packing procedures and handling during delivery. Refer any subsequently identified food-contact packaging concern through approved QA procedures. | Quality Assurance personnel / Packaging Supervisor | Standard follow-up | Pending |
+| ACT-03 | CFA-A06, CFA-A08 | Email correspondence, enquiry records and response timestamps | Investigate reported communication delays. Review enquiry monitoring, staff responsibilities and order update processes. Consider improvements consistent with the P07 workflow. | Customer Service Supervisor | Standard follow-up | Pending |
+| ACT-04 | CFA-A04 | Payment receipt, order details, delivery records and refund request | Verify the delivery charge and refer the AUD 8.00 request for separate authorised refund assessment. Communicate the outcome only after approval. | Authorised Refund Reviewer | Standard follow-up | Pending |
+| ACT-05 | CFA-A01, CFA-A02, CFA-A04, CFA-A05, CFA-A06, CFA-A08 | Complaint records and relevant verified investigation findings | Acknowledge reported concerns, request missing evidence and provide appropriate customer updates using approved customer-facing information. | Customer Service Supervisor | Standard follow-up | Pending |
+| ACT-06 | CFA-A01, CFA-A03, CFA-A06, CFA-A07 | Original positive feedback records | Share positive observations with relevant production and customer service teams. Consider maintaining the reported strengths in flavour, portions, presentation and ordering experience. | Customer Experience Manager | No corrective action required for positive-only feedback; mixed cases retain standard follow-up | Pending |
+| ACT-07 | All eight cases | Consolidated case register, investigation findings and future feedback records | Maintain traceable complaint records and review recurring patterns after evidence verification. Refer any newly identified safety concern immediately to qualified personnel. | Customer Experience Manager | Proposed routine management review; individual case priorities remain unchanged | Pending |
+
+**Action Status and Authorisation Limitations:**
+
+- All actions listed above are proposed recommendations.
+- No completed investigation has been recorded.
+- No completed corrective action has been recorded.
+- No customer notification or escalation is represented as completed.
+- No operational improvement is represented as implemented.
+- Proposed responsible roles require human confirmation.
+
+Any subsequent product release, disposition, recall, regulatory reporting, incident notification or closure decision must be referred to appropriate authorised personnel.
+
+---
+
+## 5. Management Summary and Human Approval
+
+### 5.1 Management Summary
+
+The review identified eight unique customer feedback cases, with no confirmed duplicates. Six cases contained complaints, while two contained exclusively positive feedback. Delivery delays, outer packaging damage and customer communication delays were identified as recurring operational concerns, each appearing in two distinct cases.
+
+Positive observations concerning authentic Sri Lankan flavours, product taste, generous portions and convenient ordering demonstrate customer experience strengths worth maintaining. One customer requested an AUD 8.00 delivery charge refund, which remains subject to payment verification and authorised assessment.
+
+Management should prioritise verifying reported delivery performance, reviewing packaging handling practices and improving customer communication processes. No urgent food safety concerns were reported within the supplied dataset; however, this does not establish product safety. All operational findings require appropriate evidence verification before corrective actions or management decisions are authorised.
+
+### 5.2 Current Approval Status
+
+| Approval Item | Current Status |
+|---|---|
+| Responsible reviewer | Customer Experience Manager |
+| Management review | Pending |
+| Evidence verification | Pending |
+| Investigation findings | Not yet established |
+| Corrective action authorisation | Not recorded |
+| Refund authorisation | Not recorded |
+| Complaint closure | Not authorised |
+| Report approval | Pending human review |
+
+### Role and Authorisation Limitations
+
+This report provides documentation, analysis and management decision support only.
+
+It does not:
+
+- Diagnose illness or establish medical causation.
+- Determine or guarantee product safety.
+- Certify regulatory compliance.
+- Approve or reject refund requests.
+- Authorise product release or disposition.
+- Authorise product recalls.
+- Override existing operational restrictions.
+- Close complaints or food safety incidents.
+- Replace qualified human assessment.
+
+All findings relate exclusively to the supplied synthetic academic testing dataset.
+
+All recommendations remain subject to approved business procedures and appropriate human review and authorisation.
+
+---
+
+**FINAL DOCUMENT STATUS: DRAFT — REQUIRES HUMAN REVIEW AND AUTHORISATION.**
 
 #### Evaluation
 
@@ -2107,13 +2426,408 @@ Pending evaluation.
 
 ### Test Case B
 
-Testing date: Pending.
+Testing date: 27 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+## P08 – Customer Complaint and Feedback Analysis
+
+**Prompt Version:** v1.1  
+**Test Scenario:** Test B  
+**Document Type:** AI-Generated Management Report  
+**Review Reference:** FOC-CFA-2026-002  
+**Document Status:** Draft – Pending Human Review and Approval
+
+---
+
+## 1. Review Overview and Urgent Escalation
+
+> [!CAUTION]
+> **URGENT QUALIFIED FOOD SAFETY AND QUALITY ASSURANCE REVIEW REQUIRED**
+>
+> Four unique complaint cases require immediate referral to qualified
+> personnel through approved food safety and Quality Assurance procedures.
+>
+> Recommended escalation must not be delayed while awaiting additional
+> customer evidence, traceability information, medical assessments or
+> refund verification.
+>
+> No completed qualified escalation or investigation outcome has been
+> established.
+
+### 1.1 Urgent Escalation Register
+
+| Complaint Ticket | Record IDs | Reported Safety Concern | Proposed Specialist Reviewer |
+| --- | --- | --- | --- |
+| COMP-26001 | CFA-B01, CFA-B02 | Vomiting and stomach cramps following reported consumption of Rice and Curry Packs. | Food Safety Supervisor and Quality Assurance Manager |
+| COMP-26002 | CFA-B03 | Reported milk allergy, itching and rash following reported consumption of Sri Lankan Fish Roti. | Food Safety Supervisor and Quality Assurance Manager |
+| COMP-26003 | CFA-B04 | Suspected hard plastic material inside a Pol Sambol Sachet. Material identity remains unverified. | Food Safety Supervisor and Quality Assurance Manager |
+| COMP-26005 | CFA-B07 | Reported online egg-free claim contradicting the approved chicken kottu recipe, with unresolved soy and peanut cross-contact information. | Quality Assurance Manager and Food Safety Supervisor |
+
+For COMP-26001 and COMP-26002, customer follow-up should establish
+exact consumption timing, symptom onset, current symptoms and whether
+medical assistance has been obtained.
+
+Customers should be encouraged to seek appropriate medical assistance,
+including emergency medical services if emergency symptoms occur.
+
+No medical diagnosis or causal relationship between the products and
+reported symptoms has been established.
+
+COMP-26003 concerns suspected foreign material rather than independently
+verified contamination.
+
+COMP-26005 concerns allergen information and contradictory product
+claims. Alex explicitly reports that the product has not been ordered
+or consumed. No allergic reaction or illness has been reported.
+
+### 1.2 Review Information
+
+| Review Item | Details |
+| --- | --- |
+| Business | Flavors of Ceylon |
+| Business Location | Dandenong South, Victoria, Australia |
+| Review Reference | FOC-CFA-2026-002 |
+| Review Date | 8 December 2026 |
+| Reporting Period | 1–7 December 2026 |
+| Responsible Reviewer | Customer Experience Manager |
+| Specialist Reviewers | Food Safety Supervisor and Quality Assurance Manager |
+| Related Assessment | P05 – Food Safety and Quality Incident Reporting |
+| Related Assessment | P06 – Product Label and Allergen Information Review |
+| Related Assessment | P07 – Customer Enquiry Response |
+| Dataset Status | Synthetic academic testing records |
+| Report Status | Draft – Pending human review |
+
+### 1.3 Record-to-Case Reconciliation
+
+| Reconciliation Indicator | Count |
+| --- | ---: |
+| Submitted feedback communications | 9 |
+| Confirmed duplicate communications | 2 |
+| Unique complaint and feedback cases | 7 |
+
+### 1.4 Confirmed Duplicate Communications
+
+| Duplicate Record | Original Record | Complaint Ticket | Verified Reconciliation Evidence |
+| --- | --- | --- | --- |
+| CFA-B02 | CFA-B01 | COMP-26001 | Identical complaint ticket and explicit customer service linkage. Same reported illness event and refund request. |
+| CFA-B06 | CFA-B05 | COMP-26004 | Identical complaint ticket and explicit customer service linkage. Same delivery incident and AUD 8.00 refund request. |
+
+**Reconciliation calculation:**
+
+9 submitted records − 2 confirmed duplicate communications
+= 7 unique complaint and feedback cases.
+
+All nine original record IDs are preserved.
+
+Duplicate communications remain supporting evidence but are excluded
+from additional case, illness, refund and recurrence counts.
+
+No further duplicate cases have been established from the supplied
+evidence.
+
+The denominator for case-based statistics is **7 unique cases**.
+
+---
+
+## 2. Individual Complaint and Feedback Register
+
+The following consolidated register uses the supplied primary issue
+categories, sentiment classifications and suggested handling priorities.
+
+| Complaint Ticket | Associated Record IDs | Customer and Product/Order Reference | Primary Issue Category | Sentiment | Suggested Priority | Key Reported Observation | Evidence Verification Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| COMP-26001 | CFA-B01, CFA-B02 (duplicate follow-up) | Noah; Rice and Curry Packs; FOC-ORD-260301 | Reported illness | Negative | **Urgent qualified review** | Reported vomiting and stomach cramps after consumption. Requests investigation and full order refund. | Consumption and symptoms customer-reported. Order unverified. Batch, exact timings, current symptoms and medical assessment missing. Duplicate linkage confirmed. |
+| COMP-26002 | CFA-B03 | Charlotte; Sri Lankan Fish Roti; FOC-ORD-260302 | Possible allergen incident | Negative | **Urgent qualified review** | Reported milk allergy, itching and rash after consumption. Concern regarding missing milk information. | Allergy, consumption and symptoms customer-reported. Actual label, batch, packaging photograph, exact timings, current symptoms and medical assessment missing. Cause unestablished. |
+| COMP-26003 | CFA-B04 | William; Pol Sambol Sachets; FOC-ORD-260303 | Suspected foreign material or contamination | Negative | **Urgent qualified review** | Reported material resembling a small hard piece of plastic. Customer stopped using the sachet. | Material identity unverified. Photograph, retained sample, batch reference and laboratory assessment not supplied. No injury or illness reported. |
+| COMP-26004 | CFA-B05, CFA-B06 (duplicate follow-up) | Amelia; Sri Lankan Vegetable Rolls; FOC-ORD-260304 | Delivery delay | Negative | Standard follow-up | Delivery reportedly approximately 50 minutes late. Requests AUD 8.00 delivery charge refund. | Delivery timestamps and payment records unverified. Duplicate linkage confirmed. |
+| COMP-26005 | CFA-B07 | Alex; Sri Lankan Chicken Kottu; enquiry FOC-CE-2026-002 | Allergen information or product claim concern | Negative | **Urgent qualified review** | Reported online egg-free claim and unresolved soy and peanut cross-contact enquiries. | Online image unverified. Egg content confirmed by approved records. Soy status and product-specific peanut cross-contact unresolved. No purchase, consumption or reaction reported. |
+| COMP-26006 | CFA-B08 | Isabella; product and order reference not supplied | Other or insufficient information | Negative | Standard follow-up | Reports an incorrect order without describing the problem. Requests a refund. | Complaint details, product, order reference, payment and requested refund amount missing. No explicit safety concern reported. |
+| COMP-26007 | CFA-B09 | Oliver; Rice and Curry Packs; FOC-ORD-260305 | Delivery delay | Mixed | Standard follow-up | Positive food taste feedback, but delivery reportedly approximately 30 minutes late. | Customer-reported experience. Delivery timestamps unverified. No refund request recorded. |
+
+**Register validation:**
+
+- All nine submitted records are represented across seven unique cases.
+- Each unique case has one primary issue category.
+- Each unique case has one overall sentiment classification.
+- Each unique case has one suggested handling priority.
+- Confirmed duplicate communications are retained as supporting evidence.
+- Positive observations within mixed feedback are preserved.
+
+---
+
+## 3. Complaint Metrics and Recurring Problems
+
+### 3.1 Primary Issue Frequency
+
+The denominator for all case-based percentages is seven unique cases.
+
+Confirmed duplicate communications are excluded.
+
+| Primary Issue Category | Unique Cases | Percentage |
+| --- | ---: | ---: |
+| Reported illness | 1 | 14.29% |
+| Possible allergen incident | 1 | 14.29% |
+| Suspected foreign material or contamination | 1 | 14.29% |
+| Delivery delay | 2 | 28.57% |
+| Allergen information or product claim concern | 1 | 14.29% |
+| Other or insufficient information | 1 | 14.29% |
+| Positive product and service feedback | 0 | 0.00% |
+| **Total** | **7** | **100.00%** |
+
+**Rounding note:** The individually rounded category percentages sum
+to 100.02%. The 0.02 percentage-point difference results from rounding
+individual percentages to two decimal places.
+
+### 3.2 Customer Sentiment Distribution
+
+| Sentiment | Unique Cases | Percentage |
+| --- | ---: | ---: |
+| Positive | 0 | 0.00% |
+| Negative | 6 | 85.71% |
+| Mixed | 1 | 14.29% |
+| Neutral or unclear | 0 | 0.00% |
+| **Total** | **7** | **100.00%** |
+
+Although no case contains exclusively positive feedback, COMP-26007
+includes a positive observation concerning the taste of Rice and
+Curry Packs.
+
+### 3.3 Handling Priority Distribution
+
+| Suggested Handling Priority | Unique Cases | Percentage |
+| --- | ---: | ---: |
+| Urgent qualified review | 4 | 57.14% |
+| Standard follow-up | 3 | 42.86% |
+| No corrective action required | 0 | 0.00% |
+| **Total** | **7** | **100.00%** |
+
+These priorities represent supplied internal complaint-handling
+guidance, not formal medical, statutory or food safety risk
+classifications.
+
+### 3.4 Recurring Problems and Broader Thematic Observations
+
+The supplied recurrence threshold is at least two distinct cases.
+
+| Issue or Theme | Unique Cases | Complaint References | Management Interpretation |
+| --- | ---: | --- | --- |
+| Delivery delays | 2 | COMP-26004, COMP-26007 | Recurring primary issue category. Delivery performance and communicated delivery windows require investigation. |
+| Allergen information concerns | 2 | COMP-26002, COMP-26005 | Recurring broader theme involving possible allergen information discrepancies and contradictory product claims. The cases have different primary classifications. |
+| Reported symptoms following consumption | 2 | COMP-26001, COMP-26002 | Broader safety-related theme requiring separate qualified investigations. No common cause or shared batch has been established. |
+
+**Recurring primary issue:**
+
+Delivery delay is the only primary issue category meeting the supplied
+recurrence threshold.
+
+The two reported delivery delays are separate incidents. CFA-B06 does
+not constitute an additional delivery incident.
+
+**Overlapping thematic observations:**
+
+Allergen information concerns and reported symptoms following
+consumption overlap with existing primary categories.
+
+Their counts must not be added to the seven-case total.
+
+No common root cause, shared production batch or causal relationship
+has been established.
+
+### 3.5 Positive Customer Observations
+
+| Complaint Reference | Product | Positive Observation | Management Consideration |
+| --- | --- | --- | --- |
+| COMP-26007 | Rice and Curry Packs | Customer reported that the food tasted great. | Retain positive product feedback while investigating delivery performance. |
+
+The positive observation is part of a mixed feedback case and is not
+counted as a separate positive-only case.
+
+### 3.6 Additional Management Indicators
+
+| Management Indicator | Result |
+| --- | ---: |
+| Unique cases involving refund requests | 3 |
+| Unique refund request proportion | 42.86% |
+| Unique cases involving reported symptoms following consumption | 2 |
+| Suspected foreign material cases | 1 |
+| Contradictory allergen-free claim cases without reported consumption | 1 |
+| Cases containing positive product observations | 1 |
+| Complaint cases with verified linkage to P05 batch CK-01 | 0 |
+| Recorded completed complaint investigation outcomes | 0 |
+| Recorded authorised refunds | 0 |
+
+> [!NOTE]
+> **Statistical limitation**
+>
+> These findings apply only to the supplied seven unique cases.
+>
+> Total sales, deliveries, production volumes and overall customer
+> feedback volumes have not been supplied.
+>
+> Consequently, these statistics cannot establish business-wide
+> incident rates, product defect rates or overall customer
+> satisfaction levels.
+
+---
+
+## 4. Refunds, Evidence Gaps and Follow-Up Actions
+
+### 4.1 Refund Request Register
+
+| Complaint Ticket | Associated Record IDs | Customer | Requested Refund | Requested Amount | Payment Verification | Refund Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| COMP-26001 | CFA-B01, CFA-B02 | Noah | Full order refund | Unknown | Not supplied | Pending authorised assessment |
+| COMP-26004 | CFA-B05, CFA-B06 | Amelia | Delivery charge refund | AUD 8.00 | Not verified | Pending authorised assessment |
+| COMP-26006 | CFA-B08 | Isabella | Refund; scope unspecified | Unknown | Not supplied | Pending authorised assessment |
+
+### 4.2 Refund Summary
+
+| Refund Indicator | Result |
+| --- | --- |
+| Unique refund requests | 3 |
+| Requests with explicitly supplied amounts | 1 |
+| Requests with unknown amounts | 2 |
+| Known requested refund subtotal | AUD 8.00 |
+| Complete requested refund total | Cannot be determined |
+| Verified payment amounts | Not established |
+| Authorised refund decisions | None recorded |
+| Completed reimbursements | None recorded |
+
+The AUD 8.00 subtotal represents a customer-requested amount, not a
+verified payment, approved refund or completed reimbursement.
+
+Unknown amounts have not been treated as zero.
+
+CFA-B02 and CFA-B06 are duplicate follow-up communications and do not
+represent additional refund requests.
+
+> [!IMPORTANT]
+> Refund assessment must be conducted separately by authorised
+> personnel without delaying urgent food safety escalation.
+>
+> No refund has been approved, rejected, promised or processed
+> through this report.
+
+### 4.3 Existing Incident Restrictions and Related Business Evidence
+
+| Related Assessment | Verified Information and Unresolved Matters | Existing Restriction and Management Requirement |
+| --- | --- | --- |
+| P05 – Test B: FOC-FSI-2026-002; chicken kottu batch CK-01 | Sixteen units confirmed on hold. Four units have unresolved physical locations. Product suitability and final disposition remain undetermined. | Preserve the existing hold. Investigate unresolved product locations. No authorised release or incident closure. No verified complaint linkage to CK-01. |
+| P06 – Fish Roti | SPEC-FR-01 v2.0 includes butter. ALL-FR-01 v2.0 confirms milk, wheat and fish as intentional allergens. LBL-FR-01 v0.1 omitted butter and milk. | Draft label remains unapproved. All 20 units of batch FR-03 remain on quality hold. No evidence links CFA-B03 to FR-03 or the reviewed draft label. |
+| P06 – Chicken Kottu | SPEC-CK-01 v2.0 includes egg and sesame oil. Wheat, egg and sesame are confirmed intentional allergens. Draft egg-free claim contradicts the approved recipe. Conflicting seasoning sauce supplier information remains unresolved. | Soy presence or absence remains unestablished. Product-specific peanut cross-contact remains unverified. Draft label remains unapproved. Publication or application of the draft label has not been established. |
+| P07 – FOC-CE-2026-002 | Approved limited allergen notice QA-CE-CK-01 v1.0 confirms egg, wheat and sesame. Chicken kottu is not egg-free. Complete allergen information remains under review. | Chicken kottu remains temporarily unavailable for ordering. No order acceptance, payment, reservation or delivery confirmed for Alex. No completed previous escalation or customer response established. |
+
+> [!WARNING]
+> Existing product holds, ordering restrictions and label approval
+> requirements must remain unchanged unless appropriate authorised
+> personnel approve changes through established procedures.
+>
+> No complaint record contains verified evidence linking a customer
+> to chicken kottu batch CK-01.
+>
+> No evidence links CFA-B03 to fish roti batch FR-03 or to the
+> reviewed draft label.
+>
+> The supplied evidence does not establish that any customer received
+> or consumed products from these affected batches.
+
+### 4.4 Consolidated Follow-Up Action Register
+
+The following action IDs and responsible roles are proposed for
+management review.
+
+Completion has not been established unless explicitly identified in
+the supplied records.
+
+| Action ID | Relevant Cases or References | Required Evidence | Recommended Follow-Up Action | Proposed Responsible Role | Priority | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| ACT-01 | COMP-26001, COMP-26002 | Exact consumption and symptom onset times, current symptoms, medical assistance information, order verification and product batches. | Immediately refer both cases for qualified review. Contact customers to obtain missing information and recommend appropriate medical assistance where necessary, including emergency services for emergency symptoms. Investigate each case separately. | Food Safety Supervisor; Quality Assurance Manager; Customer Experience Manager | **Urgent qualified review** | Proposed – Completion unconfirmed |
+| ACT-02 | COMP-26002; P06 Fish Roti | Actual packaging, label photographs, batch traceability, applicable ingredient and allergen records. | Investigate reported milk information discrepancy against applicable approved records. Establish the actual product and label supplied before determining any incident linkage. Preserve FR-03 hold. | Quality Assurance Manager | **Urgent qualified review** | Pending |
+| ACT-03 | COMP-26003 | Product batch, order verification, packaging photographs, retained sample and qualified assessment findings. | Immediately escalate suspected foreign material. Request safe preservation of available product and packaging evidence. Investigate possible contamination through approved procedures without assuming material identity. | Food Safety Supervisor; Quality Assurance Manager | **Urgent qualified review** | Pending |
+| ACT-04 | COMP-26005; P06 Chicken Kottu; P07 FOC-CE-2026-002 | Reported online image, publication records, applicable product labels, seasoning sauce supplier specifications and cross-contact assessments. | Investigate the reported egg-free claim. Resolve conflicting supplier information and verify outstanding soy and peanut information. Use only approved customer-facing notice QA-CE-CK-01 v1.0 for confirmed allergen information. Maintain ordering restrictions. | Quality Assurance Manager; Customer Experience Manager | **Urgent qualified review** | Pending |
+| ACT-05 | P05 FOC-FSI-2026-002; CK-01 | Inventory reconciliation, movement records, traceability evidence and records identifying the four unresolved units. | Preserve the hold on 16 confirmed units. Investigate unresolved physical locations and refer product suitability, disposition and incident closure decisions to authorised personnel. Do not assume customer linkage. | Food Safety Supervisor; Quality Assurance Manager | **Urgent qualified review** | Existing hold confirmed; further actions pending |
+| ACT-06 | COMP-26004, COMP-26007 | Promised delivery windows, dispatch timestamps, actual delivery timestamps and communication records. | Verify both delivery delays. Investigate scheduling, dispatch and customer communication processes. Recommend corrective measures after evidence review. Preserve positive food taste feedback from COMP-26007. | Customer Experience Manager; proposed delivery operations representative | Standard follow-up | Pending |
+| ACT-07 | COMP-26006 | Order reference, product details, description of incorrect order, supporting evidence and any additional safety concerns. | Contact the customer for clarification. Reassess issue category and handling priority if additional evidence identifies a potential safety concern. | Customer Experience Manager | Standard follow-up | Pending |
+| ACT-08 | COMP-26001, COMP-26004, COMP-26006 | Payment records, order verification, requested refund amounts and applicable approved refund policy. | Refer three unique refund requests for separate authorised assessment. Obtain unknown requested amounts and verify the reported AUD 8.00 delivery charge. Do not promise or authorise refunds. | Customer Experience Manager; authorised refund decision-maker | Standard refund follow-up, without delaying urgent safety review | Pending |
+| ACT-09 | All seven unique cases | Complaint correspondence, investigation records, evidence verification and authorised decisions. | Maintain complete complaint records, including duplicate communications. Record verified findings and approved customer updates. Refer recall, product disposition, customer notification, regulatory reporting and incident closure decisions through approved procedures. | Customer Experience Manager; Food Safety Supervisor; Quality Assurance Manager; appropriate authorised personnel | According to individual case priority | Pending |
+
+No investigation outcome, completed corrective action, recall,
+customer notification or operational improvement has been established
+from the supplied evidence.
+
+The proposed actions must not override applicable incident disclosure,
+notification or regulatory reporting procedures.
+
+---
+
+## 5. Management Summary and Human Approval
+
+### 5.1 Management Summary
+
+The review identified seven unique complaint and feedback cases from
+nine submitted communications, with two confirmed duplicate reports.
+Four cases require immediate qualified review involving reported illness,
+a possible allergic reaction, suspected foreign material and a
+contradictory allergen-free claim.
+
+Delivery delays represent the principal recurring operational complaint,
+while allergen information concerns require coordinated Quality Assurance
+investigation. Positive feedback regarding food taste should also be
+retained.
+
+Management should prioritise customer welfare, evidence collection,
+product traceability and verification of allergen information. Existing
+chicken kottu and fish roti product holds, unresolved product locations,
+unapproved labels and ordering restrictions must remain appropriately
+controlled.
+
+Three unique refund requests require separate authorised assessment.
+No medical causation, contamination confirmation or specific production
+batch linkage has been established. All findings relate exclusively
+to the supplied synthetic dataset, and further investigation and
+authorised human decisions remain necessary.
+
+### 5.2 Human Review and Approval Status
+
+| Approval Item | Current Status |
+| --- | --- |
+| Customer Experience Manager review | Pending |
+| Food Safety Supervisor review | Pending |
+| Quality Assurance Manager review | Pending |
+| Qualified complaint investigation | No completed outcome supplied |
+| Refund authorisation | No authorisation supplied |
+| Product release or disposition authorisation | No authorisation supplied |
+| Incident closure | Not authorised |
+
+### 5.3 Report Limitations and Authorisation Requirements
+
+This report provides documentation, complaint analysis and management
+decision support only.
+
+It does not constitute:
+
+- Independent medical assessment or diagnosis.
+- Confirmation of medical causation.
+- Confirmation of suspected foreign material identity.
+- Food safety certification or guarantees.
+- Regulatory compliance certification.
+- Refund approval or rejection.
+- Product release or disposition authorisation.
+- Recall authorisation.
+- Incident closure or operational authorisation.
+
+All recommendations remain subject to appropriate human review and
+authorisation.
+
+All customer identities, complaints, reported symptoms, supplier
+information, order references and business records are synthetic
+and intended solely for academic testing.
+
+> [!IMPORTANT]
+> **FINAL REPORT STATUS: DRAFT – REQUIRES HUMAN REVIEW AND APPROVAL.**
 
 #### Evaluation
 
