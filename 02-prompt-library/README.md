@@ -84,7 +84,7 @@ qualified human review.
 |---|---|---|---|
 | P07 | [Customer Enquiry Response](P07-customer-enquiry-response.md) | v1.1 | Completed — Tested and Evaluated |
 | P08 | [Customer Complaint and Feedback Analysis](P08-customer-complaint-analysis.md) | v1.1 | Completed — Tested and Evaluated |
-| P09 | [Digital Marketing Content Generation](P09-digital-marketing-content.md) | v1.0 | Initial Draft |
+| P09 | [Digital Marketing Content Generation](P09-digital-marketing-content.md) | v1.1 | Completed — Tested and Evaluated |
 
 These prompts support customer communication,
 complaint categorisation and marketing content
