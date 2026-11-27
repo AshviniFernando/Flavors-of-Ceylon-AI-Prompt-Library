@@ -4486,13 +4486,866 @@ Status: Passed with reporting efficiency limitations.
 
 ### Test Case A
 
-Testing date: Pending.
+Testing date: 28 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+
+# Flavors of Ceylon
+
+## P10 – Integrated Weekly Business Management Report
+
+| Document Information | Details |
+|---|---|
+| Prompt ID | P10 |
+| Prompt Version | v1.1 |
+| Test Scenario | Test A |
+| Document Type | AI-Generated Test Output |
+| Report Reference | FOC-WBR-2026-001 |
+| Report Status | Draft – Pending Management and Specialist Approval |
+| Data Classification | Synthetic Academic Testing Data |
+
+---
+
+## 1. Executive Overview and Urgent Priorities
+
+### 1.1 Report Information
+
+| Reporting Parameter | Details |
+|---|---|
+| Business | Flavors of Ceylon |
+| Business Location | Dandenong South, Victoria, Australia |
+| Report Reference | FOC-WBR-2026-001 |
+| Reporting Period | 1–7 December 2026, inclusive |
+| Preparation Date | 8 December 2026 |
+| Responsible Reviewer | Business Operations Manager |
+| Specialist Reviewers | Finance Manager, Production Manager, Food Safety Supervisor, Quality Assurance Manager, Customer Experience Manager and Marketing Manager |
+| Currency | AUD |
+| Reporting Language | Australian English |
+| Related Workflows | P01–P09 |
+| Data Classification | Synthetic academic testing data |
+| Report Status | Draft – Pending human review and approval |
+
+### 1.2 Urgent Management Priorities
+
+> [!IMPORTANT]
+> **Immediate qualified specialist review is required for the confirmed allergen omission in the unapproved Fish Roti draft label.**
+
+**Confirmed Allergen Omission — FOC-LR-2026-001**
+
+The unapproved Fish Roti draft label LBL-FR-01 v0.1 omits:
+
+- Butter, an approved intentional ingredient.
+- Milk, a confirmed intentional allergen.
+- The approved precautionary statement: "May contain sesame."
+
+Immediate qualified QA and food safety review is recommended.
+
+The draft label must remain unapproved and must not be printed or applied.
+
+> [!WARNING]
+> **Existing Quality Hold — FOC-QI-2026-001**
+
+All 20 Fish Roti units from batch FR-03 remain under quality hold following three sample weights below the internal specification.
+
+No units from this batch have been dispatched.
+
+The existing hold must remain in place pending authorised investigation and disposition.
+
+The confirmed label omission requires immediate specialist attention independently of routine financial and operational reporting.
+
+No completed corrective approval, product release authorisation or incident closure has been supplied.
+
+### 1.3 Executive KPI Scorecard
+
+| Performance Indicator | Weekly Result | Management Interpretation |
+|---|---:|---|
+| Total verified sales | 380 packs | Below previous week |
+| Weekly sales growth | -13.64% | Decline in sales volume |
+| Forecast attainment | 80.85% | Below approved forecast |
+| Forecast shortfall | 90 packs | Not verified lost sales |
+| Product sales revenue, including applicable GST | AUD 4,010.00 | Verified calculation |
+| Net product sales revenue, excluding GST | AUD 3,900.00 | Finance verified |
+| Product-scope gross profit and margin | AUD 1,800.00 / 46.15% | Positive gross profit |
+| Product-scope operating result and margin | AUD 600.00 / 15.38% | Positive within defined scope |
+| Production target achievement | 100.00% | Approved targets achieved |
+| Production-station utilisation | 57.87% | 625 of 1,080 minutes |
+| Saleable output proportion | 93.85% | 20 units under quality hold |
+| Customer enquiry response completion | 80.00% | Two responses pending |
+
+### 1.4 Executive Management Overview
+
+Flavors of Ceylon recorded 380 completed retail pack sales during the reporting period, representing a 13.64% decline compared with the previous week's 440 packs.
+
+Actual sales were 90 packs below the approved demand forecast.
+
+Despite lower sales volumes, the supplied financial records demonstrate a positive product-scope operating result of AUD 600.00. This result does not establish total company profitability.
+
+Production achieved all approved quantity targets, with 325 packs completed. However, only 305 packs received QA authorisation for inclusion in saleable inventory because 20 Fish Roti units remain under quality hold.
+
+Ingredient and finished-product saleable inventory balances reconcile with the supplied verified movements.
+
+Customer feedback indicates recurring concerns involving delivery delays, outer packaging and customer communication.
+
+The principal management priorities are:
+
+- Immediate qualified review of the confirmed allergen label omission.
+- Continued management of the existing Fish Roti quality hold.
+- Investigation of the lower-than-forecast sales performance.
+- Customer service follow-up and complaint investigation.
+- Evidence-based future production and procurement planning.
+
+### 1.5 Essential Reporting Limitations
+
+- Previous-week revenue was not supplied; revenue growth cannot be calculated.
+- Total company net profit, cash flow and financial solvency cannot be determined.
+- Future ingredient requirements, reorder thresholds and updated expiry assessments are unavailable.
+- The supplier invoice payment status remains unverified.
+- Customer feedback cannot establish business-wide complaint or customer satisfaction rates.
+- Marketing conversions, attributed sales and financial returns are not determinable.
+- All findings relate exclusively to the supplied synthetic Test A reporting scenario.
+
+---
+
+## 2. Sales and Financial Performance
+
+### 2.1 Product-Level Sales Performance
+
+**Source:** WBR-SALES-A v1.0.
+
+All quantities represent completed retail product pack sales rather than individual food pieces.
+
+| Product | Previous Actual | Forecast | Current Actual | Sales Growth | Forecast Attainment | Shortfall |
+|---|---:|---:|---:|---:|---:|---:|
+| Fish Roti | 140 | 160 | 110 | -21.43% | 68.75% | 50 |
+| Vegetable Rolls | 90 | 80 | 75 | -16.67% | 93.75% | 5 |
+| Chicken Kottu | 80 | 90 | 80 | 0.00% | 88.89% | 10 |
+| Rice and Curry Packs | 60 | 60 | 55 | -8.33% | 91.67% | 5 |
+| Pol Sambol Sachets | 70 | 80 | 60 | -14.29% | 75.00% | 20 |
+| **Total** | **440** | **470** | **380** | **-13.64%** | **80.85%** | **90** |
+
+**Aggregate KPI Calculations**
+
+- Sales growth = (380 - 440) / 440 x 100 = **-13.64%**
+- Forecast attainment = 380 / 470 x 100 = **80.85%**
+- Forecast shortfall = 470 - 380 = **90 packs**
+
+### 2.2 Sales Performance Observations
+
+Fish Roti recorded the largest absolute sales decline and forecast shortfall, with current sales falling by 30 packs compared with the previous week and remaining 50 packs below forecast.
+
+Chicken Kottu maintained its previous-week sales volume of 80 packs, although it did not achieve its approved forecast of 90 packs.
+
+Vegetable Rolls achieved the highest forecast attainment percentage at 93.75%, followed by Rice and Curry Packs at 91.67%.
+
+Fish Roti and Pol Sambol Sachets collectively accounted for 70 of the 90 forecast-shortfall packs.
+
+Combined forecast shortfall contribution:
+
+70 / 90 x 100 = **77.78%**
+
+These findings support further commercial investigation.
+
+However, the supplied evidence does not establish that quality holds, marketing activities, customer complaints or production capacity caused the sales decline.
+
+The forecast shortfall does not represent verified lost sales or unfulfilled customer orders.
+
+### 2.3 Product Sales Revenue
+
+**Source:** WBR-SALES-A v1.0.
+
+The following revenue calculations use verified completed sales quantities and approved current-week selling prices, including applicable GST.
+
+| Product | Actual Packs Sold | Unit Price (AUD) | Sales Revenue (AUD) |
+|---|---:|---:|---:|
+| Fish Roti | 110 | 9.00 | 990.00 |
+| Vegetable Rolls | 75 | 8.00 | 600.00 |
+| Chicken Kottu | 80 | 14.00 | 1,120.00 |
+| Rice and Curry Packs | 55 | 16.00 | 880.00 |
+| Pol Sambol Sachets | 60 | 7.00 | 420.00 |
+| **Total** | **380** | — | **4,010.00** |
+
+Chicken Kottu generated the highest current-week product sales revenue at AUD 1,120.00.
+
+Previous-week revenue and revenue growth are **not determinable** because the applicable previous-week financial information has not been supplied.
+
+Current-week selling prices have not been used to estimate previous-week revenue.
+
+### 2.4 Financial Performance
+
+**Source:** WBR-FIN-A v1.0.
+
+The Finance Manager has verified the following figures for the defined product-sales reporting scope.
+
+All profitability calculations exclude GST.
+
+| Financial Indicator | Calculation or Evidence | Result |
+|---|---|---:|
+| Product sales revenue, including applicable GST | Verified quantities x approved prices | AUD 4,010.00 |
+| Net product sales revenue, excluding GST | Finance-verified amount | AUD 3,900.00 |
+| Cost of goods sold | Finance-verified amount | AUD 2,100.00 |
+| **Product-scope gross profit** | 3,900.00 - 2,100.00 | **AUD 1,800.00** |
+| **Gross profit margin** | 1,800.00 / 3,900.00 x 100 | **46.15%** |
+| Allocated product-related operating expenses | Finance-verified amount | AUD 1,200.00 |
+| **Product-scope operating result** | 1,800.00 - 1,200.00 | **AUD 600.00** |
+| **Product-scope operating margin** | 600.00 / 3,900.00 x 100 | **15.38%** |
+
+The GST-inclusive sales ledger has already been reconciled against net product sales revenue by Finance.
+
+No uniform GST rate has been assumed.
+
+### 2.5 Financial Interpretation and Limitations
+
+The business achieved a positive operating result within the supplied product-sales reporting scope.
+
+However, this result excludes business income and expenses outside that defined scope.
+
+The following accounting boundaries have been maintained:
+
+- The AUD 162.00 supplier invoice has not been deducted again from the supplied financial expenses.
+- The pending AUD 8.00 refund request has not been recognised as an approved expense.
+- The AUD 46.00 estimated customer enquiry value has not been recognised as confirmed revenue.
+- Forecast quantities have not been treated as completed sales.
+- GST-inclusive revenue has not been used as the denominator for profitability calculations.
+
+| Additional Financial Indicator | Availability |
+|---|---|
+| Previous-week revenue | Not determinable |
+| Revenue growth percentage | Not determinable |
+| Individual product profit margins | Not determinable |
+| Total company net profit | Not determinable |
+| Cash flow | Not determinable |
+| Bank balances | Not determinable |
+| Tax liabilities | Not determinable |
+| Financial solvency | Not determinable |
+
+The information required to calculate these additional financial indicators has not been supplied.
+
+---
+
+## 3. Production, Procurement and Inventory
+
+### 3.1 Production Performance
+
+**Source:** WBR-PROD-A v1.0.
+
+| Product | Approved Target | Proposed Output | Actual Completed | QA-Authorised Receipts | Target Achievement | Target Shortfall |
+|---|---:|---:|---:|---:|---:|---:|
+| Fish Roti | 120 | 120 | 120 | 100 | 100.00% | 0 |
+| Vegetable Rolls | 0 | 0 | 0 | 0 | N/D | 0 |
+| Chicken Kottu | 85 | 85 | 85 | 85 | 100.00% | 0 |
+| Rice and Curry Packs | 50 | 50 | 50 | 50 | 100.00% | 0 |
+| Pol Sambol Sachets | 70 | 70 | 70 | 70 | 100.00% | 0 |
+| **Total** | **325** | **325** | **325** | **305** | **100.00%** | **0** |
+
+*N/D = Not determinable.*
+
+Vegetable Rolls had a zero production target; therefore, a target achievement percentage cannot be calculated.
+
+Aggregate production target achievement:
+
+325 / 325 x 100 = **100.00%**
+
+The difference between proposed output and actual completed output was zero packs for every product.
+
+All approved production quantities were achieved.
+
+Nevertheless, completed production must remain distinct from QA-authorised saleable production.
+
+The 20-pack difference between completed output and authorised saleable receipts relates entirely to Fish Roti batch FR-03.
+
+### 3.2 Production Capacity and Saleable Output
+
+| Performance Indicator | Calculation | Result |
+|---|---|---:|
+| Available station capacity | Supplied record | 1,080 minutes |
+| Actual station time used | Verified record | 625 minutes |
+| Unused station capacity | 1,080 - 625 | 455 minutes |
+| Production-station utilisation | 625 / 1,080 x 100 | 57.87% |
+| Unused capacity proportion | 455 / 1,080 x 100 | 42.13% |
+| Aggregate saleable output proportion | 305 / 325 x 100 | 93.85% |
+| Fish Roti saleable output proportion | 100 / 120 x 100 | 83.33% |
+| Chicken Kottu saleable output proportion | 85 / 85 x 100 | 100.00% |
+| Rice and Curry Packs saleable output proportion | 50 / 50 x 100 | 100.00% |
+| Pol Sambol Sachets saleable output proportion | 70 / 70 x 100 | 100.00% |
+| Vegetable Rolls saleable output proportion | Zero completed output | N/D |
+| Output remaining under quality hold | 325 - 305 | 20 packs |
+
+Staffing and station requirements were met for the recorded completed production.
+
+The available unused capacity may inform future production planning.
+
+However, unused capacity does not independently establish employee inefficiency, excessive staffing or a causal relationship with sales performance.
+
+### 3.3 Ingredient Inventory Reconciliation
+
+**Source:** WBR-INV-A v1.0.
+
+The eligible pre-production inventory already includes the verified P03 purchase receipts.
+
+No additional receipts, transfers, losses or adjustments were recorded following that snapshot.
+
+**Reconciliation Formula**
+
+Expected closing stock = Eligible pre-production stock - Verified actual consumption
+
+| Ingredient | Unit | Eligible Opening Stock | Actual Consumption | Expected Closing | Verified Closing | Variance |
+|---|---|---:|---:|---:|---:|---:|
+| Flour | kg | 45.00 | 31.40 | 13.60 | 13.60 | 0.00 |
+| Rice | kg | 40.00 | 7.50 | 32.50 | 32.50 | 0.00 |
+| Chicken | kg | 30.00 | 25.30 | 4.70 | 4.70 | 0.00 |
+| Coconut | kg | 12.00 | 5.00 | 7.00 | 7.00 | 0.00 |
+| Fish | kg | 12.00 | 9.60 | 2.40 | 2.40 | 0.00 |
+| Vegetables | kg | 10.00 | 0.00 | 10.00 | 10.00 | 0.00 |
+| **Weight-based subtotal** | **kg** | **149.00** | **78.80** | **70.20** | **70.20** | **0.00** |
+| Eggs | units | 100 | 85 | 15 | 15 | 0 |
+
+All ingredient inventory balances reconcile with the supplied verified records.
+
+Weight-based ingredients and individually counted eggs have been reported separately to preserve measurement consistency.
+
+#### Ingredient Stock Requiring Planning Review
+
+| Ingredient | Verified Closing Quantity | Proportion Consumed |
+|---|---:|---:|
+| Eggs | 15 units | 85.00% |
+| Chicken | 4.70 kg | 84.33% |
+| Fish | 2.40 kg | 80.00% |
+| Flour | 13.60 kg | 69.78% |
+
+These remaining quantities warrant review when preparing the next production plan.
+
+They do not independently establish future shortages.
+
+No approved next-week production requirements, reorder thresholds or updated expiry assessment have been supplied.
+
+Consequently, new replenishment quantities and expiry-related stock risks cannot be reliably determined.
+
+### 3.4 Procurement Performance
+
+**Source:** WBR-PROC-A v1.0.
+
+| Procurement Parameter | Verified Information |
+|---|---|
+| Supplier | Southern Harvest Food Supplies |
+| Purchase Order Reference | PO-WBR-A-001 |
+| Approval Status | Approved by authorised procurement personnel |
+| Receipt Date | 4 December 2026 |
+| Receipt Status | Received |
+| Invoice Payment Status | Not verified |
+| Inventory Recognition | Already included in P02 eligible stock |
+
+| Ingredient or Charge | Quantity | Amount (AUD) |
+|---|---:|---:|
+| Flour | 15 kg | 36.00 |
+| Chicken | 12 kg | 114.00 |
+| **Ingredient subtotal** | **27 kg** | **150.00** |
+| Delivery charge | — | 12.00 |
+| **Total supplier invoice** | — | **162.00** |
+
+The supplier invoice includes applicable GST.
+
+The purchase was approved and received. However, payment completion remains unverified.
+
+No additional purchase order, supplier delivery or draft procurement requirement is recorded within this reporting scope.
+
+The supplier invoice is not automatically equivalent to current-week cost of goods sold.
+
+Received ingredients must not be added again to the verified pre-production inventory balances.
+
+### 3.5 Finished-Product Saleable Inventory Reconciliation
+
+**Sources:** WBR-FG-A v1.0, WBR-PROD-A v1.0 and WBR-SALES-A v1.0.
+
+**Reconciliation Formula**
+
+Expected closing saleable stock = Opening saleable stock + QA-authorised saleable receipts - Verified sales
+
+| Product | Opening Saleable Stock | Authorised Receipts | Verified Sales | Expected Closing | Verified Closing | Variance |
+|---|---:|---:|---:|---:|---:|---:|
+| Fish Roti | 30 | 100 | 110 | 20 | 20 | 0 |
+| Vegetable Rolls | 90 | 0 | 75 | 15 | 15 | 0 |
+| Chicken Kottu | 10 | 85 | 80 | 15 | 15 | 0 |
+| Rice and Curry Packs | 20 | 50 | 55 | 15 | 15 | 0 |
+| Pol Sambol Sachets | 15 | 70 | 60 | 25 | 25 | 0 |
+| **Total** | **165** | **305** | **380** | **90** | **90** | **0** |
+
+Aggregate reconciliation:
+
+165 + 305 - 380 = **90 saleable packs**
+
+All finished-product saleable inventory balances reconcile with the supplied verified records.
+
+No additional inventory transfers, returns or adjustments were recorded.
+
+The 20 Fish Roti packs under quality hold are excluded from this reconciliation. They are not part of the 90 verified closing saleable packs.
+
+The subsequent Vegetable Rolls stock snapshot dated 8 December 2026 must not replace the verified 7 December closing balance of 15 packs.
+
+---
+
+## 4. Food Safety and Quality Assurance
+
+### 4.1 Quality Incident Assessment
+
+**Source:** FOC-QI-2026-001.
+
+| Incident Parameter | Verified Information |
+|---|---|
+| Product | Fish Roti |
+| Batch | FR-03 |
+| Incident Date | 5 December 2026 |
+| Affected Batch Quantity | 20 units |
+| Internal Weight Specification | 100–110 g per unit |
+| Recorded Sample Weights | 92 g, 94 g and 96 g |
+| Units Sampled | 3 |
+| Remaining Unweighed Units | 17 |
+| Batch Disposition Status | Outstanding |
+| Quality Hold | All 20 units remain held |
+| Dispatched Units | 0 |
+| Root Cause | Not established |
+| Corrective Action Approval | Outstanding |
+| Incident Closure | Outstanding |
+
+#### Recorded Sample Assessment
+
+| Sample | Recorded Weight | Internal Minimum | Difference Below Minimum |
+|---|---:|---:|---:|
+| Sample 1 | 92 g | 100 g | 8 g |
+| Sample 2 | 94 g | 100 g | 6 g |
+| Sample 3 | 96 g | 100 g | 4 g |
+
+Average recorded sample weight:
+
+(92 + 94 + 96) / 3 = **94.00 g**
+
+All three sampled units were below the supplied internal minimum weight specification.
+
+Sampled non-conformance proportion:
+
+3 / 3 x 100 = **100.00%**
+
+This finding applies only to the three sampled units and must not be interpreted as a confirmed non-conformance rate for the entire 20-unit batch.
+
+The remaining 17 units have not been weighed. Their individual conformity status is therefore unresolved.
+
+The recorded weight specification is an internal synthetic business requirement rather than an independently established statutory requirement.
+
+The supplied incident does not establish confirmed contamination or guarantee product safety.
+
+### 4.2 Held-Product Reconciliation
+
+| Quantity Classification | Packs |
+|---|---:|
+| Current-week Fish Roti completed production | 120 |
+| QA-authorised saleable receipts | 100 |
+| FR-03 units under quality hold | 20 |
+| Held units dispatched | 0 |
+| Held units authorised for sale | 0 |
+| Unaccounted units within the supplied quantity reconciliation | 0 |
+
+Fish Roti production reconciliation:
+
+120 = 100 authorised saleable packs + 20 held packs
+
+The 20 held packs represent the same affected batch identified in both production and incident records. They have not been counted twice.
+
+All 20 units are recorded as remaining under quality hold, and no unresolved product locations are identified in the supplied scenario.
+
+However, detailed physical location or segregation verification records have not been provided.
+
+> [!WARNING]
+> The existing quality hold must remain in place pending authorised specialist assessment. This report does not authorise product release.
+
+### 4.3 Label and Allergen Review
+
+**Source:** FOC-LR-2026-001.
+
+| Evidence Reference | Status |
+|---|---|
+| SPEC-FR-01 v2.0 | Approved ingredient specification |
+| ALL-FR-01 v2.0 | Verified allergen record |
+| LBL-FR-01 v0.1 | Unapproved draft label |
+
+#### Verified Intentional Allergens and Precautionary Information
+
+| Allergen or Ingredient | Verified Classification | Review Finding |
+|---|---|---|
+| Wheat | Intentional allergen | Confirmed in approved formulation |
+| Fish | Intentional allergen | Confirmed in approved formulation |
+| Milk | Intentional allergen | Omitted from reviewed draft label |
+| Butter | Approved intentional ingredient | Omitted from reviewed draft label |
+| Sesame | Possible cross-contact precaution | Approved precautionary wording omitted |
+
+The supplied approved precautionary statement is:
+
+> May contain sesame.
+
+Sesame is not an intentional ingredient in the supplied Fish Roti formulation.
+
+The precautionary statement must remain distinct from the verified intentional allergens.
+
+The omission of milk from the reviewed draft label represents a confirmed discrepancy against approved allergen evidence and requires immediate qualified QA and food safety review.
+
+No corrected label approval has been supplied.
+
+### 4.4 Relationship Between the Label Review and Released Production
+
+The P04 authorised QA records independently confirm that the other released batches used approved applicable labels.
+
+The reviewed unapproved Fish Roti draft label was not used for those authorised saleable receipts.
+
+Consequently, the draft-label discrepancy must not be automatically attributed to the 100 authorised Fish Roti saleable receipts or other released products.
+
+The quality incident and label review represent separate documented concerns.
+
+The supplied information does not establish that the FR-03 weight discrepancy resulted from the draft-label omission.
+
+### 4.5 Customer-Related Food Safety Information
+
+The P08 feedback dataset contains no reported illness, contamination or allergen incident.
+
+The reported outer-packaging concerns relate to presentation packaging and are not verified food safety incidents.
+
+This finding is limited to the supplied customer feedback dataset and does not establish the absence of food safety risks throughout the business.
+
+No evidence establishes a customer link to batch FR-03.
+
+### 4.6 Required Specialist Review and Operational Restrictions
+
+The following actions are recommended:
+
+- Immediately refer the confirmed allergen omission to the Food Safety Supervisor and Quality Assurance Manager.
+- Maintain the existing quality hold for all 20 FR-03 units.
+- Verify physical hold arrangements and relevant batch traceability records.
+- Arrange authorised assessment of the remaining 17 unweighed units.
+- Investigate the root cause of the recorded weight deviations.
+- Review the draft ingredient and allergen declarations against the approved specifications.
+- Prevent printing or application of LBL-FR-01 v0.1 while it remains unapproved.
+- Obtain documented specialist decisions concerning corrective actions and final disposition.
+
+These are proposed actions rather than completed referrals or approved operational decisions.
+
+This report does not authorise:
+
+- Product release.
+- Product disposal.
+- Product recall.
+- Customer notification.
+- Regulatory reporting.
+- Label approval.
+- Incident closure.
+
+Such decisions remain the responsibility of authorised personnel under applicable incident management procedures.
+
+No conclusion regarding regulatory compliance or confirmed product safety is made.
+
+---
+
+## 5. Customer Experience and Marketing
+
+### 5.1 Customer Enquiry Performance
+
+**Source:** WBR-CE-A v1.0.
+
+| Customer Service Indicator | Result |
+|---|---:|
+| Unique enquiries received | 10 |
+| Completed responses | 8 |
+| Pending responses | 2 |
+| Response completion percentage | 80.00% |
+| Pending response percentage | 20.00% |
+| Enquiry-to-order conversion rate | Not determinable |
+
+Response completion:
+
+8 / 10 x 100 = **80.00%**
+
+The two pending enquiries require follow-up. The outstanding responses must receive applicable human review and approval before being issued.
+
+#### Related P07 Enquiry — FOC-CE-2026-001
+
+| Requested Item | Quantity | Estimated Value (AUD) |
+|---|---:|---:|
+| Vegetable Rolls | 3 packs | 24.00 |
+| Pol Sambol Sachets | 2 packs | 14.00 |
+| **Estimated product subtotal** | **5 packs** | **38.00** |
+| Estimated delivery charge | — | 8.00 |
+| **Estimated total** | — | **46.00** |
+
+Emily's enquiry is included within the 10 unique weekly enquiries and is one of the two pending responses.
+
+The estimated enquiry value of AUD 46.00 does not represent:
+
+- An accepted order.
+- Confirmed sales revenue.
+- A stock reservation.
+- Verified payment.
+- Completed delivery.
+
+The customer response remains a draft awaiting approval.
+
+It must not be counted as an additional enquiry or completed response.
+
+### 5.2 Customer Feedback Reconciliation
+
+**Source:** WBR-CFA-A v1.0.
+
+| Feedback Classification | Count | Percentage of Unique Cases |
+|---|---:|---:|
+| Submitted feedback records | 8 | — |
+| Confirmed duplicate communications | 0 | 0.00% |
+| Unique feedback cases | 8 | 100.00% |
+| Complaint-containing cases | 6 | 75.00% |
+| Positive-only cases | 2 | 25.00% |
+| Recorded urgent food safety complaint cases | 0 | 0.00% |
+| Complaint cases requiring routine, non-food-safety follow-up | 6 | 75.00% |
+
+All eight records have distinct order references, and no confirmed duplicates are identified.
+
+The six complaint-containing cases include both negative and mixed-sentiment feedback.
+
+The 75.00% complaint-containing frequency applies only to the eight supplied feedback cases.
+
+It must not be interpreted as the overall business complaint rate.
+
+### 5.3 Customer Sentiment Analysis
+
+| Sentiment | Relevant Records | Count | Percentage |
+|---|---|---:|---:|
+| Positive | CFA-A03, CFA-A07 | 2 | 25.00% |
+| Mixed | CFA-A01, CFA-A06 | 2 | 25.00% |
+| Negative | CFA-A02, CFA-A04, CFA-A05, CFA-A08 | 4 | 50.00% |
+| **Total** | — | **8** | **100.00%** |
+
+The mixed-sentiment records must remain classified as mixed rather than being converted into exclusively negative feedback.
+
+Specific positive observations within those mixed records have not been supplied. They should not be invented.
+
+The sentiment distribution indicates opportunities to investigate and improve the customer experience.
+
+However, it does not establish a business-wide customer satisfaction percentage.
+
+### 5.4 Recurring Customer Experience Concerns
+
+The supplied recurrence threshold is at least two distinct feedback cases.
+
+| Primary Issue | Record References | Unique Cases | Frequency Among All Feedback | Frequency Among Complaint Cases | Recurring |
+|---|---|---:|---:|---:|---|
+| Delivery delay | CFA-A01, CFA-A04 | 2 | 25.00% | 33.33% | Yes |
+| Outer packaging | CFA-A02, CFA-A05 | 2 | 25.00% | 33.33% | Yes |
+| Customer communication | CFA-A06, CFA-A08 | 2 | 25.00% | 33.33% | Yes |
+| **Total complaint cases** | — | **6** | **75.00%** | **100.00%** | — |
+
+All three primary complaint categories meet the supplied recurrence threshold.
+
+The recommended management focus is to investigate delivery performance, packaging presentation and customer communication processes.
+
+Customer observations are reported experiences rather than independently established operational failures or verified root causes.
+
+No additional complaint cases have been created by grouping related themes.
+
+Percentages are rounded to two decimal places.
+
+### 5.5 Refund Request Reconciliation
+
+| Refund Parameter | Recorded Information |
+|---|---|
+| Feedback Reference | CFA-A04 |
+| Unique Refund Requests | 1 |
+| Refund Category | Delivery charge |
+| Known Requested Amount | AUD 8.00 |
+| Requests with Unknown Amounts | 0 |
+| Total Requested Refund Value | AUD 8.00 |
+| Payment Verification | Outstanding |
+| Delivery Record Verification | Outstanding |
+| Approval Status | Not approved |
+| Reimbursement Status | Not reimbursed |
+
+The Customer Experience Manager should coordinate verification of the original payment and delivery information before submitting the request for authorised assessment.
+
+The AUD 8.00 amount represents a customer refund request rather than an approved financial expense or completed reimbursement.
+
+No refund is approved, rejected or promised by this report.
+
+### 5.6 Weekly Marketing Performance
+
+**Source:** WBR-MKT-A-HIST v1.0.
+
+| Campaign Parameter | Verified Information |
+|---|---|
+| Campaign Name | Discover Sri Lankan Flavours |
+| Publication Period | 2–4 December 2026 |
+| Campaign Type | Organic social media content |
+| Publication Status | Published |
+| Reporting Classification | Verified historical weekly activity |
+
+| Marketing KPI | Calculation or Evidence | Result |
+|---|---|---:|
+| Combined platform impressions | Verified record | 1,000 |
+| Link clicks | Verified record | 40 |
+| **Link click-through rate** | 40 / 1,000 x 100 | **4.00%** |
+| Recorded paid advertising expenditure | Verified record | AUD 0.00 |
+| Unique audience reach | Not supplied | N/D |
+| Attributed sales | Not supplied | N/D |
+| Conversion rate | Conversion records unavailable | N/D |
+| Customer acquisition cost | Applicable cost and acquisition data unavailable | N/D |
+| Marketing financial return | Attributed revenue and complete cost data unavailable | N/D |
+
+*N/D = Not determinable.*
+
+The verified campaign generated 40 link clicks from 1,000 recorded impressions, resulting in a 4.00% link click-through rate.
+
+Impressions do not represent unique audience reach, and link clicks do not establish completed purchases.
+
+Although recorded paid advertising expenditure was AUD 0.00, other marketing-related costs may exist.
+
+Therefore, zero total marketing cost cannot be established.
+
+No evidence supports attributing weekly sales, revenue growth or financial returns to this campaign.
+
+### 5.7 Subsequent Management Update — 8 December 2026
+
+**Source:** FOC-MKT-2026-001.
+
+> [!NOTE]
+> The following information was recorded after the reporting period ended and is excluded from weekly campaign performance and closing inventory calculations.
+
+| Subsequent Campaign Parameter | Information |
+|---|---|
+| Campaign Preparation Date | 8 December 2026 |
+| Proposed Campaign Period | 8–10 December 2026 |
+| Product | Vegetable Rolls |
+| Pack Size | Four rolls |
+| Standard Price | AUD 8.00 per pack |
+| Independent Stock Snapshot | 18 saleable packs |
+| Snapshot Date and Time | 8 December 2026, 9:00 am |
+| Draft Preparation | Completed |
+| Marketing Approval | Outstanding |
+| Scheduling Status | Not scheduled |
+| Publication Status | Not published |
+| Official Visual Assets | Outstanding |
+| Refreshed Stock Verification | Outstanding |
+| Campaign Performance | Not measured |
+
+The proposed campaign remains an unapproved marketing draft.
+
+#### Subsequent Stock Comparison
+
+| Stock Observation | Saleable Vegetable Rolls Packs |
+|---|---:|
+| Verified closing stock – 7 December 2026 | 15 |
+| Independent snapshot – 8 December 2026 | 18 |
+| Numerical difference between snapshots | +3 |
+
+The difference of three packs is an arithmetic comparison only.
+
+No stock-movement records connecting the two snapshots have been supplied.
+
+The difference must not be attributed to new production, returns, inventory adjustments or other stock movements without supporting evidence.
+
+The verified weekly closing stock remains 15 packs.
+
+Before campaign approval or publication, the Marketing Manager should obtain:
+
+- Refreshed saleable stock confirmation.
+- Approved official visual assets.
+- Appropriate review of all customer-facing statements.
+- Applicable human approval for campaign publication.
+
+Unapproved testimonials, health claims, allergen claims, discounts or unsupported promotional offers must not be introduced.
+
+The subsequent campaign does not override the existing FR-03 quality hold or any applicable product restrictions.
+
+---
+
+## 6. Management Action Plan and Approval
+
+### 6.1 Consolidated Management Action Register
+
+All priorities and actions below are proposed management recommendations rather than authorised instructions, completed activities or formal risk classifications.
+
+| Action ID | Issue and Source | Required Evidence | Proposed Management Action | Responsible Function | Proposed Priority | Status |
+|---|---|---|---|---|---|---|
+| MA-01 | Confirmed allergen omission — FOC-LR-2026-001 | Approved ingredient specification, allergen record, corrected draft and specialist approval | Immediately refer the omission for qualified QA and food safety review. Maintain restrictions on printing and application of the draft label. | Quality Assurance Manager; Food Safety Supervisor | Immediate | Outstanding |
+| MA-02 | FR-03 quality hold — FOC-QI-2026-001; P04 | Remaining 17 unit weights, physical hold verification, batch traceability, root cause and authorised disposition | Maintain the hold on all 20 units, investigate recorded weight deviations and obtain specialist decisions on corrective action and disposition. | Quality Assurance Manager; Food Safety Supervisor; Production Manager | High | Hold recorded; investigation and disposition outstanding |
+| MA-03 | Sales decline and forecast shortfall — P01 | Additional sales history, demand information, customer order evidence and product availability records | Investigate the sales decline, prioritising Fish Roti and Pol Sambol Sachets, and review future forecast assumptions without treating shortfalls as lost sales. | Business Operations Manager; Finance Manager; Marketing Manager | High | Proposed |
+| MA-04 | Limited remaining ingredient quantities — P02 | Next-week approved requirements, eligible stock, reorder thresholds and expiry assessments | Review chicken, fish, eggs and flour requirements before preparing any new purchase recommendation. | Production Manager; Procurement Function | High | Proposed; planning evidence outstanding |
+| MA-05 | Supplier invoice payment and financial reporting scope — P03; WBR-FIN-A v1.0 | Payment confirmation, applicable accounting records and additional financial information for broader reporting | Verify invoice payment status and preserve separation between procurement, current-week expenses and product-scope profitability. | Finance Manager | Medium | Payment verification outstanding |
+| MA-06 | Production capacity utilisation — P04 | Future approved production requirements, station requirements and production schedule | Assess whether future production schedules can use available capacity appropriately without compromising QA requirements. | Production Manager | Medium | Proposed |
+| MA-07 | Pending customer enquiries — P07 | Approved customer responses, refreshed availability and applicable ordering information | Review and complete the two outstanding responses following authorised approval, including FOC-CE-2026-001. | Customer Experience Manager | High | Two responses pending |
+| MA-08 | Recurring customer complaints — P08 | Delivery records, packaging specifications, communication history and customer follow-up evidence | Investigate the three recurring primary issues and develop appropriate corrective proposals while preserving mixed and positive feedback. | Customer Experience Manager; Relevant Operational Functions | High | Proposed |
+| MA-09 | Pending delivery charge refund — CFA-A04 | Verified payment, delivery records and applicable refund authorisation | Assess the AUD 8.00 request and refer it to authorised personnel for a documented decision. | Customer Experience Manager; Finance Manager | Medium | Unapproved; not reimbursed |
+| MA-10 | Historical marketing assessment and subsequent P09 draft | Refreshed stock verification, intervening stock movements, approved visuals, campaign approval and conversion evidence where available | Review historical marketing results, reconcile the subsequent stock snapshot and obtain approval before scheduling or publishing the proposed Vegetable Rolls campaign. | Marketing Manager; Production Manager; Quality Assurance Manager where applicable | Medium | Draft unapproved; supporting evidence outstanding |
+
+### 6.2 Outstanding Human Review and Approval Requirements
+
+| Responsible Reviewer | Required Review Scope | Report Approval Status |
+|---|---|---|
+| Business Operations Manager | Integrated management report, priorities and proposed actions | Pending |
+| Finance Manager | Financial calculations, reporting scope, procurement payment and refund implications | Pending |
+| Production Manager | Production figures, capacity assessment and future ingredient requirements | Pending |
+| Food Safety Supervisor | Allergen omission, incident assessment and applicable safety procedures | Pending |
+| Quality Assurance Manager | Existing quality hold, weight investigation, label review and authorised decisions | Pending |
+| Customer Experience Manager | Pending enquiries, recurring complaints and refund investigation | Pending |
+| Marketing Manager | Historical campaign metrics and proposed campaign approval | Pending |
+
+The pending report review statuses above do not invalidate previously verified source records or existing authorised QA decisions.
+
+They relate to review and approval of this integrated report and its proposed follow-up actions.
+
+### 6.3 Management Conclusion
+
+Flavors of Ceylon achieved its approved production targets and recorded a positive product-scope operating result during the reporting period.
+
+Ingredient and finished-product saleable inventory records reconcile without identified numerical discrepancies.
+
+Nevertheless, sales remained below both previous-week performance and the approved forecast.
+
+Recurring customer experience concerns, pending enquiries and an unresolved refund request require management attention.
+
+The confirmed omission of milk from the unapproved Fish Roti draft label requires immediate qualified specialist review.
+
+The existing 20-unit FR-03 quality hold must also remain in effect pending authorised investigation and disposition.
+
+Management should prioritise these outstanding safety and quality matters before progressing relevant routine commercial activities.
+
+Future production, procurement and marketing decisions should be supported by refreshed operational evidence and appropriate human approval.
+
+No actual business improvement, financial recovery, completed corrective action, product safety outcome or regulatory compliance has been established beyond the supplied verified records.
+
+### 6.4 Final Document Status
+
+| Document Control | Status |
+|---|---|
+| Report Reference | FOC-WBR-2026-001 |
+| Reporting Scenario | Independent Test A |
+| Prompt Version | P10 v1.1 |
+| Evidence Scope | Supplied synthetic records only |
+| Report Preparation | Draft completed |
+| Management Review | Pending |
+| Specialist Approval | Pending |
+| Operational Authorisation Granted by This Report | None |
+| Intended Use | Academic testing and supervised management decision support |
+
+> [!IMPORTANT]
+> **FINAL STATUS: DRAFT — SUBJECT TO BUSINESS OPERATIONS MANAGER REVIEW AND APPLICABLE QUALIFIED SPECIALIST APPROVAL.**
+
+---
+
+**Disclaimer**
+
+All business records, customer information, financial figures, operational activities and campaign information contained in this report are synthetic and intended solely for academic testing.
+
+This report provides supervised management decision support and does not constitute independent financial approval, food safety certification, regulatory compliance confirmation or operational authorisation.
+
+All recommendations remain proposed until appropriately verified and authorised by responsible human personnel.
+
+---
+
+**End of P10 v1.1 — Test A Output**
 
 #### Evaluation
 
@@ -4500,13 +5353,986 @@ Pending evaluation.
 
 ### Test Case B
 
-Testing date: Pending.
+Testing date: 28 November 2026
 
-AI tool and model: Pending.
+AI tool and model:ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+# Flavors of Ceylon
+
+## P10 v1.1 – Test B – AI-Generated Weekly Management Report
+
+| Report Information | Details |
+|---|---|
+| Business | Flavors of Ceylon |
+| Business Location | Dandenong South, Victoria, Australia |
+| Report Reference | FOC-WBR-2026-002 |
+| Reporting Period | 1–7 December 2026, inclusive |
+| Preparation Date | 8 December 2026 |
+| Responsible Reviewer | Business Operations Manager |
+| Currency | AUD |
+| Reporting Language | Australian English |
+| Prompt Version | P10 v1.1 |
+| Test Scenario | Independent Test B |
+| Document Status | Draft – Pending Management and Specialist Review |
+| Data Classification | Synthetic Academic Testing Data |
+
+---
+
+## 1. Executive Overview and Urgent Priorities
+
+### 1.1 Immediate Food Safety and Quality Assurance Priorities
+
+> **URGENT: Immediate qualified food safety and quality assurance review is required.**
+
+- **Chicken Kottu:** Unresolved chiller temperature deviation, four CK-01 units with unknown physical locations, contradictory egg-free claims and incomplete allergen information.
+- **Fish Roti:** Twenty carried-in units from batch FR-03 remain under quality hold, with unresolved label deficiencies.
+- **Customer complaints:** Reported illness, possible milk allergen incident, suspected foreign material and contradictory allergen-free claims require immediate qualified referral.
+- **Operational restrictions:** Maintain Chicken Kottu ordering restrictions, existing product holds and segregation arrangements. Do not release restricted products or approve draft labels.
+
+Urgent referrals must not be delayed while awaiting financial reconciliation, refund verification or additional investigation evidence.
+
+No completed qualified investigation, confirmed medical causation, final product suitability determination or incident closure has been established.
+
+### 1.2 Executive KPI Scorecard
+
+| Performance Indicator | Weekly Result | Evidence Status |
+|---|---:|---|
+| Verified sales volume | 143 packs | Partial – excludes Fish Roti |
+| Sales growth | -52.33% | Partial – four products |
+| Forecast attainment | 46.13% | Partial – four products |
+| GST-inclusive sales revenue | AUD 1,352.00 | Partial – excludes Fish Roti |
+| Gross profit and operating result | Unavailable | Incomplete financial evidence |
+| Production target achievement | 55.38% | Verified calculation |
+| Production-station utilisation | 98.67% | Verified calculation |
+| Saleable output proportion | 80.56% | Verified calculation |
+| Confirmed held or segregated products | 53 packs | Four additional units unresolved |
+| Customer enquiry response completion | 75.00% | Verified calculation |
+| Unique complaint cases | 7 | Four require urgent qualified review |
+| Weekly marketing performance | Unavailable | No verified analytics |
+
+### 1.3 Executive Management Assessment
+
+The reporting period demonstrates substantial shortfalls against approved demand forecasts and production targets. Of the 325 targeted production units, 180 were completed and 145 were authorised as saleable receipts.
+
+Commercial reporting remains incomplete because Fish Roti sales records contain conflicting quantities of 90 and 95 packs.
+
+Financial profitability cannot be established because verified complete GST-exclusive revenue and complete cost of goods sold are unavailable.
+
+Operational management must address:
+
+- Unresolved Chicken Kottu traceability.
+- Allergen label deficiencies.
+- Ingredient and finished-product inventory discrepancies.
+- Outstanding customer complaints.
+- Incomplete procurement requirements.
+- Unverified marketing performance information.
+
+The reported results describe the supplied reporting week only. They do not establish sustained business decline, employee inefficiency, financial insolvency or a causal relationship between production constraints and reduced sales.
+
+---
+
+## 2. Sales and Financial Performance
+
+### 2.1 Product-Level Sales Performance — P01
+
+**Source:** `WBR-SALES-B v1.0`
+
+All sales quantities represent retail product packs rather than individual food pieces.
+
+Selling prices include applicable GST.
+
+| Product | Previous Actual | Forecast | Current Actual | Unit Price (AUD) | Revenue (AUD) |
+|---|---:|---:|---:|---:|---:|
+| Fish Roti | 140 | 160 | 90 or 95 – disputed | 9.00 | Unresolved |
+| Vegetable Rolls | 90 | 80 | 70 | 8.00 | 560.00 |
+| Chicken Kottu | 80 | 90 | 8 | 14.00 | 112.00 |
+| Rice and Curry Packs | 60 | 60 | 25 | 16.00 | 400.00 |
+| Pol Sambol Sachets | 70 | 80 | 40 | 7.00 | 280.00 |
+| **Verified Partial Total – Excluding Fish Roti** | **300** | **310** | **143** | — | **1,352.00** |
+| **Complete Business Scope** | **440** | **470** | **Unresolved** | — | **Unresolved** |
+
+### 2.2 Sales Growth and Forecast Performance
+
+| Product | Sales Growth | Forecast Attainment | Forecast Shortfall |
+|---|---:|---:|---:|
+| Fish Roti | Unresolved | Unresolved | Unresolved |
+| Vegetable Rolls | -22.22% | 87.50% | 10 |
+| Chicken Kottu | -90.00% | 8.89% | 82 |
+| Rice and Curry Packs | -58.33% | 41.67% | 35 |
+| Pol Sambol Sachets | -42.86% | 50.00% | 40 |
+| **Verified Partial Result** | **-52.33%** | **46.13%** | **167** |
+
+#### Supported Aggregate Calculations
+
+The following calculations exclude Fish Roti from both the numerator and denominator.
+
+**Sales growth:**
+
+`(143 - 300) / 300 × 100 = -52.33%`
+
+**Forecast attainment:**
+
+`143 / 310 × 100 = 46.13%`
+
+**Forecast shortfall:**
+
+`310 - 143 = 167 packs`
+
+**GST-inclusive product revenue:**
+
+`560.00 + 112.00 + 400.00 + 280.00 = AUD 1,352.00`
+
+All four products with verified current sales recorded lower sales volumes than the previous week.
+
+Chicken Kottu recorded the largest percentage reduction among these products.
+
+The eight verified Chicken Kottu sales occurred before the ordering restriction became effective on 5 December 2026.
+
+No confirmed subsequent sales or verified customer linkage to an affected production batch has been established.
+
+Forecast shortfalls represent differences between forecast demand and recorded sales, not confirmed lost sales or unfulfilled customer orders.
+
+### 2.3 Unresolved Fish Roti Sales Reconciliation
+
+| Source | Recorded Sales | Conditional Revenue (AUD) |
+|---|---:|---:|
+| SALES-FR-B01 – Sales Export | 90 packs | 810.00 |
+| SALES-FR-B02 – Order Reconciliation | 95 packs | 855.00 |
+| **Difference** | **5 packs** | **45.00** |
+
+Neither record has been verified as authoritative.
+
+Transaction-level reconciliation is required.
+
+#### Conditional Sales Calculations
+
+The following alternatives illustrate the effect of each disputed quantity. Neither alternative represents verified complete weekly performance.
+
+| Indicator | Scenario 1: 90 Packs | Scenario 2: 95 Packs |
+|---|---:|---:|
+| Fish Roti sales growth | -35.71% | -32.14% |
+| Fish Roti forecast attainment | 56.25% | 59.38% |
+| Fish Roti forecast shortfall | 70 | 65 |
+| Fish Roti revenue (AUD) | 810.00 | 855.00 |
+| Total weekly sales | 233 | 238 |
+| Aggregate sales growth | -47.05% | -45.91% |
+| Aggregate forecast attainment | 49.57% | 50.64% |
+| Aggregate forecast shortfall | 237 | 232 |
+| Conditional GST-inclusive revenue (AUD) | 2,162.00 | 2,207.00 |
+
+Conditional aggregate sales growth uses the verified previous-week total of 440 packs.
+
+Conditional aggregate forecast attainment uses the approved forecast of 470 packs.
+
+The complete weekly sales quantity, aggregate sales growth, forecast attainment and product revenue remain unresolved.
+
+The recorded Fish Roti closing stock count must not be used to determine which sales record is correct.
+
+### 2.4 Financial Performance and Reconciliation
+
+**Source:** `WBR-FIN-B v1.0`
+
+| Financial Indicator | Amount (AUD) | Evidence Status |
+|---|---:|---|
+| Verified partial product sales revenue | 1,352.00 | GST-inclusive; excludes Fish Roti |
+| FIN-B-DRAFT-01 | 2,162.00 | Unapproved GST-inclusive draft |
+| FIN-B-DRAFT-02 | 2,207.00 | Unapproved GST-inclusive draft |
+| Difference between draft revenue records | 45.00 | Supported calculation |
+| Complete net product revenue excluding GST | Unavailable | Not finance-verified |
+| Draft cost of goods sold | 1,300.00 | GST-exclusive; incomplete |
+| Allocated product-related operating expenses | 900.00 | GST-exclusive; verified |
+| Approved refund expense | None recorded | Requests remain unapproved |
+| Pending procurement expenditure | Not approved | Draft requirements only |
+
+Both draft revenue summaries correspond mathematically to the respective conditional Fish Roti sales quantities.
+
+This arithmetic agreement does not establish either draft as authoritative.
+
+### 2.5 Profitability KPI Availability
+
+| Financial KPI | Reporting Result | Reason Withheld |
+|---|---|---|
+| Gross profit | Unavailable | Complete net revenue and COGS unavailable |
+| Gross profit margin | Unavailable | Verified gross profit and net revenue unavailable |
+| Product-scope operating result | Unavailable | Verified gross profit unavailable |
+| Product-scope operating margin | Unavailable | Verified operating result and net revenue unavailable |
+| Total company net profit | Unavailable | Complete company financial information unavailable |
+| Previous-period revenue growth | Unavailable | Previous-period revenue not supplied |
+
+The supplied GST-inclusive revenue figures must not be directly compared with GST-exclusive expenses to calculate profitability.
+
+No uniform GST rate has been assumed.
+
+The incomplete AUD 1,300.00 draft cost of goods sold must not be treated as a final cost figure.
+
+Additional cost allocations and supporting invoices require Finance Manager verification.
+
+Supplier invoices must not be deducted again where relevant costs have already been recognised.
+
+Customer enquiries, draft procurement amounts and unapproved refund requests are excluded from verified revenue and expense calculations.
+
+No cash flow, bank balance, tax liability or financial solvency assessment can be established from the supplied records.
+
+---
+
+## 3. Production, Procurement and Inventory
+
+### 3.1 Production Performance — P04
+
+**Source:** `WBR-PROD-B v1.0`
+
+| Product | Approved Target | Proposed Output | Actual Completed | QA-Authorised Saleable Receipts |
+|---|---:|---:|---:|---:|
+| Fish Roti | 120 | 100 | 100 | 100 |
+| Vegetable Rolls | 0 | 0 | 0 | 0 |
+| Chicken Kottu | 85 | 40 | 35 | 0 |
+| Rice and Curry Packs | 50 | 10 | 10 | 10 |
+| Pol Sambol Sachets | 70 | 35 | 35 | 35 |
+| **Total** | **325** | **185** | **180** | **145** |
+
+The proposed capacity-constrained output represents an earlier P04 planning result, not completed production.
+
+### 3.2 Production Target Achievement and Saleable Output
+
+| Product | Target Achievement | Target Shortfall | Proposed Output Shortfall | Saleable Output Proportion |
+|---|---:|---:|---:|---:|
+| Fish Roti | 83.33% | 20 | 0 | 100.00% |
+| Vegetable Rolls | N/A | 0 | 0 | N/A |
+| Chicken Kottu | 41.18% | 50 | 5 | 0.00% |
+| Rice and Curry Packs | 20.00% | 40 | 0 | 100.00% |
+| Pol Sambol Sachets | 50.00% | 35 | 0 | 100.00% |
+| **Total** | **55.38%** | **145** | **5** | **80.56%** |
+
+#### Supported Production Calculations
+
+| Indicator | Calculation | Result |
+|---|---|---:|
+| Production target achievement | 180 / 325 × 100 | 55.38% |
+| Approved target shortfall | 325 - 180 | 145 units |
+| Proposed output shortfall against approved target | 325 - 185 | 140 units |
+| Actual output shortfall against proposed output | 185 - 180 | 5 units |
+| Saleable output proportion | 145 / 180 × 100 | 80.56% |
+| Completed output not authorised as saleable | 180 - 145 | 35 units |
+
+The five-unit difference between proposed and completed production relates entirely to Chicken Kottu.
+
+Vegetable Rolls had no approved production target and no completed production. Percentage indicators are therefore not applicable because their denominators are zero.
+
+All 35 completed Chicken Kottu units remain unauthorised for sale.
+
+### 3.3 Production Capacity and Staffing
+
+| Capacity Indicator | Verified Result |
+|---|---|
+| Available production-station time | 375 minutes |
+| Actual production-station time used | 370 minutes |
+| Unused station time | 5 minutes |
+| Production-station utilisation | 98.67% |
+| Unused capacity proportion | 1.33% |
+| Required operating staff | Two employees |
+| Day with required staffing combination | 5 December 2026 |
+
+**Production-station utilisation:**
+
+`370 / 375 × 100 = 98.67%`
+
+**Unused station capacity:**
+
+`375 - 370 = 5 minutes`
+
+The supplied staffing records identify a restricted production window.
+
+High station utilisation indicates that most available station time was used, but it does not establish employee efficiency or inefficiency.
+
+No verified causal relationship between staffing limitations, production shortfalls and reduced sales has been established.
+
+### 3.4 Ingredient Inventory Reconciliation — P02
+
+**Source:** `WBR-INV-B v1.0`
+
+Expected closing stock is calculated as eligible stock before production minus verified actual consumption because no additional receipts or authorised adjustments were recorded.
+
+| Ingredient | Unit | Eligible Stock | Consumption | Expected Closing | Recorded Closing | Variance |
+|---|---|---:|---:|---:|---:|---:|
+| Flour | kg | 20.00 | 19.00 | 1.00 | 1.00 | 0.00 |
+| Rice | kg | 15.00 | 1.50 | 13.50 | 13.50 | 0.00 |
+| Chicken | kg | 10.00 | 8.30 | 1.70 | 1.20 | -0.50 |
+| Coconut | kg | 4.00 | 2.05 | 1.95 | 1.95 | 0.00 |
+| Fish | kg | 8.00 | 8.00 | 0.00 | 0.00 | 0.00 |
+| Vegetables | kg | 10.00 | 0.00 | 10.00 | 10.00 | 0.00 |
+| Eggs | units | 60 | 35 | 25 | 25 | 0 |
+
+**Variance definition:** Recorded closing count minus expected closing balance.
+
+#### Inventory Findings
+
+| Finding | Management Interpretation |
+|---|---|
+| Chicken discrepancy | Recorded stock is 0.50 kg below the expected balance. |
+| Fish stock | No remaining eligible Fish stock; future production planning constraint. |
+| Flour stock | Remaining quantity is 1.00 kg; future adequacy cannot yet be determined. |
+| Vegetables | No consumption recorded during the reporting period. |
+| Other ingredients | Recorded closing counts reconcile with supplied movements. |
+
+The Chicken discrepancy requires:
+
+- Physical stock recount.
+- Inventory ledger reconciliation.
+- Verification of actual consumption records.
+- Review of relevant stock movement documentation.
+
+No evidence establishes theft, spoilage, contamination, wastage or an authorised stock adjustment.
+
+Future replenishment adequacy cannot be determined without approved production requirements, verified eligible stock, reorder thresholds and a fresh expiry assessment.
+
+Kilograms and individual ingredient units have not been combined into an invalid aggregate quantity.
+
+### 3.5 Finished-Product Saleable Inventory Reconciliation
+
+**Source:** `WBR-FG-B v1.0`
+
+**Calculation:**
+
+`Expected closing stock = Opening stock + QA-authorised receipts - Sales - Verified removals`
+
+| Product | Opening | Saleable Receipts | Sales | Removals | Expected Closing | Recorded Closing | Variance |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Fish Roti | 30 | 100 | 90 or 95 | 0 | 40 or 35 | 38 | -2 or +3 |
+| Vegetable Rolls | 90 | 0 | 70 | 0 | 20 | 20 | 0 |
+| Chicken Kottu | 10 | 0 | 8 | 2 | 0 | 0 | 0 |
+| Rice and Curry Packs | 20 | 10 | 25 | 0 | 5 | 5 | 0 |
+| Pol Sambol Sachets | 15 | 35 | 40 | 0 | 10 | 10 | 0 |
+| **Reconciled Partial Total** | **135** | **45** | **143** | **2** | **35** | **35** | **0** |
+
+The reconciled partial total excludes Fish Roti.
+
+The two Chicken Kottu units removed from opening saleable inventory were separately segregated when the ordering restriction became effective.
+
+They are not part of the 35 units completed during the current week.
+
+#### Conditional Fish Roti Inventory Reconciliation
+
+| Indicator | SALES-FR-B01 | SALES-FR-B02 |
+|---|---:|---:|
+| Opening saleable stock | 30 | 30 |
+| QA-authorised saleable receipts | 100 | 100 |
+| Conditional sales quantity | 90 | 95 |
+| Expected closing balance | 40 | 35 |
+| Recorded closing count | 38 | 38 |
+| Recorded minus expected | -2 | +3 |
+
+Neither alternative reconciles with the recorded closing count.
+
+No authorised balancing adjustment has been supplied.
+
+The recorded closing count must not be used to infer the correct sales quantity.
+
+#### Aggregate Finished-Product Inventory Position
+
+| Inventory Measure | Quantity | Evidence Status |
+|---|---:|---|
+| Reconciled closing stock excluding Fish Roti | 35 | Verified reconciliation |
+| Recorded Fish Roti closing count | 38 | Unreconciled |
+| Total recorded closing saleable count | 73 | Includes unreconciled Fish Roti |
+| Conditional expected total – 90 Fish Roti sales | 75 | Not a verified complete balance |
+| Conditional expected total – 95 Fish Roti sales | 70 | Not a verified complete balance |
+
+The recorded aggregate of 73 packs must not be described as a fully reconciled closing inventory balance.
+
+The 20 carried-in Fish Roti units from batch FR-03 remain excluded from opening saleable stock and current-week completed production.
+
+Independently QA-authorised Fish Roti receipts remain distinct from the held batch and the unapproved draft label.
+
+### 3.6 Procurement Status — P03
+
+**Source:** `WBR-PROC-B v1.0`
+
+| Procurement Information | Details |
+|---|---|
+| Supplier | Southern Harvest Food Supplies |
+| Purchase Order Reference | PO-WBR-B-001 |
+| Purchase Order Status | Draft – Not Approved |
+
+#### Established and Provisional Requirements
+
+| Ingredient | Requested Quantity | Known Line Amount (AUD) | Requirement Status |
+|---|---:|---:|---|
+| Flour | 5 kg | 12.00 | Established draft requirement |
+| Coconut | 6 kg | Unknown | Established draft requirement |
+| **Established Draft Subtotal** | **11 kg** | **12.00 known priced-line subtotal only** | **Not approved** |
+| Rice | 5 kg | Unknown | Additional provisional requirement |
+| Chicken | 15 kg | Unknown | Additional provisional requirement |
+| **Additional Provisional Subtotal** | **20 kg** | **Unknown** | **Excluded from established draft order** |
+
+#### Procurement Approval and Fulfilment Status
+
+| Procurement Control | Current Status |
+|---|---|
+| Purchase order approval | Not granted |
+| Supplier delivery commitment | Not confirmed |
+| Delivery fee | Unknown |
+| GST treatment | Unknown |
+| Complete purchase order value | Unknown |
+| Payment | No approved payment |
+| Goods receipt | None recorded |
+| Inventory recognition | No draft quantities recognised as received |
+
+The AUD 12.00 Flour line amount is not an approved expenditure, confirmed supplier invoice or complete purchase order value.
+
+The additional 20 kg of provisional requirements must remain separate from the established 11 kg draft order unless verified and appropriately authorised.
+
+Future procurement decisions require:
+
+- Approved production requirements.
+- Reconciliation of the Chicken inventory discrepancy.
+- Refreshed stock eligibility and expiry checks.
+- Supplier price confirmation.
+- Confirmed GST and delivery terms.
+- Authorised purchasing approval.
+
+No additional reorder quantities have been independently determined.
+
+---
+
+## 4. Food Safety and Quality Assurance
+
+### 4.1 Unresolved Chicken Kottu Temperature Incident — P05
+
+| Incident Information | Recorded Details |
+|---|---|
+| Incident Reference | FOC-FSI-2026-002 |
+| Incident Date | 5 December 2026 |
+| Product | Chicken Kottu |
+| Affected Batch | CK-01 |
+| Batch Quantity | 20 units |
+| Internal Chiller Operating Range | 2–4°C |
+| Equipment Display Reading at 2:30 PM | 3.4°C |
+| Equipment Display Reading at 4:20 PM | 9.1°C |
+| Actual Product Temperatures | Unknown |
+| Exact Deviation Commencement | Unknown |
+| Actual Exposure Duration | Unknown |
+| Product Suitability | Undetermined |
+| Root Cause | Undetermined |
+| Final Disposition | Undetermined |
+| Incident Closure | Not established |
+
+The second equipment display reading exceeded the supplied internal upper operating limit by 5.1°C.
+
+**Calculation:**
+
+`9.1 - 4.0 = 5.1°C`
+
+The interval between observations was 110 minutes.
+
+This interval is not a verified product exposure duration.
+
+The supplied operating range is an internal synthetic business specification, not an independently established statutory requirement.
+
+The readings represent equipment display observations rather than actual product temperatures.
+
+Immediate referral to the Food Safety Supervisor and Quality Assurance Manager is recommended to assess the incident, review monitoring records and determine appropriate authorised actions.
+
+### 4.2 Held, Segregated and Unresolved Product Reconciliation
+
+| Product or Stock Category | Total Affected | Confirmed Held or Segregated | Location Unresolved |
+|---|---:|---:|---:|
+| Chicken Kottu – CK-01 batch | 20 | 16 | 4 |
+| Other current-week Chicken Kottu production | 15 | 15 | 0 |
+| **Current-Week Chicken Kottu Subtotal** | **35** | **31** | **4** |
+| Chicken Kottu removed from opening stock | 2 | 2 | 0 |
+| **Total Restricted Chicken Kottu Stock** | **37** | **33** | **4** |
+| Fish Roti – carried-in FR-03 hold | 20 | 20 | 0 |
+| **Combined Restricted or Held Population** | **57** | **53** | **4** |
+
+**Reconciliation:**
+
+- Current-week Chicken Kottu production: `20 + 15 = 35 units`
+- Confirmed held or segregated Chicken Kottu: `16 + 15 + 2 = 33 units`
+- Total restricted Chicken Kottu: `35 + 2 = 37 units`
+- Combined restricted product population: `37 + 20 = 57 units`
+- Confirmed held or segregated products: `33 + 20 = 53 units`
+- Unresolved physical locations: `57 - 53 = 4 units`
+
+The four unresolved CK-01 units must not be described as physically contained.
+
+No verified courier handover, delivery or customer linkage has been established for those units.
+
+An urgent traceability investigation should examine:
+
+- Batch movement records.
+- Storage locations.
+- Dispatch documentation.
+- Courier handover evidence.
+- Relevant customer order records.
+
+If the four units are subsequently located, appropriate authorised containment and segregation should be arranged through qualified personnel and documented.
+
+All 57 units remain outside authorised saleable inventory.
+
+The carried-in Fish Roti hold, opening-stock Chicken Kottu removals and current-week Chicken Kottu production are separate populations and have not been double-counted.
+
+### 4.3 Chicken Kottu Label and Allergen Review — P06
+
+| Review Information | Details |
+|---|---|
+| Review Reference | FOC-LR-2026-002 |
+| Approved Recipe | SPEC-CK-01 v2.0 |
+| Reviewed Draft Label | LBL-CK-01 v0.2 |
+| Label Approval Status | Unapproved |
+
+| Allergen or Label Matter | Evidence Status | Required Management Treatment |
+|---|---|---|
+| Wheat | Confirmed intentional allergen | Preserve verified allergen information |
+| Egg | Confirmed intentional allergen | Reject egg-free claim |
+| Sesame | Confirmed intentional allergen | Address draft label omission |
+| Soy | Conflicting supplier specifications | Verify specification applicable to current stock |
+| Peanut cross-contact | Unverified | Obtain product-specific evidence |
+| Egg omission | Verified draft deficiency | Refer for qualified QA correction |
+| Sesame omission | Verified draft deficiency | Refer for qualified QA correction |
+| Egg-free recipe claim | Contradicts approved recipe | Withhold claim and urgently review reported use |
+| Final precautionary peanut wording | Not approved or supplied | Do not invent wording |
+| Draft label approval | Not granted | Do not print or apply draft |
+
+The approved recipe includes egg and sesame oil.
+
+Consequently, the claim "Egg-free recipe" contradicts verified product information.
+
+Conflicting seasoning sauce specifications do not establish soy presence or absence.
+
+Neither specification may be selected solely because it is newer.
+
+Peanut cross-contact cannot be confirmed or ruled out from the supplied evidence.
+
+The reported contradictory online egg-free claim requires urgent qualified QA investigation.
+
+The reported online image remains unverified.
+
+Chicken Kottu remains temporarily unavailable for ordering.
+
+No product release, final label approval or removal of ordering restrictions has been authorised.
+
+### 4.4 Fish Roti Label and Quality Hold
+
+| Review Item | Verified Status |
+|---|---|
+| Affected Batch | FR-03 |
+| Held Quantity | 20 units |
+| Hold Classification | Carried into current scenario |
+| Confirmed Intentional Allergens | Wheat, fish and milk |
+| Reviewed Draft Label | LBL-FR-01 v0.1 |
+| Identified Deficiencies | Butter and milk omitted |
+| Draft Label Status | Unapproved |
+| Verified Complaint Linkage to FR-03 | Not established |
+| Verified Complaint Linkage to Reviewed Draft Label | Not established |
+
+The Fish Roti quality hold must remain in place pending qualified QA review.
+
+The 100 independently QA-authorised Fish Roti saleable receipts from applicable current-week production batches are distinct from the carried-in FR-03 hold.
+
+The unapproved draft Fish Roti label was not authorised for these receipts.
+
+Its actual application must not be assumed.
+
+### 4.5 Urgent Customer-Related Safety Concerns
+
+**Source:** `WBR-CFA-B v1.0`
+
+| Complaint Ticket | Reported Concern | Required Referral |
+|---|---|---|
+| COMP-26001 | Illness following reported Rice and Curry consumption | Immediate Food Safety Supervisor review |
+| COMP-26002 | Rash and itching; possible Fish Roti milk allergen incident | Immediate food safety and QA review |
+| COMP-26003 | Suspected plastic material in Pol Sambol Sachet | Immediate food safety and QA review |
+| COMP-26005 | Contradictory Chicken Kottu egg-free claim | Immediate qualified QA and food safety review |
+
+These are customer-reported concerns requiring investigation.
+
+They do not establish:
+
+- Medical causation.
+- Confirmed contamination.
+- Verified affected-batch linkage.
+- Confirmed product-related illness.
+- Completed corrective actions.
+
+The current symptom status of customers associated with COMP-26001 and COMP-26002 remains unknown.
+
+Appropriate authorised follow-up should establish current wellbeing and recommend medical assistance where necessary.
+
+Customers experiencing emergency symptoms should seek emergency medical assistance, including calling 000 in Australia.
+
+Alex's separate Chicken Kottu enquiry does not constitute a reported allergic reaction or illness. Alex reported neither purchasing nor consuming the product.
+
+No verified distinct total of confirmed food safety incidents can be calculated by combining operational incident, label review and complaint records because these records may overlap and investigations remain incomplete.
+
+### 4.6 Authorisation Boundaries
+
+Existing holds, segregation arrangements, ordering restrictions and unapproved label statuses must be preserved.
+
+Decisions concerning the following remain the responsibility of appropriately authorised specialists:
+
+- Product suitability.
+- Product release.
+- Product disposal.
+- Product recall.
+- Customer notification.
+- Regulatory reporting.
+- Label approval.
+- Incident closure.
+
+This management report does not establish that these decisions, referrals or corrective actions have been completed.
+
+---
+
+## 5. Customer Experience and Marketing
+
+### 5.1 Customer Enquiry Performance — P07
+
+**Source:** `WBR-CE-B v1.0`
+
+| Enquiry Indicator | Weekly Result |
+|---|---:|
+| Unique enquiries received | 12 |
+| Completed responses | 9 |
+| Pending responses | 3 |
+| Response completion rate | 75.00% |
+| Pending response proportion | 25.00% |
+| Verified enquiry conversion rate | Unavailable |
+
+**Response completion:**
+
+`9 / 12 × 100 = 75.00%`
+
+**Pending response proportion:**
+
+`3 / 12 × 100 = 25.00%`
+
+#### Outstanding Customer Enquiry — FOC-CE-2026-002
+
+Alex's enquiry concerning Chicken Kottu availability and allergens remains one of the three pending responses.
+
+It is not an additional thirteenth enquiry.
+
+The proposed customer response remains a draft.
+
+Applicable verified information includes:
+
+- Chicken Kottu contains wheat, egg and sesame.
+- Chicken Kottu is not egg-free.
+- Soy information remains unresolved.
+- Peanut cross-contact remains unverified.
+- Chicken Kottu is temporarily unavailable for ordering.
+- Four packs have a listed informational value of AUD 56.00.
+- No order, payment, reservation or delivery has been confirmed.
+
+The AUD 56.00 informational value must not be recognised as sales revenue, an accepted order or a payable invoice.
+
+The Customer Experience Manager should arrange an appropriately reviewed response without recommending unverified allergy-safe alternatives.
+
+### 5.2 Customer Complaint and Feedback Reconciliation — P08
+
+**Source:** `WBR-CFA-B v1.0`
+
+| Complaint Ticket | Original Record | Duplicate Record | Primary Issue | Sentiment | Proposed Priority |
+|---|---|---|---|---|---|
+| COMP-26001 | CFA-B01 | CFA-B02 | Reported illness | Negative | Immediate specialist review |
+| COMP-26002 | CFA-B03 | None | Possible milk allergen incident | Negative | Immediate specialist review |
+| COMP-26003 | CFA-B04 | None | Suspected foreign material | Negative | Immediate specialist review |
+| COMP-26004 | CFA-B05 | CFA-B06 | Delivery delay | Negative | Routine investigation |
+| COMP-26005 | CFA-B07 | None | Contradictory allergen-free claim | Negative | Immediate specialist review |
+| COMP-26006 | CFA-B08 | None | Unspecified order problem | Negative | Clarification required |
+| COMP-26007 | CFA-B09 | None | Delivery delay with positive food taste feedback | Mixed | Routine investigation |
+
+The two confirmed duplicate communications remain preserved as evidence but are not counted as additional cases or refund requests.
+
+### 5.3 Complaint and Sentiment Indicators
+
+| Indicator | Count | Percentage of Unique Cases |
+|---|---:|---:|
+| Submitted feedback communications | 9 | N/A |
+| Confirmed duplicate communications | 2 | N/A |
+| Unique complaint or feedback cases | 7 | 100.00% |
+| Complaint-containing cases | 7 | 100.00% |
+| Positive-only cases | 0 | 0.00% |
+| Negative sentiment | 6 | 85.71% |
+| Mixed sentiment | 1 | 14.29% |
+| Positive-only sentiment | 0 | 0.00% |
+| Urgent qualified review cases | 4 | 57.14% |
+| Non-urgent cases | 3 | 42.86% |
+
+#### Supported Calculations
+
+| Indicator | Calculation | Result |
+|---|---|---:|
+| Unique cases | 9 - 2 | 7 |
+| Negative sentiment proportion | 6 / 7 × 100 | 85.71% |
+| Mixed sentiment proportion | 1 / 7 × 100 | 14.29% |
+| Urgent review proportion | 4 / 7 × 100 | 57.14% |
+| Non-urgent review proportion | 3 / 7 × 100 | 42.86% |
+
+These percentages describe the supplied unique feedback sample only.
+
+They must not be interpreted as business-wide complaint rates, customer dissatisfaction rates or overall customer satisfaction levels.
+
+Total weekly customer and order counts have not been supplied.
+
+### 5.4 Recurring Customer Problems
+
+The supplied recurrence threshold requires a primary issue to occur in at least two distinct cases.
+
+| Primary Issue | Unique Cases | Frequency | Recurring Primary Issue |
+|---|---:|---:|---|
+| Delivery delay | 2 | 28.57% | Yes |
+| Reported illness | 1 | 14.29% | No |
+| Possible milk allergen incident | 1 | 14.29% | No |
+| Suspected foreign material | 1 | 14.29% | No |
+| Contradictory allergen-free claim | 1 | 14.29% | No |
+| Unspecified order problem | 1 | 14.29% | No |
+| **Total** | **7** | **100.00%** | — |
+
+*Individual rounded percentages may not sum exactly to 100.00%.*
+
+Delivery delays are the only recurring primary problem meeting the supplied threshold, involving COMP-26004 and COMP-26007.
+
+The two allergen-related cases, COMP-26002 and COMP-26005, represent a broader allergen information and safety theme affecting two unique cases (28.57%).
+
+They remain distinct primary issues and must not be counted as additional complaint cases.
+
+Positive food taste feedback within COMP-26007 should be preserved despite the associated delivery complaint.
+
+Delivery documentation, dispatch records and relevant customer communications should be reviewed before determining the cause of the reported delays.
+
+### 5.5 Refund Request Reconciliation
+
+| Complaint Ticket | Requested Refund | Requested Amount (AUD) | Authorisation Status |
+|---|---|---:|---|
+| COMP-26001 | Full order refund | Unknown | Not approved |
+| COMP-26004 | Delivery charge refund | 8.00 | Not approved |
+| COMP-26006 | Unspecified refund | Unknown | Not approved |
+
+| Refund Indicator | Result |
+|---|---|
+| Unique refund requests | 3 |
+| Duplicate follow-ups excluded | 2 |
+| Requests with known amounts | 1 |
+| Requests with unknown amounts | 2 |
+| Known requested amount subtotal | AUD 8.00 |
+| Complete requested refund total | Undetermined |
+| Approved refunds | None |
+| Completed reimbursements | None |
+
+The AUD 8.00 subtotal is not the complete requested refund amount and is not an approved expense.
+
+The two unknown requested amounts must not be treated as zero.
+
+Duplicate follow-ups relating to COMP-26001 and COMP-26004 do not create additional refund requests.
+
+Refund assessment requires verification of:
+
+- Relevant customer orders.
+- Payment records.
+- Requested refund amounts.
+- Applicable approved refund policies.
+- Authorised financial approval.
+
+Urgent food safety and allergen referrals must proceed independently of refund assessment.
+
+No refund has been approved, rejected or promised by this report.
+
+### 5.6 Weekly Marketing Performance — P09
+
+**Source:** `WBR-MKT-B v1.0`
+
+| Marketing Indicator | Unapproved Worksheet Illustration | Verified Weekly Performance |
+|---|---:|---|
+| Impressions | 5,000 | Unavailable |
+| Link clicks | 250 | Unavailable |
+| Attributed sales | AUD 2,000.00 | Unavailable |
+| Unique reach | Not supplied | Unavailable |
+| Link click-through rate | Not established | Withheld |
+| Conversions | Not supplied | Unavailable |
+| Conversion rate | Not established | Withheld |
+| Customer acquisition cost | Not established | Withheld |
+| Marketing expenditure | Not supplied | Unavailable |
+| Marketing financial return | Not established | Withheld |
+
+The worksheet figures are planning illustrations only.
+
+No platform analytics exports, approved publication records or verified sales attribution evidence have been supplied.
+
+The link click-through rate is withheld because neither actual link clicks nor actual impressions has been verified.
+
+The absence of verified marketing activity or expenditure records does not establish that marketing activity or expenditure was zero.
+
+Impressions must not be interpreted as unique reach, link clicks as conversions, or illustrative attributed sales as verified revenue.
+
+### 5.7 Subsequent Management Update — 8 December 2026
+
+> **Post-period information:** The following records were prepared after the reporting period ended on 7 December 2026. They are excluded from weekly performance calculations.
+
+| Campaign Information | Details |
+|---|---|
+| Campaign Reference | FOC-MKT-2026-002 |
+| Preparation Date | 8 December 2026 |
+| Proposed Campaign Period | 12–13 December 2026 |
+
+#### Original Chicken Kottu Campaign
+
+The original campaign remains withheld because of restricted ordering, contradictory allergen claims and unsupported promotional terms.
+
+| Proposed Claim or Offer | Required Treatment |
+|---|---|
+| 30% discount | Withhold – not authorised |
+| Free delivery | Withhold – not authorised |
+| Health and weight-loss claims | Withhold – unsupported and unapproved |
+| Allergen-free claims | Reject contradictory claims and withhold unsupported claims |
+| Fabricated testimonial | Exclude from promotional content |
+| Reported online egg-free claim | Immediate qualified QA review |
+| Reported online image | Unverified; obtain evidence |
+
+No Chicken Kottu promotional campaign has been approved, scheduled or published under this update.
+
+#### Alternative Vegetable Rolls Campaign
+
+| Campaign Information | Current Status |
+|---|---|
+| Product | Vegetable Rolls |
+| Approved Pack Size | Four rolls per retail pack |
+| Approved Standard Selling Price | AUD 8.00 per pack |
+| Independent Stock Snapshot | 10 saleable packs |
+| Snapshot Date and Time | 8 December 2026, 10:00 AM |
+| Campaign Status | Draft |
+| Refreshed Stock Verification | Outstanding |
+| Approved Visual Assets | Outstanding |
+| Marketing Manager Approval | Outstanding |
+| Scheduling or Publication | Not established |
+
+The alternative campaign may proceed through the appropriate human review process using approved product information only.
+
+Vegetable Rolls must not be promoted as an allergy-safe alternative.
+
+#### Subsequent Stock Information Reconciliation
+
+| Stock Record | Vegetable Rolls Quantity |
+|---|---:|
+| Reconciled closing stock on 7 December | 20 packs |
+| Independent snapshot on 8 December at 10:00 AM | 10 packs |
+| Numerical difference between snapshots | 10 packs |
+
+No stock-movement bridge between the two observations has been supplied.
+
+The later snapshot must not replace the reconciled 7 December closing balance or be interpreted as evidence of ten sales, ten lost packs or any other particular stock movement.
+
+The alternative campaign does not remove Chicken Kottu ordering restrictions, existing quality holds or product release requirements.
+
+No actual marketing results have been established for either proposed campaign.
+
+---
+
+## 6. Management Action Plan and Approval
+
+### 6.1 Consolidated Management Action Register
+
+The following priorities and actions are recommendations for authorised management consideration.
+
+They do not constitute formal risk ratings, approved deadlines, completed actions or staff commitments.
+
+| ID | Issue and Source | Required Evidence | Proposed Management Action | Responsible Function | Recommended Priority | Status |
+|---|---|---|---|---|---|---|
+| A01 | Chicken Kottu temperature incident and four unresolved CK-01 units; FOC-FSI-2026-002 | Monitoring records, product temperatures, batch movements, dispatch and courier records | Immediately refer for qualified review; investigate traceability; preserve holds and arrange authorised containment if unresolved units are located. | Food Safety Supervisor; QA Manager; Production Manager | Immediate | Incident unresolved |
+| A02 | Urgent complaints COMP-26001, COMP-26002, COMP-26003 and COMP-26005 | Orders, batches, actual labels, photographs, symptom timelines and material identification | Immediately refer all four cases; arrange customer wellbeing follow-up and medical assistance advice where necessary. Do not wait for refund verification. | Food Safety Supervisor; QA Manager; Customer Experience Manager | Immediate | Investigations outstanding |
+| A03 | Chicken Kottu and Fish Roti allergen deficiencies; P06 and reported P09 online claim | Supplier specifications, approved recipes, actual labels, online claim evidence and cross-contact assessment | Reject contradictory egg-free claims; resolve soy information; investigate peanut cross-contact; maintain FR-03 hold and Chicken Kottu restrictions; withhold draft label printing and application. | QA Manager; Food Safety Supervisor; Marketing Manager | Immediate | Labels unapproved; restrictions remain |
+| A04 | Fish Roti sales conflict and incomplete financial records; SALES-FR-B01, SALES-FR-B02 and WBR-FIN-B | Transaction-level sales, applicable GST treatment, verified net revenue, complete costs and invoices | Reconcile disputed sales and draft revenue; establish authoritative financial inputs before calculating profitability. Avoid duplicate expense recognition. | Finance Manager; Business Operations Manager | High | Reconciliation outstanding |
+| A05 | Chicken ingredient and Fish Roti stock discrepancies; WBR-INV-B and WBR-FG-B | Physical recounts, stock ledgers, consumption records, movements and sales reconciliation | Investigate the 0.50 kg Chicken discrepancy and both conditional Fish Roti variances. Reconcile subsequent Vegetable Rolls stock separately. Do not invent adjustments. | Production Manager; Inventory Management Function; Finance Manager | High | Discrepancies unresolved |
+| A06 | Production target shortfall and constrained staffing; WBR-PROD-B | Approved future targets, staffing availability, station requirements and eligible ingredients | Review production capacity, staffing combinations and future production requirements while preserving QA restrictions. | Production Manager; Business Operations Manager | Planning priority | Proposed; future plan not approved |
+| A07 | Pending procurement and zero eligible Fish stock; PO-WBR-B-001 | Approved requirements, stock eligibility, expiry checks, supplier prices, GST and delivery terms | Verify the established 11 kg draft requirement and separately assess the additional 20 kg provisional requirement. Obtain purchasing approval before commitments or payments. | Procurement Function; Production Manager; Finance Manager | Planning priority | Purchase order unapproved; no receipt |
+| A08 | Three pending enquiries and recurring delivery delays; WBR-CE-B and WBR-CFA-B | Approved customer information, enquiry records, delivery and dispatch evidence | Arrange reviewed responses, including Alex's enquiry; investigate delays and clarify unspecified order problems. Preserve positive feedback. | Customer Experience Manager | High | Responses and investigations outstanding |
+| A09 | Three unique refund requests; WBR-CFA-B | Verified orders, payments, requested amounts and approved refund policy | Determine unknown requested amounts and submit refund assessments for appropriate approval. Keep refund assessment separate from safety referrals. | Customer Experience Manager; Finance Manager | Routine financial review | No refunds approved or reimbursed |
+| A10 | Unverified marketing results and subsequent campaign; WBR-MKT-B and FOC-MKT-2026-002 | Analytics, publication records, attribution evidence, refreshed stock and approved visuals | Withhold unsupported KPIs and the original Chicken Kottu campaign. Submit the Vegetable Rolls draft for verification and Marketing Manager approval. | Marketing Manager; QA Manager | High before publication | Campaign draft; approval outstanding |
+
+### 6.2 Outstanding Evidence and Reporting Limitations
+
+| Business Area | Material Reporting Limitation |
+|---|---|
+| Sales | Complete weekly sales quantities and revenue remain disputed. |
+| Finance | Complete GST-exclusive net revenue and cost of goods sold are unavailable. |
+| Production | Future production requirements and staffing plans have not been approved. |
+| Inventory | Chicken and Fish Roti discrepancies remain unresolved. |
+| Procurement | Complete pricing, GST, delivery terms and purchasing approval are outstanding. |
+| Food Safety | Actual product temperatures, exposure duration, traceability and product suitability remain unresolved. |
+| Quality Assurance | Allergen specification conflicts, label approval and existing holds require qualified review. |
+| Customer Experience | Complaint investigations, current symptom status, refund amounts and pending responses remain incomplete. |
+| Marketing | Weekly performance evidence and subsequent campaign approvals are unavailable. |
+
+No conflicting records have been averaged or selected as authoritative.
+
+Partial KPI calculations use consistent product scopes, and conditional results remain separate from verified complete results.
+
+No unsupported profitability, contamination, medical causation, inventory loss, marketing return or regulatory compliance conclusion has been generated.
+
+### 6.3 Management and Specialist Review Requirements
+
+| Reviewing Function | Review Responsibility | Approval Status |
+|---|---|---|
+| Business Operations Manager | Overall management report, coordination and action prioritisation | Pending |
+| Finance Manager | Sales reconciliation, financial KPIs, procurement expenditure and refunds | Pending |
+| Production Manager | Production performance, capacity, staffing and inventory reconciliation | Pending |
+| Food Safety Supervisor | Temperature incident, traceability, urgent complaints and food safety decisions | Pending |
+| Quality Assurance Manager | Product holds, allergen evidence, label review and authorised product disposition | Pending |
+| Customer Experience Manager | Pending enquiries, complaint investigations and customer follow-up | Pending |
+| Marketing Manager | Marketing evidence, campaign claims, stock confirmation and publication approval | Pending |
+
+### 6.4 Final Management Conclusion
+
+Flavors of Ceylon recorded verified partial sales of 143 retail packs, generating AUD 1,352.00 in GST-inclusive product revenue across four products.
+
+Completed production reached 55.38% of the approved production target, while 80.56% of completed output was authorised as saleable.
+
+However, unresolved Fish Roti sales records, incomplete financial information, inventory discrepancies and outstanding food safety and allergen concerns prevent a complete assessment of weekly business performance.
+
+The immediate management priority is qualified food safety and quality assurance referral, including investigation of the four unresolved CK-01 units, preservation of existing product restrictions and appropriate follow-up of urgent customer complaints.
+
+Financial reconciliation, inventory verification, procurement assessment, customer response completion and future production and marketing planning should proceed under the relevant authorised management functions.
+
+The supplied records do not establish completed investigations, financial recovery, business improvements, product safety outcomes or regulatory compliance.
+
+---
+
+### Final Document Status
+
+**DRAFT – REQUIRES BUSINESS OPERATIONS MANAGER REVIEW AND APPLICABLE QUALIFIED SPECIALIST APPROVAL**
+
+| Authorisation Category | Status |
+|---|---|
+| Management approval | Pending |
+| Operational authorisation | Not granted by this report |
+| Financial authorisation | Not granted by this report |
+| Food safety and QA authorisation | Not granted by this report |
+| Product release authorisation | Not granted by this report |
+| Campaign publication authorisation | Not granted by this report |
+
+### Academic Disclaimer
+
+All business, operational, financial, customer and marketing records used in this report are synthetic and intended solely for academic testing.
+
+This report applies exclusively to the independent Test B scenario.
+
+No information from Test A has been incorporated.
+
+All proposed recommendations remain subject to appropriate human verification and authorisation.
+
+---
+
+**End of Report**
+
+**Report Reference:** FOC-WBR-2026-002
+
+**Prompt Version:** P10 v1.1
+
+**Test Scenario:** Test B
+
+**Status:** Draft – Pending Management and Specialist Review
 
 #### Evaluation
 
