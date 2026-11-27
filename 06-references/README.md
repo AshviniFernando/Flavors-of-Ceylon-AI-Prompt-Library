@@ -1,61 +1,69 @@
-# 06 — References and Supporting Resources
+# References and Academic Resources
 
-## Section Purpose
+## 1. Purpose
 
-This section documents the academic, technical and
-industry resources used to support the development
-of the Flavors of Ceylon AI prompt library.
+This directory documents the academic and
+technical resources consulted during the
+development and evaluation of the Flavors
+of Ceylon AI prompt library.
 
-## 1. Academic Resources
+## 2. Academic and Technical References
 
-To include verified resources relating to:
+[Insert verified references actually consulted,
+using the required university referencing style.]
 
-- Prompt engineering
-- Generative artificial intelligence
-- Business workflow automation
-- Responsible AI
-- Human-in-the-loop decision-making
+## 3. Business Context and Industry Resources
 
-## 2. Industry Resources
+[Insert relevant verified food manufacturing,
+food safety, allergen and marketing sources
+actually consulted.]
 
-To include verified resources relating to:
+## 4. GitHub and Technical Documentation
 
-- Australian food manufacturing
-- Food safety and quality assurance
-- Food Standards Australia New Zealand
-- Product labelling and allergen information
-- Inventory and production management
+[Insert relevant GitHub documentation
+actually consulted.]
 
-## 3. Assessment Resources
+## 5. Generative AI Assistance
 
-- BUS4005 Assessment 1 instructions
-- Assessment marking guide
-- Lecturer-provided prompt library examples
-- La Trobe University academic integrity guidance
-- AI Assessment Scale guidance
+AI assistance was used during the development
+of the prompt library, preparation of synthetic
+test scenarios, generation of test outputs,
+prompt refinement and evaluation documentation.
 
-## 4. AI Assistance Record
+All AI-generated material requires appropriate
+student review and academic acknowledgement.
 
-Generative AI assistance will be documented
-throughout the development process.
+The applicable university AI acknowledgement
+requirements must be followed.
 
-Records will identify the AI tools used, the nature
-of the assistance and the student's contribution
-to testing, evaluation and refinement.
+## 6. Synthetic Business Data
 
-## 5. Reference List
+The business records used in the prompt tests
+are synthetic academic examples.
 
-Verified references will be added as they are
-consulted during the project.
+They do not represent verified actual sales,
+customers, financial records, food safety
+incidents or commercial operations.
 
-All references will follow the citation style
-required by the subject.
+External industry references provide background
+context and do not establish that the synthetic
+business achieved regulatory compliance.
 
-## Important Note
+## 7. Evaluation Methodology
 
-No academic references or research findings will
-be fabricated.
+The project uses a custom five-criterion
+evaluation rubric for synthetic AI outputs.
 
-The required university AI acknowledgement must
-also be completed and submitted separately in
-accordance with the assessment instructions.
+The rubric does not represent an official
+university assessment marking scheme.
+
+Evaluation limitations are documented in
+the individual testing evidence and final
+evaluation files.
+
+## Navigation
+
+- [Main Portfolio](../README.md)
+- [Prompt Library](../02-prompt-library/README.md)
+- [Testing Evidence](../03-testing-evidence/README.md)
+- [Final Evaluations](../05-evaluation/README.md)
