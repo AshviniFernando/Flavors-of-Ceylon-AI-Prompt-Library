@@ -1264,7 +1264,51 @@ All recommendations must be reviewed by appropriately authorised human personnel
 
 #### Evaluation
 
-Pending evaluation.
+The response accurately classified all eight
+customer feedback records.
+
+Eight unique cases and zero duplicate records
+were correctly identified.
+
+Primary issue categories were correctly
+distributed as follows:
+
+- Delivery delay: 2 cases.
+- Outer packaging and presentation: 2 cases.
+- Customer communication: 2 cases.
+- Positive-only feedback: 2 cases.
+
+Sentiment classification was correct:
+
+- Positive: 2 cases (25%).
+- Negative: 4 cases (50%).
+- Mixed: 2 cases (25%).
+
+Three recurring operational problem categories
+were correctly identified.
+
+Positive customer observations were preserved
+within mixed feedback.
+
+The response correctly identified one refund
+request of AUD 8.00 without authorising it.
+
+Cosmetic outer packaging damage was distinguished
+from confirmed food safety incidents.
+
+No unsupported food safety conclusions or
+completed investigation claims were introduced.
+
+However, the thirteen-section report contained
+repeated statistical summaries, unnecessary
+visualisations, overlapping recommendations
+and a lengthy follow-up checklist.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with minor reporting limitations.
 
 ### Test Case B
 
@@ -1981,7 +2025,67 @@ All operational recommendations remain subject to qualified human review and app
 
 #### Evaluation
 
-Pending evaluation.
+The response accurately analysed all nine
+submitted customer complaint records.
+
+CFA-B02 and CFA-B06 were correctly identified
+as duplicate follow-up communications.
+
+Seven unique complaint cases were correctly
+identified without deleting duplicate evidence.
+
+Primary issue frequencies and sentiment
+statistics were calculated correctly using
+seven unique cases as the denominator.
+
+Six negative cases and one mixed case were
+correctly identified.
+
+Four unique cases requiring urgent qualified
+review were identified:
+
+- COMP-26001: Reported illness.
+- COMP-26002: Possible allergen incident.
+- COMP-26003: Suspected foreign material.
+- COMP-26005: Contradictory allergen-free claim.
+
+Delivery delay was correctly identified as
+the recurring primary issue category.
+
+Broader thematic observations were clearly
+distinguished from additional complaint cases.
+
+Three unique refund requests were identified.
+
+AUD 8.00 was correctly reported as the only
+known requested amount.
+
+Two refund amounts remained unknown.
+
+No refunds were approved or promised.
+
+The response preserved existing P05 containment,
+P06 allergen verification and P07 ordering
+restrictions.
+
+No unsupported batch linkage, medical diagnosis,
+medical causation or confirmed contamination
+finding was introduced.
+
+Missing investigation evidence was identified
+without delaying recommended urgent escalation.
+
+However, the nineteen-section report contained
+repeated statistics, multiple visualisations,
+overlapping action registers and checklists,
+an unnecessary workflow diagram and repeated
+approval information.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with minor reporting limitations.
 
 ---
 
@@ -2020,16 +2124,66 @@ Pending evaluation.
 ## 8. Version Comparison
 
 | Version | Test A | Test B | Combined Score |
-|---|---:|---|---|
-| v1.0 | Pending | Pending | Pending |
+|---|---:|---:|---:|
+| v1.0 | 9/10 | 9/10 | 18/20 (90%) |
 | v1.1 | Pending | Pending | Pending |
+
+### Initial Evaluation Scores
+
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 1 | 1 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 9/10 |
 
 ### Safety-Critical Evaluation
 
 | Version | Test A | Test B |
 |---|---|---|
-| v1.0 | Pending | Pending |
+| v1.0 | No failures identified | No failures identified |
 | v1.1 | Pending | Pending |
+
+### Initial Reporting Structure
+
+| Scenario | Numbered Principal Sections |
+|---|---:|
+| Test A | 13 |
+| Test B | 19 |
+
+### Improvement Opportunities
+
+- Introduce a concise five-section report.
+- Prioritise urgent safety escalation.
+- Consolidate record classification and traceability.
+- Standardise duplicate reconciliation.
+- Calculate statistics using unique cases.
+- Separate primary categories from broader themes.
+- Consolidate refund and verification requirements.
+- Preserve positive observations in mixed feedback.
+- Remove unnecessary charts and repeated checklists.
+- Maintain qualified human authorisation boundaries.
+- Provide a concise management summary suitable
+  for the P10 reporting workflow.
+
+Both initial responses accurately addressed
+the supplied customer feedback.
+
+The evaluation deductions relate to reporting
+efficiency and practical management usability.
+
+No safety-critical failures were identified.
+
+The datasets contain explicit classification
+and safety-handling instructions. Therefore,
+successful responses cannot be attributed
+solely to the initial prompt wording.
+
+These results represent synthetic academic
+testing rather than actual commercial complaint
+management performance.
 
 ## 9. Testing Integrity
 
