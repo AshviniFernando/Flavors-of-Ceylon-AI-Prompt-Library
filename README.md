@@ -206,7 +206,7 @@ Stage 04 — Practical Testing and Iterative Improvement
 
 All ten initial AI prompts have been developed.
 
-P01-P08 have completed final-version testing
+P01-P09 have completed final-version testing
 and final-version selection.
 
 P05 retains an incomplete original baseline
@@ -216,13 +216,13 @@ Test B response is unavailable.
 | Development Indicator | Progress |
 |---|---|
 | Initial Prompts Created | 10/10 |
-| Final-Version Evaluations Completed | 8/10 |
-| Final Versions Selected | 8/10 |
-| Complete Initial-to-Final Comparisons | 7/10 |
-| Latest Completed Prompt | P08 |
-| Final P08 Version | v1.1 |
-| P08 Safety-Critical Evaluation | Passed |
-| Next Prompt | P09 — Digital Marketing Content Generation |
+| Final-Version Evaluations Completed | 9/10 |
+| Final Versions Selected | 9/10 |
+| Complete Initial-to-Final Comparisons | 8/10 |
+| Latest Completed Prompt | P09 |
+| Final P09 Version | v1.1 |
+| P09 Safety-Critical Evaluation | Passed |
+| Next Prompt | P10 — Weekly Business Performance Reporting |
 
 ### Completed Prompt Evaluations
 
@@ -236,15 +236,16 @@ Test B response is unavailable.
 | [P06 — Product Label and Allergen Information Review](05-evaluation/P06-final-evaluation.md) | v1.1 | 90% | 95% |
 | [P07 — Customer Enquiry Response](05-evaluation/P07-final-evaluation.md) | v1.1 | 90% | 100% |
 | [P08 — Customer Complaint and Feedback Analysis](05-evaluation/P08-final-evaluation.md) | v1.1 | 90% | 95% |
+| [P09 — Digital Marketing Content Generation](05-evaluation/P09-final-evaluation.md) | v1.1 | 90% | 90% |
 
 ### Combined Comparable Evaluation Performance
 
 | Indicator | Result |
 |---|---|
-| Comparable Prompts | P01-P04 and P06-P08 |
-| Combined Initial Score | 123/140 (87.86%) |
-| Combined Final Score | 135/140 (96.43%) |
-| Absolute Improvement | 8.57 percentage points |
+| Comparable Prompts | P01-P04 and P06-P09 |
+| Combined Initial Score | 141/160 (88.13%) |
+| Combined Final Score | 153/160 (95.63%) |
+| Absolute Improvement | 7.50 percentage points |
 
 Comparable scores use the two original
 test scenarios for each included prompt.
@@ -257,9 +258,9 @@ evidence remains incomplete.
 
 | Indicator | Result |
 |---|---|
-| Final Versions Evaluated | 8 |
-| Two-Scenario Final Scores | 153/160 |
-| Overall Final-Version Score | 95.63% |
+| Final Versions Evaluated | 9 |
+| Two-Scenario Final Scores | 171/180 |
+| Overall Final-Version Score | 95.00% |
 
 P01 also completed an additional production
 capacity scenario, achieving 30/30 across
@@ -267,8 +268,8 @@ all three final tests.
 
 ### Integrated Business Workflow
 
-The first eight prompts establish the
-following proposed business workflow groups:
+The first nine prompts establish the following
+proposed business workflow groups:
 
 1. Planning, Procurement and Manufacturing:
    P01-P04 — Completed.
@@ -277,29 +278,35 @@ following proposed business workflow groups:
    P05-P06 — Completed.
 
 3. Customer Experience and Marketing:
-   P07-P09 — In Progress.
+   P07-P09 — Completed.
 
-P08 introduces customer complaint
-classification, sentiment analysis,
-duplicate reconciliation, recurring problem
-identification and urgent qualified review.
+4. Integrated Management Reporting:
+   P10 — Awaiting testing.
 
-The prompt connects customer communication
-with food safety, allergen information
-verification and management decision support.
+P09 introduces approved promotional content,
+audience-based marketing, responsible claim
+verification, testimonial authenticity and
+visual concept preparation.
+
+P09 demonstrates that prompt refinement may
+improve reporting organisation and evidence
+precision without increasing the overall
+evaluation score.
 
 No safety-critical failures were identified
-in the eight final-version test responses
-for P05, P06, P07 and P08.
+in the ten final-version test responses
+for P05, P06, P07, P08 and P09.
 
 These findings apply only to the supplied
 synthetic scenarios.
 
-The remaining two prompts will address
-digital marketing and integrated weekly
-business performance reporting.
+The final prompt, P10, will integrate
+planning, procurement, manufacturing,
+food safety, customer experience and
+marketing information into a weekly
+management report.
 
-The test datasets include explicit task
+The test datasets contain explicit task
 and responsible AI instructions.
 
 Observed improvements cannot therefore
