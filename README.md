@@ -287,3 +287,22 @@ or actual business improvements.
 
 Human verification and approval remain
 necessary across operational workflows.
+
+## Portfolio Navigation
+
+| Section | Description |
+|---|---|
+| [01 — Business Context](01-business-context/README.md) | Business overview, objectives and operational context |
+| [02 — Prompt Library](02-prompt-library/README.md) | Ten selected final business workflow prompts |
+| [03 — Testing Evidence](03-testing-evidence/README.md) | Synthetic test inputs, actual AI responses and evaluations |
+| [04 — Iteration Logs](04-iteration-logs/README.md) | Prompt development, revisions and observed improvements |
+| [05 — Final Evaluations](05-evaluation/README.md) | Individual prompt results and aggregate evaluation |
+| [06 — References](06-references/README.md) | Academic resources, technical references and acknowledgement |
+
+## Testing Evidence
+
+- [Testing Evidence](../03-testing-evidence/P10-testing-evidence.md)
+- [Iteration Log](../04-iteration-logs/P10-iteration-log.md)
+- [Final Evaluation](../05-evaluation/P10-final-evaluation.md)
+- [Prompt Library Index](README.md)
+- [Main Portfolio](../README.md)
