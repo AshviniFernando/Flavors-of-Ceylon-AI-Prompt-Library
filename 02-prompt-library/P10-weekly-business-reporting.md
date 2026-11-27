@@ -6,8 +6,9 @@
 | Business Function | Business Management |
 | Workflow | Management Reporting |
 | Current Version | v1.1 |
-| Status | Revised Draft — Awaiting Retesting |
-| Prompting Strategy | Role-based, contextual, constraint-based, task decomposition, evidence reconciliation and structured-output prompting |
+| Status | Completed — Tested and Evaluated |
+| Automation Potential | Medium |
+| Final Evaluation Score | 19/20 (95%) |
 
 ---
 
@@ -598,39 +599,54 @@ financial records or management accountability.
 
 | Version | Change | Status |
 |---|---|---|
-| v1.0 | Initial integrated weekly business reporting prompt | Evaluated — 18/20 (90%); no safety-critical failures identified |
-| v1.1 | Added evidence reconciliation, integrated reporting, consolidated KPIs and a six-section management structure | Awaiting retesting |
+| v1.0 | Initial integrated weekly management reporting prompt | Evaluated — 18/20 (90%) |
+| v1.1 | Added structured evidence reconciliation, integrated KPIs, urgent review controls and six-section reporting | Selected Final Version — 19/20 (95%) |
 
 ## Reason for Revision
 
-Initial testing demonstrated accurate business
-calculations, appropriate conflict handling
-and responsible management decision support.
+Initial testing demonstrated accurate calculations
+and responsible handling of operational,
+financial and food safety information.
 
-However, both reports contained extensive
-repetition, multiple overlapping registers
-and lengthy approval checklists.
+However, both initial reports contained
+extensive repetition and multiple overlapping
+reporting registers.
 
-Version v1.1 consolidates the nine business
-workflows into six integrated sections.
+Version v1.1 consolidates the nine connected
+business workflows into six integrated
+management reporting sections.
 
-It prioritises executive usability, supported
-KPI calculations, urgent qualified review,
-evidence traceability and practical management
-recommendations.
+Revised testing confirmed improved reporting
+organisation, more explicit reconciliation
+totals and prominent urgent safety priorities.
 
-Additional safeguards are preventive improvements
-rather than responses to observed safety-critical
-failures.
+Minor presentation limitations remain in
+the complex scenario.
+
+No material calculation errors or
+safety-critical failures were identified.
 
 ## Testing Evidence
 
 - [Testing Inputs and Actual Outputs](../03-testing-evidence/P10-testing-evidence.md)
 - [Iteration Log](../04-iteration-logs/P10-iteration-log.md)
+- [Final Evaluation](../05-evaluation/P10-final-evaluation.md)
 
-Initial v1.0 evaluation: 18/20 (90%).
+Initial evaluation: 18/20 (90%).
 
-Initial safety-critical evaluation:
-Passed for both synthetic scenarios.
+Final evaluation: 19/20 (95%).
 
-Version v1.1 testing and evaluation are pending.
+Absolute improvement: 5 percentage points.
+
+Final selected version: v1.1.
+
+Automation potential: Medium, for supervised
+integrated business reporting.
+
+Safety-critical assessment: No failures
+identified in the supplied test responses.
+
+All management recommendations remain subject
+to appropriate human review and authorisation.
+
+Operational deployment has not been implemented.
