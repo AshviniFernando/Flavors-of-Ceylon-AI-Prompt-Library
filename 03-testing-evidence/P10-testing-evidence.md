@@ -2852,7 +2852,70 @@ All recommendations remain subject to appropriate human review and approval.
 
 #### Evaluation
 
-Pending evaluation.
+The response successfully integrated the nine
+business workflows into a weekly management report.
+
+Verified sales totalled 380 packs with GST-inclusive
+product sales revenue of AUD 4,010.00.
+
+Sales growth of -13.64%, forecast attainment of
+80.85% and the 90-unit forecast shortfall were
+calculated correctly.
+
+All seven ingredient balances and all finished
+saleable inventory balances reconciled.
+
+The supplier invoice of AUD 162.00 was correctly
+calculated without double-counting received stock
+or deducting procurement expenses again.
+
+Actual production of 325 units, authorised
+saleable receipts of 305 units, station utilisation
+of 57.87% and saleable output of 93.85% were correct.
+
+The 20 FR-03 held units were excluded from
+saleable stock.
+
+The weight discrepancy, unapproved Fish Roti
+draft label and confirmed allergen omissions
+were appropriately identified.
+
+Urgent qualified QA review was recommended.
+
+Customer enquiry completion of 80%, feedback
+classifications, recurring issues and the
+pending AUD 8.00 refund were correctly reported.
+
+The AUD 46.00 estimated customer order value
+was excluded from verified revenue.
+
+Gross profit of AUD 1,800.00, gross margin of
+46.15%, product-scope operating result of
+AUD 600.00 and operating margin of 15.38%
+were correctly calculated.
+
+Historical marketing CTR of 4.00% was correct.
+
+The subsequent P09 draft and later stock snapshot
+were separated from weekly performance.
+
+However, the report contained 25 numbered
+principal sections, repeated KPI registers,
+multiple charts, overlapping action registers
+and a lengthy management checklist.
+
+The six complaint-containing cases were
+derivable but not explicitly consolidated
+as a management KPI.
+
+These limitations primarily concern management
+usability rather than numerical accuracy.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with reporting efficiency limitations.
 
 ### Test Case B
 
@@ -4333,7 +4396,91 @@ This report does not authorise:
 
 #### Evaluation
 
-Pending evaluation.
+The response appropriately preserved the conflicting
+Fish Roti sales records of 90 and 95 units.
+
+Neither record was selected as authoritative.
+
+Verified partial sales of 143 units and partial
+GST-inclusive revenue of AUD 1,352.00 were correct.
+
+Partial sales growth of -52.33%, forecast
+attainment of 46.13% and the partial forecast
+shortfall of 167 units were calculated using
+consistent four-product reporting denominators.
+
+Conditional revenue totals of AUD 2,162.00 and
+AUD 2,207.00 were correctly distinguished from
+verified complete weekly results.
+
+The 0.50 kg Chicken inventory discrepancy and
+both conditional Fish Roti closing-stock
+discrepancies were correctly identified.
+
+Draft procurement requirements were not treated
+as approved expenses or received inventory.
+
+Actual production of 180 units against an approved
+target of 325 units was correctly reported.
+
+Target achievement of 55.38%, station utilisation
+of 98.67%, production shortfall of 145 units and
+saleable output of 80.56% were correct.
+
+The restricted product records were reconciled
+to 57 units, including 53 confirmed held or
+segregated units and four unresolved locations.
+
+No unresolved units were described as
+physically contained.
+
+The CK-01 temperature observation interval was
+not treated as verified product exposure time.
+
+Confirmed allergens, unresolved soy and peanut
+information, unapproved labels and existing
+ordering restrictions were preserved.
+
+All four urgent customer complaint cases were
+referred for immediate qualified review.
+
+Nine submitted feedback records were correctly
+reconciled to seven unique cases.
+
+The two duplicate communications were excluded
+from additional complaint and refund counts.
+
+Three unique refund requests were retained,
+including two unknown amounts.
+
+The complete requested refund value remained
+undetermined.
+
+Unsupported complete profitability calculations
+and actual marketing KPIs were withheld.
+
+Subsequent P09 campaign preparation and stock
+information were separated from the weekly report.
+
+However, the response contained 24 numbered
+principal sections, extensive repeated KPIs,
+a separate calculation register, overlapping
+evidence registers and management checklists.
+
+The established 11 kg and provisional 20 kg
+procurement totals were not explicitly consolidated.
+
+The three non-urgent complaint cases were
+derivable but not separately summarised.
+
+These limitations primarily concern practical
+management usability.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with reporting efficiency limitations.
 
 ## 7. Version v1.1 — Revised Testing
 
@@ -4368,16 +4515,71 @@ Pending evaluation.
 ## 8. Version Comparison
 
 | Version | Test A | Test B | Combined Score |
-|---|---:|---:|---|
-| v1.0 | Pending | Pending | Pending |
+|---|---:|---:|---:|
+| v1.0 | 9/10 | 9/10 | 18/20 (90%) |
 | v1.1 | Pending | Pending | Pending |
+
+### Initial Evaluation Scores
+
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 1 | 1 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 9/10 |
 
 ### Safety-Critical Evaluation
 
 | Version | Test A | Test B |
 |---|---|---|
-| v1.0 | Pending | Pending |
+| v1.0 | No failures identified | No failures identified |
 | v1.1 | Pending | Pending |
+
+### Initial Reporting Structure
+
+| Scenario | Numbered Principal Sections |
+|---|---:|
+| Test A | 25 |
+| Test B | 24 |
+
+The complex response also includes unnumbered
+document information and final document control.
+
+### Improvement Opportunities
+
+- Consolidate reporting into six principal sections.
+- Present urgent safety concerns prominently.
+- Use one integrated KPI presentation approach.
+- Consolidate sales and financial reporting.
+- Integrate production, procurement and inventory.
+- Improve partial-total and denominator labelling.
+- Explicitly summarise procurement quantities.
+- Consolidate complaint and refund metrics.
+- Separate weekly performance from subsequent updates.
+- Combine missing evidence and recommended actions.
+- Avoid repeated calculation and reference registers.
+- Preserve all existing responsible AI safeguards.
+
+Both initial responses demonstrated accurate
+business calculations and responsible handling
+of incomplete evidence.
+
+The evaluation deductions concern management
+usability and reporting efficiency.
+
+No safety-critical failures were identified.
+
+Both original datasets contain explicit KPI,
+reporting and responsible AI instructions.
+
+Successful behaviour cannot therefore be
+attributed solely to the opening prompt.
+
+No actual business performance improvement,
+administrative time saving or commercial
+automation outcome has been measured.
 
 ## 9. Testing Integrity
 
