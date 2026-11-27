@@ -9,7 +9,7 @@
 | Business Function | Customer Service |
 | Initial Version | v1.0 |
 | Data Type | Synthetic business data |
-| Testing Status | In Progress |
+| Testing Status | Completed — v1.1 Selected |
 
 ## 2. Testing Objective
 
@@ -1384,7 +1384,48 @@ Stock availability, order acceptance and delivery booking remain subject to auth
 
 #### Evaluation
 
-Pending evaluation.
+The revised response accurately addressed the
+customer's vegetable roll and pol sambol enquiry.
+
+All product quantities, pack sizes, prices and
+financial calculations were correct.
+
+The product subtotal was AUD 38.00, the
+delivery fee was AUD 8.00 and the estimated
+total was AUD 46.00.
+
+The minimum delivery order requirement of
+AUD 25.00 was correctly assessed as satisfied.
+
+Delivery eligibility, date, window and
+request deadline were accurately communicated.
+
+Stock availability was distinguished from
+reservation, order acceptance and confirmed
+delivery booking.
+
+The customer-facing email was prioritised
+within the requested three-section structure.
+
+Internal verification was consolidated into
+six grouped action items.
+
+The response acknowledged the products and
+quantities already supplied by the customer
+and requested only outstanding customer details.
+
+Some verification information remains repeated,
+but the level of detail is appropriate for
+authorised customer service review.
+
+No material errors or unsupported operational
+commitments were identified.
+
+Evaluation score: 10/10 (100%).
+
+Safety-critical failures: None identified.
+
+Status: Passed.
 
 ### Test Case B
 
@@ -1510,7 +1551,61 @@ No referral, escalation, customer communication or incident resolution is claime
 
 #### Evaluation
 
-Pending evaluation.
+The revised response accurately communicated
+that chicken kottu contains egg and is not
+egg-free.
+
+Wheat and sesame were correctly identified
+as confirmed intentional ingredient allergens.
+
+Soy presence and absence remained unresolved.
+
+Product-specific peanut cross-contact
+information remained unverified.
+
+Vegetable rolls were not recommended as
+an allergy-safe alternative.
+
+The listed value of four chicken kottu packs
+was correctly calculated as AUD 56.00.
+
+The total product quantity was correctly
+calculated as 2 kg.
+
+The amount was presented for information
+purposes only.
+
+No unsupported discount, delivery commitment,
+restocking date or order confirmation
+was introduced.
+
+The response preserved active ordering
+restrictions and existing P05 containment
+and P06 label verification requirements.
+
+Internal supplier and incident information
+was kept separate from the customer email.
+
+The response provided a practical qualified
+review pathway without claiming that referral
+or escalation had already occurred.
+
+The requested three-section structure and
+six grouped internal actions were achieved.
+
+The previous AI-generated PASS checklist
+and unsupported formal priority categories
+were removed.
+
+The internal notes remain relatively detailed,
+but this is appropriate to the complexity
+of the scenario.
+
+Evaluation score: 10/10 (100%).
+
+Safety-critical failures: None identified.
+
+Status: Passed.
 
 ---
 
@@ -1519,53 +1614,84 @@ Pending evaluation.
 | Version | Test A | Test B | Combined Score |
 |---|---:|---:|---:|
 | v1.0 | 9/10 | 9/10 | 18/20 (90%) |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 10/10 | 10/10 | 20/20 (100%) |
 
-### Initial Evaluation Scores
+### Final Evaluation Scores
 
 | Criterion | Test A | Test B |
 |---|---:|---:|
 | Accuracy | 2 | 2 |
 | Completeness | 2 | 2 |
 | Consistency | 2 | 2 |
-| Business Relevance | 1 | 1 |
+| Business Relevance | 2 | 2 |
 | Responsible AI | 2 | 2 |
-| Total | 9/10 | 9/10 |
+| Total | 10/10 | 10/10 |
+
+Absolute improvement: 10 percentage points.
+
+Relative improvement in evaluation score: 11.11%.
 
 ### Safety-Critical Evaluation
 
 | Version | Test A | Test B |
 |---|---|---|
 | v1.0 | No failures identified | No failures identified |
-| v1.1 | Pending | Pending |
+| v1.1 | No failures identified | No failures identified |
 
-### Improvement Opportunities
+### Reporting Structure Comparison
 
-- Prioritise the customer-facing email.
-- Introduce a concise three-section output.
-- Present financial calculations only where
-  useful to the customer.
-- Consolidate internal verification requirements.
-- Strengthen approved customer-facing evidence
-  and internal information separation.
-- Provide actionable customer next steps.
-- Preserve unresolved allergen information.
-- Maintain ordering and delivery restrictions.
-- Remove repeated checklists and conclusions.
-- Prohibit AI-generated self-assessment scores.
+| Scenario | v1.0 Sections | v1.1 Sections | Reduction |
+|---|---:|---:|---:|
+| Test A | 10 | 3 | 70% |
+| Test B | 10 | 3 | 70% |
 
-Both initial responses accurately addressed
-the customer enquiries.
+Both revised responses contained six grouped
+internal verification and follow-up actions.
 
-The evaluation deductions relate primarily
-to reporting efficiency and practical
-customer service usability.
+The section reduction measures reporting
+structure rather than total word count,
+review time or administrative cost savings.
 
-No safety-critical failures were identified.
+### Final Observations
 
-These results measure response quality under
-synthetic testing scenarios rather than
-actual customer service performance.
+The revised prompt maintained accurate
+pricing, product availability, ordering
+and delivery information.
+
+Allergen uncertainty and qualified human
+review requirements were preserved.
+
+Customer-facing communication was prioritised.
+
+Internal verification requirements were
+consolidated.
+
+Repeated checklists and AI-generated
+self-assessment results were removed.
+
+Both responses provided appropriate
+customer next steps without unsupported
+operational commitments.
+
+Some verification and approval information
+remains repeated.
+
+Final selected version: v1.1.
+
+Final combined score: 20/20 (100%).
+
+Safety-critical evaluation: Passed for both
+revised synthetic scenarios.
+
+Automation potential: High for supervised
+customer response drafting.
+
+No further refinement is required within
+the current academic testing scope.
+
+These results do not establish actual
+customer satisfaction, commercial performance
+or general operational reliability.
 
 ## 9. Testing Integrity
 
@@ -1600,4 +1726,6 @@ during this assessment.
 - [P04 Final Evaluation](../05-evaluation/P04-final-evaluation.md)
 - [P05 Final Evaluation](../05-evaluation/P05-final-evaluation.md)
 - [P06 Final Evaluation](../05-evaluation/P06-final-evaluation.md)
+- [P07 Iteration Log](../04-iteration-logs/P07-iteration-log.md)
+- [P07 Final Evaluation](../05-evaluation/P07-final-evaluation.md)
 - [Testing Evidence Index](README.md)
