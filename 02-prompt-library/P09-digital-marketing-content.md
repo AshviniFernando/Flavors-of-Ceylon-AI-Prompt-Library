@@ -6,7 +6,7 @@
 | Business Function | Marketing |
 | Workflow | Customer Experience and Marketing |
 | Current Version | v1.1 |
-| Status | Revised Draft — Awaiting Retesting |
+| Status | Final Version — Tested and Evaluated |
 | Prompting Strategy | Role-based, audience-based, contextual, constraint-based, task decomposition and structured-output prompting |
 
 ---
@@ -405,11 +405,36 @@ brand messaging.
 
 ## 4. Automation Potential
 
-Level: High — Preliminary assessment.
+Level: High — Final evaluated classification
+for supervised marketing content drafting.
 
-AI can generate marketing drafts and creative
-suggestions. Marketing staff must verify claims,
-brand suitability and promotional details.
+AI can assist with social media captions,
+campaign ideation, audience-appropriate
+communication, hashtag generation and
+visual concept preparation.
+
+Testing demonstrated accurate promotional
+information, appropriate brand consistency
+and responsible claim handling across two
+revised synthetic campaign scenarios.
+
+However, unresolved health and allergen
+claims require qualified human review.
+
+Product pricing, availability, promotional
+conditions, testimonial permissions and
+official visual assets must be verified.
+
+Marketing approval, product release and
+campaign publication remain subject to
+authorised personnel.
+
+The High classification relates to creative
+content drafting rather than autonomous
+marketing operation.
+
+Actual commercial automation performance
+has not been measured.
 
 ## 5. Risks and Limitations
 
@@ -429,8 +454,8 @@ before publication.
 
 | Version | Change | Status |
 |---|---|---|
-| v1.0 | Initial digital marketing content generation prompt | Evaluated — 18/20 (90%); no safety-critical failures identified |
-| v1.1 | Added campaign decision rules, claim verification, creative content controls, consolidated visual briefs and four-section reporting | Awaiting retesting |
+| v1.0 | Initial digital marketing content generation prompt | Evaluated — 18/20 (90%) |
+| v1.1 | Added claim verification, campaign decision rules, structured creative content and consolidated reporting | Final Selected Version — 18/20 (90%) |
 
 ## Reason for Revision
 
@@ -454,14 +479,37 @@ Additional safeguards are preventive improvements
 rather than responses to observed safety-critical
 failures.
 
-## Testing Evidence
+## Testing Evidence and Final Evaluation
 
 - [Testing Inputs and Actual Outputs](../03-testing-evidence/P09-testing-evidence.md)
-- [Iteration Log](../04-iteration-logs/P09-iteration-log.md)
+- [Iteration Log and Version History](../04-iteration-logs/P09-iteration-log.md)
+- [Final Evaluation and Business Impact](../05-evaluation/P09-final-evaluation.md)
 
-Initial v1.0 evaluation: 18/20 (90%).
+| Evaluation Measure | Result |
+|---|---|
+| Final Version | v1.1 |
+| Initial Score | 18/20 (90%) |
+| Final Test A | 9/10 |
+| Final Test B | 9/10 |
+| Combined Final Score | 18/20 (90%) |
+| Absolute Score Improvement | 0 percentage points |
+| Safety-Critical Evaluation | Passed for both revised tests |
+| Automation Potential | High — Supervised Content Drafting |
+| Development Status | Completed |
 
-Initial safety-critical evaluation:
-Passed for both synthetic scenarios.
+The revised prompt improves reporting
+organisation, promotional content separation
+and evidence precision.
 
-Version v1.1 testing and evaluation are pending.
+The combined numerical evaluation score
+remains unchanged because some repetitive
+internal reporting and creative limitations
+remain.
+
+All material marketing and responsible AI
+safeguards were maintained.
+
+The prompt has not been commercially deployed.
+
+All promotional content requires appropriate
+verification and human approval before publication.
