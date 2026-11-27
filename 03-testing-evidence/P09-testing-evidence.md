@@ -1670,13 +1670,270 @@ Status: Passed with minor reporting limitations.
 
 ### Test Case A
 
-Testing date: Pending.
-
-AI tool and model: Pending.
+Testing date: 27 November 2026
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+# Flavors of Ceylon – Social Media Promotional Content
+
+## P09 – Digital Marketing Content Preparation
+
+| Assessment Information | Details |
+|---|---|
+| Prompt ID | P09 |
+| Prompt Version | v1.1 |
+| Test Scenario | Test A |
+| Business | Flavors of Ceylon |
+| Output Type | Social Media Promotional Content |
+| Document Status | Draft – Pending Human Approval |
+
+---
+
+## 1. Campaign Decision and Claim Review
+
+### 1.1 Campaign Information
+
+| Campaign Information | Details |
+|---|---|
+| Business | Flavors of Ceylon |
+| Business Location | Dandenong South, Victoria, Australia |
+| Campaign Reference | FOC-MKT-2026-001 |
+| Preparation Date | 8 December 2026 |
+| Campaign Name | A Taste of Sri Lanka, Made Convenient |
+| Proposed Campaign Period | 8–10 December 2026 |
+| Platforms | Facebook and Instagram |
+| Campaign Type | Organic social media promotion |
+| Product | Sri Lankan Vegetable Rolls |
+| Product Code | FOC-VR-01 |
+| Campaign Objective | Increase product awareness and encourage genuine customer enquiries and order requests |
+| Responsible Reviewer | Marketing Manager |
+
+### 1.2 Target Audience
+
+- Sri Lankan communities living in Melbourne.
+- Families in Melbourne's south-eastern suburbs.
+- Working adults interested in convenient snacks.
+- Customers interested in Sri Lankan cuisine.
+- General adult audiences.
+
+The campaign does not specifically target people with allergies,
+medical conditions or specific dietary requirements.
+
+### 1.3 Campaign Decision
+
+**Decision: Proceed to draft preparation only.**
+
+The supplied approved product, pricing and availability records
+support preparing a promotional draft for the Sri Lankan Vegetable
+Rolls.
+
+Publication remains subject to stock reconfirmation, visual asset
+verification and Marketing Manager approval.
+
+### 1.4 Promotional Claim Review
+
+| Promotional Claim or Condition | Classification | Marketing Decision |
+|---|---|---|
+| Authentic Sri Lankan-inspired flavours | Approved and supported | Include in promotional content. |
+| Convenient snack for tea-time and family gatherings | Approved and supported | Include in promotional content. |
+| Four vegetable rolls for AUD 8.00 | Approved and supported | Communicate the approved standard selling price, inclusive of applicable GST. |
+| Product availability | Approved and supported with conditions | State that availability is subject to confirmation. Do not disclose internal stock quantities. |
+| Discounts, bundles, giveaways and competitions | Unsupported or not approved | Exclude from promotional content. |
+| Free delivery | Unsupported or not approved | Do not advertise free delivery. |
+| Delivery areas, charges and dates | Unverified or unresolved | Do not make delivery commitments. |
+| Vegetarian, vegan, gluten-free or allergen-free claims | Unsupported or not approved | Exclude dietary suitability and certification claims. |
+| Nutrition and health benefits | Unsupported or not approved | Exclude from captions, hashtags and artwork. |
+| Positive customer testimonials from P08 Test A | Unsupported or not approved for public endorsement | Use only to inform general creative direction. Do not publish customer endorsements. |
+| Guaranteed availability throughout the campaign | Unsupported or not approved | Preserve stock confirmation requirements. |
+| Previous selling prices and limited-time offers | Unsupported or not approved | Do not invent previous prices, discounts or promotional urgency. |
+
+No contradictory or safety-critical promotional claims have been
+identified in the supplied campaign information.
+
+No urgent specialist escalation is indicated by the supplied
+scenario.
+
+---
+
+## 2. Customer-Facing Promotional Draft
+
+**Status:** Draft – Pending Marketing Manager Approval.
+
+**Platforms:** Facebook and Instagram.
+
+### 2.1 Promotional Caption
+
+> Bring a little taste of Sri Lanka to your tea-time!
+>
+> Enjoy Flavors of Ceylon's Sri Lankan Vegetable Rolls, packed
+> with authentic Sri Lankan-inspired flavours. Whether you're
+> sharing a snack with family, catching up with friends or
+> taking a break from a busy day, our savoury rolls are a
+> convenient everyday choice.
+>
+> Enjoy 4 vegetable rolls for AUD 8.00 per pack.
+>
+> Message our official Flavors of Ceylon social media page
+> for product information and ordering guidance.
+> Availability is subject to confirmation.
+>
+> #FlavorsOfCeylon #SriLankanFood #VegetableRolls
+> #MelbourneFood #TeaTimeSnacks
+
+---
+
+## 3. Suggested Visual Concept
+
+### 3.1 Creative Concept
+
+**A Taste of Sri Lanka, Made Convenient**
+
+The proposed artwork should communicate authentic Sri
+Lankan-inspired flavours, everyday convenience and accessible
+pricing through warm, modern food photography and a clean
+promotional layout.
+
+The visual concept should appeal to families, working adults
+and customers interested in Sri Lankan cuisine.
+
+### 3.2 Visual Specifications
+
+| Design Element | Proposed Specification |
+|---|---|
+| Dimensions | 1080 × 1350 pixels |
+| Aspect Ratio | 4:5 portrait |
+| Platforms | Facebook and Instagram |
+| Background | Cream with subtle deep green accents |
+| Product Presentation | Exactly four vegetable rolls arranged naturally on a simple serving plate |
+| Composition | Headline at the top, product photography in the centre, price and call to action below |
+| Photography | Modern food photography with realistic product proportions |
+| Lighting | Warm, natural lighting with soft shadows |
+| Typography | Clean, legible typography with a clear product and price hierarchy |
+| Brand Placement | Reserved space in the upper corner for the approved official logo |
+| Price Presentation | Warm golden yellow price panel with dark charcoal lettering |
+| Availability Statement | Availability subject to confirmation |
+
+### 3.3 Approved Brand Colour Palette
+
+| Colour | HEX Code | Suggested Application |
+|---|---|---|
+| Deep Green | `#1F5E45` | Headlines and brand accents |
+| Warm Golden Yellow | `#E5B646` | Price highlights |
+| Cream | `#FFF5E3` | Main background |
+| Dark Charcoal | `#292929` | Supporting text |
+
+### 3.4 Exact Suggested On-Image Text
+
+> **A Taste of Sri Lanka**
+>
+> Sri Lankan Vegetable Rolls
+>
+> **AUD 8.00**
+>
+> 4 Rolls per Pack
+>
+> **Message Our Page to Enquire**
+>
+> Availability subject to confirmation.
+
+The official logo should be positioned within the reserved
+brand asset area once the approved logo file becomes available.
+
+### 3.5 Visual Asset Verification
+
+The official Flavors of Ceylon logo and verified product
+photographs have not been supplied.
+
+The following requirements must be satisfied before artwork
+approval:
+
+- Obtain the approved official business logo.
+- Obtain approved photographs of the actual product.
+- Ensure the image accurately represents four vegetable rolls.
+- Maintain realistic product proportions and portion sizes.
+- Display the approved price and pack quantity accurately.
+- Avoid fabricated certification badges.
+- Avoid unapproved health or nutrition symbols.
+- Avoid fabricated customer ratings and endorsements.
+- Avoid misleading stock or discount information.
+
+**Visual Status:** Proposed creative concept only.
+Not completed or approved promotional artwork.
+
+---
+
+## 4. Internal Verification and Approval
+
+> **INTERNAL USE ONLY — NOT FOR PUBLICATION**
+
+### 4.1 Verification and Action Register
+
+| Verification Area | Evidence and Findings | Required Action | Responsible Role | Status |
+|---|---|---|---|---|
+| Product information and pricing | MKT-PROD-09A v1.0. Four rolls per pack at AUD 8.00, inclusive of applicable GST. | Confirm that the final caption and artwork retain the approved product name, quantity and price. Do not add GST again. | Marketing Manager | Evidence supplied; final review pending |
+| Stock and availability | MKT-STOCK-09A v1.0. Verified saleable stock of 18 packs at 9:00 AM on 8 December 2026 within the synthetic scenario. | Reconfirm saleable stock before publication, monitor availability during the campaign and confirm stock when processing order requests. Keep the exact stock quantity confidential. Withhold or suspend sales promotion if availability becomes restricted. | Stock Management and Customer Service Personnel | Reconfirmation pending |
+| Ordering and delivery conditions | MKT-CTA-09A v1.0. Official social media messaging is approved. Delivery conditions are not supplied. | Follow authorised customer service procedures. Do not guarantee reservations, order acceptance or delivery arrangements. Preserve applicable P07 ordering controls. | Customer Service Supervisor | Final verification pending |
+| Product claims and customer feedback | MKT-PROD-09A v1.0 and P08 Test A. Customer feedback is internal and publication permission is absent. | Exclude testimonials, customer identities, dietary certifications, nutrition claims and allergen suitability statements. Preserve applicable P05, P06 and P08 safeguards. Refer any proposed specialist claims to qualified Quality Assurance personnel. | Marketing Manager and Quality Assurance Manager, where applicable | Final review pending |
+| Brand and visual assets | MKT-BRAND-01 v1.0. Approved colour palette and visual direction supplied. Official logo and actual product photographs are missing. | Obtain approved visual assets and verify accurate product representation, pack quantity, price and artwork dimensions. | Marketing Team | Assets outstanding |
+| Final campaign approval | Campaign FOC-MKT-2026-001. Proposed period: 8–10 December 2026. | Complete all applicable verification requirements and obtain Marketing Manager approval before scheduling or publication. | Marketing Manager | Approval pending |
+
+### 4.2 Final Campaign Status
+
+| Approval Item | Status |
+|---|---|
+| Campaign Decision | Proceed to draft preparation only |
+| Promotional Caption | Draft prepared |
+| Visual Concept | Proposed – Not approved artwork |
+| Official Visual Assets | Outstanding |
+| Stock Reconfirmation | Pending |
+| Specialist Review | Required where applicable |
+| Marketing Manager Approval | Pending |
+| Campaign Scheduling | Not scheduled |
+| Campaign Publication | Not published |
+| Marketing Performance | Not measured |
+
+### 4.3 Final Recommendation
+
+Retain the campaign as a promotional draft until all applicable
+verification requirements and Marketing Manager approval have
+been completed.
+
+The proposed content must not be treated as authorisation to:
+
+- Publish or schedule promotional content.
+- Accept customer orders independently.
+- Reserve product stock.
+- Guarantee product availability.
+- Confirm delivery arrangements.
+- Make unapproved product, health or allergen claims.
+- Publish unauthorised customer testimonials.
+- Override applicable Quality Assurance or food safety procedures.
+
+No campaign budget, performance targets, expected sales volume
+or historical engagement figures have been supplied.
+
+No marketing performance results are claimed.
+
+---
+
+**Academic Testing Disclaimer**
+
+All product information, prices, stock records, customer feedback
+and campaign conditions are synthetic and intended solely for
+academic testing.
+
+The campaign dates and stock snapshot are treated as supplied
+scenario information, not independently verified real-world
+events.
+
+This output demonstrates supervised AI-assisted digital
+marketing content preparation and management decision support.
+It does not constitute independent advertising approval,
+food safety certification, product release, order acceptance
+or authorisation to publish.
+
+**End of P09 v1.1 – Test A Output**
 
 #### Evaluation
 
@@ -1684,13 +1941,290 @@ Pending evaluation.
 
 ### Test Case B
 
-Testing date: Pending.
+Testing date: 27 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+## P09 – Social Media Promotional Content Generation
+
+| Document Information | Details |
+|---|---|
+| Prompt ID | P09 |
+| Prompt Version | v1.1 |
+| Test Scenario | Test B |
+| Campaign Reference | FOC-MKT-2026-002 |
+| Business | Flavors of Ceylon |
+| Business Location | Dandenong South, Victoria, Australia |
+| Preparation Date | 8 December 2026 |
+| Document Status | Draft – Pending Human Review |
+| Responsible Reviewer | Marketing Manager |
+| Specialist Reviewer | Quality Assurance Manager |
+
+---
+
+## 1. Campaign Decision and Claim Review
+
+### Campaign Information
+
+| Campaign Information | Details |
+|---|---|
+| Original Campaign | Chicken Kottu Weekend Special |
+| Proposed Campaign Period | 12–13 December 2026 |
+| Platforms | Facebook and Instagram |
+| Alternative Campaign | Sri Lankan Vegetable Rolls – General Promotion |
+| Alternative Target Audience | Adult food enthusiasts, families and Sri Lankan communities in Melbourne |
+| Original Campaign Approval | Not approved |
+| Related Assessments | P05, P06, P07 and P08 |
+
+### Campaign Decision
+
+> **IMPORTANT: WITHHOLD CHICKEN KOTTU PROMOTION**
+>
+> Sri Lankan Chicken Kottu is temporarily unavailable for ordering. No authorised product release, approved saleable stock quantity or confirmed restocking date has been supplied.
+>
+> The requested Chicken Kottu campaign must not proceed to promotional content preparation, scheduling or publication.
+
+### Urgent Quality Assurance Review
+
+> **WARNING: URGENT QUALIFIED QUALITY ASSURANCE REVIEW REQUIRED**
+>
+> The customer-reported online egg-free claim contradicts the approved product recipe, which intentionally contains egg.
+>
+> Urgent qualified Quality Assurance review is recommended without waiting for complete evidence or independent verification of the reported image.
+>
+> The reported image remains unverified. No completed investigation, escalation or corrective action has been established.
+
+### Promotional Claim Review
+
+| Requested Claim or Action | Classification | Findings and Recommended Action |
+|---|---|---|
+| 30% weekend discount | Unsupported / Not approved | No discount or alternative promotional price has been authorised. Exclude the claim. |
+| Weekend special or limited-time offer | Unsupported / Not approved | No limited-time offer or previous selling price has been approved. |
+| Free delivery | Unsupported / Not approved | No free delivery offer has been authorised. |
+| Delivery across Melbourne | Unverified / Unresolved | Melbourne-wide delivery coverage has not been verified. |
+| Egg-free | Contradictory to verified evidence | SPEC-CK-01 v2.0 confirms intentional egg inclusion. Reject the claim and recommend urgent QA review. |
+| Soy-free | Unverified / Unresolved | Conflicting supplier specifications remain unresolved. Neither specification has been verified against current sauce stock. |
+| Peanut-free | Unverified / Unresolved | Product-specific peanut cross-contact information remains unverified. Do not confirm or rule out cross-contact. |
+| Suitable for customers with food allergies | Unsupported / Not approved | Wheat, egg and sesame are confirmed intentional allergens. The complete allergen profile remains under review. |
+| Healthy meal | Unsupported / Not approved | No approved nutritional analysis or qualified health claim review has been supplied. |
+| High protein | Unsupported / Not approved | Protein content has not been verified. |
+| Supports weight loss | Unsupported / Not approved | No supporting evidence or qualified approval has been supplied. |
+| "Best chicken kottu in Melbourne!" — Grace | Contradictory to supplied feedback / Not approved | CFA-A07 concerns Vegetable Rolls and does not contain the proposed quotation. Reject the testimonial. |
+| Verified customer endorsement | Unverified / Not approved | No verified Chicken Kottu purchase or testimonial publication permission has been supplied. |
+| Back in stock | Unsupported / Not approved | No approved saleable stock quantity or confirmed restocking date has been supplied. The product remains unavailable for ordering. |
+| Order immediately | Contradictory to verified ordering restrictions | Orders, reservations and payment requests remain prohibited. |
+| Healthy choice badge | Unsupported / Not approved | No approved health endorsement or certification has been supplied. |
+| Allergen-free symbols | Contradictory or unverified | Egg-free representation contradicts the approved recipe. Soy and peanut claims remain unresolved. Exclude all proposed allergen-free symbols. |
+| Immediate publication | Not approved | Marketing approval, qualified review and existing product restrictions prevent publication. |
+
+### Verified Chicken Kottu Information
+
+| Product Information | Verified Details |
+|---|---|
+| Product Name | Sri Lankan Chicken Kottu |
+| Product Code | FOC-CK-01 |
+| Pack Size | 500 g |
+| Standard Listed Price | AUD 14.00 per pack |
+| Price Authorisation | Information purposes only |
+| Product Record | MKT-PROD-09B v1.0 |
+| Ordering Status | Temporarily unavailable |
+| Approved Saleable Stock | No quantity approved |
+| Confirmed Restocking Date | Not supplied |
+| Product Release | Not authorised |
+| Campaign Approval | Not approved |
+
+The verified listed price does not constitute permission to advertise, sell or accept orders for the restricted product.
+
+### Alternative Campaign Decision
+
+Preparation of a standalone Sri Lankan Vegetable Rolls promotional draft may proceed under **MKT-ALT-09B v1.0**.
+
+This permission is limited to draft preparation and does not constitute final campaign approval.
+
+The alternative campaign does not resolve existing Chicken Kottu containment, allergen, label, ordering or release restrictions.
+
+---
+
+## 2. Customer-Facing Promotional Draft
+
+**Status: Draft – Pending Marketing Manager Approval**
+
+### Alternative Campaign Information
+
+| Campaign Information | Details |
+|---|---|
+| Proposed Campaign Name | A Little Taste of Sri Lanka |
+| Product | Sri Lankan Vegetable Rolls |
+| Product Code | FOC-VR-01 |
+| Pack Size | 4 rolls per pack |
+| Approved Standard Price | AUD 8.00 per pack |
+| Platforms | Facebook and Instagram |
+| Campaign Type | General product promotion |
+| Target Audience | Adult food enthusiasts, families and Sri Lankan communities in Melbourne |
+| Brand Tone | Warm, welcoming, authentic and professional |
+
+### Copy-Ready Social Media Post
+
+> **Make tea time a little more special with a taste of Sri Lanka!**
+>
+> Enjoy our Sri Lankan Vegetable Rolls, bringing authentic Sri Lankan-inspired flavours to your everyday moments. These savoury snacks are a convenient choice for afternoon tea or sharing with family and friends at your next gathering.
+>
+> Enjoy 4 rolls per pack for just AUD 8.00.
+>
+> Message our official social media page for product information, current availability and ordering guidance.
+>
+> #FlavorsOfCeylon #SriLankanFood #VegetableRolls #MelbourneFoodies #TeaTimeSnacks
+
+The promotional caption uses the approved standard selling price, contains five relevant hashtags and includes one clear call to action.
+
+The caption meets the requested length target of approximately 50–90 words and does not guarantee product availability.
+
+No unsupported discounts, delivery promises, health claims, allergen suitability claims or customer testimonials are included.
+
+---
+
+## 3. Suggested Visual Concept
+
+### Creative Concept: A Little Taste of Sri Lanka
+
+The proposed artwork should present a warm and welcoming tea-time setting that highlights authentic Sri Lankan-inspired flavours, convenience and everyday sharing occasions.
+
+**Visual Status:** Proposed creative concept only – not completed or approved promotional artwork.
+
+### Visual Creative Brief
+
+| Visual Specification | Creative Direction |
+|---|---|
+| Platforms | Facebook and Instagram |
+| Dimensions | 1080 × 1350 pixels |
+| Aspect Ratio | Portrait 4:5 |
+| Composition | Place the headline at the top, approved product photograph in the centre, product information and price below, followed by the call to action. |
+| Visual Hierarchy | Headline, product photograph, product name, pack quantity, price and call to action. |
+| Product Presentation | Present four vegetable rolls representing one actual pack. Avoid exaggerated quantities and unrealistic portion sizes. |
+| Photography | Use modern food photography with a simple plate and a welcoming tea-time setting. |
+| Lighting | Warm, soft natural lighting. |
+| Typography | Clear, modern and easily readable text. |
+| Brand Assets | Reserve space for the approved official logo. |
+| Missing Assets | Official logo file and approved product photographs have not been supplied. |
+| Restricted Elements | No discount badges, health endorsements, allergen-free symbols, customer ratings or certification graphics. |
+
+### Approved Brand Colour Palette
+
+Source: **MKT-BRAND-01 v1.0**
+
+| Colour | HEX Code | Suggested Application |
+|---|---|---|
+| Deep Green | `#1F5E45` | Main headline, brand accents and CTA background |
+| Warm Golden Yellow | `#E5B646` | Headline highlights and decorative accents |
+| Cream | `#FFF5E3` | Main background |
+| Dark Charcoal | `#292929` | Supporting text and product information |
+
+### Exact Suggested On-Image Text
+
+> **A Little Taste of Sri Lanka**
+>
+> Sri Lankan Vegetable Rolls
+>
+> 4 rolls per pack
+>
+> **AUD 8.00**
+>
+> Message us for current availability and ordering guidance
+
+### Visual Asset Requirements
+
+- Obtain the official Flavors of Ceylon logo file.
+- Obtain approved and authentic Vegetable Rolls product photographs.
+- Ensure that the photograph accurately represents four vegetable rolls per pack.
+- Maintain the approved brand colour palette.
+- Verify all on-image product information and pricing.
+- Do not create or display invented certification badges, ratings or health endorsements.
+- Obtain final artwork approval before scheduling or publication.
+
+The proposed visual concept must remain a draft until the required official assets and relevant approvals have been obtained.
+
+---
+
+## 4. Internal Verification and Approval
+
+> **INTERNAL USE ONLY — NOT FOR PUBLICATION**
+>
+> This section contains internal product containment, supplier, stock, customer complaint and investigation information. It must not be included in customer-facing promotional content.
+
+### Grouped Verification and Action Register
+
+| Verification Area and Source References | Findings and Required Actions | Proposed Responsible Role | Status |
+|---|---|---|---|
+| **1. Campaign and Commercial Claims** — FOC-MKT-2026-002; MKT-PROD-09B v1.0 | Withhold the Chicken Kottu promotion. The AUD 14.00 listed price is for information purposes only. Reject unauthorised discounts, delivery offers, limited-time promotions, nutrition claims and health endorsements. Maintain restrictions on orders, reservations and payments. | Marketing Manager / Customer Service Supervisor | Withholding recommended; approval pending |
+| **2. Product Containment — P05** — FOC-FSI-2026-002; Batch CK-01 | Sixteen units remain confirmed on hold. Four units have unresolved physical locations. Maintain containment and investigate unresolved locations through authorised procedures. Product suitability and final disposition remain undetermined. No authorised release or incident closure has been established. | Quality Assurance Manager / Food Safety Supervisor | Unresolved; release not authorised |
+| **3. Allergen and Label Verification — P06** — SPEC-CK-01 v2.0; LBL-CK-01 v0.2; QA-CE-CK-01 v1.0 | Wheat, egg and sesame are confirmed intentional allergens. Soy remains unresolved due to conflicting supplier specifications. Neither specification is verified against current sauce stock. Document recency alone is insufficient. Peanut cross-contact and final precautionary wording remain unverified. The draft label remains unapproved. The limited customer-facing notice does not authorise promotion or final label release. | Quality Assurance Manager | Urgent qualified review required |
+| **4. Customer Enquiry, Complaint and Testimonial Verification — P07/P08** — FOC-CE-2026-002; COMP-26005; CFA-B07; CFA-A07 | Alex reported an online egg-free image, but the image has not been independently verified. Alex reported neither ordering nor consuming the product. No illness or allergic reaction was reported. No order, payment, reservation or delivery was confirmed. Recommend urgent qualified review and preservation of relevant evidence. Grace's feedback concerns Vegetable Rolls, not Chicken Kottu. The proposed quotation does not appear in the original feedback. No verified Chicken Kottu purchase or publication permission has been supplied. Exclude the testimonial. | Quality Assurance Manager / Customer Experience Manager / Marketing Manager | Urgent review recommended; investigation and customer follow-up not established |
+| **5. Alternative Product and Stock Verification** — MKT-ALT-09B v1.0; MKT-STOCK-09B v1.0 | Vegetable Rolls, FOC-VR-01, contain four rolls per pack at AUD 8.00 inclusive of applicable GST. Do not add GST again. Ten saleable packs were verified in the supplied snapshot dated 8 December 2026 at 10:00 AM. Keep the quantity internal. Reconfirm stock before weekend publication and when order requests are processed. Complete customer-facing allergen information has not been supplied. No allergy suitability claims are permitted. | Marketing Manager / Inventory Supervisor / Quality Assurance Manager | Draft preparation permitted; refreshed stock verification pending |
+| **6. Creative Assets and Final Approval** — MKT-BRAND-01 v1.0; MKT-ALT-09B v1.0 | Obtain the approved logo and authentic product photographs. Verify the final caption, price, pack quantity, hashtags, call to action, artwork and availability conditions. Obtain Marketing Manager approval and applicable qualified specialist review before scheduling or publication. | Marketing Manager / Quality Assurance Manager | Assets outstanding; final approval pending |
+
+### Mandatory Safety and Communication Restrictions
+
+- Maintain all existing Chicken Kottu product holds and ordering restrictions.
+- Preserve the requirement to investigate unresolved physical product locations through authorised procedures.
+- Do not accept Chicken Kottu orders, reservations or payment requests while restrictions remain in effect.
+- Do not present the Vegetable Rolls campaign as evidence that Chicken Kottu is suitable for sale, released or approved.
+- Do not present Vegetable Rolls as an allergy-safe alternative.
+- Do not confirm or rule out unresolved soy or peanut cross-contact information.
+- Do not select an unverified supplier specification solely because it has a more recent date.
+- Do not claim that the reported egg-free image has been independently verified.
+- Do not claim that escalation, investigation, customer notification or corrective action has been completed.
+- Any incident disclosure, customer notification, recall or regulatory reporting decision must follow authorised incident procedures.
+- Keep internal supplier, stock, complaint, batch and investigation information separate from public promotional content.
+- Do not invent campaign engagement, reach, sales, conversion rates or financial performance results.
+
+### Final Campaign Approval Status
+
+| Approval Item | Current Status |
+|---|---|
+| Original Chicken Kottu Campaign | Withholding recommended; promotional content withheld |
+| Chicken Kottu Ordering Permission | Restricted |
+| Chicken Kottu Product Release | Not authorised |
+| Product Containment and Final Disposition | Unresolved |
+| Chicken Kottu Label Approval | Not approved |
+| Soy Allergen Verification | Unresolved |
+| Peanut Cross-Contact Verification | Unverified |
+| Urgent Allergen Claim Review | Recommended; completion not established |
+| Customer-Reported Online Image | Not independently verified |
+| Customer Testimonial Authorisation | Not approved |
+| Vegetable Rolls Draft Preparation | Permitted |
+| Alternative Promotional Caption | Prepared – Draft only |
+| Alternative Visual Concept | Proposed – Not approved artwork |
+| Official Visual Assets | Outstanding |
+| Refreshed Stock Verification | Pending |
+| Qualified Specialist Review | Pending, where applicable |
+| Final Marketing Manager Approval | Pending |
+| Campaign Scheduling | Not scheduled |
+| Campaign Publication | Not published |
+
+### Final Recommendation
+
+Withhold the original Chicken Kottu Weekend Special campaign and recommend urgent qualified Quality Assurance review of the customer-reported contradictory egg-free claim.
+
+Proceed only with the separately permitted Sri Lankan Vegetable Rolls promotional draft, subject to:
+
+- Refreshed saleable-stock verification.
+- Approved official visual assets.
+- Applicable qualified specialist review.
+- Final Marketing Manager approval.
+
+The alternative campaign must not be scheduled or published until all applicable verification and approval requirements have been satisfied.
+
+---
+
+**Document Status:** Draft – Pending Human Review and Approval.
+
+**Academic Testing Disclaimer:** All campaign requests, customer feedback, product records, prices and business information used in this assessment are synthetic and intended solely for academic testing.
+
+This output is based exclusively on the supplied test information. The alternative campaign name and creative direction are proposed concepts rather than previously approved business assets.
+
+No external verification, operational authorisation, product release, completed investigation, campaign scheduling or publication has been performed.
 
 #### Evaluation
 
