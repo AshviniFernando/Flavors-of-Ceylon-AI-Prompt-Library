@@ -100,7 +100,7 @@ preparation.
 
 | ID | Prompt | Version | Status |
 |---|---|---|---|
-| P10 | [Weekly Business Performance Reporting](P10-weekly-business-reporting.md) | v1.0 | Initial Draft |
+| P10 | [Weekly Business Performance Reporting](P10-weekly-business-reporting.md) | v1.1 | Completed — Tested and Evaluated |
 
 This prompt consolidates verified operational
 information to support management decision-making.
@@ -165,8 +165,10 @@ Additional versions may be created when required.
 
 ---
 
-All prompts are currently initial drafts.
-Testing and evaluation results are pending.
+All ten business workflow prompts have completed
+development, testing, evidence-based revision
+and final-version selection.
 
-The proposed AI workflows require human oversight
-and have not been deployed commercially.
+The P05 incomplete initial baseline limitation
+is transparently retained in its evaluation
+and testing evidence.
