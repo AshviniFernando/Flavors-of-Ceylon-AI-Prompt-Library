@@ -9,7 +9,7 @@
 | Business Function | Food Safety and Quality Assurance |
 | Initial Version | v1.0 |
 | Data Type | Synthetic business data |
-| Testing Status | In Progress |
+| Testing Status | Completed — v1.1 Selected |
 
 ## 2. Testing Objective
 
@@ -1693,8 +1693,41 @@ testing.*
 
 #### Evaluation
 
-Pending evaluation.
+The revised response accurately identified
+butter as the missing intentional ingredient,
+milk as the missing verified intentional allergen
+and the omission of the previously approved
+precautionary wording "May contain sesame."
 
+Wheat and fish declarations were preserved.
+
+Intentional allergens and precautionary
+cross-contact information were correctly separated.
+
+The response introduced explicit evidence
+classification and followed the requested
+five-section reporting structure.
+
+Targeted corrections were provided without
+generating a complete revised product label.
+
+Ingredient ordering remained unverified.
+
+The existing quality hold on all 20 units
+of batch FR-03 was correctly preserved.
+
+Urgent qualified allergen review was prominently
+identified.
+
+However, some repeated discrepancy findings,
+allergen summaries and verification actions
+remain.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with minor reporting limitations.
 ### Test Case B
 
 Testing date: 27 November 2026
@@ -2031,7 +2064,58 @@ Existing food safety, Quality Assurance and incident procedures remain applicabl
 
 #### Evaluation
 
-Pending evaluation.
+The revised response correctly identified egg
+and sesame oil as missing intentional ingredients.
+
+Egg and sesame were correctly identified as
+missing verified allergen declarations.
+
+The contradictory egg-free claim was identified
+and referred for urgent authorised correction.
+
+Both conflicting SA-17 supplier specifications
+were accurately preserved.
+
+Neither document was selected as authoritative
+without verified applicability to current stock.
+
+Soy presence and absence remained unresolved.
+
+Wheat remained independently confirmed through
+the verified wheat roti specification.
+
+Product-specific peanut cross-contact remained
+undetermined, and no unauthorised precautionary
+wording decision was made.
+
+The five-section report consolidated verification
+actions and removed unnecessary incident
+calculations and overlapping checklists.
+
+No complete revised label was generated.
+
+Existing P05 containment requirements were
+preserved, including 16 units on hold and
+four units with unresolved physical locations.
+
+The response distinguished label approval,
+incident closure and product release as
+separate authorised decisions.
+
+Some repetition remains. The opening warning
+uses sesame rather than sesame oil when
+summarising ingredient omissions, but the
+detailed comparison correctly distinguishes
+the ingredient from the allergen.
+
+The remaining detail is proportionate to
+the complexity of the scenario.
+
+Evaluation score: 10/10 (100%).
+
+Safety-critical failures: None identified.
+
+Status: Passed.
 
 ---
 
@@ -2040,50 +2124,73 @@ Pending evaluation.
 | Version | Test A | Test B | Combined Score |
 |---|---:|---:|---:|
 | v1.0 | 9/10 | 9/10 | 18/20 (90%) |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 9/10 | 10/10 | 19/20 (95%) |
 
-### Initial Evaluation Scores
+### Final Evaluation Scores
 
 | Criterion | Test A | Test B |
 |---|---:|---:|
 | Accuracy | 2 | 2 |
 | Completeness | 2 | 2 |
 | Consistency | 2 | 2 |
-| Business Relevance | 1 | 1 |
+| Business Relevance | 1 | 2 |
 | Responsible AI | 2 | 2 |
-| Total | 9/10 | 9/10 |
+| Total | 9/10 | 10/10 |
+
+Absolute improvement: 5 percentage points.
+
+Relative improvement in evaluation score: 5.56%.
 
 ### Safety-Critical Evaluation
 
 | Version | Test A | Test B |
 |---|---|---|
 | v1.0 | No failures identified | No failures identified |
-| v1.1 | Pending | Pending |
+| v1.1 | No failures identified | No failures identified |
 
-### Improvement Opportunities
+### Reporting Structure Comparison
 
-- Introduce a concise five-section review report.
-- Standardise ingredient and allergen comparison.
-- Classify verified, conflicting and missing evidence.
-- Distinguish ingredient identity from composition.
-- Strengthen supplier document applicability rules.
-- Maintain separate cross-contact classifications.
-- Provide targeted corrections rather than complete
-  unapproved product labels.
-- Consolidate outstanding verification actions.
-- Avoid unsupported risk classifications.
-- Preserve existing P05 containment requirements.
+| Scenario | v1.0 Sections | v1.1 Sections | Reduction |
+|---|---:|---:|---:|
+| Test A | 11 | 5 | 54.55% |
+| Test B | 13 | 5 | 61.54% |
 
-All material ingredient and allergen discrepancies
-were correctly identified during initial testing.
+The reduction measures numbered principal
+report sections, not total word count or
+administrative time savings.
 
-The deductions relate to reporting efficiency
-and business usability rather than factual
-inaccuracies or safety-critical failures.
+### Final Observations
 
-These evaluations measure response quality under
-synthetic scenarios, not actual food safety
-or regulatory compliance.
+The revised prompt retained accurate ingredient
+and allergen discrepancy identification.
+
+Evidence verification classifications and
+supplier applicability rules were more
+explicitly presented.
+
+The revised responses avoided complete
+unapproved labels and maintained qualified
+human authorisation requirements.
+
+Unnecessary calculations, repeated checklists
+and unsupported priority classifications
+were removed.
+
+Some reporting repetition remains.
+
+Final selected version: v1.1.
+
+Final combined score: 19/20 (95%).
+
+Safety-critical evaluation: Passed for both
+revised synthetic scenarios.
+
+No further refinement is required within
+the current academic testing scope.
+
+These results do not establish actual allergen
+safety, regulatory compliance or commercial
+label review performance.
 
 ## 9. Testing Integrity
 
@@ -2114,4 +2221,6 @@ a final product label or authorise product release.
 - [P03 Final Evaluation](../05-evaluation/P03-final-evaluation.md)
 - [P04 Final Evaluation](../05-evaluation/P04-final-evaluation.md)
 - [P05 Final Evaluation](../05-evaluation/P05-final-evaluation.md)
+- [P06 Iteration Log](../04-iteration-logs/P06-iteration-log.md)
+- [P06 Final Evaluation](../05-evaluation/P06-final-evaluation.md)
 - [Testing Evidence Index](README.md)
