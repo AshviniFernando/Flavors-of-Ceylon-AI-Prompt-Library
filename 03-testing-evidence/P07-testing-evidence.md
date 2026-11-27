@@ -1288,13 +1288,99 @@ Status: Passed with minor reporting limitations.
 
 ### Test Case A
 
-Testing date: Pending.
+Testing date: 27 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+# Flavors of Ceylon – P07 v1.1 – Test A
+
+## 1. Customer-Facing Email Draft
+
+**Status:** Draft – Awaiting Human Approval  
+**Enquiry reference:** FOC-CE-2026-001  
+**Enquiry date:** 5 December 2026  
+**Enquiry channel:** Email  
+**Customer name:** Emily  
+
+**Subject:** Your Product Enquiry and Delivery Request – Flavors of Ceylon
+
+Hi Emily,
+
+Thank you for contacting Flavors of Ceylon. We'd be delighted to help with your upcoming family gathering!
+
+Both Sri Lankan Vegetable Rolls and Pol Sambol Sachets are currently available for ordering, subject to stock confirmation when your order request is processed.
+
+Here is the price breakdown for your requested products:
+
+| Product | Packs | Pack Size | Total Quantity | Price per Pack (AUD) | Line Total (AUD) |
+|---|---:|---:|---:|---:|---:|
+| Sri Lankan Vegetable Rolls | 3 | 4 rolls | 12 rolls | $8.00 | $24.00 |
+| Pol Sambol Sachets | 2 | 5 sachets | 10 sachets | $7.00 | $14.00 |
+| **Product subtotal** | | | | | **$38.00** |
+| Delivery fee | | | | | $8.00 |
+| **Estimated total** | | | | | **$46.00** |
+
+All prices include any applicable GST. Your product subtotal of AUD 38.00 meets our minimum delivery order requirement of AUD 25.00, excluding delivery.
+
+Delivery to Dandenong South, postcode 3175, is available on Monday, 7 December 2026, between 10:00 AM and 2:00 PM, subject to booking confirmation. An exact arrival time cannot be guaranteed.
+
+To submit your order request, please reply to this email by **12:00 noon on Sunday, 6 December 2026**, with your full name, delivery address and contact number. We already have your requested products and quantities.
+
+Our Customer Service team will confirm stock availability, order acceptance and delivery arrangements before providing payment instructions. No stock has been reserved at this stage.
+
+Thank you for choosing Flavors of Ceylon. We look forward to assisting you!
+
+Kind regards,  
+Customer Service Team  
+Flavors of Ceylon
+
+---
+
+## 2. Internal Verification and Follow-Up
+
+> **INTERNAL USE ONLY – Not for Customer Communication**
+
+**Enquiry reference:** FOC-CE-2026-001
+
+The following actions are recommended and remain subject to authorised human review. No order acceptance, stock reservation, payment processing or delivery booking has been completed.
+
+| Verification Area | Verified Evidence and Required Follow-Up | Approved Record Reference | Proposed Responsible Role | Status |
+|---|---|---|---|---|
+| Product availability | Verified saleable stock at 9:00 AM on 5 December 2026: 12 packs of vegetable rolls and 10 packs of pol sambol sachets. Reconfirm availability of the requested quantities before accepting the order. | PROD-CE-01 v1.0 | Customer Service Team | Pending stock confirmation |
+| Pricing and minimum order | Product subtotal: AUD 38.00. Delivery fee: AUD 8.00. Estimated total: AUD 46.00. Minimum product subtotal of AUD 25.00 is satisfied. Applicable GST is included. No discounts or additional charges apply. | PROD-CE-01 v1.0; ORDER-CE-01 v1.0; DEL-CE-01 v1.0 | Customer Service Supervisor | Verified from supplied records |
+| Customer details | Obtain the customer's full name, complete delivery address and contact number. Requested products and quantities have already been supplied. | ORDER-CE-01 v1.0 | Customer Service Team | Pending customer response |
+| Delivery arrangements | Postcode 3175 and Monday, 7 December 2026, are eligible. Confirm receipt of the complete request by 12:00 noon on Sunday, 6 December 2026, and obtain delivery booking approval for the 10:00 AM–2:00 PM delivery window. | DEL-CE-01 v1.0 | Customer Service Team | Pending delivery booking confirmation |
+| Order acceptance and payment | Obtain authorised order acceptance following stock confirmation and receipt of complete customer details. Provide payment instructions only after order confirmation. | ORDER-CE-01 v1.0 | Customer Service Team | Pending order approval |
+| Email approval | Review and approve the customer-facing email draft before sending. | FOC-CE-2026-001 | Customer Service Supervisor | Pending human approval |
+
+The verified saleable-stock record is separate from production targets and proposed production quantities. No production planning information has been used as evidence of product availability.
+
+No ingredient, allergen or food safety questions were raised in this enquiry. No qualified food safety escalation is indicated by the supplied information.
+
+---
+
+## 3. Human Approval Status
+
+| Approval Item | Status |
+|---|---|
+| Responsible reviewer | Customer Service Supervisor |
+| Customer-facing response | Draft – Awaiting human approval |
+| Email sending | Not authorised |
+| Order acceptance | Not confirmed |
+| Stock reservation | Not completed |
+| Delivery eligibility | Verified from supplied records |
+| Delivery booking | Not confirmed |
+| Payment instructions | Withheld until order confirmation |
+| Payment processing | Not completed |
+| Product release or dispatch | Not authorised |
+
+**Approval requirement:** The customer-facing email must be reviewed and approved by the Customer Service Supervisor before sending.
+
+Stock availability, order acceptance and delivery booking remain subject to authorised confirmation. Payment instructions must only be provided after order confirmation.
+
+*Disclaimer: This response is based exclusively on the supplied synthetic customer enquiry and approved business records for academic testing. No external information, unsupported business conditions or additional charges have been introduced. This document does not constitute an accepted order, confirmed stock reservation, confirmed delivery booking or authorisation for payment or product release.*
 
 #### Evaluation
 
@@ -1302,13 +1388,125 @@ Pending evaluation.
 
 ### Test Case B
 
-Testing date: Pending.
+Testing date: 27 November 2026
 
-AI tool and model: Pending.
+AI tool and model: ChatGPT
 
 #### Actual AI Output
 
-Pending testing.
+## P07 v1.1 – Test B: Customer Service Response
+
+| Enquiry Information | Details |
+|---|---|
+| Business | Flavors of Ceylon |
+| Business Location | Dandenong South, Victoria, Australia |
+| Enquiry Reference | FOC-CE-2026-002 |
+| Enquiry Date | 5 December 2026 |
+| Enquiry Channel | Email |
+| Customer Name | Alex |
+| Prompt Version | P07 v1.1 |
+| Test Scenario | Test B |
+| Related Incident Assessment | P05 Test B |
+| Related Label Assessment | P06 Test B |
+| Responsible Reviewer | Customer Service Supervisor |
+| Response Status | Draft – Awaiting Human Approval |
+
+---
+
+## 1. Customer-Facing Email Draft
+
+**Status: Draft – Awaiting Human Approval**
+
+**Subject: Sri Lankan Chicken Kottu – Product Availability and Allergen Enquiry**
+
+Hi Alex,
+
+Thank you for contacting Flavors of Ceylon. We understand your concerns about your family members' allergies and appreciate you checking with us before placing an order.
+
+Our Sri Lankan Chicken Kottu recipe contains egg and is **not egg-free**. The egg-free claim on the online image you described is inconsistent with our approved recipe. Wheat and sesame are also confirmed ingredient allergens.
+
+Our complete allergen information is currently under review. We cannot yet confirm whether the seasoning sauce contains soy or whether the equipment used to prepare the chicken kottu presents a risk of peanut cross-contact.
+
+Our Sri Lankan Vegetable Rolls come in packs of four at a listed price of AUD 8.00 per pack. However, we cannot currently confirm their stock availability or recommend them as an allergy-safe alternative.
+
+For your requested chicken kottu quantities, the listed prices are:
+
+- Pack size: 500 g
+- Price per pack: AUD 14.00
+- Requested quantity: 4 packs
+- Total product quantity: 2 kg
+- Listed product value: AUD 56.00 (for information only)
+
+No bulk discount has been approved.
+
+Unfortunately, chicken kottu is temporarily unavailable for ordering, and we do not have a confirmed restocking date. We cannot confirm your order or accept payment today.
+
+Delivery eligibility, charges and morning availability for Narre Warren, postcode 3805, on Sunday, 6 December 2026, remain unconfirmed.
+
+As a next step, we can refer your allergen questions to our Quality Assurance team for further review.
+
+Thank you for your understanding.
+
+Kind regards,  
+Customer Service Team  
+Flavors of Ceylon
+
+---
+
+## 2. Internal Verification and Follow-Up
+
+**INTERNAL USE ONLY – NOT FOR CUSTOMER COMMUNICATION**
+
+All actions below are proposed and remain pending. No completed referral, escalation or resolution has been established.
+
+| Verification Area | Evidence and Outstanding Issue | Recommended Action | Proposed Responsible Role | Status |
+|---|---|---|---|---|
+| Egg-free claim and label discrepancies | QA-CE-CK-01 v1.0, SPEC-CK-01 v2.0 and LBL-CK-01 v0.2. Egg and sesame are omitted from the draft allergen declaration. Egg and sesame oil are omitted from the draft ingredient declaration. The customer's reported online image remains unverified. | Promptly investigate the reported image, review the contradictory egg-free claim and correct draft label discrepancies through the authorised approval process. Do not assume that the draft claim was published on an approved label. | Quality Assurance Manager | Pending |
+| Seasoning sauce allergens | SA-17-SPEC-A dated 1 October 2026 lists soybeans and wheat. SA-17-SPEC-B dated 20 November 2026 does not list either. Neither document is verified as applicable to current sauce stock. Wheat remains confirmed through verified wheat roti pieces. | Verify supplier documentation against applicable sauce stock. Do not determine soy presence or absence based solely on supplier document dates. | Quality Assurance Manager | Pending |
+| Peanut cross-contact | CC-CK-01 remains incomplete. Product-specific equipment sharing has not been established. Relevant cleaning validation records are unavailable. The draft precautionary statement has not received qualified approval. | Complete the product-specific cross-contact assessment and obtain qualified approval before communicating further allergen information. Do not confirm or rule out peanut cross-contact. | Food Safety Supervisor / Quality Assurance Manager | Pending |
+| Product containment and ordering restriction | P05 Test B, batch CK-01. Sixteen units are confirmed on hold, and four units have unresolved physical locations. Product suitability, incident closure, final disposition and release remain undetermined. | Maintain containment and ordering restrictions. Investigate unresolved unit locations. Refer any additional disclosure, notification or recall decisions through authorised incident procedures. Do not assume the customer has purchased or received an affected product. | Food Safety Supervisor | Pending |
+| Alternative product verification | FOC-VR-01. Current saleable stock and complete approved customer-facing allergen information are not supplied. | Verify stock availability and obtain approved allergen information before making further availability or suitability statements. Do not recommend vegetable rolls as an allergy-safe alternative. | Customer Service Supervisor / Quality Assurance Manager | Pending |
+| Pricing, ordering and delivery | PROD-CE-02 v1.0. AUD 56.00 represents the listed product value only. No approved bulk discount, verified delivery eligibility, delivery charge or confirmed Sunday morning availability is supplied. | Maintain ordering and payment restrictions. Verify delivery arrangements before any future eligible order is considered. Do not issue a payable invoice or confirmed quotation for supply. | Customer Service Supervisor | Pending |
+
+---
+
+## 3. Human Approval Status
+
+| Approval Requirement | Current Status |
+|---|---|
+| Enquiry reference | FOC-CE-2026-002 |
+| Responsible reviewer | Customer Service Supervisor |
+| Customer response | Draft – Awaiting human approval |
+| Qualified allergen review | Pending |
+| Chicken kottu order acceptance | Not authorised |
+| Stock reservation | Not authorised |
+| Payment request or acceptance | Not authorised |
+| Delivery eligibility | Unverified |
+| Delivery booking | Not confirmed |
+| Product release | Not authorised |
+| Final product label approval | Pending |
+| Incident closure | Not established |
+| Customer email sending | Requires human approval |
+
+### Approval Statement
+
+This response is prepared exclusively as a draft for human review.
+
+The Customer Service Supervisor must approve the response before it is sent. Unresolved allergen and food safety matters require qualified Food Safety or Quality Assurance review.
+
+All existing P05 Test B product containment restrictions and P06 Test B label verification requirements must remain in effect.
+
+The AUD 56.00 calculation represents the verified listed price of four chicken kottu packs for information purposes only. It does not constitute a payable invoice, accepted order or confirmed quotation for supply.
+
+No confirmed order total has been calculated because delivery charges are unavailable and ordering remains restricted.
+
+No order acceptance, payment, stock reservation, delivery booking or product release is authorised by this response.
+
+No referral, escalation, customer communication or incident resolution is claimed to have been completed.
+
+---
+
+*Disclaimer: All customer information, product records, supplier documents, prices and delivery conditions are synthetic and intended solely for academic testing purposes.*
 
 #### Evaluation
 
