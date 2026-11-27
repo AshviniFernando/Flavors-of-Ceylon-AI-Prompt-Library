@@ -206,7 +206,7 @@ Stage 04 — Practical Testing and Iterative Improvement
 
 All ten initial AI prompts have been developed.
 
-P01-P06 have completed final-version testing
+P01-P07 have completed final-version testing
 and final-version selection.
 
 P05 retains an incomplete original baseline
@@ -216,13 +216,13 @@ Test B response is unavailable.
 | Development Indicator | Progress |
 |---|---|
 | Initial Prompts Created | 10/10 |
-| Final-Version Evaluations Completed | 6/10 |
-| Final Versions Selected | 6/10 |
-| Complete Initial-to-Final Comparisons | 5/10 |
-| Latest Completed Prompt | P06 |
-| Final P06 Version | v1.1 |
-| P06 Safety-Critical Evaluation | Passed |
-| Next Prompt | P07 — Customer Enquiry Response |
+| Final-Version Evaluations Completed | 7/10 |
+| Final Versions Selected | 7/10 |
+| Complete Initial-to-Final Comparisons | 6/10 |
+| Latest Completed Prompt | P07 |
+| Final P07 Version | v1.1 |
+| P07 Safety-Critical Evaluation | Passed |
+| Next Prompt | P08 — Customer Complaint and Feedback Analysis |
 
 ### Completed Prompt Evaluations
 
@@ -234,15 +234,16 @@ Test B response is unavailable.
 | [P04 — Food Production and Batch Planning](05-evaluation/P04-final-evaluation.md) | v1.1 | 90% | 95% |
 | [P05 — Food Safety and Quality Incident Reporting](05-evaluation/P05-final-evaluation.md) | v1.1 | Pending | 90% |
 | [P06 — Product Label and Allergen Information Review](05-evaluation/P06-final-evaluation.md) | v1.1 | 90% | 95% |
+| [P07 — Customer Enquiry Response](05-evaluation/P07-final-evaluation.md) | v1.1 | 90% | 100% |
 
 ### Combined Comparable Evaluation Performance
 
 | Indicator | Result |
 |---|---|
-| Comparable Prompts | P01-P04 and P06 |
-| Combined Initial Score | 87/100 (87%) |
-| Combined Final Score | 96/100 (96%) |
-| Absolute Improvement | 9 percentage points |
+| Comparable Prompts | P01-P04, P06 and P07 |
+| Combined Initial Score | 105/120 (87.50%) |
+| Combined Final Score | 116/120 (96.67%) |
+| Absolute Improvement | 9.17 percentage points |
 
 Comparable scores use the two original
 test scenarios for each included prompt.
@@ -255,9 +256,9 @@ evidence remains incomplete.
 
 | Indicator | Result |
 |---|---|
-| Final Versions Evaluated | 6 |
-| Two-Scenario Final Scores | 114/120 |
-| Overall Final-Version Score | 95% |
+| Final Versions Evaluated | 7 |
+| Two-Scenario Final Scores | 134/140 |
+| Overall Final-Version Score | 95.71% |
 
 P01 also completed an additional production
 capacity scenario, achieving 30/30 across
@@ -265,36 +266,39 @@ all three final tests.
 
 ### Integrated Business Workflow
 
-The first six prompts establish two proposed
-business workflow groups:
+The first seven prompts establish the following
+proposed business workflow groups:
 
 1. Planning, Procurement and Manufacturing:
-   P01-P04.
+   P01-P04 — Completed.
 
 2. Food Safety and Quality Assurance:
-   P05-P06.
+   P05-P06 — Completed.
 
-The food safety and quality assurance prompts
-introduce explicit evidence verification,
-uncertainty handling, product traceability,
-allergen information review and qualified
-human authorisation.
+3. Customer Experience and Marketing:
+   P07-P09 — In Progress.
+
+P07 introduces approved customer-facing
+information controls, accurate pricing,
+ordering and delivery boundaries, responsible
+allergen communication and qualified
+human escalation.
 
 No safety-critical failures were identified
-in the four final-version test responses
-for P05 and P06.
+in the six final-version test responses
+for P05, P06 and P07.
 
 These findings are limited to the supplied
 synthetic scenarios.
 
-The remaining four prompts will address
-customer enquiries, customer feedback,
-digital marketing and management reporting.
-
-Human verification and approval remain
-necessary across operational workflows.
+The remaining three prompts will address
+customer complaints, digital marketing
+and weekly management reporting.
 
 All evaluation results represent academic
 testing outcomes rather than measured
-commercial performance, food safety or
-regulatory compliance.
+commercial performance, customer satisfaction,
+food safety or regulatory compliance.
+
+Human verification and approval remain
+necessary across operational workflows.
