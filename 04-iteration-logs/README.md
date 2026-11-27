@@ -93,3 +93,4 @@ will be fabricated.
 | [P03 — Supplier Purchase Order Preparation](P03-iteration-log.md) | v1.1 | Completed — Final Version Selected |
 | [P04 — Food Production and Batch Planning](P04-iteration-log.md) | v1.1 | Completed — Final Version Selected |
 | [P05 — Food Safety and Quality Incident Reporting](P05-iteration-log.md) | v1.1 | Final Version Selected — Baseline Comparison Incomplete |
+| [P06 — Product Label and Allergen Information Review](P06-iteration-log.md) | v1.1 | Completed — Final Version Selected |
