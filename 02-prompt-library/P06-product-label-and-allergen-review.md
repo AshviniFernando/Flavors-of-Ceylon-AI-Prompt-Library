@@ -6,7 +6,7 @@
 | Business Function | Product Quality |
 | Workflow | Food Safety and Product Quality |
 | Current Version | v1.1 |
-| Status | Revised Draft — Awaiting Retesting |
+| Status | Final Version — Tested and Evaluated |
 | Prompting Strategy | Role-based, constraint-based, evidence classification, task decomposition and structured-output prompting |
 
 ---
@@ -320,11 +320,31 @@ and other labelling errors.
 
 ## 4. Automation Potential
 
-Level: Medium — Preliminary assessment.
+Level: Medium — Final evaluated classification.
 
-AI can assist with comparing supplied documents
-and identifying inconsistencies. Final product
-labelling decisions require qualified human review.
+AI can assist with product label comparison,
+ingredient discrepancy identification,
+allergen evidence classification, supplier
+document comparison and outstanding
+verification requirements.
+
+Testing demonstrated accurate discrepancy
+identification and appropriate responsible
+AI behaviour across two revised synthetic
+label review scenarios.
+
+However, supplier applicability verification,
+allergen assessment, cross-contact evaluation,
+regulatory compliance assessment and
+final label approval require qualified
+human oversight.
+
+AI must not independently guarantee allergen
+safety, approve product labels, authorise
+printing or product release.
+
+Actual commercial automation performance
+has not been measured.
 
 ## 5. Risks and Limitations
 
@@ -344,8 +364,8 @@ or suitable for customers with particular allergies.
 
 | Version | Change | Status |
 |---|---|---|
-| v1.0 | Initial product label and allergen review prompt | Evaluated — 18/20 (90%); no safety-critical failures identified |
-| v1.1 | Added evidence classification, compound ingredient verification, targeted correction rules and concise reporting | Awaiting retesting |
+| v1.0 | Initial product label and allergen review prompt | Evaluated — 18/20 (90%) |
+| v1.1 | Added evidence classification, supplier applicability rules, targeted corrections and structured reporting | Final Selected Version — 19/20 (95%) |
 
 ## Reason for Revision
 
@@ -366,14 +386,35 @@ The additional safeguards strengthen successful
 initial behaviour rather than correcting an
 observed safety-critical failure.
 
-## Testing Evidence
+## Testing Evidence and Final Evaluation
 
 - [Testing Inputs and Actual Outputs](../03-testing-evidence/P06-testing-evidence.md)
-- [Iteration Log](../04-iteration-logs/P06-iteration-log.md)
+- [Iteration Log and Version History](../04-iteration-logs/P06-iteration-log.md)
+- [Final Evaluation and Business Impact](../05-evaluation/P06-final-evaluation.md)
 
-Initial v1.0 evaluation: 18/20 (90%).
+| Evaluation Measure | Result |
+|---|---|
+| Final Version | v1.1 |
+| Initial Score | 18/20 (90%) |
+| Final Test A | 9/10 |
+| Final Test B | 10/10 |
+| Combined Final Score | 19/20 (95%) |
+| Absolute Improvement | 5 percentage points |
+| Safety-Critical Evaluation | Passed for both revised tests |
+| Automation Potential | Medium |
+| Development Status | Completed |
 
-Initial safety-critical evaluation:
-Passed for both synthetic test scenarios.
+The final prompt supports supervised product
+label and allergen information review.
 
-Version v1.1 testing and evaluation are pending.
+The revised version improves evidence
+classification, reporting structure and
+human authorisation boundaries.
+
+Minor reporting repetition remains.
+
+The prompt has not been commercially deployed.
+
+All final ingredient declarations, allergen
+information, precautionary wording and
+label approvals require qualified human review.
