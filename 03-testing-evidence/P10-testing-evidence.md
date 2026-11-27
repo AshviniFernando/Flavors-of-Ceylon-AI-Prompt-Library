@@ -7,9 +7,9 @@
 | Prompt ID | P10 |
 | Business | Flavors of Ceylon |
 | Business Function | Management and Business Intelligence |
-| Initial Version | v1.0 |
-| Data Type | Synthetic integrated business data |
-| Testing Status | In Progress |
+| Final Version | v1.1 |
+| Final Evaluation | 19/20 (95%) |
+| Testing Status | Completed — Final Version Selected |
 
 ## 2. Testing Objective
 
@@ -5349,8 +5349,75 @@ All recommendations remain proposed until appropriately verified and authorised 
 
 #### Evaluation
 
-Pending evaluation.
+Version v1.1 successfully integrated P01-P09
+into six numbered principal reporting sections.
 
+All material sales, revenue, production,
+procurement, inventory and financial
+calculations were correct.
+
+Verified sales totalled 380 packs with
+GST-inclusive revenue of AUD 4,010.00.
+
+Forecast attainment was 80.85%, while
+production target achievement was 100%.
+
+Completed production totalled 325 units,
+including 305 authorised saleable receipts
+and 20 units under quality hold.
+
+All ingredient and finished-product
+inventory balances reconciled.
+
+The supplier invoice of AUD 162.00 was
+correctly distinguished from verified
+payment and current-week cost of goods sold.
+
+The FR-03 quality hold and unapproved
+Fish Roti label restrictions were preserved.
+
+Immediate qualified review of the confirmed
+allergen omission was recommended before
+routine commercial reporting.
+
+Customer enquiry completion was 80%.
+
+The six complaint-containing cases were
+explicitly consolidated, addressing a
+minor initial reporting omission.
+
+The pending AUD 8.00 refund and AUD 46.00
+estimated enquiry value were excluded
+from approved expenses and verified revenue.
+
+Gross profit was AUD 1,800.00, with a gross
+margin of 46.15%.
+
+The product-scope operating result was
+AUD 600.00, with a margin of 15.38%.
+
+Historical marketing CTR was correctly
+reported as 4.00%.
+
+Subsequent marketing and stock information
+was separated from weekly performance.
+
+The revised report reduced numbered
+principal sections from 25 to six and
+management action rows from 13 to 10.
+
+Separate management checklists, unnecessary
+charts and repeated KPI registers were removed.
+
+Minor repetition remains between the
+executive overview and final conclusion,
+but does not materially undermine usability.
+
+Evaluation score: 10/10 (100%).
+
+Safety-critical failures: None identified.
+
+Status: Passed.
 ### Test Case B
 
 Testing date: 28 November 2026
@@ -6336,76 +6403,179 @@ All proposed recommendations remain subject to appropriate human verification an
 
 #### Evaluation
 
-Pending evaluation.
+Version v1.1 successfully consolidated the
+complex integrated business dataset into
+six numbered principal reporting sections.
+
+Conflicting Fish Roti sales quantities of
+90 and 95 units remained unresolved.
+
+Verified partial sales of 143 units and
+GST-inclusive revenue of AUD 1,352.00
+were calculated correctly.
+
+Partial growth of -52.33%, forecast attainment
+of 46.13% and shortfall of 167 units used
+consistent four-product reporting denominators.
+
+Conditional complete sales totals of 233
+and 238 units were correctly distinguished
+from verified results.
+
+Conditional revenue totals of AUD 2,162.00
+and AUD 2,207.00 were correct.
+
+The Chicken ingredient discrepancy of
+0.50 kg and both conditional Fish Roti
+inventory variances were preserved.
+
+Established procurement requirements of
+11 kg and provisional requirements of
+20 kg were explicitly consolidated.
+
+No draft procurement quantities were
+recognised as received inventory.
+
+Actual production of 180 units, approved
+target shortfall of 145 units, target
+achievement of 55.38%, station utilisation
+of 98.67% and saleable output of 80.56%
+were correctly reported.
+
+The response reconciled 57 restricted units,
+including 53 confirmed held or segregated
+units and four unresolved physical locations.
+
+Authorised containment was recommended
+if the four unresolved units are located.
+
+The 110-minute equipment observation interval
+was not treated as verified exposure duration.
+
+All applicable allergen, label, quality hold
+and ordering restrictions were preserved.
+
+All four urgent customer complaint cases
+received immediate recommended qualified referral.
+
+Nine submitted communications were correctly
+reconciled into seven unique complaint cases.
+
+Four urgent and three non-urgent cases
+were explicitly consolidated.
+
+Three unique refund requests remained pending.
+
+The known requested subtotal was AUD 8.00,
+with two unknown amounts and an undetermined
+complete requested refund value.
+
+Unsupported profit and actual marketing
+performance calculations were withheld.
+
+Subsequent campaign preparation remained
+separate from weekly performance.
+
+The revised report reduced principal sections
+from 24 to six and action rows from 17 to 10.
+
+Remaining limitations include repeated
+conditional Fish Roti inventory information,
+overlap between the evidence-gap table
+and consolidated action register, and
+repetition of executive metrics.
+
+The subsequent Vegetable Rolls stock
+difference was reported as 10 packs rather
+than explicitly showing the signed change
+of -10 packs.
+
+The magnitude and underlying stock figures
+were correct, and no stock movement was invented.
+
+These limitations concern management
+usability rather than material numerical
+accuracy or safety-critical handling.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with minor presentation limitations.
 
 ## 8. Version Comparison
 
 | Version | Test A | Test B | Combined Score |
 |---|---:|---:|---:|
 | v1.0 | 9/10 | 9/10 | 18/20 (90%) |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 10/10 | 9/10 | 19/20 (95%) |
 
-### Initial Evaluation Scores
+### Evaluation Rubric
 
-| Criterion | Test A | Test B |
-|---|---:|---:|
-| Accuracy | 2 | 2 |
-| Completeness | 2 | 2 |
-| Consistency | 2 | 2 |
-| Business Relevance | 1 | 1 |
-| Responsible AI | 2 | 2 |
-| Total | 9/10 | 9/10 |
+| Criterion | v1.0 A | v1.0 B | v1.1 A | v1.1 B |
+|---|---:|---:|---:|---:|
+| Accuracy | 2 | 2 | 2 | 2 |
+| Completeness | 2 | 2 | 2 | 2 |
+| Consistency | 2 | 2 | 2 | 2 |
+| Business Relevance | 1 | 1 | 2 | 1 |
+| Responsible AI | 2 | 2 | 2 | 2 |
+| Total | 9/10 | 9/10 | 10/10 | 9/10 |
+
+### Score Improvement
+
+Absolute improvement: 5 percentage points.
+
+Relative rubric score improvement: 5.56%.
+
+### Observed Structural Improvement
+
+| Measure | v1.0 A | v1.1 A | v1.0 B | v1.1 B |
+|---|---:|---:|---:|---:|
+| Principal Sections | 25 | 6 | 24 | 6 |
+| Action Register Rows | 13 | 10 | 17 | 10 |
+| Separate Checklist Items | 26 | 0 | 17 | 0 |
+
+Test A principal section reduction: 76%.
+
+Test B principal section reduction: 75%.
+
+Combined principal section reduction: 75.51%.
+
+These are structural measures, not measured
+word count reductions or staff time savings.
 
 ### Safety-Critical Evaluation
 
 | Version | Test A | Test B |
 |---|---|---|
 | v1.0 | No failures identified | No failures identified |
-| v1.1 | Pending | Pending |
+| v1.1 | No failures identified | No failures identified |
 
-### Initial Reporting Structure
+### Final Version Selection
 
-| Scenario | Numbered Principal Sections |
-|---|---:|
-| Test A | 25 |
-| Test B | 24 |
+Selected version: v1.1.
 
-The complex response also includes unnumbered
-document information and final document control.
+Final score: 19/20 (95%).
 
-### Improvement Opportunities
+Automation potential: Medium.
 
-- Consolidate reporting into six principal sections.
-- Present urgent safety concerns prominently.
-- Use one integrated KPI presentation approach.
-- Consolidate sales and financial reporting.
-- Integrate production, procurement and inventory.
-- Improve partial-total and denominator labelling.
-- Explicitly summarise procurement quantities.
-- Consolidate complaint and refund metrics.
-- Separate weekly performance from subsequent updates.
-- Combine missing evidence and recommended actions.
-- Avoid repeated calculation and reference registers.
-- Preserve all existing responsible AI safeguards.
+Version v1.1 improves integrated reporting
+structure, management usability, explicit
+reconciliation totals and visibility of
+urgent safety concerns.
 
-Both initial responses demonstrated accurate
-business calculations and responsible handling
-of incomplete evidence.
+Minor reporting repetition remains,
+particularly in the complex scenario.
 
-The evaluation deductions concern management
-usability and reporting efficiency.
+No additional iteration is required
+for the current academic portfolio.
 
-No safety-critical failures were identified.
+The final version remains subject to
+appropriate human review and authorisation.
 
-Both original datasets contain explicit KPI,
-reporting and responsible AI instructions.
-
-Successful behaviour cannot therefore be
-attributed solely to the opening prompt.
-
-No actual business performance improvement,
-administrative time saving or commercial
-automation outcome has been measured.
+No actual commercial deployment, financial
+improvement or food safety outcome has
+been established.
 
 ## 9. Testing Integrity
 
@@ -6442,4 +6612,5 @@ business result has been established.
 - [P07 Final Evaluation](../05-evaluation/P07-final-evaluation.md)
 - [P08 Final Evaluation](../05-evaluation/P08-final-evaluation.md)
 - [P09 Final Evaluation](../05-evaluation/P09-final-evaluation.md)
+- [P10 Final Evaluation](../05-evaluation/P10-final-evaluation.md)
 - [Testing Evidence Index](README.md)
