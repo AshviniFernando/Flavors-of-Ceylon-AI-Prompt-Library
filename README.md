@@ -206,7 +206,7 @@ Stage 04 — Practical Testing and Iterative Improvement
 
 All ten initial AI prompts have been developed.
 
-P01-P05 have completed final-version testing
+P01-P06 have completed final-version testing
 and final-version selection.
 
 P05 retains an incomplete original baseline
@@ -216,13 +216,13 @@ Test B response is unavailable.
 | Development Indicator | Progress |
 |---|---|
 | Initial Prompts Created | 10/10 |
-| Final-Version Evaluations Completed | 5/10 |
-| Final Versions Selected | 5/10 |
-| Complete Initial-to-Final Comparisons | 4/10 |
-| Latest Selected Prompt | P05 |
-| Final P05 Version | v1.1 |
-| P05 Safety-Critical Evaluation | Passed |
-| Next Prompt | P06 — Product Label and Allergen Information Review |
+| Final-Version Evaluations Completed | 6/10 |
+| Final Versions Selected | 6/10 |
+| Complete Initial-to-Final Comparisons | 5/10 |
+| Latest Completed Prompt | P06 |
+| Final P06 Version | v1.1 |
+| P06 Safety-Critical Evaluation | Passed |
+| Next Prompt | P07 — Customer Enquiry Response |
 
 ### Completed Prompt Evaluations
 
@@ -233,18 +233,19 @@ Test B response is unavailable.
 | [P03 — Supplier Purchase Order Preparation](05-evaluation/P03-final-evaluation.md) | v1.1 | 90% | 95% |
 | [P04 — Food Production and Batch Planning](05-evaluation/P04-final-evaluation.md) | v1.1 | 90% | 95% |
 | [P05 — Food Safety and Quality Incident Reporting](05-evaluation/P05-final-evaluation.md) | v1.1 | Pending | 90% |
+| [P06 — Product Label and Allergen Information Review](05-evaluation/P06-final-evaluation.md) | v1.1 | 90% | 95% |
 
 ### Combined Comparable Evaluation Performance
 
 | Indicator | Result |
 |---|---|
-| Comparable Prompts | P01-P04 |
-| Combined Initial Score | 69/80 (86.25%) |
-| Combined Final Score | 77/80 (96.25%) |
-| Absolute Improvement | 10 percentage points |
+| Comparable Prompts | P01-P04 and P06 |
+| Combined Initial Score | 87/100 (87%) |
+| Combined Final Score | 96/100 (96%) |
+| Absolute Improvement | 9 percentage points |
 
 Comparable scores use the two original
-test scenarios for P01-P04.
+test scenarios for each included prompt.
 
 P05 is excluded from the initial-to-final
 comparison because its original Test B
@@ -254,31 +255,46 @@ evidence remains incomplete.
 
 | Indicator | Result |
 |---|---|
-| Final Versions Evaluated | 5 |
-| Comparable Two-Scenario Final Scores | 95/100 |
+| Final Versions Evaluated | 6 |
+| Two-Scenario Final Scores | 114/120 |
 | Overall Final-Version Score | 95% |
 
 P01 also completed an additional production
 capacity scenario, achieving 30/30 across
 all three final tests.
 
-### Responsible AI Development
+### Integrated Business Workflow
 
-P05 introduces explicit incident evidence
-validation, product traceability, urgent
-escalation and qualified human authorisation.
+The first six prompts establish two proposed
+business workflow groups:
+
+1. Planning, Procurement and Manufacturing:
+   P01-P04.
+
+2. Food Safety and Quality Assurance:
+   P05-P06.
+
+The food safety and quality assurance prompts
+introduce explicit evidence verification,
+uncertainty handling, product traceability,
+allergen information review and qualified
+human authorisation.
 
 No safety-critical failures were identified
-in its two revised test scenarios.
+in the four final-version test responses
+for P05 and P06.
 
-These findings do not establish actual food
-safety, regulatory compliance or commercial
-incident response effectiveness.
+These findings are limited to the supplied
+synthetic scenarios.
 
-The remaining five prompts will follow
-the controlled testing and improvement
-methodology.
+The remaining four prompts will address
+customer enquiries, customer feedback,
+digital marketing and management reporting.
+
+Human verification and approval remain
+necessary across operational workflows.
 
 All evaluation results represent academic
 testing outcomes rather than measured
-commercial business performance.
+commercial performance, food safety or
+regulatory compliance.
