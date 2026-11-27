@@ -6,7 +6,7 @@
 | Business Function | Customer Experience |
 | Workflow | Customer Experience and Marketing |
 | Current Version | v1.1 |
-| Status | Revised Draft — Awaiting Retesting |
+| Status | Final Version — Tested and Evaluated |
 | Prompting Strategy | Role-based, classification-based, constraint-based, task decomposition and structured-output prompting |
 
 ---
@@ -409,11 +409,30 @@ make recurring product problems difficult to detect.
 
 ## 4. Automation Potential
 
-Level: Medium — Preliminary assessment.
+Level: Medium — Final evaluated classification.
 
-AI can support complaint categorisation and identify
-common themes. Staff must verify priorities and
-manage sensitive or safety-related complaints.
+AI can assist with customer complaint classification,
+sentiment analysis, confirmed duplicate reconciliation,
+recurring problem identification, refund request
+summaries and management report preparation.
+
+Testing demonstrated accurate statistical results,
+appropriate urgent escalation recommendations
+and responsible operational safeguards across
+two revised synthetic complaint scenarios.
+
+However, suspected food safety incidents,
+allergen concerns, uncertain duplicate records,
+medical information and refund decisions
+require appropriate human assessment.
+
+AI must not independently establish medical
+causation, determine product safety, approve
+refunds, authorise product releases or
+close food safety incidents.
+
+Actual commercial automation performance
+has not been measured.
 
 ## 5. Risks and Limitations
 
@@ -433,8 +452,8 @@ or determine whether food caused a reported illness.
 
 | Version | Change | Status |
 |---|---|---|
-| v1.0 | Initial customer complaint and feedback analysis prompt | Evaluated — 18/20 (90%); no safety-critical failures identified |
-| v1.1 | Added structured case reconciliation, consolidated metrics, refund verification rules and concise management reporting | Awaiting retesting |
+| v1.0 | Initial customer complaint and feedback analysis prompt | Evaluated — 18/20 (90%) |
+| v1.1 | Added case reconciliation, consolidated metrics, refund verification and structured management reporting | Final Selected Version — 19/20 (95%) |
 
 ## Reason for Revision
 
@@ -460,14 +479,42 @@ These safeguards are preventive improvements
 rather than responses to observed
 safety-critical failures.
 
-## Testing Evidence
+## Testing Evidence and Final Evaluation
 
 - [Testing Inputs and Actual Outputs](../03-testing-evidence/P08-testing-evidence.md)
-- [Iteration Log](../04-iteration-logs/P08-iteration-log.md)
+- [Iteration Log and Version History](../04-iteration-logs/P08-iteration-log.md)
+- [Final Evaluation and Business Impact](../05-evaluation/P08-final-evaluation.md)
 
-Initial v1.0 evaluation: 18/20 (90%).
+| Evaluation Measure | Result |
+|---|---|
+| Final Version | v1.1 |
+| Initial Score | 18/20 (90%) |
+| Final Test A | 9/10 |
+| Final Test B | 10/10 |
+| Combined Final Score | 19/20 (95%) |
+| Absolute Improvement | 5 percentage points |
+| Safety-Critical Evaluation | Passed for both revised tests |
+| Automation Potential | Medium |
+| Development Status | Completed |
 
-Initial safety-critical evaluation:
-Passed for both synthetic scenarios.
+The revised prompt improves complaint record
+reconciliation, statistical presentation,
+investigation action registers and management
+reporting structure.
+
+All original feedback records remain traceable
+to their unique complaint cases.
+
+Urgent food safety escalation requirements
+and existing operational restrictions
+were maintained.
+
+Some reporting repetition remains.
+
+The prompt has not been commercially deployed.
+
+Qualified human review and authorisation
+remain mandatory for sensitive complaints
+and operational decisions.
 
 Version v1.1 testing and evaluation are pending.
