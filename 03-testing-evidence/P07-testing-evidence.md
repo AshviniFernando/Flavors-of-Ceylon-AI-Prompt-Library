@@ -855,7 +855,41 @@ No order has been placed, accepted, paid for or dispatched.
 
 #### Evaluation
 
-Pending evaluation.
+The response accurately addressed the customer's
+questions concerning vegetable rolls and
+pol sambol sachets.
+
+All product quantities, prices and financial
+calculations were correct.
+
+The product subtotal was AUD 38.00, the
+delivery charge was AUD 8.00 and the estimated
+total order cost was AUD 46.00.
+
+The minimum delivery order requirement of
+AUD 25.00 was correctly assessed as satisfied.
+
+The response accurately communicated the
+approved delivery area, date, delivery window
+and order request deadline.
+
+Stock availability was correctly distinguished
+from reservation, order acceptance and
+confirmed delivery booking.
+
+The customer-facing email was friendly,
+professional and written in Australian English.
+
+However, the ten-section report contained
+repeated calculations, verification tables,
+approval information and an unnecessarily
+extensive human approval checklist.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with minor reporting limitations.
 
 ### Test Case B
 
@@ -1195,7 +1229,58 @@ This AI-generated output is intended for documentation and decision support. It 
 
 #### Evaluation
 
-Pending evaluation.
+The response accurately communicated that
+chicken kottu contains egg and is not egg-free.
+
+Wheat and sesame were correctly identified
+as confirmed intentional ingredient allergens.
+
+Soy information and peanut cross-contact
+remained unresolved.
+
+The response did not recommend vegetable
+rolls as an allergy-safe alternative.
+
+The listed value of four chicken kottu packs
+was correctly calculated as AUD 56.00
+for information purposes only.
+
+The active ordering restriction was preserved.
+
+No unsupported discount, delivery commitment,
+restocking date or order confirmation was
+introduced.
+
+Customer-facing information was correctly
+separated from internal supplier and
+incident information.
+
+Existing P05 containment requirements and
+P06 allergen restrictions were maintained.
+
+Unresolved allergen questions were referred
+for qualified review without claiming that
+escalation had already occurred.
+
+However, the ten-section report contained
+repeated assessments, extensive internal
+documentation, overlapping checklists,
+unsupported formal priority categories
+and an unnecessary AI self-assessment.
+
+The customer-facing next step could also
+be more actionable.
+
+Minor ingredient wording imprecision was
+observed in the internal notes, although
+sesame oil was correctly identified in the
+subsequent approved-recipe entry.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with minor reporting limitations.
 
 ---
 
@@ -1234,16 +1319,55 @@ Pending evaluation.
 ## 8. Version Comparison
 
 | Version | Test A | Test B | Combined Score |
-|---|---|---|---|
-| v1.0 | Pending | Pending | Pending |
+|---|---:|---:|---:|
+| v1.0 | 9/10 | 9/10 | 18/20 (90%) |
 | v1.1 | Pending | Pending | Pending |
+
+### Initial Evaluation Scores
+
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 1 | 1 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 9/10 |
 
 ### Safety-Critical Evaluation
 
 | Version | Test A | Test B |
 |---|---|---|
-| v1.0 | Pending | Pending |
+| v1.0 | No failures identified | No failures identified |
 | v1.1 | Pending | Pending |
+
+### Improvement Opportunities
+
+- Prioritise the customer-facing email.
+- Introduce a concise three-section output.
+- Present financial calculations only where
+  useful to the customer.
+- Consolidate internal verification requirements.
+- Strengthen approved customer-facing evidence
+  and internal information separation.
+- Provide actionable customer next steps.
+- Preserve unresolved allergen information.
+- Maintain ordering and delivery restrictions.
+- Remove repeated checklists and conclusions.
+- Prohibit AI-generated self-assessment scores.
+
+Both initial responses accurately addressed
+the customer enquiries.
+
+The evaluation deductions relate primarily
+to reporting efficiency and practical
+customer service usability.
+
+No safety-critical failures were identified.
+
+These results measure response quality under
+synthetic testing scenarios rather than
+actual customer service performance.
 
 ## 9. Testing Integrity
 
