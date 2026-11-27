@@ -6,7 +6,7 @@
 | Business Function | Customer Service |
 | Workflow | Customer Experience and Marketing |
 | Current Version | v1.1 |
-| Status | Revised Draft — Awaiting Retesting |
+| Status | Final Version — Tested and Evaluated |
 | Prompting Strategy | Role-based, contextual, constraint-based, task decomposition and structured-output prompting |
 
 ---
@@ -327,11 +327,33 @@ information.
 
 ## 4. Automation Potential
 
-Level: High — Preliminary assessment.
+Level: High — Final evaluated classification
+for supervised customer response drafting.
 
-AI can prepare routine customer response drafts.
-Customer service staff must verify information and
-escalate high-risk enquiries before responding.
+AI can assist with routine customer enquiries,
+product information, price calculations,
+availability communication and preparation
+of professional customer-facing email drafts.
+
+Testing demonstrated accurate customer
+communication, appropriate information
+separation and responsible decision boundaries
+across two revised synthetic scenarios.
+
+However, unresolved allergen and food safety
+enquiries require qualified human review.
+
+Order acceptance, stock reservation, payment
+processing, delivery booking, customer
+communication approval and product release
+remain subject to authorised personnel.
+
+The High classification relates to customer
+response preparation rather than autonomous
+customer service operation.
+
+Actual commercial automation performance
+has not been measured.
 
 ## 5. Risks and Limitations
 
@@ -351,8 +373,8 @@ or make unauthorised promises to customers.
 
 | Version | Change | Status |
 |---|---|---|
-| v1.0 | Initial customer enquiry response prompt | Evaluated — 18/20 (90%); no safety-critical failures identified |
-| v1.1 | Added approved-information controls, concise customer-first reporting, pricing rules and explicit escalation boundaries | Awaiting retesting |
+| v1.0 | Initial customer enquiry response prompt | Evaluated — 18/20 (90%) |
+| v1.1 | Added customer-first reporting, approved-information controls, pricing rules and escalation boundaries | Final Selected Version — 20/20 (100%) |
 
 ## Reason for Revision
 
@@ -372,14 +394,36 @@ The revision strengthens existing safeguards
 without implying that safety-critical failures
 occurred during initial testing.
 
-## Testing Evidence
+## Testing Evidence and Final Evaluation
 
 - [Testing Inputs and Actual Outputs](../03-testing-evidence/P07-testing-evidence.md)
-- [Iteration Log](../04-iteration-logs/P07-iteration-log.md)
+- [Iteration Log and Version History](../04-iteration-logs/P07-iteration-log.md)
+- [Final Evaluation and Business Impact](../05-evaluation/P07-final-evaluation.md)
 
-Initial v1.0 evaluation: 18/20 (90%).
+| Evaluation Measure | Result |
+|---|---|
+| Final Version | v1.1 |
+| Initial Score | 18/20 (90%) |
+| Final Test A | 10/10 |
+| Final Test B | 10/10 |
+| Combined Final Score | 20/20 (100%) |
+| Absolute Improvement | 10 percentage points |
+| Safety-Critical Evaluation | Passed for both revised tests |
+| Automation Potential | High — Supervised Response Drafting |
+| Development Status | Completed |
 
-Initial safety-critical evaluation:
-Passed for both synthetic scenarios.
+The revised prompt improves customer-facing
+communication, internal verification and
+practical customer next steps.
 
-Version v1.1 testing and evaluation are pending.
+Some verification and approval repetition
+remains.
+
+The prompt has not been commercially deployed.
+
+All customer responses require human approval
+before sending.
+
+Sensitive allergen enquiries require qualified
+human review, and operational commitments
+require separate authorisation.
