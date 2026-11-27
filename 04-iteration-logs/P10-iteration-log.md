@@ -15,7 +15,7 @@ reconciliation and responsible decision support.
 | Version | Change Made | Observed Effect | Lesson Learned |
 |---|---|---|---|
 | v1.0 | Initial integrated weekly business reporting prompt | Accurate calculations and responsible evidence handling but excessive reporting; 90% score | Accurate reporting must also be concise and practically usable |
-| v1.1 | Added structured reconciliation, integrated KPIs, urgent review controls and six-section reporting | Awaiting retesting | Pending evaluation |
+| v1.1 | Added structured reconciliation, integrated KPIs, urgent review controls and six-section reporting | Improved management reporting structure; 19/20 (95%); no safety-critical failures identified | Integrated reporting can preserve accuracy and safety while reducing overlapping registers |
 
 ---
 
@@ -225,23 +225,111 @@ until revised testing is completed.
 
 ### Observed Effect
 
-Pending actual retesting.
+Both revised responses followed the required
+six-section management reporting structure.
+
+Test A principal sections decreased from
+25 to six, while Test B decreased from
+24 to six.
+
+Both reports contained one consolidated
+10-row management action register.
+
+Separate management checklists and standalone
+calculation registers were removed.
+
+Urgent specialist review requirements were
+presented before routine executive KPIs.
+
+All material numerical calculations and
+evidence classifications remained accurate.
+
+Test A explicitly consolidated the six
+complaint-containing feedback cases.
+
+Test B explicitly consolidated the established
+11 kg draft procurement requirement and
+additional 20 kg provisional requirement.
+
+The four urgent and three non-urgent complaint
+cases were correctly distinguished.
+
+The revised complex report also recommended
+appropriate authorised containment if
+the unresolved CK-01 units are located.
 
 ### Evaluation Scores
 
-Pending.
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 2 | 1 |
+| Responsible AI | 2 | 2 |
+| Total | 10/10 | 9/10 |
+
+Combined score: 19/20 (95%).
 
 ### Safety-Critical Assessment
 
-Pending.
+Test A: No safety-critical failures identified.
+
+Test B: No safety-critical failures identified.
+
+The revised responses preserved applicable
+food safety, quality assurance, allergen,
+product containment and ordering restrictions.
+
+No unsupported product exposure duration,
+medical causation, customer-batch linkage
+or operational authorisation was established.
 
 ### Remaining Limitations
 
-Pending final evaluation.
+Some repetition remains between executive
+summaries, detailed sections and conclusions.
+
+The complex report repeats conditional
+Fish Roti inventory information and includes
+an evidence-gap table that overlaps with
+the consolidated management action register.
+
+The subsequent Vegetable Rolls stock
+difference is reported as an absolute
+difference of 10 packs rather than
+an explicit signed change of -10 packs.
+
+The underlying stock quantities are correct.
+
+These limitations do not constitute material
+numerical errors or safety-critical failures.
+
+The revised prompt is considerably longer
+than the initial prompt and may require
+additional maintenance.
+
+Repeat-run reliability and actual reporting
+time savings have not been measured.
 
 ### Lesson Learned
 
-Pending final evaluation.
+An integrated AI reporting workflow requires
+consistent evidence classifications,
+appropriate KPI denominators, reconciliation
+controls and clearly defined authorisation
+boundaries.
+
+Structured-output prompting can improve
+management reporting organisation without
+removing material safety or financial evidence.
+
+Concise reporting should not be achieved
+by concealing uncertainty or excluding
+important specialist review requirements.
+
+Version v1.1 is selected as the final
+academic portfolio prompt.
 
 ---
 
@@ -250,43 +338,54 @@ Pending final evaluation.
 | Version | Test A | Test B | Combined Score |
 |---|---:|---:|---:|
 | v1.0 | 9/10 | 9/10 | 18/20 (90%) |
-| v1.1 | Pending | Pending | Pending |
+| v1.1 | 10/10 | 9/10 | 19/20 (95%) |
 
-### Reporting Structure
+### Observed Reporting Structure
 
-| Scenario | Initial Principal Sections | Revised Target |
-|---|---:|---:|
-| Test A | 25 | 6 |
-| Test B | 24 | 6 |
+| Scenario | Initial Principal Sections | Revised Principal Sections | Reduction |
+|---|---:|---:|---:|
+| Test A | 25 | 6 | 76% |
+| Test B | 24 | 6 | 75% |
+| Combined | 49 | 12 | 75.51% |
 
-Target section reduction for Test A: 76%.
+Absolute rubric score improvement:
+5 percentage points.
 
-Target section reduction for Test B: 75%.
+Relative rubric score improvement: 5.56%.
 
-These figures represent design targets rather
-than observed v1.1 results.
+No safety-critical failures were identified
+in either version.
 
-They do not establish word count reductions,
-time savings or operational efficiency gains.
+The structural reduction does not establish
+equivalent word count reductions, time
+savings or operational efficiency gains.
 
 ## 6. Current Development Status
 
-Initial v1.0 testing and evaluation are complete.
+Initial prompt development: Completed.
 
-Both original testing responses are available.
+Initial testing: Completed.
 
-No safety-critical failures were identified.
+Evidence-based revision: Completed.
 
-Version v1.1 has been developed using observed
-reporting usability limitations and preventive
-responsible AI safeguards.
+Revised testing: Completed.
 
-Retesting remains pending.
+Final evaluation: Completed.
 
-Automation potential: Medium — Preliminary,
-for supervised integrated management reporting.
+Final selected version: v1.1.
+
+Final score: 19/20 (95%).
+
+Automation potential: Medium.
+
+No further revision is required for the
+current academic assessment.
 
 Operational deployment: Not implemented.
+
+The final version remains subject to
+appropriate management and qualified
+specialist review.
 
 ## 7. Methodological Limitations
 
@@ -325,4 +424,5 @@ university marking criterion.
 - [P07 Final Evaluation](../05-evaluation/P07-final-evaluation.md)
 - [P08 Final Evaluation](../05-evaluation/P08-final-evaluation.md)
 - [P09 Final Evaluation](../05-evaluation/P09-final-evaluation.md)
+- [P10 Final Evaluation](../05-evaluation/P10-final-evaluation.md)
 - [Iteration Log Index](README.md)
