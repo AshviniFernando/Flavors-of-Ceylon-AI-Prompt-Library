@@ -59,11 +59,15 @@ Each prompt iteration record will document:
 
 ## Iteration Log Template
 
-| Version | Change Made | Observed Effect | Lesson Learned |
-|---|---|---|---|
-| v1.0 | Initial development | Pending testing | Pending |
-| v1.1 | Pending | Pending | Pending |
-| v1.2 | Pending | Pending | Pending |
+All ten prompts have completed evidence-based
+iterative development and final-version selection.
+
+P05 retains an incomplete initial baseline
+comparison.
+
+The iteration logs document changes made,
+observed effects, evaluation results,
+remaining limitations and lessons learned.
 
 ## GitHub Version Control
 
@@ -97,3 +101,4 @@ will be fabricated.
 | [P07 — Customer Enquiry Response](P07-iteration-log.md) | v1.1 | Completed — Final Version Selected |
 | [P08 — Customer Complaint and Feedback Analysis](P08-iteration-log.md) | v1.1 | Completed — Final Version Selected |
 | [P09 — Digital Marketing Content Generation](P09-iteration-log.md) | v1.1 | Completed — Final Version Selected |
+| [P10 — Weekly Business Performance Reporting](P10-iteration-log.md) | v1.1 | Completed — Final Version Selected |
