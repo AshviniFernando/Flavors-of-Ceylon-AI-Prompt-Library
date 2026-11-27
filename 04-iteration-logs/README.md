@@ -96,3 +96,4 @@ will be fabricated.
 | [P06 — Product Label and Allergen Information Review](P06-iteration-log.md) | v1.1 | Completed — Final Version Selected |
 | [P07 — Customer Enquiry Response](P07-iteration-log.md) | v1.1 | Completed — Final Version Selected |
 | [P08 — Customer Complaint and Feedback Analysis](P08-iteration-log.md) | v1.1 | Completed — Final Version Selected |
+| [P09 — Digital Marketing Content Generation](P09-iteration-log.md) | v1.1 | Completed — Final Version Selected |
