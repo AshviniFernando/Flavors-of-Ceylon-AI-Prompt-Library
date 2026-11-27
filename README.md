@@ -221,40 +221,26 @@ Stage 05 — Final GitHub Portfolio
 Verification: Completed.
 
 Stage 06 — Academic Assessment Report
-Preparation: Next Stage.
+Preparation: In Progress.
 
-All ten selected final prompts have completed
-development, testing and evaluation.
+The structured academic report draft has
+been prepared using the ten final tested
+business workflow prompts.
 
-The final portfolio evaluation score is
-190/200 (95.00%).
+The overall final-version evaluation
+score is 190/200 (95.00%).
 
 Across nine prompts with complete paired
-baseline evidence, the evaluation score
-increased from 88.33% to 95.56%.
+baseline evidence, scores increased
+from 88.33% to 95.56%.
 
-The absolute comparable improvement was
-7.22 percentage points.
+The P05 incomplete initial baseline and
+P01 additional Test C remain documented.
 
-The P05 incomplete initial baseline remains
-documented and excluded from paired comparison.
-
-P01's additional valid Test C is documented
-separately from the common two-scenario
-portfolio aggregation.
-
-The complete portfolio demonstrates supervised
-AI-assisted decision support across connected
-food manufacturing business workflows.
-
-The project uses synthetic academic data
-and does not establish actual business
-performance improvements or commercial
-deployment outcomes.
-
-The academic report, presentation,
-video pitch and final submission
-remain outstanding.
+Final report formatting, word-count
+verification, student review and applicable
+assessment requirements must be confirmed
+before submission.
 
 ### Development Progress
 
