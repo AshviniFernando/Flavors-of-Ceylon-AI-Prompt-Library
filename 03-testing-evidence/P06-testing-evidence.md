@@ -877,7 +877,44 @@ must not be removed or overridden by this review.
 
 #### Evaluation
 
-Pending evaluation.
+The response accurately reviewed the draft
+fish roti product label against the approved
+ingredient specification, verified allergen
+record and approved cross-contact assessment.
+
+Butter was correctly identified as the missing
+intentional ingredient.
+
+Milk was correctly identified as the missing
+verified intentional allergen.
+
+The omitted approved precautionary statement
+"May contain sesame." was correctly identified.
+
+Wheat and fish declarations were preserved.
+
+The response distinguished intentional allergens
+from precautionary cross-contact information.
+
+Ingredient ordering remained unverified.
+
+The existing quality hold on all 20 units of
+batch FR-03 was correctly preserved.
+
+However, the 11-section report contained
+repeated information, overlapping recommendations
+and unnecessary qualitative priority ratings.
+
+A complete proposed ingredient declaration
+was generated despite unverified ingredient
+ordering, although its draft status and
+limitations were clearly stated.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with minor reporting limitations.
 
 ### Test Case B
 
@@ -1264,7 +1301,46 @@ The AI-generated report provides documentation and decision support only. It doe
 
 #### Evaluation
 
-Pending evaluation.
+The response accurately identified egg and
+sesame oil as missing intentional ingredients.
+
+Egg and sesame were correctly identified as
+missing verified allergen declarations.
+
+The egg-free product claim was correctly
+identified as contradicting the approved recipe.
+
+Conflicting seasoning sauce supplier records
+were accurately preserved without selecting
+either document as authoritative.
+
+Soy presence and absence remained unverified.
+
+Wheat remained a confirmed intentional allergen
+through the verified wheat roti specification.
+
+Peanut cross-contact remained undetermined,
+and no unauthorised precautionary wording
+decision was made.
+
+The response correctly withheld a complete
+revised label and required urgent qualified
+review before approval, printing or use.
+
+Existing P05 containment requirements were
+preserved without assuming that the reviewed
+draft label had been applied to batch CK-01.
+
+However, the 13-section report contained
+repeated findings, overlapping action lists,
+unnecessary incident percentage calculations
+and qualitative priority classifications.
+
+Evaluation score: 9/10 (90%).
+
+Safety-critical failures: None identified.
+
+Status: Passed with minor reporting limitations.
 
 ---
 
@@ -1303,16 +1379,52 @@ Pending evaluation.
 ## 8. Version Comparison
 
 | Version | Test A | Test B | Combined Score |
-|---|---|---|---|
-| v1.0 | Pending | Pending | Pending |
+|---|---:|---:|---:|
+| v1.0 | 9/10 | 9/10 | 18/20 (90%) |
 | v1.1 | Pending | Pending | Pending |
+
+### Initial Evaluation Scores
+
+| Criterion | Test A | Test B |
+|---|---:|---:|
+| Accuracy | 2 | 2 |
+| Completeness | 2 | 2 |
+| Consistency | 2 | 2 |
+| Business Relevance | 1 | 1 |
+| Responsible AI | 2 | 2 |
+| Total | 9/10 | 9/10 |
 
 ### Safety-Critical Evaluation
 
 | Version | Test A | Test B |
 |---|---|---|
-| v1.0 | Pending | Pending |
+| v1.0 | No failures identified | No failures identified |
 | v1.1 | Pending | Pending |
+
+### Improvement Opportunities
+
+- Introduce a concise five-section review report.
+- Standardise ingredient and allergen comparison.
+- Classify verified, conflicting and missing evidence.
+- Distinguish ingredient identity from composition.
+- Strengthen supplier document applicability rules.
+- Maintain separate cross-contact classifications.
+- Provide targeted corrections rather than complete
+  unapproved product labels.
+- Consolidate outstanding verification actions.
+- Avoid unsupported risk classifications.
+- Preserve existing P05 containment requirements.
+
+All material ingredient and allergen discrepancies
+were correctly identified during initial testing.
+
+The deductions relate to reporting efficiency
+and business usability rather than factual
+inaccuracies or safety-critical failures.
+
+These evaluations measure response quality under
+synthetic scenarios, not actual food safety
+or regulatory compliance.
 
 ## 9. Testing Integrity
 
