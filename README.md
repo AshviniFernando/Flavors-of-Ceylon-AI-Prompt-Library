@@ -206,7 +206,7 @@ Stage 04 — Practical Testing and Iterative Improvement
 
 All ten initial AI prompts have been developed.
 
-P01-P07 have completed final-version testing
+P01-P08 have completed final-version testing
 and final-version selection.
 
 P05 retains an incomplete original baseline
@@ -216,13 +216,13 @@ Test B response is unavailable.
 | Development Indicator | Progress |
 |---|---|
 | Initial Prompts Created | 10/10 |
-| Final-Version Evaluations Completed | 7/10 |
-| Final Versions Selected | 7/10 |
-| Complete Initial-to-Final Comparisons | 6/10 |
-| Latest Completed Prompt | P07 |
-| Final P07 Version | v1.1 |
-| P07 Safety-Critical Evaluation | Passed |
-| Next Prompt | P08 — Customer Complaint and Feedback Analysis |
+| Final-Version Evaluations Completed | 8/10 |
+| Final Versions Selected | 8/10 |
+| Complete Initial-to-Final Comparisons | 7/10 |
+| Latest Completed Prompt | P08 |
+| Final P08 Version | v1.1 |
+| P08 Safety-Critical Evaluation | Passed |
+| Next Prompt | P09 — Digital Marketing Content Generation |
 
 ### Completed Prompt Evaluations
 
@@ -235,15 +235,16 @@ Test B response is unavailable.
 | [P05 — Food Safety and Quality Incident Reporting](05-evaluation/P05-final-evaluation.md) | v1.1 | Pending | 90% |
 | [P06 — Product Label and Allergen Information Review](05-evaluation/P06-final-evaluation.md) | v1.1 | 90% | 95% |
 | [P07 — Customer Enquiry Response](05-evaluation/P07-final-evaluation.md) | v1.1 | 90% | 100% |
+| [P08 — Customer Complaint and Feedback Analysis](05-evaluation/P08-final-evaluation.md) | v1.1 | 90% | 95% |
 
 ### Combined Comparable Evaluation Performance
 
 | Indicator | Result |
 |---|---|
-| Comparable Prompts | P01-P04, P06 and P07 |
-| Combined Initial Score | 105/120 (87.50%) |
-| Combined Final Score | 116/120 (96.67%) |
-| Absolute Improvement | 9.17 percentage points |
+| Comparable Prompts | P01-P04 and P06-P08 |
+| Combined Initial Score | 123/140 (87.86%) |
+| Combined Final Score | 135/140 (96.43%) |
+| Absolute Improvement | 8.57 percentage points |
 
 Comparable scores use the two original
 test scenarios for each included prompt.
@@ -256,9 +257,9 @@ evidence remains incomplete.
 
 | Indicator | Result |
 |---|---|
-| Final Versions Evaluated | 7 |
-| Two-Scenario Final Scores | 134/140 |
-| Overall Final-Version Score | 95.71% |
+| Final Versions Evaluated | 8 |
+| Two-Scenario Final Scores | 153/160 |
+| Overall Final-Version Score | 95.63% |
 
 P01 also completed an additional production
 capacity scenario, achieving 30/30 across
@@ -266,8 +267,8 @@ all three final tests.
 
 ### Integrated Business Workflow
 
-The first seven prompts establish the following
-proposed business workflow groups:
+The first eight prompts establish the
+following proposed business workflow groups:
 
 1. Planning, Procurement and Manufacturing:
    P01-P04 — Completed.
@@ -278,22 +279,32 @@ proposed business workflow groups:
 3. Customer Experience and Marketing:
    P07-P09 — In Progress.
 
-P07 introduces approved customer-facing
-information controls, accurate pricing,
-ordering and delivery boundaries, responsible
-allergen communication and qualified
-human escalation.
+P08 introduces customer complaint
+classification, sentiment analysis,
+duplicate reconciliation, recurring problem
+identification and urgent qualified review.
+
+The prompt connects customer communication
+with food safety, allergen information
+verification and management decision support.
 
 No safety-critical failures were identified
-in the six final-version test responses
-for P05, P06 and P07.
+in the eight final-version test responses
+for P05, P06, P07 and P08.
 
-These findings are limited to the supplied
+These findings apply only to the supplied
 synthetic scenarios.
 
-The remaining three prompts will address
-customer complaints, digital marketing
-and weekly management reporting.
+The remaining two prompts will address
+digital marketing and integrated weekly
+business performance reporting.
+
+The test datasets include explicit task
+and responsible AI instructions.
+
+Observed improvements cannot therefore
+be attributed solely to the opening
+prompt wording.
 
 All evaluation results represent academic
 testing outcomes rather than measured
