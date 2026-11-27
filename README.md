@@ -161,7 +161,7 @@ be documented throughout the project.
 - [x] Document iterative improvements
 - [x] Complete final prompt library
 - [x] Evaluate business impact potential and limitations
-- [ ] Finalise assessment portfolio
+- [x] Finalize assessment portfolio
 
 All ten prompts have completed final-version
 evaluation and selection.
@@ -218,7 +218,43 @@ Stage 04 — Practical Testing and Iterative
 Improvement: Completed.
 
 Stage 05 — Final GitHub Portfolio
-Verification: Next Stage.
+Verification: Completed.
+
+Stage 06 — Academic Assessment Report
+Preparation: Next Stage.
+
+All ten selected final prompts have completed
+development, testing and evaluation.
+
+The final portfolio evaluation score is
+190/200 (95.00%).
+
+Across nine prompts with complete paired
+baseline evidence, the evaluation score
+increased from 88.33% to 95.56%.
+
+The absolute comparable improvement was
+7.22 percentage points.
+
+The P05 incomplete initial baseline remains
+documented and excluded from paired comparison.
+
+P01's additional valid Test C is documented
+separately from the common two-scenario
+portfolio aggregation.
+
+The complete portfolio demonstrates supervised
+AI-assisted decision support across connected
+food manufacturing business workflows.
+
+The project uses synthetic academic data
+and does not establish actual business
+performance improvements or commercial
+deployment outcomes.
+
+The academic report, presentation,
+video pitch and final submission
+remain outstanding.
 
 ### Development Progress
 
@@ -306,3 +342,7 @@ necessary across operational workflows.
 - [Final Evaluation](../05-evaluation/P10-final-evaluation.md)
 - [Prompt Library Index](README.md)
 - [Main Portfolio](../README.md)
+
+- ## Final Portfolio Verification
+
+- [Final Portfolio Verification Record](PORTFOLIO-VERIFICATION.md)
