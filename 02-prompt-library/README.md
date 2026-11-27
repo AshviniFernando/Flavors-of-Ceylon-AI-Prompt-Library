@@ -66,7 +66,7 @@ business workflows.
 | ID | Prompt | Version | Status |
 |---|---|---|---|
 | P05 | [Food Safety and Quality Incident Reporting](P05-food-safety-incident-reporting.md) | v1.1 | Completed — Final Version Evaluated |
-| P06 | [Product Label and Allergen Information Review](P06-product-label-and-allergen-review.md) | v1.0 | Initial Draft |
+| P06 | [Product Label and Allergen Information Review](P06-product-label-and-allergen-review.md) | v1.1 | Completed — Tested and Evaluated |
 
 These prompts support documentation and information
 verification. All safety-critical decisions require
